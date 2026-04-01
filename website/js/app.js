@@ -3,10 +3,8 @@ const STORAGE_KEYS = ["sensetrack.deadlines.v2", "sensetrack.deadlines.v1", "con
 const PRIMARY_STORAGE_KEY = STORAGE_KEYS[0];
 const CSV_PATH = "cleaned/accepted_papers.csv";
 const STATIC_DB_PATH = "website/db/conference_deadlines.json";
-const CORS_PROXY_BUILDERS = [
-  (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-  (url) => `https://r.jina.ai/http://${url.replace(/^https?:\/\//, "")}`,
-];
+const API_DEADLINES_PATH = "/api/deadlines";
+const API_REFRESH_PATH = "/api/refresh";
 
 const state = {
   dataset: null,
@@ -2208,19 +2206,37 @@ async function fetchJson(url, options = {}) {
   }
 }
 
-async function fetchRemotePage(url) {
-  let lastError = null;
+async function postJson(url, payload = {}) {
+  const response = await fetch(url, {
+    method: "POST",
+    cache: "no-store",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+  const rawText = await response.text();
+  let parsed = null;
 
-  for (const buildProxyUrl of CORS_PROXY_BUILDERS) {
-    const proxiedUrl = buildProxyUrl(url);
-    try {
-      return await fetchText(proxiedUrl, { cache: "no-store" });
-    } catch (error) {
-      lastError = error;
-    }
+  try {
+    parsed = rawText.trim() ? JSON.parse(rawText) : {};
+  } catch (error) {
+    throw new Error(`Response from ${url} was not valid JSON.`);
   }
 
-  throw lastError || new Error(`Could not fetch ${url}.`);
+  if (!response.ok) {
+    throw new Error((parsed && parsed.error) || `Request failed for ${url}.`);
+  }
+
+  return parsed;
+}
+
+async function fetchServerDataset() {
+  return fetchJson(API_DEADLINES_PATH, { cache: "no-store" });
+}
+
+async function refreshConferenceViaApi(conference) {
+  return postJson(API_REFRESH_PATH, conference ? { conference } : {});
 }
 
 function parseCsv(text) {
@@ -2557,12 +2573,34 @@ async function refreshSingleConference(conferenceInfo, options = {}) {
     try {
       state.conferenceRefreshState[conference] = {
         tone: "neutral",
-        message: "Syncing official CFP...",
+        message: "Syncing via local server...",
       };
       render();
 
-      const record = await refreshConference(conferenceInfo);
+      const result = await refreshConferenceViaApi(conference);
+      if (!result || (!result.record && !result.failure)) {
+        throw new Error("Local refresh API returned no conference record.");
+      }
+
+      if (result.failure) {
+        errorMessage = result.failure.error || "Refresh failed.";
+        updateDatasetForConference(conferenceInfo, null, errorMessage);
+        state.conferenceRefreshState[conference] = {
+          tone: "error",
+          message: errorMessage,
+        };
+        if (!options.batch) {
+          setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
+        }
+        throw new Error(errorMessage);
+      }
+
+      const record = result.record;
       updateDatasetForConference(conferenceInfo, record, "");
+      if (result.generated_at && state.dataset) {
+        state.dataset.generated_at = result.generated_at;
+        persistDataset(state.dataset);
+      }
       const cycleCount = getRecordCycles(record).length;
       state.conferenceRefreshState[conference] = {
         tone: "success",
@@ -2574,15 +2612,17 @@ async function refreshSingleConference(conferenceInfo, options = {}) {
       }
       return record;
     } catch (error) {
-      errorMessage = error instanceof Error ? error.message : String(error);
-      updateDatasetForConference(conferenceInfo, null, errorMessage);
-      state.conferenceRefreshState[conference] = {
-        tone: "error",
-        message: errorMessage,
-      };
+      if (!errorMessage) {
+        errorMessage = error instanceof Error ? error.message : String(error);
+        updateDatasetForConference(conferenceInfo, null, errorMessage);
+        state.conferenceRefreshState[conference] = {
+          tone: "error",
+          message: errorMessage,
+        };
 
-      if (!options.batch) {
-        setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
+        if (!options.batch) {
+          setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
+        }
       }
       throw error;
     } finally {
@@ -2632,6 +2672,17 @@ async function loadInitialData() {
   setRefreshMessage("Loading latest deadline snapshot...");
 
   const candidates = [];
+  try {
+    candidates.push({
+      payload: await fetchServerDataset(),
+      mode: "api",
+      priority: 5,
+      message: "Local server snapshot loaded.",
+    });
+  } catch (error) {
+    // API is optional for read-only loads.
+  }
+
   loadStoredDatasets().forEach(({ key, payload }) => {
     candidates.push({
       payload,
@@ -2680,6 +2731,7 @@ async function refreshDataset() {
   }
 
   try {
+    await fetchServerDataset();
     const conferenceInputs = await fetchConferenceInputs();
     state.batchRefresh = {
       total: conferenceInputs.length,
@@ -2703,7 +2755,10 @@ async function refreshDataset() {
       conferenceInputs.map((conferenceInfo) => refreshSingleConference(conferenceInfo, { batch: true })),
     );
   } catch (error) {
-    setRefreshMessage(error.message || "Sync failed.", "error");
+    setRefreshMessage(
+      (error && error.message) || "Sync failed. Start the local server with python3 website/server.py.",
+      "error",
+    );
   }
 }
 
