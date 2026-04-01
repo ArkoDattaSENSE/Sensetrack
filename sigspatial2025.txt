@@ -1,0 +1,148 @@
+ACM SIGSPATIAL 2025 – Accepted Research Papers
+Unsupervised Urban Land Use Mapping with Street View Contrastive Clustering and a Geographical Prior
+Lin Che (ETH Zurich), Yizi Chen (ETH Zurich), Tanhua Jin (Ghent University), Martin Raubal (ETH Zurich), Konrad Schindler (ETH Zurich) and Peter Kiefer (ETH Zurich)
+STOAT: Spatial-Temporal Probabilistic Causal Inference Network
+Yang Yang (University of New South Wales), Du Yin (University of New South Wales), Hao Xue (University of New South Wales) and Flora Salim (University of New South Wales)
+RECAST: Route-Enhanced Conditional Anomalous Sub-trajectory Detection
+Ziyi Jiang (the University of Auckland), Qiqi Wang (the University of Auckland), Xuyang Sun (the University of Auckland), Gillian Dobbie (the University of Auckland), Xiaoling Lu (Renmin University of China), Yalei Du (Beijing Baixingkefu Network Technology Co., Ltd.), Yuanyuan Zhang (Beijing Baixingkefu Network Technology Co., Ltd.) and Kaiqi Zhao (the University of Auckland)
+Geo-lucid Conditional Diffusion Models for High Physical Fidelity Trajectory Generation
+Mingzhou Yang (University of Minnesota), Arun Sharma (University of Minnesota), Majid Farhadloo (University of Minnesota), Bharat Jayaprakash (University of Minnesota) and Shashi Shekhar (University of Minnesota)
+ViT-RefineNet for Directional Signal Radio Map Reconstruction from Sparse Samples
+Lyuzhou Ye (University of North Texas), Thanh Dat Le (University of North Texas) and Yan Huang (University of North Texas)
+Graph Enhanced Trajectory Anomaly Detection
+Jonathan Mbuya (George Mason University), Dieter Pfoser (George Mason University) and Antonios Anastasopoulos (George Mason University)
+SpatialGPT: Zero-Shot Vision-and-Language Navigation via Spatial CoT over Structured Spatial Memory
+Zhiqiang Jiang (University of Calgary) and Xin Wang (University of Calgary)
+CartoMapQA: A Fundamental Benchmark Dataset Evaluating Vision-Language Models on Cartographic Map Understanding [Experiment]
+Huy Quang Ung (KDDI Research, Inc.), Guillaume Habault (KDDI Research, Inc.), Yasutaka Nishimura (KDDI Research, Inc.), Hao Niu (KDDI Research, Inc.), Roberto Legaspi (KDDI Research, Inc.), Tomoki Oya (KDDI Research, Inc.), Ryoichi Kojima (KDDI Research, Inc.), Masato Taya (KDDI Research, Inc.), Chihiro Ono (KDDI Research, Inc.), Atsunori Minamikawa (KDDI Research, Inc.) and Yan Liu (University of Southern California)
+Towards A New Era of Geo-Foundation Models: Expert-Guided Multimodal Alignment and Geospatial Context Awareness
+Ting Han (Sun Yat-Sen University), Huan Chen (Sun Yat-Sen University), Chaolei Wang (Sun Yat-Sen University), Yilan Ren (Sun Yat-Sen University) and Meiliu Wu (University of Glasgow)
+Efficient Spatial Joins on Large Geometry Sets
+Hannah Bast (University of Freiburg), Patrick Brosi (University of Freiburg) and Johannes Kalmbach (University of Freiburg)
+Estimating Traffic in Urban Area Using Public Transit Buses as Probes
+Bahare Salehi (Université Libre de Bruxelles (ULB)) and Mahmoud Sakr (Université Libre de Bruxelles)
+PROMIS: A Post-Processing Framework for Mitigating Spatial Bias
+Dimitris Kyriakopoulos (Athena Research Center), Dimitris Sacharidis (Université Libre de Bruxelles), Giorgos Giannopoulos (Athena Research Center), Dimitris Gunopulos (National and Kapodistrian University of Athens) and Theodore Dalamagas (Athena Research Center)
+XXLTraffic: Expanding and Extremely Long Traffic forecasting beyond test adaptation [Experiment]
+Du Yin (University of New South Wales), Hao Xue (University of New South Wales), Arian Prabowo (UNSW), Shuang Ao (University of New South Wales) and Flora Salim (University of New South Wales)
+KG-STFT: Knowledge Graph-Guided Human-Generated Spatial-Temporal Cross-task Fine-Tuning
+Mingzhi Hu (Worcester Polytechnic Institute), Xin Zhang (San Diego State University), Yanhua Li (Worcester Polytechnic Institute (WPI)) and Jun Luo (Research & Technology Development, Logistics and Supply Chain MultiTech R&D Centre)
+IsoSim: A Long-term Benchmark Dataset for Water Isotope Emulation in Global Climate Models [Benchmark]
+Zhili Li (University of Maryland, College Park), Qi Cheng (University of Pittsburgh), Ruohan Li (University of Maryland, College Park), Feng Zhu (NSF National Center for Atmospheric Research), Xiaowei Jia (University of Pittsburgh) and Yiqun Xie (University of Maryland)
+GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant
+Gaspard Merten (Université libre de Bruxelles), Gilles Dejaegere (Université libre de Bruxelles) and Mahmoud Sakr (Université Libre de Bruxelles)
+Tesseract: Unfolding Navigable Graph Representations from Low-Semantic Floor Plans
+Yaqoob Ansari (Carnegie Mellon University), Ammar Karkour (Carnegie Mellon University), Eduardo Feo Flushing (Carnegie Mellon University) and Khaled A. Harras (Carnegie Mellon University)
+Understanding Vessel Mobility Behavior through the Identification and Labeling of Maritime Zones of Interest
+Omar Ghannou (Aix-Marseille Université, LIS, CNRS), Etienne Thuillier (Aix-Marseille Université, LIS, CNRS) and Omar Boucelma (Aix-Marseille Université, LIS, CNRS)
+ICAD: A Self-Supervised Autoregressive Approach for Multi-Context Anomaly Detection in Human Mobility Data
+Bita Azarijoo (University of Southern California), Maria Despoina Siampou (University of Southern California), John Krumm (University of Southern California) and Cyrus Shahabi (University of Southern California)
+POIFormer: A Transformer-Based Framework for Accurate and Scalable Point-of-Interest Attribution
+Nripsuta Ani Saxena (University of Southern California), Shang-Ling Hsu (University of Southern California), Mehul Shetty (University of Southern California), Omar Alkhadra (University of Southern California), Cyrus Shahabi (University of Southern California) and Abigail L. Horn (University of Southern California)
+FUSE-Traffic: Fusion of Unstructured and Structured data for Event-aware Traffic forecasting
+Chenyang Yu (University of North Texas), Xinpeng Xie (University of North Texas), Yan Huang (University of North Texas) and Chenxi Qiu (University of North Texas)
+Index-Driven Detection of Continuously Connected Groups in Spatio-Temporal Data Streams
+Andreas Morgen (University of Marburg), Patrick Grieser (University of Marburg) and Bernhard Seeger (University of Marburg)
+A Probabilistic Framework for Imputing Genetic Distances in Spatiotemporal Pathogen Models
+Haley Stone (University of New South Wales), Jing Du (University of New South Wales), Hao Xue (University of New South Wales), Matthew Scotch (Arizona State University), David Heslop (University of New South Wales), Andreas Zufle (Emory University), Raina MacIntyre (University of New South Wales) and Flora Salim (University of New South Wales)
+Crowd-Aware Itinerary Optimization via Clustered Multi-Agent Reinforcement Learning
+Razan Albayouk (University Of Sharjah), Zaher Al Aghbari (University of Sharjah) and Imad Afyouni (University of Sharjah)
+EvaMAE: How Helpful Are DEM Data in Enhancing Geo-Foundation Models for Earth Imagery? [Experiment]
+Saugat Adhikari (Indiana University Bloomington), Da Yan (Indiana University Bloomington), Naman Nimbale (Indiana University Bloomington), Weijin Liu (Stevens Institute of Technology), Xiaodong Yu (Stevens Institute of Technology), Akhlaque Ahmad (Indiana University Bloomington), Lyuheng Yuan (Indiana University Bloomington), Jiao Han (Indiana University Bloomington) and Zhe Jiang (University of Florida)
+M3: Multi-Scale Spatial Heterogeneity, Multi-Purpose, Multi-Stakeholder via Attention-based Graph Clustering for Green Attraction Recommendations in Transport
+Shih-Yu Lai (National Taiwan University), Tzu-Hsin Hsieh (Technische Universiteit Delft), Pei-Chi Tsai (University College London), Chao-Chun Kung (OAOA Architecture Associates), Sing-Kai Ling (104 Corporation) and Hsun-Ping Hsieh (National Cheng Kung University)
+UQGNN: Uncertainty Quantification of Graph Neural Networks for Multimodal Spatiotemporal Prediction
+Dahai Yu (Florida State University), Dingyi Zhuang (Massachusetts Institute of Technology), Lin Jiang (Florida State University), Rongchao Xu (Florida State University), Xinyue Ye (Texas A&M University), Yuheng Bu (University of Florida), Shenhao Wang (University of Florida) and Guang Wang (Florida State University)
+One Model, Many Cities: A Transferable Social Relationship Inference Framework for Human Mobility Data
+Chen Chu (University of Southern California), Cyrus Shahabi (University of Southern California), Emmanuel Tung (Novateur Research Solutions) and Khurram Shafique (Novateur Research Solutions)
+DeepMDV: Global Spatial Matching for Multi-depot Vehicle Routing Problems
+Saeed Nasehibasharzad (The University of Melbourne), Farhana Choudhury (The University of Melbourne), Egemen Tanin (The University of Melbourne) and Majid Sarvi (The University of Melbourne)
+UGuideRAG: Intent-Enhanced Retrieval-Augmented Generation with User-Generated Content for Personalized Urban Tourism
+Jing Tang (University of Zurich), Inhye Kong (University of Zurich) and Zhaonan Wang (New York University Shanghai)
+SynopsisLake: Quality-aware Approximate Spatial Query Processing Using Data Synopses
+Xin Zhang (University of California, Riverside) and Ahmed Eldawy (University of California, Riverside)
+Geo-Aware Models for Stream Temperature Prediction across Different Spatial Regions and Scales
+Shiyuan Luo (University of Pittsburgh), Runlong Yu (university of pittsburgh), Shengyu Chen (University of Pittsburgh), Yingda Fan (University of Pittsburgh), Yiqun Xie (University of Maryland), Yanhua Li (Worcester Polytechnic Institute (WPI)) and Xiaowei Jia (University of Pittsburgh)
+Roaming Navigation-in-the-wild: How Pedestrians Subjectively Perceive Non-shortest Routes [Experiment]
+Keisuke Otaki (Toyota Central R&D Labs., Inc.), Tomosuke Maeda (Toyota Central R&D Labs., Inc.), Keiko Uemura (Toyota Central R&D Labs., Inc.) and Takayoshi Yoshimura (Toyota Central R&D Labs., Inc.)
+ConPro-GAIL: Interpretable Policy Learning via Conceptual Prototyping for Human Spatiotemporal Decision Understanding
+Ronilo Ragodos (University of Iowa), Xun Zhou (Harbin Institute of Technology (Shenzhen)), Tong Wang (Yale University), Yajun Pan (Harbin Institute of Technology (Shenzhen)) and Jun Luo (Research & Technology Development, Logistics and Supply Chain MultiTech R&D Centre)
+Mapping the Storm: Geospatial Impacts of Severe Weather on LEO Network Performance
+Sina Ehsani (Armada), Bhanu Pallakonda (Armada) and Pragyana K. Mishra (Armada)
+CausalGRIT: Causal Graph Reasoning for Traffic Congestion Prediction – From Statistical Association to Casual Intervention
+Sheng Liu (General Motors), Jun Ying (General Motors) and Fan Bai (General Motors)
+Omni-CityMood: Vision-based Urban Atmosphere Perception from Every Angle
+Yuki Kubota (Institute of Science Tokyo), Kota Tsubouchi (LY Corporation), Soto Anno (Institute of Science Tokyo), Kaito Ide (Institute of Science Tokyo) and Masamichi Shimosaka (Institute of Science Tokyo)
+Quantifying the Impact of k-Anonymizing Trajectory Data on Common Traffic Management Use Cases [Experiment]
+Christian Fries (University of Münster), Jan Kettler (University of Applied Sciences Osnabrück), Thorsten Paßfeld (University of Applied Sciences Osnabrück), Ralf Tönjes (University of Applied Sciences Osnabrück) and Christian Kray (University of Münster)
+Modeling Collective Behaviors for Human Mobility Anomaly Detection
+Haomin Wen (Carnegie Mellon University), Shurui Cao (Carnegie Mellon University) and Leman Akoglu (Carnegie Mellon University)
+Baltimore Atlas: FreqWeaver Adapter for Semi-supervised Ultra-high Spatial Resolution Land Cover Classification
+Junhao Wu (Towson University), Stephen Aboagye-Ntow (Towson University), Chuyuan Wang (Towson University), Gang Chen (University of North Carolina at Charlotte) and Xin Huang (Towson University)
+A Deep Multilevel Approach for Non-Uniform Spatial Network Partitioning
+Alhassan Alshareedah (University of California, Riverside) and Amr Magdy (University of California, Riverside)
+Enhancing Urban Region Representation via Adaptive Risk-aware Consensus Learning
+Li Huang (Southwestern University of Finance and Economics), Yujie Wu (Southwestern University of Finance and Economics), Xiaolong Song (Southwestern University of Finance and Economics), Qiang Gao (Southwestern University of Finance and Economics), Goce Trajcevski (Iowa State University) and Xueqin Chen (Kash Institute of Electronics and Information Industry)
+Space-aware Socioeconomic Indicator Inference with Heterogeneous Graphs
+Xingchen Zou (The Hong Kong University of Science and Technology (Guangzhou)), Jiani Huang (The Hong Kong Polytechnic University), Xixuan Hao (The Hong Kong University of Science and Technology (Guangzhou)), Yuhao Yang (University of Hong Kong), Haomin Wen (Carnegie Mellon University), Yibo Yan (The Hong Kong University of Science and Technology (Guangzhou)), Chao Huang (University of Hong Kong), Chao Chen (Chongqing University) and Yuxuan Liang (The Hong Kong University of Science and Technology (Guangzhou))
+OBSR: Open Benchmark for Spatial Representations [Experiment]
+Julia Moska (Wrocław University of Science and Technology), Oleksii Furman (Wrocław University of Science and Technology), Kacper Kozaczko (Wrocław University of Science and Technology), Szymon Leszkiewicz (Wrocław University of Science and Technology), Jakub Polczyk (Wrocław University of Science and Technology), Piotr Gramacki (Wrocław University of Science and Technology) and Piotr Szymański (Wrocław University of Science and Technology)
+HydroChronos: Forecasting Decades of Surface Water Change [Benchmark]
+Daniele Rege Cambrin (Politecnico di Torino), Eleonora Poeta (Politecnico di Torino), Eliana Pastor (Politecnico di Torino), Isaac Corley (Wherobots), Tania Cerquitelli (Politecnico di Torino), Elena Baralis (Politecnico di Torino) and Paolo Garza (Politecnico di Torino)
+A Qualitative Evaluation of Distance Measures in Trajectory Data Clustering [Experiments]
+Max Galetskiy (University of Konstanz), Johann Bornholdt (University of Konstanz), Theodoros Chondrogiannis (NTNU) and Michael Grossniklaus (University of Konstanz)
+Dynamic Budgeted Reinforcement Learning for Fairness in Spatial-Temporal Resource Allocation
+Yufan Kang (Monash University), Jie Zhang (University of Electronic Science and Technology of China), Wei Shao (Data61, CSIRO), Rui Tang (Fuzhou University), Mark Andrejevic (Monash University), Jeffrey Chan (RMIT University) and Flora D. Salim (University of New South Wales)
+Short Papers
+FairDRL-ST: Disentangled Representation Learning for Fair Spatio-Temporal Mobility Prediction
+Sichen Zhao (RMIT University), Wei Shao (Data61, CSIRO), Jeffrey Chan (RMIT University), Ziqi Xu (RMIT University) and Flora Salim (University of New South Wales)
+An image embedding-based approach for classifying street networks
+Francisco Garrido-Valenzuela (CityAI Lab, Transport and Logistics Group, Delft University of Technology), Max Lange (Department of Transport & Planning, Delft University of Technology), Juan C. Herrera (Department of Transport Engineering and Logistics, Pontificia Universidad Católica de Chile) and Oded Cats (Department of Transport & Planning, Delft University of Technology)
+Scenario-Based Evaluation of Probabilistic Time Series Forecasting for Solar Energy [Experiment]
+Ruohan Li (University of Maryland, College Park), Yiqun Xie (University of Maryland), Xiaowei Jia (University of Pittsburgh), Gengchen Mai (University of Texas at Austin), Sophia Hou (University of Maryland, College Park), Zhihao Wang (University of Maryland) and Zhili Li (University of Maryland, College Park)
+SGV: Scalable Geospatial Graph Visualization
+Tarlan Bahadori (University of California, Riverside), Alvin Chiu (University of California, Irvine), Ahmed Eldawy (University of California, Riverside) and Michael Goodrich (University of California, Irvine)
+TerraMAE: Learning Spatial-Spectral Representations from Hyperspectral Earth Observation Data via Adaptive Masked Autoencoders
+Tanjim Bin Faruk (Colorado State University), Abdul Matin (Colorado State University), Shrideep Pallickara (Department of Computer Science, Colorado State University) and Sangmi Pallickara (Colorado State University)
+FCV2X-Net: Foresighted and Coordinated Vehicle-to-Everything Control for Joint Traffic Navigation and Signal Optimization
+Jinwei Zeng (Tsinghua University), Hongyuan Su (Tsinghua University), Jian Yuan (Tsinghua University) and Yong Li (Tsinghua University)
+Voluntary mobility clustering for epidemic control
+Amir Mohammad Esmaieeli Sikaroudi (Department of Computer Science, University of Arizona), Alon Efrat (Department of Computer Science, University of Arizona), Joseph S. B. Mitchell (Department of Applied Mathematics and Statistics, Stony Brook University) and Esther Arkin (Department of Applied Mathematics and Statistics, Stony Brook University)
+PolyMinHash: Efficient Area-Based MinHashing of Polygons for Approximate Nearest Neighbor Search
+Alima Subedi (Missouri University of Science and Technology), Sankalpa Pokharel (Missouri University of Science and Technology) and Satish Puri (Missouri University of Science and Technology)
+Foundation Models for Semantic Segmentation of Thick/Thin Clouds and Cloud-shadows: A Comparative Study [Experiment]
+Calvin Nguyen (North Carolina State University) and Ranga Vatsavai (North Carolina State University)
+Multi-Scale Diffusion Transformer for Jointly Simulating User Mobility and Mobile Traffic Pattern
+Ziyi Liu (Tsinghua University), Qingyue Long (Tsinghua University) and Yong Li (Tsinghua University)
+Mobility Data Stream Processing Beyond the Cloud
+Mariana M. Garcez Duarte (Université libre de Bruxelles), Dwi P. A. Nugroho (BIFOLD, TU-Berlin), Georges Tod (SNCB-NMBS Engineering), Evert Bevernage (SNCB-NMBS Engineering), Pieter Moelans (SNCB-NMBS Engineering), Elias Saerens (SNCB-NMBS Engineering), Esteban Zimányi (Université Libre de Bruxelles), Mahmoud Sakr (Université Libre de Bruxelles) and Steffen Zeuch (BIFOLD, TU-Berlin)
+GenUP: Generative User Profilers as In-Context Learners for Next POI Recommender Systems
+Wilson Wongso (UNSW), Hao Xue (University of New South Wales) and Flora Salim (University of New South Wales)
+Large-Scale Human Mobility Dataset Generator Based on Patterns of Life Simulation
+Hossein Amiri (Emory University), Richard Yang (Emory University), Shiyang Ruan (George Mason University), Joon-Seok Kim (Emory University), Hamdi Kavak (George Mason University), Andrew Crooks (University at Buffalo), Dieter Pfoser (George Mason University), Carola Wenk (Tulane University) and Andreas Züfle (Emory University)
+Reducing Congestion and Search Time via Smart Street Parking
+Behafarid Hemmatpour (IMDEA Networks Institute), Javad Dogani (IMDEA Networks Institute) and Nikolaos Laoutaris (IMDEA Networks Institute)
+Uncertainty-Aware Anomaly Detection in Spatiotemporal Climate Data [Experiment]
+Tolulope Ale (iHARP, University of Maryland Baltimore County), Ratnaksha Lele (iHARP, University of Maryland Baltimore County) and Nicole-Jeanne Schlegel (NOAA)
+TrajNS: Numerical and Semantic Modeling Framework for Realistic and Controllable Trajectory Generation
+Dimuthu Lakmal (University of Melbourne), Renata Borovica-Gajic (University of Melbourne) and Shanika Karunasekera (University of Melbourne)
+Urban Knowledge Graph-Enhanced Explainable Recommendation Approach for Destination Choice
+Ziheng Liu (Department of Advanced Interdisciplinary Studies, The University of Tokyo), Yanbo Pang (Center for Spatial Information Science, The University of Tokyo) and Yoshihide Sekimoto (Center for Spatial Information Science, The University of Tokyo)
+Uncertainty-aware Spatio-Temporal Human Mobility Modeling and Anomaly Detection
+Haomin Wen (Carnegie Mellon University), Shurui Cao (Carnegie Mellon University), Zeeshan Rasheed (Novateur Research Solutions), Khurram Hassan Shafique (Novateur Research Solutions) and Leman Akoglu (Carnegie Mellon University)
+Training Machine Learning Models on Human Spatio-temporal Mobility Data: An Experimental Study [Experiment Paper]
+Yueyang Liu (Emory University), Lance Kennedy (Emory University), Ruochen Kong (Emory University), Joon-Seok Kim (Emory University) and Andreas Züfle (Emory University)
+NEXICA: Discovering Road Traffic Causality
+Siddharth Srikanth (University of Southern California), John Krumm (University of Southern California) and Jonathan Qin (University of Southern California)
+A Sentinel-2 Benchmark and Deep-Learning Study for Wildfire Damage Mapping [Experiment]
+Valeria Martin (University of West Florida), K. Brent Venable (University of West Florida and IHMC) and Derek Morgan (University of West Florida)
+LLM Agents for Georelating - A New Task for Locating Events
+Kai Moltzen (Leuphana University Lueneburg), Junbo Huang (University of Hamburg) and Ricardo Usbeck (Leuphana University Lueneburg)
+Modeling Heterogeneity across Varying Spatial Extents: Discovering Linkages between Sea Ice Retreat and Ice Shelve Melt in the Antarctic
+Maloy Kumar Devnath (University of Maryland, Baltimore County) and Sudip Chakraborty (University of Maryland, Baltimore County)
+Geospatial Diffusion for Land Cover Imperviousness Change Forecasting
+Debvrat Varshney (Oak Ridge National Laboratory), Vibhas Vats (Indiana University), Bhartendu Pandey (Oak Ridge National Laboratory), Christa Brelsford (Los Alamos National Laboratory) and Philipe Dias (Oak Ridge National Laboratory)
+Analysis of Artifacts of Parallel Micro-Traffic Simulation
+Joon-Seok Kim (Emory University), Gautam Thakur (Oak Ridge National Laboratory) and Steven Christopher (Oak Ridge National Laboratory)
+AutoTracker: A Traffic Sign Change Detection System
+Yunyao Cheng (Aalborg University), Christian Jensen (Aalborg University) and Kristian Torp (Aalborg University)

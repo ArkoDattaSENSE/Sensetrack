@@ -1,0 +1,74 @@
+Full papers:
+Shao-Jung Lu and Wei-Xun Chen (National Chiao Tung University, Taiwan); Yu-Shao Su (National Yang Ming Chiao Tune University, Taiwan); Yu-Shuo Chang (National Chiao Tung University, Taiwan); Yao-Wen Liu and Chi-Yu Li (National Yang Ming Chiao Tung University, Taiwan); Guan-Hua Tu (Michigan State University, USA)
+
+Practical Latency-aware Scheduling for Low-latency Elephant VR Flows in Wi-Fi Networks
+Linfei Ge (The Hong Kong University of Science and Technology & Southern University of Science and Technology, China); Qian Zhang (Hong Kong University of Science and Technology, Hong Kong); Jin Zhang (Southern University of Science and Technology, USA); Wentao Xie (The Hong Kong University of Science and Technology, Hong Kong)
+
+BLEAR: Practical Wireless Earphone Tracking under BLE protocol
+Vincent Bode (Technical University of Munich, Germany); David Buettner and Tobias Preclik (Siemens AG, Germany); Carsten Trinitis (TU Müncheng, Germany); Martin Schulz (Technical University of Munich, Germany)
+
+Adopting User-Space Networking for DDS Message-Oriented Middleware
+Hong Jia and Young D. Kwon (University of Cambridge, United Kingdom (Great Britain)); Dong Ma (Singapore Management University, Singapore); Nhat Pham (Cardiff University, United Kingdom (Great Britain)); Lorena Qendro (Nokia Bell Labs, United Kingdom (Great Britain)); Tam Vu (University of Colorado Boulder, USA); Cecilia Mascolo (University of Cambridge, United Kingdom (Great Britain))
+
+UR2M: Uncertainty and Resource-Aware Event Detection on Microcontrollers
+Xiao Ma, Shengfeng He, Hezhe Qiao and Dong Ma (Singapore Management University, Singapore)
+
+DiTMoS: Delving into Diverse Tiny-Model Selection on Microcontrollers
+Chun Ho Park (HKUST, Hong Kong); Ahmad Alhilal (Hong Kong University of Science and Technology, Hong Kong); Tristan Braud (The Hong Kong University of Science and Technology, Hong Kong); Pan Hui (Hong Kong University of Science and Technology & University of Helsinki, Hong Kong)
+
+AnchorLoc: Large-scale, Real-Time Visual Localization through Anchor Extraction and Detection
+Zhiyuan Wen (The Hong Kong Polytechnic University, Hong Kong); Jiannong Cao (Hong Kong Polytechnical University, Hong Kong); Yu Yang, Ruosong Yang and Shuaiqi Liu (The Hong Kong Polytechnic University, Hong Kong)
+
+Affective-NLI: Towards Accurate and Interpretable Personality Recognition in Conversation
+Sara Lazzaro and Vincenzo De Angelis (University Mediterranea of Reggio Calabria, Italy); Anna Maria Mandalari (University College London, United Kingdom (Great Britain)); Francesco Buccafurri (University Mediterranea of Reggio Calabria, Italy)
+
+Is Your Kettle Smarter Than a Hacker? A Scalable Tool for Assessing Replay Attack Vulnerabilities on Consumer IoT Devices
+Mengxi Liu (German Research Center for Artificial Intelligence, Germany); Vitor F Rey (Deutsches Forschungszentrum für Künstliche Intelligenz & University of Kaiserslautern, Germany); Yu Zhang (RPTU, Germany); Lala Shakti Swarup Ray (DFKI, Germany); Bo Zhou (German Research Center for Artificial Intelligence, Germany); Paul Lukowicz (DFKI and University of Kaiserslautern, Germany)
+
+iMove: Exploring Bio-impedance Sensing for Fitness Activity Recognition
+Mohamed Elmahallawy and Tony T. Luo (Missouri University of Science and Technology, USA)
+
+Stitching Satellites to the Edge: Pervasive and Efficient Federated LEO Satellite Learning
+Matteo Mendula and Paolo Bellavista (University of Bologna, Italy); Marco Levorato and Sharon Ladron de Guevara Contreras (University of California, Irvine, USA)
+
+Furcifer: a Context Adaptive Middleware for Real-world Object Detection exploiting Local, Edge, and Split Computing in the Cloud Continuum
+Hemanth Sabbella and Dulaj Sanjaya Weerakoon (Singapore Management University, Singapore); Manoj Gulati (NUS, Singapore); Archan Misra (Singapore Management University, Singapore)
+
+BA2dge: Battery-less, Durable Audio Badge
+Weiyu Chen, Canlin Zheng, Wenfeng He and Yongpan Zou (Shenzhen University, China); Kaishun Wu (Hong Kong University of Science and Technology (Guangzhou), China)
+
+UltraWrite: A Lightweight Continuous Gesture Input System Based on Commercial Ultrasonic Signals
+Zida Liu and Xianda Chen (The Pennsylvania State University, USA); Fenglong Ma (Pennsylvania State University, USA); Julio Fernandez-Mendoza and Guohong Cao (The Pennsylvania State University, USA)
+
+DeepApnea: Deep Learning Based Sleep Apnea Detection Using Smartwatches
+Jun Ma and Dimitrije Panic (Telecom SudParis, France); Roberto Yus (University of Maryland, Baltimore County, USA); Georgios Bouloukakis (Telecom SudParis, France)
+
+Co-zyBench: Using Co-Simulation and Digital Twins to Benchmark Thermal Comfort Provision in Smart Buildings
+Short papers:
+Naoya Yoshimura, Jaime Morales, Takuya Maekawa and Takahiro Hara (Osaka University, Japan)
+
+OpenPack: A Large-scale Dataset for Recognizing Packaging Works in IoT-enabled Logistic Environments
+Ren Ozeki, Haruki Yonekura, Hamada Rizk and Hirozumi Yamaguchi (Osaka University, Japan)
+
+Decentralized Landslide Disaster Prediction for Imbalanced and Distributed Data
+Khizar Anjum (Rutgers University, USA); Tahmeed S Chowdhury (Rutgers University, New Brunswick & JP Morgan Chase, USA); Sreeram Mandava, Benedetto Piccoli and Dario Pompili (Rutgers University, USA)
+
+A Lightweight Macroscopic Crowd Identification Leveraging On-board UAV Motion Estimation
+Mustafa Fuad Rifet Ibrahim (Hamburg University of Applied Sciences & Hamburg University of Technology & NXP Semiconductors, Germany); Tunc Alkanat (NXP Semiconductors, The Netherlands); Peer Stelldinger (Hamburg University of Applied Sciences, Germany); Alexander Schlaefer (Hamburg University of Technology, Germany); Maurice Meijer (NXP Semiconductors, The Netherlands)
+
+End-to-End Multi-Modal Tiny-CNN for Cardiovascular Monitoring on Sensor Patches
+Debasree Das (Indian Institute of Technology Kharagpur, India); Shameek Bhattacharjee (Western Michigan University, USA); Sandip Chakraborty and Bivas Mitra (Indian Institute of Technology Kharagpur, India); Sajal K. Das (Missouri University of Science and Technology, USA)
+
+Early Detection of Driving Maneuvers for Proactive Congestion Prevention
+Keisuke Higashiura, Kodai Yokoyama, Yusuke Asai, Hironori Shimosato, Kazuma Kano, Shin Katayama, Kenta Urano, Takuro Yonezawa and Nobuo Kawaguchi (Nagoya University, Japan)
+
+Semi-Automated Framework for Digitalizing Multi-Product Warehouses with Large Scale Camera Arrays
+Mersedeh Sadeghi, Lars Herbold, Max Unterbusch and Andreas Vogelsang (University of Cologne, Germany)
+
+SmartEx: A Framework for Generating User-Centric Explanations in Smart Environments
+PerCom 2024 @ X (Twitter)
+Tweets by IEEEPerCom
+PerCom 2024 @ Facebook
+
+Previous PerComs
+PerCom 2023

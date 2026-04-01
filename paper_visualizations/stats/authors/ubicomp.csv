@@ -1,0 +1,1150 @@
+author,count
+Qian Zhang,8
+Cheng Zhang,6
+Huadong Ma,6
+Ruidong Zhang,5
+François Guimbretière,5
+Zhimeng Yin,5
+Shuai Wang,5
++ 2,4
+Chenshu Wu,4
+Zhiwen Yu,4
+Bin Guo,4
+Anfu Zhou,4
+Chi-Jung Lee,4
+Author PictureThomas Ploetz,3
+Chuyu Wang,3
+Lei Xie,3
+Sanglu Lu,3
+Saif Mahmud,3
+Ke Li,3
+Vipin Gunda,3
+Devansh Agarwal,3
+Zhu Wang,3
+Longbiao Chen,3
+Duo Zhang,3
+Weiyan Chen,3
+Tan Gemicioglu,3
+Tobias Röddiger,3
+Kristof Van Laerhoven,3
+Jie Xiong,3
+Daqing Zhang,3
+Eun Kyoung Choe,3
+Tianhong Catherine Yu,3
+Michael Beigl,3
+Dong Zhao,3
+Xiaofan Jiang,3
+Ruofeng Liu,3
+Author PictureKunihiro Kato,2
+Author PictureKaori Ikematsu,2
+Author PictureRichard Jin,2
+Author PictureHao Chen,2
+Author PictureRuidong Zhang,2
++ 1,2
+Author PictureZikang Leng,2
+Author PictureHyeokhyen Kwon,2
+Author PictureYuta Sugiura,2
+Author PictureHiroki Watanabe,2
+Zhuo Sun,2
+Yuxin Yang,2
+Leye Wang,2
+Dingqi Yang,2
+Thalia Viranda,2
+Xuhai Xu,2
+Tanzeem Choudhury,2
+Thad Starner,2
+Hao Lu,2
+Sawinder Kaur,2
+Yi Xiao,2
+Harshit Sharma,2
+Asif Salekin,2
+Chun Yu,2
+Xiangyang Wang,2
+Yuanchun Shi,2
+Kaushik Murali,2
+Mohit Jain,2
+Rui Tan,2
+Yi Gao,2
+Wei Dong,2
+Yao Zhang,2
+Qingyong Hu,2
+Shun Wu,2
+Qianyi Huang,2
+Flora D. Salim,2
+Fan Wu,2
+Hao Zhou,2
+Kaiyi Guo,2
+Yang Gao,2
+Dong Wang,2
+Mengxi Liu,2
+Lala Shakti Swarup Ray,2
+Sizhen Bian,2
+Bo Zhou,2
+Yinan Zhu,2
+Chun Tung Chou,2
+Wen Hu,2
+Yasha Iravantchi,2
+Alanson P. Sample,2
+Philipp Lepold,2
+Uichin Lee,2
+Vitor Fortes Rey,2
+Wenbo Zhang,2
+Xiao Ma,2
+Xinger Huang,2
+Yiran Shen,2
+Marius Bock,2
+Michael Moeller,2
+Shwetak Patel,2
+Guanzhou Zhu,2
+Zhengyuan Zhang,2
+Beihong Jin,2
+Wentao Xie,2
+Kaishun Wu,2
+Mingming Fan,2
+Stephan Sigg,2
+Author PictureAmal Yassien,1
+Author PictureSlim Abdennadher,1
+Author PictureHyunchul Lim,1
+Author PictureGuilin Hu,1
+Author PictureRyan Mao,1
+Author PictureAnam Ahmad,1
+Author PictureSizhen Bian,1
+Author PictureMichele Magno,1
+Author PictureMikołaj P. Woźniak,1
+Author PictureAnna Walczak,1
+Author PictureAdam Jan Sałata,1
+Author PictureMagdalena Wróbel-Lachowska,1
++ 4,1
+Author PictureParth Arora,1
+Author PictureRajandeep Singh,1
+Author PictureSrikanth T. Varadharajan,1
+Author PictureDevansh Agarwal,1
+Author PictureKe Li,1
+Author PictureSourish Gunesh Dhekane,1
+Author PictureHarish Haresamudram,1
+Author PictureThomas Plötz,1
+Author PictureYash Jain,1
+A hearable device is a wearable computer that is worn on the ear. In addition to offering conventional music listening functions when utilized as earphones,1
+a hearable device can be linked to smartphones and various onboard sensors to recognize user ...,1
+Electrical muscle stimulation,1
+learning effects and retention have not been thoroughly evaluated. To address this,1
+we conducted two user studies ...,1
+As wearable technologies proliferate there is a growing need for compact,1
+easy-to-produce textile-based mechanical actuators. This paper presents a novel coverstitched auxetic actuator using shape memory alloys,1
+Virtual Reality,1
+but limited field of view,1
+hindering social engagement. To facilitate initiating social ...,1
+Head-worn displays like Tooz and North's Focals are designed to be worn all day as smart eyeglasses. When the display is not lit,1
+the optical combiners may remain visible to the user as an out-of-focus seam or discoloration ...,1
+We propose a novel biometric authentication method that leverages sound leakage signals from hearables that are captured by an external microphone. A sweep signal is played from hearables,1
+and sound leakage is recorded using an external microphone. This ...,1
+Canine agility is a rapidly growing sport where dogs and their handlers navigate obstacle courses. Recent studies show that over 40% of all agility dogs suffer an injury while training or competing. By collecting and analyzing sensor measurements from a ...,1
+This paper presents a novel approach for expanding one-handed interactions using the thumb positioned above the smartphone screen. Our approach is based on acoustic sensing,1
+a technique for leveraging the built-in speaker and microphone of the ...,1
+The ring-type devices currently on the market are not typically equipped with authentication. This paper proposes an automatic and continuous user authentication method using active acoustic sensing with a speaker and microphone mounted on the ring ...,1
+a novel nose interface that explores a unique sensing approach to recognize gestures related to ...,1
+we introduce a benchmark: DrapeMoCapBench,1
+Breaks as discretionary self-interruptions can have beneficial effects on information worker productivity and well-being. This has design implications for potential productivity tools that can assess opportune moments to suggest these breaks. ...,1
+The development of robust,1
+generalized models for human activity recognition,1
+To achieve mid-air interactions for smartphones,1
+acoustic-sensing,1
+a technique using the built-in speaker and microphone of smartphones,1
+is promising. However,1
+detecting hand poses on the near-surface of touchscreens remains challenging due to the ...,1
+The implicit communication of emotional states between persons is a key use case for novel assistive and augmentation technologies. It can serve to expand individuals' perceptual capabilities and assist neurodivergent individuals. Notably,1
+vibrotactile ...,1
+C-Auth is a novel authentication method for smart glasses that explores the feasibility of authenticating users using the facial contour lines from the nose and cheeks captured by a down-facing camera in the middle of the glasses. To evaluate the system,1
+...,1
+We present HPSpeech,1
+a silent speech interface for commodity headphones. HPSpeech utilizes the existing speakers of the headphones to emit inaudible acoustic signals. The movements of the temporomandibular joint,1
+We propose WeightMorphy,1
+a hand-mounted system designed to improve teleoperation manipulation's operability and immersive experience by changing the moment of inertia. This system reduces the discrepancy between the shape of the virtual hand and its ...,1
+A wide variety of applications of wearable technology require information about forces and pressures exerted on the body,1
+either by a device,1
+Energy efficiency and low latency are crucial requirements for designing wearable AI-empowered human activity recognition systems,1
+due to the hard constraints of battery operations and closed-loop feedback. While neural network models have been ...,1
+Electrodermal activity,1
+Fingertip input allows for interactions that are natural,1
+easy to perform,1
+and socially acceptable. It also has advantages in terms of low physical demand,1
+confidentiality,1
+and haptic feedback. In this study,1
+we propose TouchLog,1
+a fingernail-type device ...,1
+neck-worn devices gathered limited attention ...,1
+Author PictureRobert Pettys-Baker,1
+Author PictureHeidi Woelfle,1
+Author PictureBrad Holschuh,1
+Author PictureLala Shakti Swarup Ray,1
+Author PictureBo Zhou,1
+Author PictureSungho Suh,1
+Author PictureRiku Kitamura,1
+Author PictureTakumi Yamamoto,1
+Author PictureSteeven Villa,1
+Author PictureThuy Duong Nguyen,1
+Author PictureBenjamin Tag,1
+Author PictureTonja-Katrin Machulla,1
+Author PictureTsutomu Terada,1
+Author PictureTakashi Amesaka,1
+Author PictureMasanori Sugimoto,1
+Author PictureKazuya Murao,1
+Author PictureNaoki Okamoto,1
+Author PictureMasaharu Hirose,1
+Author PictureSohei Wakisaka,1
+Author PictureHiroto Saito,1
+Author PictureCharles Ramey,1
+Author PictureArianna Mastali,1
+Author PictureAdithya Muralikrishna,1
+Author PictureThad Starner,1
+Input Interface with Touch and Non-touch Interactions using Atmospheric Pressure for Hearable Devices,1
+EchoNose: Sensing Mouth,1
+Breathing and Tongue Gestures inside Oral Cavity using a Non-contact Nose Interface,1
+Modeling and Evaluation of Soft Force Sensors using Recurrent and Feed-Forward Neural Networks and Exponential Methods to Compensate for Force Measurement Error in Curved Conditions,1
+Learning Effects and Retention of Electrical Muscle Stimulation in Piano Playing,1
+Photoplethysmography,1
+PPG signals are highly susceptible to a variety of noise sources,1
+sensor noise,1
+and biological factors,1
+where it was tested against unseen PPG data collected from a new sensor and users under three different activity levels. Results showed the generalisability of the approach compared to the state-of-the-art and it maintains consistent performance improvements across diverse user activities. We successfully implemented our model on a commonly used,1
+confirming its ability to provide fast inferences in a resource-constrained setting.,1
+a key challenge is in detecting continuous contact states with the surface to inform the start and end of stateful interactions. In this paper,1
+we introduce SoundScroll,1
+enabling a rapid and precise determination of contact state and fingertip speed of sliding finger. We leverage vibrations from friction between a moving finger and a surface. Our proof-of-concept wristband captures a dual-channel vibration signal for robust sensing,1
+considering both on-skin and in-air components. Our software predicts a finger sliding state as fast as 20 ms with an accuracy of 93.3%. Augmenting prior approaches detecting tap events,1
+SoundScroll can be a robust,1
+low-latency,1
+and precise contact and motion sensing technique.,1
+these approaches are typically limited in the number of actuation directions and only focus on enhancing the system's output,1
+ignoring haptic input. We present Embracer,1
+a wrist-mounted encountered-type haptic controller that addresses these gaps by rendering forces along three axes through a sphere-shaped end effector within the user's palm. Using modified servo motors,1
+we sense user-performed manipulations of the end effector as an input modality. In this paper,1
+we contribute the design and implementation of Embracer together with a preliminary technical evaluation. By providing a more comprehensive haptic feedback system,1
+Embracer enhances the realism and immersion of haptic feedback and user control.,1
+A lifestyle of wearing multiple wearable devices is becoming a daily routine. However,1
+the use of wearable devices may narrow the user's UFOV,1
+and it causes the UFOV narrowing. It is important to understand how wearable devices affect the UFOV because the narrowed UFOV could lead to overlooking surrounding objects. In this paper,1
+we focused on an optical AR HMD,1
+and presenting information further narrows it significantly. Additionally,1
+reacting to the presented information significantly narrows the UFOV. Based on these results,1
+we presented a guideline for using optical AR HMDs.,1
+As wearable-based data annotation remains,1
+to date,1
+a tedious,1
+vision foundation models such as CLIP have gained significant attention,1
+helping the vision community advance in finding robust,1
+we propose a novel,1
+clustering-based annotation pipeline to significantly reduce the amount of data that needs to be annotated by a human annotator. We show that using our approach,1
+we further demonstrate that we can match the accuracy scores of fully-supervised deep learning classifiers across all three benchmark datasets. Code as well as supplementary figures and results are publicly downloadable via github.com/mariusbock/weak_har.,1
+iKAN,1
+pioneers IL with Kolmogorov-Arnold Networks,1
+iKAN uses task-specific feature branches and a feature redistribution layer. Unlike existing IL methods that primarily adjust the output dimension or the number of classifier nodes to adapt to new tasks,1
+iKAN focuses on expanding the feature extraction branches to accommodate new inputs from different sensor modalities while maintaining consistent dimensions and the number of classifier outputs. Continual learning across six public HAR datasets demonstrated the iKAN framework's IL performance,1
+with a last performance of 84.9%,1
+such as Elastic Weight Consolidation,1
+Smart glasses,1
+such as the Epson Moverio and Tooz DevKit,1
+are often designed so that the display is near the ear and an optical combiner is positioned to reflect the display into the user's eye. When the display is off,1
+this combiner can still be seen as an out-of-focus edge or discoloration in the lens. Therefore,1
+positioning the combiner to be unobtrusive when the display is off is essential to the users? comfort. We simulated monocular,1
+the edges of optical combiner should be beyond 20.2° towards the nose or 8.7° towards the ear from the PPOG horizontally.,1
+One of the often overlooked features of wearable physiological sensing devices is the possibility for institutions to observe and manage the health and well-being of a group of people. For example,1
+in real-world settings,1
+many users do not use devices consistently or correctly. Moreover,1
+institutional monitoring of individuals raises privacy concerns. In this study,1
+alongside corroborating evidence from sleep HR,1
+sleep heart rate variability,1
+activity patterns,1
+and sleep phases,1
+suggesting clear associations with stress. We show the feasibility of detecting collective changes in stress biomarkers within a cohort using consumer wearables.,1
+Tactile feedback mechanisms enhance the user experience of modern wearables by stimulating the sense of touch and enabling intuitive interactions. Electro-tactile stimulation-based tactile interfaces stand out due to their compact form factor and ability to deliver localized tactile sensations. Integrating force sensing with electro-tactile stimulation creates more responsive bidirectional systems that are beneficial in applications requiring precise control and feedback. However,1
+maintains flexibility,1
+and leverages the rapid prototyping capabilities of 3D printing. The functionality of this approach is validated through a user study,1
+and two practical applications are proposed,1
+Making a body-worn device wearable is a deceptively difficult challenge: it is not enough to make a functional device and simply put it on the body,1
+it must also work with the wearer to create a positive body-product relationship. In order for a body-mounted device to achieve true wearability,1
+proper attention must also be paid to a multitude of additional questions,1
+mass,1
+rigidity,1
+comfort,1
+aesthetics,1
+and other critical design criteria above and beyond raw functionality. This paper reviews papers from the International Symposium on Wearable Computing,1
+Mobile,1
+Wearable and Ubiquitous Technologies,1
+there are many papers that fail to address wearability with the appropriate scientific rigor assuming they do address wearability at all. These results demonstrate the need for the wearables community to recognize the functional importance of wearability and its necessity to the design process.,1
+We present RetailOpt,1
+a novel opt-in,1
+easy-to-deploy system for tracking customer movements offline in indoor retail environments. The system uses readily accessible information from customer smartphones and retail apps,1
+store maps,1
+and purchase records. This eliminates the need for additional hardware installations/maintenance and ensures customers full data control. Specifically,1
+RetailOpt first uses inertial navigation to recover relative trajectories from smartphone motion data. The store map and purchase records are cross-referenced to identify a list of visited shelves,1
+providing anchors to localize the relative trajectories in a store through continuous and discrete optimization. We demonstrate the effectiveness of our system in five diverse environments. The system,1
+if successful,1
+would produce accurate customer movement data,1
+Embracer: A Wearable Encountered-Type Haptic Controller for 3 DoF Input and Feedback,1
+Efficient and Robust Heart Rate Estimation Approach for Noisy Wearable PPG Sensors Using Ideal Representation Learning,1
+We introduce MunchSonic,1
+an AI-powered active acoustic sensing system integrated into eyeglasses to track fine-grained dietary actions. MunchSonic emits inaudible ultrasonic waves from the eyeglass frame,1
+with the reflected signals capturing detailed positions and movements of body parts,1
+jaw,1
+arms,1
+and hands involved in eating. These signals are processed by a deep learning pipeline to classify six actions: hand-to-mouth movements for food intake,1
+chewing,1
+drinking,1
+talking,1
+face-hand touching,1
+and other activities,1
+MunchSonic achieved a 93.5% macro F1-score in a user-independent evaluation with a 2-second resolution in tracking these actions,1
+also demonstrating its effectiveness in tracking eating episodes and food intake frequency within those episodes.,1
+we iteratively designed and optimized the workshop format,1
+which consists of a hands-on tutorial,1
+a group-making process,1
+This paper introduces three lip-based product biosensors as novel form factors for health monitoring that display pH levels through color variation. Using the unique properties of lip-based products such as different colors,1
+easy application and reapplication on lips,1
+interaction with saliva,1
+lip tint,1
+and lip gloss. We created a mobile app with a Convolutional Neural Network,1
+eight different lighting conditions,1
+blending self-expression with health awareness.,1
+Electroencephalogram,1
+maintaining performance across diverse user populations remains challenging due to feature distribution drift. This paper presents an effective approach to address this challenge by implementing a lightweight and efficient on-device learning engine for wearable motor imagery recognition. The proposed approach,1
+applied to the well-established EEGNet architecture,1
+enables real-time and accurate adaptation to EEG signals from unregistered users. Leveraging the newly released low-power parallel RISC-V-based processor,1
+GAP9 from Greeenwaves,1
+and the Physionet EEG Motor Imagery dataset,1
+we demonstrate a remarkable accuracy gain of up to 7.31% with respect to the baseline with a memory footprint of 15.6 KByte. Furthermore,1
+by optimizing the input stream,1
+we achieve enhanced real-time performance without compromising inference accuracy. Our tailored approach exhibits inference time of 14.9 ms and 0.76 mJ per single inference and 20 us and 0.83 uJ per single update during online training. These findings highlight the feasibility of our method for edge EEG devices as well as other battery-powered wearable AI systems suffering from subject-dependant feature distribution drift.,1
+Student engagement plays a vital role in academic success with high engagement often linked to positive educational outcomes. Traditionally,1
+student engagement is measured through self-reports,1
+we examined physiological synchrony at the intra-student level across various courses. We also assessed how different courses influence physiological responses and identified consistent temporal patterns. Our findings show unique physiological response patterns among students,1
+enhancing our understanding of student engagement dynamics. This opens up possibilities for tailoring educational strategies based on unobtrusive sensing data to optimize learning outcomes.,1
+Transportation mode detection,1
+when using a larger dataset and multiple sensor modalities,1
+models trained on Simulation Real IMU perform better. However,1
+multimodal sensor studies,1
+provided they have sufficient budget and time. However,1
+the more cost and time-efficient Virtual IMU can be a viable alternative in scenarios using basic sensors.,1
+In recent years,1
+the diversity of earphone designs,1
+and the obstruction of the eardrum by the audio hardware components. Therefore,1
+to understand the trade-offs in accuracy between different sensor positions in and around the ears,1
+we contribute the first systematic comparison of locations around the ear. Based on related work,1
+existing earable form factors,1
+and a pre-study with thermal ear images from four subjects,1
+we selected five positions to compare to tympanic temperature: concha,1
+ear canal and three positions spread behind the ear. Subsequently,1
+we developed a custom earable with six optical temperature sensors that can measure all positions simultaneously. In a study with 12 participants at room temperature and settled isothermal conditions,1
+we find that compared to the tympanic membrane,1
+the mean temperature difference was 0.30 °C colder at the concha,1
+and 0.6 °C colder at positions behind the ear. Exposing participants to varying environmental conditions and physical movements resulted in unreliable measurements which could not be calibrated.,1
+Self-recording eating behaviors is a step towards a healthy lifestyle recommended by many health professionals. However,1
+the current practice of manually recording eating activities using paper records or smartphone apps is often unsustainable and inaccurate. Smart glasses have emerged as a promising wearable form factor for tracking eating behaviors,1
+but existing systems primarily identify when eating occurs without capturing details of the eating activities,1
+we present EchoGuide,1
+an application and system pipeline that leverages low-power active acoustic sensing to guide head-mounted cameras to capture egocentric videos,1
+enabling efficient and detailed analysis of eating activities. By combining active acoustic sensing for eating detection with video captioning models and large-scale language models for retrieval augmentation,1
+EchoGuide intelligently clips and analyzes videos to create concise,1
+relevant activity records on eating. We evaluated EchoGuide with 9 participants in naturalistic settings involving eating activities,1
+demonstrating high-quality summarization and significant reductions in video data needed,1
+paving the way for practical,1
+capitalizing on its rich activity annotations. However,1
+generating IMU data from videos presents challenges for HAR in real-world settings,1
+attributed to the poor quality of synthetic IMU data and its limited efficacy in subtle,1
+fine-grained motions. In this paper,1
+we propose Multi³Net,1
+our novel multi-modal,1
+multitask,1
+and contrastive-based framework approach to address the issue of limited data. Our pretraining procedure uses videos from online repositories,1
+aiming to learn joint representations of text,1
+pose,1
+and IMU simultaneously. By employing video data and contrastive learning,1
+our method seeks to enhance wearable HAR performance,1
+especially in recognizing subtle activities. Our experimental findings validate the effectiveness of our approach in improving HAR performance with IMU data. We demonstrate that models trained with synthetic IMU data generated from videos using our method surpass existing approaches in recognizing fine-grained activities.,1
+Neural network models have demonstrated exceptional performance in wearable human activity recognition,1
+we introduce a novel HAR model architecture named Multi-Layer Perceptron-HAR,1
+which contains solely fully connected layers. This model is specifically designed to address the unique characteristics of HAR tasks,1
+such as multi-modality interaction and global temporal information. The MLP-HAR model employs fully connected layers that alternately operate along the modality and temporal dimensions,1
+enabling multiple fusions of information across these dimensions. Our proposed model demonstrates comparable performance with other state-of-the-art HAR models on six open-source datasets,1
+while utilizing significantly fewer learnable parameters and exhibiting lower model complexity. Specifically,1
+the complexity of our model is at least ten times smaller than that of the TinyHAR model and several hundred times smaller than the benchmark model DeepConvLSTM. Additionally,1
+due to its purely fully connected layer-based architecture,1
+MLP-HAR offers the advantage of ease of deployment. To substantiate these claims,1
+comparing it against other state-of-the-art HAR models.,1
+Occupation information can be utilized by digital assistants to provide occupation-specific personalized task support,1
+task planning,1
+as many individuals switch between multiple occupations daily,1
+current solutions falter without continuous user input. To address this,1
+this study introduces WorkR,1
+a framework that leverages passive sensing to capture pervasive signals from various task activities,1
+addressing three challenges: the lack of a passive sensing architecture,1
+personalization of occupation characteristics,1
+movements,1
+social interactions,1
+and the environment can inform a user's occupation. WorkR uses a Variational Autoencoder,1
+context-rich activity and task log dataset demonstrate that our models can accurately infer occupations with more than 91% accuracy across six ISO occupation categories.,1
+Pioneering Cooperative Air-Ground Instant Delivery using UAVs and Crowdsourced Couriers,1
+DermaGlow: Objective Quantification of Melanin,1
+Erythema and Skin-tone Using Wearable Optical Spectroscopy,1
+Respiration Rate Estimation via Smartwatch-based Photoplethysmography and Accelerometer Data: A Transfer Learning Approach,1
+How We Type with Word Suggestions: Understanding Visual Attention and Checking Behavior during Mobile Text Input,1
+Watch Out! E-scooter Coming Through!: Multimodal Sensing of Mixed Traffic Use and Conflicts Through Riders' Ego-centric Views,1
+Ask Less,1
+Learn More: Adapting Ecological Momentary Assessment Survey Length by Modeling Question-Answer Information Gain,1
+Are We in the Zone? Exploring the Features and Method of Detecting Simultaneous Flow Experiences Based on EEG Signals,1
+SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions,1
+Gesture Builder: Flexible Gesture Customization and Efficient Recognition on VR Devices,1
+LEGO: Synthesizing IoT Device Components Based on Static Analysis and Large Language Models,1
+TravelTales: Reflecting on Meaningful Travel through Digital Scrapbooking and Journaling,1
+Investigating Perspectives of and Experiences with Low Cost Commercial Fitness Wearables,1
+SenLoRa: Integrated Sensing and Communication with Ambient LoRa,1
+DrHouse: An LLM-empowered Diagnostic Reasoning System through Harnessing Outcomes from Sensor Data and Expert Knowledge,1
+PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose Estimation in Activities,1
+WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition,1
+RingBP: Towards Continuous,1
+Comfortable,1
+and Generalized Blood Pressure Monitoring Using a Smart Ring,1
+FoRM: Foot-driven Reconstruction of Human Motion Using Dual-Modal Plantar Pressure and Inertial Sensing,1
+TRAMBA: A Hybrid Transformer and Mamba Architecture for Practical Audio and Bone Conduction Speech Super Resolution and Enhancement on Mobile and Wearable Platforms,1
+Presentation quality assessment through audience 3D facial and head direction using conventional cameras,1
+rTsfNet: A DNN Model with Multi-head 3D Rotation and Time Series Feature Extraction for IMU-based Human Activity Recognition,1
+HabitSense: A Privacy-Aware,1
+AI-Enhanced Multimodal Wearable Platform for mHealth Applications,1
+“I would still use it but I wouldn't trust it”: Evaluating Mechanisms for Transparency and Control for Smart-Home Sensors,1
+mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model,1
+SynthCAT: Synthesizing Cellular Association Traces with Fusion of Model-Based and Data-Driven Approaches,1
+Map as a By-product: Collective Landmark Mapping from IMU Data and User-provided Texts in Situated Tasks,1
+Closed-Loop Rhythmic Haptic Biofeedback via Smartwatch for Relaxation and Sleep Onset,1
+Contactless Fine-grained Cardiac Events Detection and Segmentation with Radio Frequency Signals,1
+Shakyani Jayasiriwardene,1
+Benjamin Tag,1
+Anusha Withana,1
+Zhanna Sarsenbayeva,1
+Heatables: Effects of Infrared-LED-Induced Ear Heating on Thermal Perception,1
+Comfort,1
+and Cognitive Performance,1
+GLOSS: Group of LLMs for Open-ended Sensemaking of Passive Sensing Data for Health and Wellbeing,1
+XRF V2: A Dataset for Action Summarization with Wi-Fi Signals,1
+and IMUs in Phones,1
+Watches,1
+Earbuds,1
+and Glasses,1
+MM-RunAssist: mmWave-based Respiratory and Running Rhythm Analysis during Treadmill Workouts,1
+SPECal: Spatial Calibration Based on Self-Pose-Estimation Between mmWave Radar and Camera,1
+Past,1
+Present,1
+and Future of Sensor-based Human Activity Recognition using Wearables: A Surveying Tutorial on a Still Challenging Task,1
+AdsDP: A Video Dataset for Recognizing and Examining Dark Patterns in iOS In-App Advertisements,1
+MIMIC: AI and AR-enhanced Multi-Modal,1
+Immersive,1
+Relative Instruction Comprehension,1
+Mindfulness Meditation and Respiration: Accelerometer-based Respiration Rate and Mindfulness Progress Estimation to Enhance App Engagement and Mindfulness Skills,1
+Ethical Disengagement in Mobile Games: The Effects of Loading Delay and Grayscale on User Engagement,1
+Laytex: A Data-Driven Tool for Automated and Customized Textile Sensor Layout Design in Motion Capture,1
+Yiwen Feng,1
+Jiayang Zhao,1
+John Sadik,1
+Scott Ruoti,1
+Subaru Atsumi,1
+Kota Tsubouchi,1
+Kaoru Sezaki,1
+Chao Wang,1
+Derck Chu,1
+Marieke Martens,1
+Sheng Lyu,1
+Lei Wang,1
+Xingwei Wang,1
+Xi Zhang,1
+Xiaolei Ma,1
+Yu Zhang,1
+Tao Gu,1
+Haipeng Dai,1
+Yang Wang,1
+Zhou Heng,1
+Takuya Maekawa,1
+Vineet Parikh,1
+Qikang Liang,1
+Ashwin Ajit,1
+Dongliang Ma,1
+Zhiqiang Wei,1
+Yifan Guo,1
+Yangqian Lei,1
+Kazuhiro Shinoda,1
+Sylvain Malacria,1
+Fabrice Matulic,1
+Koji Yatani,1
+Chunhua Chen,1
+Hao Yuan,1
+Bingqing Qu,1
+Pragya Singh,1
+Ankush Gupta,1
+Mohan Kumar,1
+Pushpendra Singh,1
+Maximilian Reiser,1
+Oliver Amft,1
+Andreas Breidenassel,1
+Rajashekar Reddy Chinthalapani,1
+Dhairya Jigar Shah,1
+Nobel Ang,1
+Ambuj Varshney,1
+Brandon Woodard,1
+Margarita Geleta,1
+Joseph J. LaViola Jr.,1
+Andrea Fanelli,1
+Rhonda Wilson,1
+Daniel A. Adler,1
+Yuewen Yang,1
+David C. Mohr,1
+Anna R. van Meter,1
+Julia C. Tartaglia,1
+Nicholas C. Jacobson,1
+Fei Wang,1
+Deborah Estrin,1
+Qing Zhang,1
+Junyu Chen,1
+Yifei Huang,1
+Jing Huang,1
+Kai Kunze,1
+Jun Rekimoto,1
+Binghao Li,1
+Xin Wang,1
+Yiran Zhao,1
+Olzhas Yessenbayev,1
+Jatin Arora,1
+Jane Wang,1
+Pedro Lopes,1
+Alexander T. Adams,1
+Avery Gump,1
+Jingyu Xin,1
+Nina R. Benway,1
+Jonathan L. Preston,1
+Change Liu,1
+Jianxiao Jiang,1
+Tiaoao Yang,1
+Bingda Tang,1
+Yingtian Shi,1
+Chen Liang,1
+Pragnya Ramjee,1
+Bhuvan Sachdeva,1
+Satvik Golechha,1
+Shreyas Kulkarni,1
+Geeta Fulari,1
+Phuc Duc Nguyen,1
+Yimin Dai,1
+Xiao-Li Li,1
+Kaijie Xiao,1
+Fu Li,1
+Weifeng Xu,1
+Pengzhi Chen,1
+Yiqin Zhao,1
+Mallesham Dasari,1
+Tian Guo,1
+Qiling Xu,1
+Binbin Xie,1
+Xianjin Xia,1
+Lu Wang,1
+Alina Schepers,1
+Yu Xiao,1
+Zeyu Wang,1
+Ruotong Yu,1
+Jiexin Ding,1
+Jiankai Tang,1
+Jun Fang,1
+Zhe He,1
+Zhuojun Li,1
+Weiye Xu,1
+Xiyuxing Zhang,1
+Huan-ang Gao,1
+Nan Gao,1
+Yuntao Wang,1
+Yuxuan Zhou,1
+Huangxun Chen,1
+Ying-Cong Chen,1
+Ni Zhao,1
+Gaole Dai,1
+Huatao Xu,1
+Hyungjun Yoon,1
+Mo Li,1
+Sung-Ju Lee,1
+Justin Luong,1
+Hao Xue,1
+Yongheng Deng,1
+Ningxin He,1
+Xinyi Li,1
+Yaoxue Zhang,1
+Ju Ren,1
+Vaibhav Ganatra,1
+Soumyasis Gun,1
+Pallavi Joshi,1
+Anand Balasubramaniam,1
+Nipun Kwatra,1
+Mingzhi Pang,1
+Kaiying Li,1
+Xun Wang,1
+Wei Wang,1
+Wen Cheng,1
+Dongxu Liu,1
+Yuqing Yin,1
+Pengpeng Chen,1
+Vivian Dsouza,1
+Jeffrey Pronk,1
+Christian Peppelman,1
+Víctor Ignacio Madariaga,1
+Tatiana Pereira-Cenci,1
+Bas Loomans,1
+Przemysław Pawełczak,1
+Rui Lyu,1
+Hang Lei,1
+Langcheng Zhao,1
+Matteo Busso,1
+Andrea Bontempelli,1
+Leonardo Javier Malcotti,1
+Lakmal Meegahapola,1
+Peter Kun,1
+Shyam Diwakar,1
+Chaitanya Nutakki,1
+Marcelo Dario Rodas Britez,1
+Hao Xu,1
+Donglei Song,1
+Salvador Ruiz Correa,1
+Andrea-Rebeca Mendoza-Lara,1
+George Gaskell,1
+Sally Stares,1
+Miriam Bidoglia,1
+Amarsanaa Ganbold,1
+Altangerel Chagnaa,1
+Luca Cernuzzi,1
+Alethia Hume,1
+Ronald Chenú Abente,1
+Roy Alia Asiku,1
+Ivan Kayongo,1
+Daniel Gatica-Perez,1
+Amalia de Götzen,1
+Ivano Bison,1
+Fausto Giunchiglia,1
+Jinhui Ouyang,1
+Yijie Zhu,1
+Hanhui Deng,1
+Jialyu He,1
+Di Wu,1
+Peng Xia,1
+Tianjian Yang,1
+Wangqiu Zhou,1
+Zhi Liu,1
+Xiaoyan Wang,1
+Xiang-Yang Li,1
+Kian Mahmoodi,1
+Yudong Xie,1
+Jiwan Kim,1
+Tianyu Wu,1
+Shaan Chopra,1
+Katherine Juarez,1
+James Fogarty,1
+Sean A. Munson,1
+Ryuta Kotera,1
+Kazuya Murao,1
+Nathan DeVrio,1
+Chris Harrison,1
+Kristina Kirsten,1
+Robin Burchard,1
+Amatya Mackintosh,1
+Marcel Miché,1
+Dorothée Bentz,1
+Klaus Bader,1
+Jannis Behr,1
+Roselind Lieb,1
+Bert Arnrich,1
+Karina Wahl,1
+Yonggeon Lee,1
+Woojin Song,1
+Juhyun Song,1
+Youngtae Noh,1
+Argha Sen,1
+Nuwan Sriyantha Bandara,1
+Ila Gokarn,1
+Thivya Kandappu,1
+Archan Misra,1
+Yi Li,1
+Jingyi Ning,1
+Yu He,1
+Qiancheng Jin,1
+Ryota Ozaki,1
+Yoshio Shinzaki,1
+Kana Kodama,1
+Kodai Ito,1
+Mai Kamihori,1
+Toshihiro Takeda,1
+Yuichi Itoh,1
+Ko Watanabe,1
+Ankur Bhatt,1
+Joanna Sorysz,1
+Russel Torah,1
+Hongliu Yang,1
+Xusheng Zhang,1
+Zizhou Fan,1
+Wanru Ning,1
+Zijun Han,1
+Hossein Khayami,1
+Lining Wang,1
+Young-Ho Kim,1
+Bongshin Lee,1
+David E. Conroy,1
+Amanda Lazar,1
+Hernisa Kacorri,1
+Haiyan Hu,1
+Shanwen Chen,1
+Chengzhen Meng,1
+Chenming He,1
+Dequan Wang,1
+Yuxuan Xiao,1
+Lingyu Wang,1
+Xiaoran Fan,1
+Lu Zhang,1
+Yanyong Zhang,1
+Jong Ho Lee,1
+Sunghoon Ivan Lee,1
+Qiyu Li,1
+Jinhe Wen,1
+Haojian Jin,1
+Jiaxin Li,1
+Ka Ho Chiu,1
+Handi Yin,1
+Weipeng Zhuo,1
+Chul-Ho Lee,1
+S.-H. Gary Chan,1
+Towhidul Islam,1
+Md. Mahedi Hasan Rigan,1
+Md Olid Hasan Bhuiyan,1
+Tanzima Hashem,1
+Md. Mahbubur Rahman,1
+Zhixiang He,1
+Jing Chen,1
+Cong Wu,1
+Kun He,1
+Ruiying Du,1
+Ju Jia,1
+Yangyang Gu,1
+Xiping Sun,1
+Yuezhong Wu,1
+Wei Song,1
+Jiankun Hu,1
+Kaylee Yaxuan Li,1
+Yichen Zhu,1
+Hyunmin Park,1
+Jueun Lee,1
+Martin Flipe,1
+Youngji Koh,1
+Chanhee Lee,1
+Eunki Joung,1
+Hyunsoo Lee,1
+Dessa Bergen-Cico,1
+Mengying Li,1
+Florian Wolling,1
+David Kostolani,1
+Patrick Trollmann,1
+Florian Michahelles,1
+Ziming Wang,1
+Meagan B. Loerakker,1
+Yiqian Wu,1
+Shiwei Yang,1
+Arion Pons,1
+Yuwei Chuai,1
+David Sirkin,1
+Morten Fjeld,1
+Francisco Calatrava,1
+Oscar Mozos,1
+Sharmad Kalpande,1
+Nilesh Kumar Sahu,1
+Haroon R Lone,1
+Hyung Il Yi,1
+Kun-Woo Song,1
+Nihar Sabnis,1
+Andrea Bianchi,1
+Sang Ho Yoon,1
+Yunpeng Feng,1
+Daibo Liu,1
+Wenqiang Jin,1
+Liangyi Gong,1
+Chenxu Zhang,1
+Zhanpeng Jin,1
+Baichen Yang,1
+Xinyi Zhang,1
+Jiaxi Zhang,1
+Zirui Huang,1
+Qiqi Lu,1
+Jin Zhang,1
+Hai Hu,1
+Jianchao Lu,1
+Yuzhe Tian,1
+Yang Zhang,1
+Quan Z. Sheng,1
+Xi Zheng,1
+Changshuo Hu,1
+Dong MaChangshuo Hu,1
+Dong Ma,1
+Maximilian Hopp,1
+Shuli Zhu,1
+Lingkun Li,1
+Xuyu Wang,1
+Qiang Ni,1
+Yuqin Jiang,1
+Hui Gao,1
+Zhaobing Han,1
+Ruipeng Gao,1
+Sourish Gunesh Dhekane,1
+Shruthi K. Hiremath,1
+Harish Haresamudram,1
+Thomas Ploetz,1
+Zhihan Zhang,1
+Puvarin Thavikulwat,1
+Alexander Le Metzger,1
+Yuxuan Mei,1
+Felix Hähnlein,1
+Zachary Englhardt,1
+Gregory D. Abowd,1
+Adriana Schulz,1
+Tingyu Cheng,1
+Vikram Iyer,1
+Aditya Ponnada,1
+Shirlene D. Wang,1
+Jixin Li,1
+Wei-Lin Wang,1
+Genevieve F. Dunton,1
+Donald Hedeker,1
+Stephen S. Intille,1
+Chunliang Li,1
+Mingyue Zhao,1
+Hefeng Quan,1
+Kunpeng Huang,1
+Dongyao Chen,1
+Junying Huang,1
+Xiu-Zhen Guo,1
+Chaojie Gu,1
+Yuchen Miao,1
+Shibo He,1
+Yuanchao Shu,1
+Jiming Chen,1
+Yuqi Su,1
+Shuming Hu,1
+Na Wang,1
+Kaixing Zhao,1
+Yao Jing,1
+Ying Zhang,1
+Ayush Bhardwaj,1
+Ashish Pratap,1
+Edilberto F. Carrizales,1
+Dongbeom Ko,1
+Sungjoo Kang,1
+Jin Ryong Kim,1
+Maisy Lam,1
+Joshua Herrera,1
+Sayed Saad Afzal,1
+Kaichen Zhou,1
+and Fadel Adib,1
+Zhaoxin Chang,1
+Xujun Ma,1
+Pei Wang,1
+Badii Jouaber,1
+Chixiang Wang,1
+Weijia He,1
+Timothy J. Pierson,1
+David Kotz,1
+Meng Xue,1
+Zhixian Wang,1
+Yanjiao Chen,1
+Kui Jiang,1
+Rongrong Zhu,1
+Chi Cheng,1
+Yunpeng Song,1
+Zhongmin Cai,1
+Yifeng Cai,1
+Ziqi Zhang,1
+Ding Li,1
+Yao Guo,1
+Xiangqun Chen,1
+Junbin Ren,1
+Ruihao Zheng,1
+D. She,1
+Y. Bai,1
+Z.-P. Jin,1
+Y. Gao,1
+Mark Cardamis,1
+Yingjian Song,1
+Haotian Xiang,1
+Zixuan Zeng,1
+Jiayu Chen,1
+Yida Zhang,1
+Zaid Farooq Pitafi,1
+He Yang,1
+Qin Lu,1
+Xiang Zhang,1
+Bradley G. Phillips,1
+Fei Dou,1
+WenZhan Song,1
+Qijia Shao,1
+Junxiao Chen,1
+Ho Man Colman Leung,1
+Meiqi Zhao,1
+Ruoyu Xu,1
+Jiting Liu,1
+Lisa Maria Disalvo García,1
+Marie-Pierre St-Onge,1
+Xia Zhou,1
+Qingxin Wei,1
+Jiaming Huang,1
+Michael Küttner,1
+Tobias King,1
+Oliver Bagge,1
+Joseph Paradiso,1
+Christopher Clarke,1
+Changsheng Hu,1
+Yuyang Chen,1
+Dong Chen,1
+Hua Kang,1
+Tarek F. Abdelzaher,1
+Le Kang,1
+Ruotong Yang,1
+Yihui Liu,1
+Hao Cui,1
+Elijah Hopper,1
+Brahmi Dwivedi,1
+Richa Kulkarni,1
+Asha Bhandarkar,1
+Priyanka Rajan,1
+Nathan Eng,1
+Adithya Ramanujam,1
+Charles Ramey,1
+Scott M. Gilliland,1
+Celeste Mason,1
+Caitlyn Seim,1
+Riku Arakawa,1
+Jill Fain Lehman,1
+Mayank Goel,1
+Chenggao Li,1
+Junyao Peng,1
+Lin Chen,1
+Yandao Huang,1
+Weibin Cheng,1
+Tahera Hossain,1
+Mohammad Saiedur Rahaman,1
+Keiko Yamashita,1
+Kono Aoi,1
+Ma Guowei,1
+Oyama Shintaro,1
+Takuro Yonezawa,1
+Zhi Wang,1
+Yuhui Chen,1
+Siheng Li,1
+Junqi Ma,1
+Tao Gong,1
+Yu Fu,1
+Yongzhi Huang,1
+Jiayi Zhao,1
+Ruohao Li,1
+Jiawei Li,1
+Jia Sun,1
+Zhiqing Wu,1
+Zisu Li,1
+Ziyan Wang,1
+Ge Lin,1
+Guilin Hu,1
+Hyunchul Lim,1
+Shuyang Nie,1
+Jinseok Oh,1
+Philipp Hallgarten,1
+Verena Jasmin Hallitschke,1
+Enkelejda Kasneci,1
+Tobias Grosse-Puppendahl,1
+Mohammad Kianpisheh,1
+Alex Mariakakis,1
+Khai N. Truong,1
+Naiyu Zheng,1
+Xiaoyi Fan,1
+Cong Zhang,1
+Lei Zhang,1
+Shreshth Tuli,1
+Giuliano Casale,1
+Manuel Roveri,1
+Vijay Kumar Singh,1
+Aryan Walecha,1
+Ashutosh Gera,1
+Rishabh Jay,1
+Arani Bhattacharya,1
+Manru Mary Zhang,1
+Luis Miguel Malenab,1
+Jacky Hao Jiang,1
+Qi Wang,1
+Yuxing Yao,1
+Zilong Wang,1
+Yiyang Wang,1
+Yuxuan Fu,1
+Yixuan Song,1
+Yatong Chen,1
+Chenzhi Hu,1
+Tomoyoshi Kimura,1
+Qinya Li,1
+Shengzhong Liu,1
+Guihai Chen,1
+Kaixin Ji,1
+Danula Hettiachchi,1
+Falk Scholer,1
+Damiano Spina,1
+Chendi Geng,1
+Zhen Chen,1
+Sicong Liu,1
+Amir B Farjadian,1
+Shun Liao,1
+Alicia Kokoszka,1
+Kyle Deholton,1
+Jonathan Hsu,1
+Jonathan Wang,1
+Lawrence Cai,1
+Mark Malhotra,1
+Anupam Pathak,1
+Ming-Zher Poh,1
+Bufang Yang,1
+Yunqi Guo,1
+Lilin Xu,1
+Zhenyu Yan,1
+Hongkai Chen,1
+Guoliang Xing,1
+Tianjun Mo,1
+Boao Chen,1
+Jingping Nie,1
+Yuang Fan,1
+Ziyi Xuan,1
+Minghui Zhao,1
+Runxi Wan,1
+Matthias Preindl,1
+Long Fan,1
+Shiyuan Ma,1
+Yanling Bu,1
+Weibang Pan,1
+Lu Ke,1
+Yanbin Gong,1
+Chi Xu,1
+Shifang Yang,1
+Yunjo Han,1
+Panyu Zhang,1
+Minseo Park,1
+Denghui Song,1
+Xie Zhang,1
+Chengxiao Li,1
+Arooj Zaidi,1
+Giulia Barbareschi,1
+Kai Steven Kunze,1
+Yun Suen Pai,1
+Junichi Yamaoka,1
+Markus Henkel,1
+Steffen Haesler,1
+Hiba Al-Najmi,1
+Frank Hessel,1
+Christian Reuter,1
+Shuning Zhang,1
+Han Chen,1
+Yabo Wang,1
+Yiqun Xu,1
+Jiaqi Bai,1
+Yuanyuan Wu,1
+Shixuan Li,1
+Xin Yi,1
+Chunhui Wang,1
+Hewu Li,1
+Daniel Geißler,1
+Minghui Qiu,1
+Cekai Weng,1
+Le Ngu Nguyen,1
+Rainhard Dieter Findling,1
+Maija Poikela,1
+Si Zuo,1
+Luca Jiang-Tao Yu,1
+Running Zhao,1
+Sijie Ji,1
+Edith C. H. Ngai,1
+Guofeng Luo,1
+Junxiang Ji,1
+Yongyi Wu,1
+Ruixiang Luo,1
+Jiaru Wang,1
+Lijuan Weng,1
+Zhuohan Ye,1
+Chenhui Lu,1
+Cheng Wang,1
+Alvise Dei Rossi,1
+Davide Marzorati,1
+Tiziano Gerosa,1
+Radoslava Švihrová,1
+Silvia Santini,1
+Yue Ling,1
+Kaikai Deng,1
+Kangwen Yin,1
+Wenxin Zheng,1
+and Huadong Ma,1
+Tianhao Wu,1
+Yi Wu,1
+Bibek Poudel,1
+Syed Irfan Ali Meerza,1
+Rajasi Gore Athawale,1
+Weizi Li,1
+Zan Gao,1
+Çağdas KarataŞ,1
+Jian Liu,1
+Jiachen Li,1
+Justin Steinberg,1
+Xiwen Li,1
+Akshat Choube,1
+Bingsheng Yao,1
+Dakuo Wang,1
+Elizabeth Mynatt,1
+Varun Mishra,1
+Jingwen Zhu,1
+Pin-Sung Ku,1
+Kaitlyn Beiler,1
+Ruth Zhao,1
+Lily Winagle,1
+Cindy Hsin-Liu Kao,1
+Kai Sun,1
+Renjie Zhao,1
+Weiwei Chen,1
+Wei Gong,1
+Yifei Yang,1
+Michele Pellegrini,1
+Luca Bedogni,1
+Nima Bahmani,1
+Dariush Salami,1
+Hüseyin Yiğitler,1
+Juhapekka Hietala,1
+Yujun Zhu,1
+Danqing Shi,1
+Hee-Seung Moon,1
+Antti Oulasvirta,1
+Kuang Yuan,1
+Dong Li,1
+Zhehao Li,1
+Lili Qiu,1
+Swarun Kumar,1
+Michael Efraimidis,1
+Katerina Mania,1
+Yumin Kang,1
+Jeongju Park,1
+Seokhyun Hwang,1
+Minwoo Seong,1
+Gwangbin Kim,1
+SeungJun Kim,1
+Liang Wang,1
+Aoyang Chang,1
+Boqun Liu,1
+Pengfei Hu,1
+Jia Liu,1
+Kun Liang,1
+Yaxuan Li,1
+He Hao,1
+Hongli Zeng,1
+Huaizhen Jia,1
+Jianbo Zuo,1
+Jianjun Fan,1
+Luoyu Mei,1
+Qingchuan Zhao,1
+Wenchao Jiang,1
+Kangjie Lu,1
+Tian He,1

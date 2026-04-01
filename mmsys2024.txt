@@ -1,0 +1,85 @@
+Research Tracks
+#7: H. Alimohammadzadeh, S. Zhu, J. Bai, S. Ghandeharizadeh, "Reliability Groups with Standby Flying Light Specks"
+#8: A. Zeynali, M. Hajiesmaili, R. K. Sitaraman, "BOLA360: Near-optimal View and Bitrate Adaptation for 360-degree Video Streaming"
+#12: S. N. Gunkel, R. Hindriks, Y. Shiferaw, S. Dijkstra-Soudarissanane, O. Niamut, "VP9 bitstream-based Tiled Multipoint Control Unit: Scaling simultaneous RGBD user streams in an immersive 3D communication system"
+#13: C. Chen, W. Yin, Z. Huang, S. Shi, "AGiLE: Enhancing Adaptive GOP in Live Video Streaming"
+#16: S. Jin, R. Zhu, A. Hassan, X. Zhu, X. Zhang, Z. M. Mao, F. Qian, Z. Zhang, "OASIS: Collaborative Neural-Enhanced Mobile Video Streaming"
+#17: M. A. Arab, A. Ghorbanpour, M. Hefeeda, "FlexMark: Adaptive Watermarking Method for Images"
+#19: A. Alhilal, Z. Wu, Y. H. Tsui, P. Hui, "FovOptix: Human Vision-Compatible Video Encoding and Adaptive Streaming in VR Cloud Gaming"
+#21: E. Artioli, F. Tashtarian, C. Timmerer, "DIGITWISE: Digital Twin-based Modeling of Adaptive Video Streaming Engagement"
+#22: F. Hechler, M. Rudolph, A. Rizk, "Just-in-Time Transcoding of Live 360° Video Streams"
+#23: M. Josué, D. C. Muchaluat-Saade, M. F. Moreno, "Automatic Preparation of Sensory Effects: Managing Synchronization in Mulsemedia Applications"
+#25: J. Zhao, J. Pan, "Low Latency Live Video Streaming over a Low-Earth-Orbit Satellite Network with DASH"
+#26: M. De Fré, J. van der Hooft, T. Wauters, F. De Turck, "Scalable MDC-Based Volumetric Video Delivery for Real-Time One-to-Many WebRTC Conferencing"
+#32: A. Freeman, K. Mayer-Patel, M. Singh, "Accelerated Event-Based Feature Detection and Compression for Surveillance Video Systems"
+#34: Y. Shi, B. Clement, W. T. Ooi, "QV4: QoE-based Viewpoint-Aware V-PCC-encoded Volumetric Video Streaming"
+#59: E. Skartados, M. K. Yucel, B. Manganelli, A. Drosou, A. Saa-Garriga, "Finding Waldo: Towards Efficient Exploration of NeRF Scene Spaces"
+#71: B. Chen, M. Wu, H. Guo, Z. Yan, K. Nahrstedt, "Vesper: Learning to Manage Uncertainty in Video Streaming"
+#89: J. He, M. Ammar, E. Zegura, E. Halepovic, T. Karagioules, "QoE Metrics for Interactivity in Video Conferencing Applications: Definition and Evaluation Methodology"
+#101: F. Barbato, U. Michieli, M. K. Yucel, P. Zanuttigh, M. Ozay, "A Modular System for Enhanced Robustness of Multimedia Understanding Networks via Deep Parametric Estimation"
+#117: V. George, J. Brandenburg, G. Hege, T. Hinz, A. Wieckowski, B. Bross, T. Schierl, D. Marpe, "Inter-Frame Parallelization in an Open Optimized VVC Encoder"
+#138: X. Xu, S. Liu, R. Darcey, T. Flanagan, C. Nakagawa, S. O'Connor, M. Oliveira, W. Zhang, A. Kuwahara, J. Scovell, M. Claypool, "Study-based Models of Game Player Quality of Experience with Frame Display Variation"
+#154: S. Zoltanski, Ç. Erdem, K. Kousias, O. Alay, C. Griwodz, "How do Users Experience Asynchrony between Visual and Haptic Information?"
+#214: A. Rahmanian, A. Ali-Eldin, S. Amin, H. Gustafsson, "CVF: Cross-Video Filtration on the Edge"
+
+
+Open-source Software and Datasets Track
+#2: T. Malon, S. Chambon, A. Crouzil, L. Lechelek, G. Jalabert, C. Brocard, N. Bernardeau, L. Abadie, B. Sera, T. Hartmann, M. Le Bras, "Ceasefire Hierarchical Weapon Dataset"
+#3: E. J. Kassab, H. M. Solberg, S. Gautam, C. Midoglu, S. S. Sabet, T. Torjusen, M. Riegler, P. Halvorsen, "TACDEC: Dataset for Automatic Tackle Detection in Soccer Game Videos"
+#8: M. Neugebauer, "Nagare Media Engine: Task Error Recovery in MPEG NBMP Workflows Through Event Sourcing"
+#14: C. Bauer, S. Afzal, S. Linder, R. Prodan, C. Timmerer, "GREEM: An Open-Source Energy Measurement Tool for Video Processing"
+#15: A. Freeman, "An Open Software Suite for Event-Based Video"
+#16: J. Zhao, J. Pan, "LENS: A LEO Satellite Network Measurement Dataset"
+#21: H. Amirpour, M. Ghasempour, L. Qu, W. Hamidouche, C. Timmerer, "EVCA: Enhanced Video Complexity Analyzer"
+#24: A. Premkumar, P. T. Rajendran, V. V. Menon, A. Wieckowski, B. Bross, D. Marpe, "QADRA: Quality-Aware Dynamic Resolution Adaptation Framework for Adaptive Video Streaming"
+#26: X. Li, E. Vikberg, B. Cho, Y. Xiao, "Pandia: Open-source Framework for DRL-based Real-time Video Streaming Control"
+#31: B. Chen, J. Zhu, Y. Jiang, Y. Hu, "vRetention: A User Viewing Dataset for Popular Video Streaming Services"
+#32: Y. Xu, J. Du, J. Wang, Y. Ning, S. Zhou, Y. Cao, "Panonut360: A Head and Eye Tracking Dataset for Panoramic Video"
+#48: S. Linder, S. Afzal, C. Bauer, H. Amirpour, R. Prodan, C. Timmerer, "VEED: Video Encoding Energy and CO2 Emissions Dataset for AWS EC2 instances"
+#59: F. Tashtarian, D. Lorenzi, H. Amirpour, S. Afzal, C. Timmerer, "COCONUT: Content Consumption Energy Measurement Dataset for Adaptive Video Streaming"
+#60: M. H. Sarkhoosh, S. Gautam, C. Midoglu, S. S. Sabet, T. Torjusen, P. Halvorsen, "The SoccerSum Dataset for Automated Detection, Segmentation, and Tracking of Objects on the Soccer Pitch"
+#70: G. Li, H. Chiang, Y. Li, S. Shirmohammadi, C. Hsu, "A Driver Activity Dataset with Multiple RGB-D Cameras and mmWave Radars"
+#73: M. Nguyen, S. Vats, X. Zhou, I. Viola, P. Cesar, C. Timmerer, H. Hellwagner, "ComPEQ - MR: Compressed Point Cloud Dataset with Eye-tracking and Quality Assessment in Mixed Reality"
+#82: H. Tampio, J. Räsänen, M. Viitanen, A. Mercat, G. Gautier, J. Vanne, "uvgRTP 3.0: Towards V3C Volumetric Video Communication"
+#83: N. Barone, W. Brescia, L. De Cicco, S. Mascolo, "APEIRON: a Multimodal Drone Dataset Bridging Perception and Network Data in Outdoor Environments"
+#87: S. Baldoni, F. Battisti, F. Chiariotti, F. Mistrorigo, A. B. Shofi, P. Testolina, A. Traspadini, A. Zanella, M. Zorzi, "Questset: A VR Dataset for Network and Quality of Experience Studies"
+#88: A. A. Jabal, A. Alfarrarjeh, S. Alsaggar, R. AbuRumman, K. Abuqaoud, L. Abuhejleh, I. Almatar, S. H. Kim, "StreetLens: An In-Vehicle Video Dataset for Public Facility Monitoring in Urban Streets"
+#92: W. Brescia, P. Gomes, L. Toni, S. Mascolo, L. De Cicco, "MilliNoise: a Millimeter-wave Radar Sparse Point Cloud Dataset in Indoor Scenarios"
+#118: P. Testolina, M. Polese, P. Johari, T. Melodia, "BostonTwin: the Boston Digital Twin for Ray-Tracing in 6G Networks"
+
+
+Technical Demos Track
+#3: Z. Gurel, T. E. Civelek, D. Ugur, Y. K. Erinc, A. C. Begen, "Media-over-QUIC Transport vs. Low-Latency DASH: a Deathmatch Testbed"
+#4: M. De Fré, J. van der Hooft, T. Wauters, F. De Turck, "Demonstrating Adaptive Many-To-Many Immersive Teleconferencing For Volumetric Video"
+#15: P. K. Rachabatuni, F. Principi, P. Mazzanti, M. Bertini, "Context-aware chatbot using MLLMs for Cultural Heritage"
+#42: S. Radler, L. Prüller, E. Artioli, F. Tashtarian, C. Timmerer, "PyStream: Enhancing Video Streaming Evaluation"
+#48: M. Majidi, M. H. Sarkhoosh, C. Midoglu, S. S. Sabet, T. Kupka, D. Johansen, P. Halvorsen, "SmartCrop-H: AI-Based Cropping of Ice Hockey Videos"
+#53: B. Kara, G. Simon, "Power Efficient Multi-CDN Communication over Content Steering Server"
+#75: M. H. Sarkhoosh, S. Gautam, C. Midoglu, S. S. Sabet, P. Halvorsen, "Multimodal AI-Based Summarization and Storytelling for Soccer on Social Media"
+#87: S. Petrangeli, H. Wang, M. Fisher, D. Kozma, M. Mahamli, P. Blumenthal, A. Parsons, "Integrating Content Authenticity with DASH Video Streaming"
+#88: M. Lux, S. Rabung, P. Herrmann, T. Albert, S. Andreas, S. Hohnwald, "Looking Beyond the Screen: Natural Eye Contact as a Key to Relatedness in Teleconferences"
+#90: E. Potetsianakis, E. Alexiou, E. Thomas, "Management And Performance of Multiple Video Decoding Instances in Mobile Devices"
+#100: J. Sameri, S. Van Damme, S. Schwarzmann, Q. Wei, R. Trivisonno, F. De Turck, M. T. Vega, "Collaborative Cooking in VR: Effects of Network Distortion in Multi-User Virtual Environments"
+
+
+Doctoral Symposium Track
+#2: E. Artioli, "Generative AI for HTTP Adaptive Streaming"
+#5: J. Usón, J. Cabrera, "Analysis and Development of Deep Learning Depth Estimation Techniques for Volumetric Capture and Free Viewpoint Video"
+#6: Z. Gurel, "Design and Implementation of a Low-Latency Origin and Relay for Media-over-QUIC Transport"
+#9: C. Carballo Gonzalez, M. Murroni, "Smart radio access selection and slice allocation for differentiated traffic management over 6G heterogeneous networks"
+#10: A. Hirway, Y. Qiao, N. Murray, "Evaluating Visual Attention and QoE for 360° videos with non-spatial and spatial audio"
+#11: M. Hjeij, M. Montagud, D. Rincón, "Multiuser Virtual Experiences powered by Holoportation Technologies and Multimodal Human-Computer Interaction (HCI)"
+
+
+Grand Challenge on Offline Reinforcement Learning for Bandwidth Estimation in Real Time Communications (sponsored by Microsoft)
+#28: B. Lu, K. Wang, J. Xu, L. Song, R. Xie, W. Zhang, "Pioneer: Offline Reinforcement Learning based Bandwidth Estimation for Real-Time Communication"
+#41: W. Zhang, X. Tao, J. Wang, "NAORL: Network Feature Aware Offline Reinforcement Learning for Real Time Bandwidth Estimation"
+#58: S. Khairy, G. Mittag, V. Gopal, F. Y. Yan, Z. Niu, E. Ameri, S. Inglis, M. Golestaneh, R. Cutler, "ACM MMSys 2024 Bandwidth Estimation in Real Time Communications Challenge"
+#76: Q. Tan, G. Lv, X. Fang, J. Zhang, Z. Yang, Y. Jiang, Q. Wu, "Accurate Bandwidth Prediction for Real-Time Media Streaming with Offline Reinforcement Learning"
+#80: E. Cetinkaya, A. Pehlivanoglu, I. U. Ayten, B. Yumakogullari, M. E. Ozgun, Y. K. Erinc, E. Deniz, A. C. Begen, "Offline Reinforcement Learning for Bandwidth Estimation in RTC Using a Fast Actor and Not-So-Furious Critic"
+
+
+Grand Challenge on 360-degree Video on-demand Streaming (sponsored by Bytedance)
+#75: J. Adhuran, M. G. Martini, "Efficient viewport prediction and tiling schemes for 360 degree video streaming"
+#102: R. Xu, C. Liu, M. Hu, S. Qian, Y. Zhang, T. Lin, "OMMS: Multiple Control based Adaptive 360° Video Streaming"
+#109: D. Sheng, B. Gao, G. Liu, Q. Qi, J. Wang, "Efficient Tile-Based Adaptive Streaming for 360-Degree Video-on-Demand Systems"

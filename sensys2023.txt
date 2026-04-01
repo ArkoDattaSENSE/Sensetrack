@@ -1,0 +1,173 @@
+ML for Sensing
+		Lilin Xu, Chaojie Gu, Rui Tan, Shibo He, Jiming Chen:
+MESEN: Exploit Multimodal Data to Design Unimodal Human Activity Recognition with Few Labels. 1-14
+		Tianshi Wang, Jinyang Li, Ruijie Wang, Denizhan Kara, Shengzhong Liu, Davis Wertheimer, Antoni Viros-i-Martin, Raghu K. Ganti, Mudhakar Srivatsa, Tarek F. Abdelzaher:
+SudokuSens: Enhancing Deep Learning Robustness for IoT Sensing Applications using a Generative Approach. 15-27
+		Xingyu Chen, Xinyu Zhang:
+RF Genesis: Zero-Shot Generalization of mmWave Sensing through Simulation-Based Data Synthesis and Generative Diffusion Models. 28-42
+		Huanqi Yang, Mingda Han, Mingda Jia, Zehua Sun, Pengfei Hu, Yu Zhang, Tao Gu, Weitao Xu:
+XGait: Cross-Modal Translation via Deep Generative Sensing for RF-based Gait Recognition. 43-55
+		Yongheng Deng, Sheng Yue, Tuowei Wang, Guanbo Wang, Ju Ren, Yaoxue Zhang:
+FedINC: An Exemplar-Free Continual Federated Learning Framework with Small Labeled Data. 56-69
+		Sicong Liao, Zhenlin An, Qingrui Pan, Xiaopeng Zhao, Jingyu Tong, Lei Yang:
+XiTuXi: Sealing the Gaps in Cross-Technology Communication by Neural Machine Translation. 70-82
+		Xiyuan Zhang, Xiaohan Fu, Diyan Teng, Chengyu Dong, Keerthivasan Vijayakumar, Jiayun Zhang, Ranak Roy Chowdhury, Junsheng Han, Dezhi Hong, Rashmi Kulkarni, Jingbo Shang, Rajesh K. Gupta:
+Physics-Informed Data Denoising for Real-Life Sensing Systems. 83-96
+System Side of Machine Learning
+		Zhihe Zhao, Neiwen Ling, Nan Guan, Guoliang Xing:
+Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU. 97-110
+		Bufang Yang, Lixing He, Neiwen Ling, Zhenyu Yan, Guoliang Xing, Xian Shuai, Xiaozhe Ren, Xin Jiang:
+EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge. 111-124
+		Haolin Chu, Xiaolong Zheng, Liang Liu, Huadong Ma:
+nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms. 125-137
+		Young D. Kwon, Jagmohan Chauhan, Hong Jia, Stylianos I. Venieris, Cecilia Mascolo:
+LifeLearner: Hardware-Aware Meta Continual Learning System for Embedded Computing Platforms. 138-151
+		Bosung Kim, Seulki Lee:
+On-NAS: On-Device Neural Architecture Search on Memory-Constrained Intelligent Embedded Systems. 152-166
+Security & Privacy
+		Yijie Shen, Zhe Ma, Feng Lin, Hao Yan, Zhongjie Ba, Li Lu, Wenyao Xu, Kui Ren:
+FingerFaker: Spoofing Attack on COTS Fingerprint Recognition Without Victim's Knowledge. 167-180
+		Masanori Sugimoto, Shogo Nakamichi, Hiromichi Hashizume:
+One-time Camera Fingerprint: Unauthorized Photography Detection under Modulated Illumination. 181-194
+		Yuxuan Zhou, Chenggao Li, Huangxun Chen, Qian Zhang:
+RIStealth: Practical and Covert Physical-Layer Attack against WiFi-based Intrusion Detection via Reconfigurable Intelligent Surface. 195-208
+		Tanmay Srivastava, Shijia Pan, Phuc Nguyen, Shubham Jain:
+Jawthenticate: Microphone-free Speech-based Authentication using Jaw Motion and Facial Vibrations. 209-222
+Sensing
+		Kai Zheng, Kun Qian, Timothy Woodford, Xinyu Zhang:
+NeuroRadar: A Neuromorphic Radar Sensor for Low-Power IoT Systems. 223-236
+		Pranjol Sen Gupta, Zahidur Talukder, Tasnim Azad Abir, Phuc Nguyen, Mohammad A. Islam:
+Enabling Low-Cost Server-Level Power Monitoring in Data Centers Using Conducted EMI. 237-250
+		Baichen Yang, Qingyong Hu, Wentao Xie, Xinchen Wang, Wei Luo, Qian Zhang:
+PDAssess: A Privacy-preserving Free-speech based Parkinson's Disease Daily Assessment System. 251-264
+		Bangjie Sun, Kanav Sabharwal, Gyuyeon Kim, Mun Choon Chan, Jun Han:
+Testing Masks and Air Filters With Your Smartphones. 265-279
+		Jike Wang, Shanmu Wang, Yasha Iravantchi, Mingke Wang, Alanson P. Sample, Kang G. Shin, Xinbing Wang, Chenghu Zhou, Dongyao Chen:
+METRO: Magnetic Road Markings for All-weather, Smart Roads. 280-293
+		Qiang Yang, Yuanqing Zheng:
+AquaHelper: Underwater SOS Transmission and Detection in Swimming Pools. 294-307
+RF Sensing
+		Timothy Woodford, Kun Qian, Xinyu Zhang:
+Metasight: High-Resolution NLoS Radar with Efficient Metasurface Encoding. 308-321
+		Sijie Ji, Xuanye Zhang, Yuanqing Zheng, Mo Li:
+Construct 3D Hand Skeleton with Commercial WiFi. 322-334
+		Subhajit Karmakar, Atsutse Kludze, Yasaman Ghasempour:
+Meta-Sticker: Sub-Terahertz Metamaterial Stickers for Non-Invasive Mobile Food Sensing. 335-348
+Tx/Rx/LoRA
+		Xingda Chen, Ankur Aditya, Zhenyu Lei, Deepak Ganesan:
+CurtainNet: Enabling precise beamforming with a deformable antenna array on a fabric substrate. 349-361
+		Shuai Tong, Jiliang Wang, Jing Yang, Yunhao Liu, Jun Zhang:
+Citywide LoRa Network Deployment and Operation: Measurements, Analysis, and Implications. 362-375
+Localization
+		Yimiao Sun, Yuan He, Jiacheng Zhang, Xin Na, Yande Chen, Weiguo Wang, Xiuzhen Guo:
+BIFROST: Reinventing WiFi Signals Based on Dispersion Effect for Accurate Indoor Localization. 376-389
+		Hao Yan, Feng Lin, Jin Li, Meng Zhang, Zhisheng Yan, Jian Xiao, Kui Ren:
+Ghost-Probe: NLOS Pedestrian Rushing Detection with Monocular Camera for Automated Driving. 390-402
+		Yunfan Wang, Steve Young, Demba Komma, Jaechan Lim, Zhen Feng, Zichen Fan, Chien-Wei Tseng, Hun-Seok Kim, David T. Blaauw:
+Global Localization of Energy-Constrained Miniature RF Emitters using Low Earth Orbit Satellites. 403-416
+		Rong Ding, Haiming Jin, Jianrong Ding, Xiaocheng Wang, Guiyun Fan, Fengyuan Zhu, Xiaohua Tian, Linghe Kong:
+Push the Limit of Single-Chip mmWave Radar-Based Egomotion Estimation with Moving Objects in FoV. 417-430
+		Wenwei Li, Ruofeng Liu, Shuai Wang, Dongjiang Cao, Wenchao Jiang:
+Egocentric Human Pose Estimation using Head-mounted mmWave Radar. 431-444
+		Chenggao Li, Qianyi Huang, Yuxuan Zhou, Yandao Huang, Qingyong Hu, Huangxun Chen, Qian Zhang:
+RIScan: RIS-aided Multi-user Indoor Localization Using COTS Wi-Fi. 445-458
+		Aditya Arun, Shunsuke Saruwatari, Sureel Shah, Dinesh Bharadia:
+XRLoc: Accurate UWB Localization to Realize XR Deployments. 459-473
+Demos
+		Haoxiang Yu, James Xi Zheng, Christine Julien:
+Demo Abstract: HybriSim - A Hybrid Simulation System for Distributed Machine Learning with Mobility. 474-475
+		Marek Jahnke, Sebastian Grau, Ulf Kulau:
+Demo Abstract: SatelLight - Using LiFi for Intra-Satellite Communication. 476-477
+		Yihong Li, Yue Zhang, Hao-Chuan Wang, Alyssa Mae Weakley, Shijia Pan:
+Demo Abstract: PA-Pill : Physical Augmented Pill bottle for Vibration-Based Medication Intake Monitoring. 478-479
+		Chien-Ti Hsiao, Pei-Shin Hwang, Polly Huang, Kate Ching-Ju Lin, Ling-Jyh Chen:
+Demo Abstract: Polyband - A Carbon Polymer Wristband for Hand Gesture Recognition. 480-481
+		Jiahe Zhang, Tamoghna Sarkar, Arvin Hekmati, Bhaskar Krishnamachari:
+Demo Abstract: CUDDoS - Correlation-aware Ubiquitous Detection of DDoS in IoT Systems. 482-483
+		Shalini Mukhopadhyay, Swarnava Dey, Arpan Pal, Ashwin S:
+Demo Abstract: Lightweight Attention Network for Time Series Classification on Edge. 484-485
+		Zhigang Yin, Mohan Liyanage, Abdul-Rasheed Ottun, Farooq Dar, Mayowa Olapade, Huber Flores:
+Demo Abstract: A Smart Ring Monitoring Your Health using Hand-grip Strength. 486-487
+		Mengyao Liu, Fan Yang, Sam Michiels, Tom Van Eyck, Danny Hughes, Said Alvarado-Marin, Filip Maksimovic, Thomas Watteyne:
+Demo Abstract: FreeBot, a Battery-Free Swarm Robotics Platform. 488-489
+		Wenhan Long, Xinlong Wen, Rongbo Zhu:
+Demo Abstract: Real-Time 3D Indoor Localization with Multi-Dimensional RSSI on Mobile Robot. 490-491
+		Darshana Rathnayake, Dulanga Weerakoon, Meera Radhakrishnan, Vigneshwaran Subbaraju, Inseok Hwang, Archan Misra:
+Demo Abstract: VGGlass - Demonstrating Visual Grounding and Localization Synergy with a LiDAR-enabled Smart-Glass. 492-493
+		Varsha Sharma, Avik Ghose:
+Demo Abstract: Atrial Fibrillation Burden Computation from Single-Lead ECG on Device. 494-495
+		Zicong Wen, Wei Emma Zhang, Lipin Guo, Weitong Chen:
+Demo Abstract: Navigating Indoors: A Cost-effective Drone-based Solution. 496-497
+		Steven Waskito, Kai Jie Leow, Pramuka Medaranga Sooriya Patabandige, Tejas Gupta, Shantanu Chakrabarty, Manoj Gulati, Ambuj Varshney:
+Demo Abstract: Light and Vibration Gesture Sensing with OTTER: Embedded Data Collection and Analysis Using LLMs. 498-499
+		Iliar Rabet, Inés Álvarez, Hossein Fotouhi, Mohammad Ashjaei:
+Demo Abstract: Towards Interoperability in a Hybrid TSN/6TiSCH Network. 500-501
+Posters
+		Kenta Higuchi, Junichiro Kadomoto, Hidetsugu Irie, Shuichi Sakai:
+Poster Abstract: Investigation of Distance Sensing Method Using Magnetic Resonant Coupled Coils for Deformable User Interfaces. 502-503
+		Zhihe Zhao, Neiwen Ling, Kaiwei Liu, Nan Guan, Guoliang Xing:
+Poster Abstract: Unifying On-device Tensor Program Optimization through Large Foundation Model. 504-505
+		Grzegorz Klosowski, Tomasz Rymarczyk, Manuchehr Soleimani:
+Poster Abstract: The Concept of a Lightweight Ultrasound Tomograph for Brain Scanning Using a Heterogeneous Neural Model. 506-507
+		Rei Barjami, Antonio Miele, Luca Mottola:
+Poster Abstract: Energy vs. Quality of Approximate Non-volatile Writes in Intermittent Computing. 508-509
+		Tomasz Rymarczyk, Mariusz Mazurek, Oleksii Hyka, Dariusz Wójcik, Marcin Dziadosz, Marcin Kowalski:
+Poster Abstract: A Wearable for Non-Invasive Monitoring and Diagnosing Functional Disorders of the Lower Urinary Tract. 510-511
+		Ziyang Zhang, Yang Zhao, Jie Liu:
+Poster Abstract: E4: Energy-Efficient Early-Exit DNN Inference Framework for Edge Video Analytics. 512-513
+		Zhizhang Hu, Shangjie Du, Yuning Chen, Xuan Zhang, Wan Du, Asa Bradman, Shijia Pan:
+Poster Abstract: Enhancing Fault Resilience of Air Quality Monitoring in San Joaquin Valley: A Data Equity Analysis. 514-515
+		Yue Zhang, Shikha Patel, Dong Yoon Lee, Paolo Celli, Amelie Bonde, Shijia Pan:
+Poster Abstract: LEVO: LEGO® Bricks Enhanced Single-Point Vibration Sensing for Occupant Monitoring. 516-517
+		Markus Gallacher, Carlo Alberto Boano, M. S. Arun Sankar, Utz Roedig, Willian T. Lunardi, Michael Baddeley:
+Poster Abstract: Towards Speaker Identification on Resource-Constrained Embedded Devices. 518-519
+		Monika Kulisz, Grzegorz Klosowski, Tomasz Rymarczyk, Konrad Niderla, Piotr Bednarczuk:
+Poster Abstract: Improving Image Reconstruction Quality in Ultrasonic Tomography Using Deep Neural Networks. 520-521
+		Zheng Wang, Yanwen Wang, Xiaoqi Sun, Chenwei Zhang:
+Poster Abstract: UltraFlame: Ultrasonic-Based Fire Source Localization and Fire Severity Assessment System. 522-523
+		Qipeng Xie, Hao Yang, Linshan Jiang, Zhihe Zhao, Siyang Jiang, Shiyu Shen, Salabat Khan, Zhe Liu, Kaishun Wu:
+Poster Abstract: CNN-guardian: Secure Neural Network Inference Acceleration on Edge GPU. 524-525
+		Rong Cong, Zhiwei Zhao, Linyuanqi Zhang, Cong Zha:
+Poster Abstract: Link-adaptive and Real-time Object Detection in Dynamic Edge Networks. 526-527
+		Akio Sashima, Mitsuru Kawamoto:
+Poster Abstract: Mobile Context Logger: Recognizing User's Auditory Environments and Activities using Smartwatch. 528-529
+		Xiangyu Wen, Zhaoguang Yi, Francisco Zampella, Firas Alsehly, Chris Xiaoxuan Lu:
+Poster Abstract: Multimodal Indoor Localization Using Crowdsourced Radio Maps. 530-531
+		Hafiz Areeb Asad, Frank Alexander Kraemer, Kerstin Bach, Christian Renner:
+Poster Abstract: Towards Autonomous Utility-Aware Energy Management for Energy Harvesting Devices. 534-535
+		Xiang Su, Luyi Sun, Pan Hui:
+Poster Abstract: Multi-User Privacy-Preserving Mechanism for Extended Reality in Healthcare. 536-537
+		Zhiyu An, Xianzhong Ding, Wan Du:
+Poster Abstract: Data Efficient HVAC Control using Gaussian Process-based Reinforcement Learning. 538-539
+		Tao Wang, Yang Zhao, Jie Liu:
+Poster Abstract: Person Identification Under Heavy Occlusions Using mmWave Radar. 540-541
+		Mingyu Park, Jeongyeup Paek:
+Poster Abstract: Frequency-Hopped Chirp Spread Spectrum for Collision Resolution in LoRa Network. 542-543
+		Dongha Kim, Hokeun Kim:
+Poster Abstract: Securing Edge-Based Real-Time IoT Systems. 544-545
+		Preti Kumari, Hari Prabhat Gupta, Biplab Sikdar:
+Poster Abstract: Efficient Knowledge Distillation to Train Lightweight Neural Network for Heterogeneous Edge Devices. 546-547
+		Yukiya Mita, Hiroaki Murakami, Takuya Sasatani, Matthew Ishige, Yoshihiro Kawahara:
+Poster Abstract: Enhancing Fingerprint-based Smartphone Localization Using Acoustic Time-of-Flight for Complex Indoors. 548-549
+		Moonbeom Kim, Jeongyeup Paek:
+Poster Abstract: Multi-Connection Scheduling based on Connection Subrating for Fair Resource Allocation in Bluetooth Low Energy Networks. 550-551
+		Tomoki Isoda, Koki Saida, Taku Yamazaki, Takumi Miyoshi:
+Poster Abstract: Preliminary Study of Gamified 3D Mobile Sensing Using LiDAR-equipped Mobile Devices. 552-553
+		Junichiro Kadomoto, Hidetsugu Irie, Shuichi Sakai:
+Poster Abstract: Towards a Tiny Digital Displacement Sensor Utilizing Bit-Error Characteristics of Inter-Chip Wireless Bus. 554-555
+
+w3c valid html last updated on 2026-03-31 23:20 CEST by the dblp team
+
+cc zero all metadata released as open data under CC0 1.0 license
+
+see also: Terms of Use | Privacy Policy | Imprint
+
+dblp was originally created in 1993 at:
+
+University of Trier  
+since 2018, dblp has been operated and maintained by:
+
+Schloss Dagstuhl - Leibniz Center for Informatics  
+the dblp computer science bibliography is funded and supported by:
+
+BMFTR   RLP   SL   Leibniz   DFG   NFDI  

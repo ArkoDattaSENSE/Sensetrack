@@ -1,0 +1,20 @@
+{
+  "input_csv": "/home/arko/Devstuff/PhD/Paper Topic Dump -- what is the world up to nowadays/cleaned/accepted_papers.csv",
+  "paper_count": 2902,
+  "conference_count": 13,
+  "conferences": [
+    "CoNEXT",
+    "INFOCOM",
+    "MMSys",
+    "MobiCom",
+    "MobiHoc",
+    "MobiSys",
+    "NSDI",
+    "PerCom",
+    "SIGCOMM",
+    "SIGSPATIAL",
+    "SSRR",
+    "SenSys",
+    "UbiComp"
+  ]
+}

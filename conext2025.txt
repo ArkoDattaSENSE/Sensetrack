@@ -1,0 +1,199 @@
+Tuesday, 2nd, Dec 2025
+9:00 - 9:30: Welcome
+9:30 - 10:55 Session 1: Measurement & Network Characterization
+Session chair: Thomas Schmidt, Hochschule für Angewandte Wissenschaften Hamburg
+FAT-INT: Frequency-Aware and Item-Wise In-band Network Telemetry Long
+Heewon Kim; Chanbin Bae; Junkyu Hong (Korea University); Haneol Ko (Kyung Hee University); Sangheon Pack (Korea University); DongJin Lee (SK Telecom)
+Unveiling IPv6 Scanning Dynamics Long
+Hammas Bin Tanveer (The University of Iowa); Echo Chan (Akamai/Hong Kong Polytechnic University); Ricky K. P. Mok (CAIDA/UC San Diego); Sebastian Kappes (Max Planck Institute for Informatics); Philipp Richter (Akamai Technologies); Oliver Gasser (IPinfo); John Ronan (Walton Institute); Arthur Berger (Akamai Technologies/MIT); kc Claffy (UC San Diego, United States)
+Demystifying Performance of eBPF Network Applications Long
+Farbod Shahinfar; Sebastiano Miano (Politecnico di Milano); Aurojit Panda (NYU); Gianni Antichi (Politecnico di Milano & Queen Mary University of London)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+MoonEm — High-Precision Path Property Emulation using DPDK Long
+Stefan Lachnit; Sebastian Gallenmüller; Eric Hauser; Florian Wiedner; Kilian Holzinger; Henning Stubbe; Thomas Senftl; Georg Carle (Technical University of Munich)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+SepaNet: Towards Practical Large-Scale Full-System Simulation for Systems Research Long
+Hejing Li (Max Planck Institute for Software Systems); Marvin Meiers (Saarland University); Jialin Li (National University of Singapore); Antoine Kaufmann (Max Planck Institute for Software Systems)
+10:55 - 11:20 Coffee Break
+11:20 - 12:45 Session 2: Cellular Networks & 5G/6G
+Session chair: Eugen Dedu, UMLP
+OPCM: Opportunistic Performance-driven Connectivity Management for 5G/xG Networks Long Best Community Award Best Community Award
+Ahmad Hassan (University of Southern California); Wei Ye (University of Minnesota); Anlan Zhang (University of Southern California); Rostand A. K. Fezeu; Jason Carpenter (University of Minnesota - Twin Cities); Ruiyang Zhu; Shuowei Jin (University of Michigan); Myungjin Lee; Akshay Jajoo (Cisco Research); Morley Mao (University of Michigan); Zhi-Li Zhang (University of Minnesota, USA); Feng Qian (University of Southern California)
+L4Span: Spanning Congestion Signaling over NextG Networks for Interactive Applications Long
+Haoran Wan; Kyle Jamieson (Princeton University)
+
+
+ACM Artifacts Available v1.1
+Iridescence: Improving Configuration Tuning in the Presence of Confounders for 5G NSA Networks Long
+Changhan Ge (The University of Texas at Austin); Ajay Mahimkar; Zihui Ge; Romeo Fernandez; Joseph Maniaci; Shomik Pathak; Maulik Shah (AT&T)
+A First Large-Scale Study of Operational 5G Standalone Networks Long
+Moinak Ghoshal (Northeastern University); Omar Basit (Purdue University); Sizhe Wang; Phuc Dinh; Imran Khan; Yufei Feng; Zhekun Yu (Northeastern University); Y. Charlie Hu (Purdue University); Dimitrios Koutsonikolas (Northeastern University)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+Vivisecting Beam Management in Operational 5G mmWave Networks Long
+Yufei Feng; Phuc Dinh; Moinak Ghoshal; Eduardo Baena (Northeastern University); Hamza Bouchebbah (Kaizen Tech); Dimitrios Koutsonikolas (Northeastern University)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+12:45 - 14:00 Lunch - Location: China Gardens
+14:00 - 15:00: SIGCOMM Rising Star
+Session chair: Andra Lutu
+The Three Faces of Networking
+Speaker: Prof. Ang Chen (Associate Professor, University of Michigan, Ann Arbor.)
+15:00 - 15:30 Coffee Break + Posters
+16:00 - 17:20 Session 3: Routing, and Reliability
+Session chair: Gareth Tyson, The Hong Kong University of Science and Technology
+Scalable and Interpretable Overlay Network Checking via Ensemble Verification Long
+Xinzhe Liu; Yahui Li; Han Zhang; Xia Yin; Xingang Shi; Zhiliang Wang;Gang Ren; Jilong Wang (Tsinghua University); Jiangyuan Yao (Hainan University)
+The New (Pareto) Frontier of Cloud Routing: High Availability, Precise Control, or Stable — Choose Two Long Best Paper Award
+Jiangchen Zhu; Ethan Katz-Bassett (Columbia University); Tom Koch (Google); Matt Calder (Meta); Italo Cunha (Universidade Federal de Minas Gerais); Kevin Vermeulen (CNRS, Ecole Polytechnique); Shuyue Yu; Ilgar Mammadov (Columbia University)
+Transient Forwarding Anomalies and How to Find Them Long
+Roland Schmid; Tibor Schneider; Georgia Fragkouli; Laurent Vanbever(ETH Zurich)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1
+Secure and Efficient RDMA NIC Cryptography Offloading for Memory Disaggregation Short
+Wonsup Yoon; Sue Moon (KAIST)
+A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals Long
+Isabell Egloff; Raphael Hiesgen (HAW Hamburg); Maynard Koch (TU Dresden); Thomas C. Schmidt (HAW Hamburg); Matthias Wählisch (TU Dresden)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+17:20 - 17:40 Sponsor Event by Huawei
+Student Dinner - Location: China Gardens
+Wednesday 03rd, Dec 2025
+9:00 - 10:15: Keynote Session
+Session chair: Kai Chen
+Keynote: Computing transformation: From large language model to agentic AI
+Keynote Speaker: Dr. TAN Kun (Chief Scientist of Central Software Institute, Huawei)
+10:15 - 11:20 Session 4: Security and Cloud
+Session chair: Sangheon Pack, Korea University
+MorphOS: An Extensible Networked Operating System Long
+Peter Okelmann; Ilya Meignan--Masson; Masanori Misono; Pramod Bhatotia (Technical University of Munich (TUM))
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+Inside Job: Defending Kubernetes Clusters Against Network Misconfigurations Long
+Jacopo Bufalino (Aalto University, CNAM); Jose Luis Martin Navarro (Aalto University, Universitat Politecnica de Valencia); Mario Di Francesco; Tuomas Aura (Aalto University)
+Scanning the IPv6 Internet Using Subnet-Router Anycast Probing Short
+Maynard Koch (TU Dresden); Raphael Hiesgen (Hamburg University of Applied Sciences); Marcin Nawrocki (NETSCOUT); Thomas C. Schmidt (Hamburg University of Applied Sciences); Matthias Wählisch (TU Dresden)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+Spotlight: Shining a Light on Pivot Attacks Using In-network Computing Long
+Carson Kuzniar (Dalhousie University); Hyojoon Kim (University of Virginia); Israat Haque (Computer Science, Dalhousie University)
+11:20 - 11:45 Coffee Break
+11:45 - 12:50 Session 5: Wireless and Measurement
+Session chair: Dimitrios Koutsonikolas, Northeastern University
+Vivisecting Starlink Throughput: Measurement and Prediction Long
+Zikun Liu; Fan Gabriella Xue (University of Illinois Urbana-Champaign);Sarah Tanveer (University of Wisconsin-Madison); Deepak Vasisht (University of Illinois Urbana-Champaign)
+Bridging Data Gaps: Enhancing Wireless Localization with Physics-Informed Data Augmentation Short
+Md Mumtahin Habib Ullah Mazumder (University of Utah); Frost Mitchell (Intel Corporation); Aditya Bhaskara; Sneha Kumar Kasera; Neal Patwari (University of Utah)
+
+
+ACM Artifacts Available v1.1
+Black-Box Evasion Attacks on Data-Driven Open RAN Apps: Tailored Design and Experimental Evaluation Long
+Pranshav Gajjar (North Carolina State University); Molham Khoja (University of Edinburgh); Abiodun Ganiyu; Vijay K Shah (North Carolina State University); Marc Juarez; Mahesh Marina (University of Edinburgh); Andrew Lehane (6G Research R&D, Keysight Technologies)
+End-to-End Coordination of RAN and Edge Server for Latency-Critical Inference Serving over Cellular Networks Long
+Sunghyun Jin; Serae Kim (Seoul National University); Sangtae Ha (University of Colorado Boulder); Kyunghan Lee (Seoul National University)
+12:50 - 14:00 Lunch - Location: China Gardens
+14:00 - 15:15 Session 6: Scheduling and Resource Management
+Session chair: Chen Qian, UCSC
+Exp-PIFO: Scalable and Efficient Programmable Packet Scheduling Long
+Habib Mostafaei (Eindhoven University of Technology); Mohammad Ezzati (TU Berlin); Pieter J. L. Cuijpers (Eindhoven University of Technology); Stefan Schmid (TU Berlin); Gábor Rétvári (Budapest University of Technology and Economics); Sem Borst (Eindhoven University of Technology (TU/e))
+
+
+ACM Artifacts Available v1.1
+Cost-efficient Request Mapping for Large-scale Live Streaming Services Long
+Yu Tian (Institute of Computing Technology, University of Chinese Academy of Sciences); Zhenyu Li (ICT, CAS); Matthew Yang Liu (Bilibili Inc.); Qinghua Wu (ICT/CAS); Zhaoxue Zhong; Ao Li (Bilibili Inc.); Jiaxing Zhang; Gerui Lv (ICT, CAS); Chuanqing Lin (ICT, CAS; UCAS, China); Xi Wang; Jian Mao (Bilibili Inc.); Gareth Tyson (HKUST); Jie Xiong (Nanyang Technological University); Zhenhua Li (Tsinghua University); Gaogang Xie (CNIC CAS; UCAS, China)
+Oceanus: Scheduling Traffic Flows to Achieve Cost-Efficiency under Uncertainties in Large-Scale Edge CDNs Long
+Chuanqing Lin; Gerui Lv (UCAS, China); Fuhua Zeng; Hanlin Yang; Junwei Li; Xiaodong Li; Jingyu Yang (Alibaba Group); Yu Tian (University of Chinese Academy of Sciences); Qinghua Wu; Zhenyu Li (UCAS, China);Gaogang Xie (CNIC CAS; UCAS, China)
+T(SN)-Ray: Gauging TAS and PSFP Delays of TSN Switches for Predictable Deterministic Networking Long
+Manuel Eppler (Siemens AG, University of Tuebingen); Lukas Osswald (University of Tuebingen); Nikolaos Mitsakis (Siemens AG, University of Kassel); Andreas Blenk (Siemens AG); Michael Menth (University of Tuebingen)
+15:15 - 16:30 Session 7: IPv6, Measurement, and Security
+Session chair: Matthias Wählisch, TU Dresden
+Towards Understanding City-Level Routing using BGP Location Communities Short
+Thomas Krenc (IIJ Research Laboratory, Japan); Shivani Hariprasad (UC San Diego, United States); Matthew Luckie (UC San Diego, United States); Benoit Donnet (University of Liège, Belgium); kc Claffy (UC San Diego, United States)
+The Aleph: Decoding DNS PTR Records With Large Language Models Long
+Kedar Thiagarajan; Esteban Carisimo; Fabián Bustamante (Northwestern University)
+KnapsackLB: Enabling Performance-Aware Layer-4 Load Balancing Long
+Rohan Gandhi (Microsoft); Srinivas Narayana Ganapathy (Rutgers University)
+Maestro: QoE-Aware Dynamic Resource Allocation in Wi-Fi Networks Long
+Umakant Kulkarni (Purdue University); Khaled Diab; Lianjie Cao; Faraz Ahmed; Shivang Aggarwal; Puneet Sharma (Hewlett Packard Labs); Sonia Fahmy (Purdue University)
+16:30 - 17:00 Coffee Break
+17:00 - 18:00 Community Session
+Banquet - Location: Harbour Cruise - Bauhinia
+Thursday 04th, Dec 2025
+09:30 - 10:55 Session 8: Wireless, Mobile, and Edge
+Session chair: Ajay Mahimkar, AT&T
+SpectraCert: A Hierarchical System for Dynamic Spectrum License Enforcement Long
+Ryan W. West; Dustin Maas; Jacobus Van der Merwe; David M. Johnson (University of Utah)
+LiVo: Toward Bandwidth-adaptive Fully-Immersive Volumetric Video Conferencing Long
+Rajrup Ghosh; Christina Suyong Shin (University of Southern California); Lei Zhang (ByteDance); Muyang Ye (University of Southern California); Tao Jin (Carnegie Mellon University); Harsha V. Madhyastha (University of Southern California); Ravi Netravali (Princeton University); Antonio Ortega (University of Southern California); Sanjay Rao (Purdue University); Anthony Rowe (Carnegie Mellon University); Ramesh Govindan (University of Southern California)
+
+
+ACM Artifacts Available v1.1
+Faro: a scalable and reliable outage detection algorithm for IoT Mobile Virtual Network Aggregators Long
+Mattia Milani (Nokia); Viktoria Vomhoff (University of Wuerzburg); Dario Bega (Nokia Bell Labs); Marco Gramaglia (Universidad Carlos III de Madrid); Stefan Geißler (University of Wuerzburg); Csaba Karsai (EMnify GmbH); Pablo Serrano (Universidad Carlos III de Madrid)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1
+AraOptical System and Testbed for Long-Range, High-Capacity FSOC in Rural Wireless X-Haul Networks Long
+Md Nadim (Iowa State University); Xun Li (University of California, Irvine); Salil Reddy (Ohio State University); Sarath Babu; Arsalan Ahmad (Iowa State University); Ozdal Boyraz (University of California - Irvine); Daji Qiao (Iowa State University); Anish Arora (The Ohio State University); Hongwei Zhang (Iowa State University)
+EyeNexus: Adaptive Gaze-Driven Quality and Bitrate Streaming for Seamless VR Cloud Gaming Experiences Long
+Ze Wu (The Hong Kong University of Science and Technology); Ahmad Alhilal (Aalto University); Yuk Hang Tsui (The Hong Kong University of Science and Technology); Matti Siekkinen (Aalto University); Pan Hui (The Hong Kong University of Science and Technology)
+10:55 - 11:25 Coffee Break
+11:25 - 12:50 Session 9: Cloud, Middleboxes, and Network Hardware
+Session chair: Gianni Antichi, Queen Mary University of London
+ASNI: Redefining the interface between SmartNICs and applications Long
+Nikita Tyunyayev; Clément Delzotti (UCLouvain); Haggai Eran (NVIDIA);Tom Barbette (UCLouvain, Belgium)
+NetFridgeS: Enabling Dynamic Frequency Scaling on Network Switches through Carbon-Aware Routing Long
+Zhukun Wang; Noa Zilberman (University of Oxford)
+SwitchNIC: Tightly-Coupled Heterogeneous Platform to Accelerate Network Functions Long
+Yiran Lei (Carnegie Mellon University); Francisco Chamiça Pereira (INESC-ID, Instituto Superior Técnico, University of Lisbon); Arvind Krishnamurthy (University of Washington); Justine Sherry (Carnegie Mellon University)
+
+
+ACM Artifacts Available v1.1
+Harmonics: Scalable Collective Scheduling in Multi-Tenant GPU Clusters Long
+Hossein Shafieirad; Amir Shani; Manaf Bin-Yahya; Seyed Hossein Mortazavi (Huawei Technologies Canada); Geng Li (China Telecom); Xinle Du; Su Tao; Wei Wang; Jingbin Zhou (Huawei Technologies China); Majid Ghaderi (University of Calgary)
+JITI: Dynamic Model Serving for Just-in-Time Traffic Inference Long
+Xi Jiang; Shinan Liu (University of Chicago); Saloua Naama (Université Savoie Mont Blanc); Francesco Bronzino (École Normale Supérieure de Lyon);Paul Schmitt (Cal Poly); Nick Feamster (University of Chicago)
+12:50 - 14:00: Lunch - Location: China Gardens
+14:00 - 15:20 Session 10: Transport Layer, QUIC, and Scheduling
+Session chair: Dirk Kutscher, The Hong Kong University of Science and Technology (Guangzhou)
+Taurus: Towards A High-Performance and Generic Congestion Control Framework for Datacenter Networks Long
+Luyang Li (Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences); Heng Pan (Computer Network Information Center, Chinese Academy of Sciences); Pengyi Zhang (Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences); Kai Lv (Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences); Zilong Wang; Xinchen Wan (Hong Kong University of Science and Technology); Dai Zhang; Xiaolong Zhong; Haoran Wei; Lichao Liu; Huichen Dai (Douyin Vision Co., Ltd.); Qingsong Ning (Unaffiliated); Xin Wei; Shideng Zhang (Douyin Vision Co., Ltd.); Hongtao Guan; Zhenyu Li (ICT, CAS); Gaogang Xie (CNIC CAS; UCAS, China)
+Waiting for QUIC: Passive Measurements to Understand QUIC Deployments Long
+Jonas Mücke (TU Dresden); Marcin Nawrocki (NETSCOUT); Raphael Hiesgen (HAW Hamburg); Patrick Sattler (BENOCS GmbH & Technical University of Munich); Johannes Zirngibl (Max Planck Institute for Informatics); Georg Carle (Technical University of Munich); Jan Luxemburk (FIT CTU & CESNET); Thomas C. Schmidt (HAW Hamburg); Matthias Wählisch (TU Dresden)
+QUIC Steps: Evaluating Pacing Strategies in QUIC Implementations Short
+Marcel Kempf; Simon Tietz; Benedikt Jaeger; Johannes Späth; Georg Carle (Technical University of Munich); Johannes Zirngibl (Max Planck Institute for Informatics)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+Shooting Large-scale Traffic Engineering by Combining Deep Learning and Optimization Approach Long
+Chenyi Liu; Haotian Deng (Tsinghua University); Vaneet Aggarwal (Purdue University); Yuan Yang; Mingwei Xu (Tsinghua University)
+A Holistic Approach to Non-Terrestrial 5G Networking with LEO Satellites: Algorithms, Experiments and Insights Long
+Neil Matson (Georgia Institute of Technology); Karthik Sundaresan (Georgia Tech); Yu-Tai Lin (Georgia Institute of Technology)
+15:20 - 15:50 Coffee Break
+15:50 - 17:00 Session 11: DNS, Measurement, and Analytics
+Session chair: Kevin Vermeulen, CNRS, Ecole Polytechnique
+GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection Long
+Hugo Rimlinger (Sorbonne Université); Olivier Fourmaux (LIP6, Sorbonne Université - CNRS); Timur Friedman (Sorbonne Université); Kevin Vermeulen (CNRS, Ecole Polytechnique)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1 ACM Results Reproduced v1.1
+ECSeptional DNS Data: Evaluating Nameserver ECS Deployments with Response-Aware Scanning Long
+Patrick Sattler (Technical University of Munich); Johannes Zirngibl (Max Planck Institute for Informatics); Fahad Hilal (Max Planck Institute for Informatics); Oliver Gasser (IPinfo); Kevin Vermeulen (CNRS, Ecole Polytechnique); Georg Carle (Technical University of Munich); Mattijs Jonker (University of Twente)
+
+
+ACM Artifacts Available v1.1 ACM Artifacts Evaluated - Functional v1.1
+VCCAnalyzer: Identifying Congestion Control Algorithms used by Video Streaming Services Short
+Darshil Kaneria; Ranysha Ware; Srinivasan Seshan (Carnegie Mellon University)
+An Empirical Analysis of the Nostr Social Network Long
+Yiluo Weil; Gareth Tyson (The Hong Kong University of Science and Technology (Guangzhou))
+17:00 - 17:15 Closing Remarks

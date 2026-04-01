@@ -1,0 +1,311 @@
+Monday, Nov 18, 2024
+Welcome Reception
+19:00 - 20:30
+Tuesday, Nov 19, 2024
+Opening Remarks
+8:15 - 8:30
+Keynote 1: Conversing with the Brain by Jan Rabaey
+(University of California at Berkeley)
+Session Chair: Deepak Ganesan
+8:30 - 9:30
+Session 1: Satellite and Rural Communications
+Session Chair: Akshay Gadre
+9:30 - 10:30
+CosMAC: Constellation-Aware Medium Access and Scheduling for IoT Satellites
+Jayanth Shenoy, Om Chabra (University of Illinois Urbana-Champaign), Tusher Chakraborty, Suraj Jog (Microsoft Research), Deepak Vasisht (University of Illinois Urbana-Champaign), Ranveer Chandra (Microsoft Research)
+LoRaTrimmer: Optimal Energy Condensation with Chirp Trimming for LoRa Weak Signal Decoding
+Jialuo Du, Yunhao Liu (Tsinghua University), Yidong Ren (Michigan State University), Li Liu (Tsinghua University), Zhichao Cao (Michigan State University)​
+SateRIoT: High-performance Ground-Space Networking for Rural IoT
+Yidong Ren (Michigan State University), Amalinda Gamage (Nanyang Technological University), Li Liu (Michigan State University), Mo Li (The Hong Kong University of Science and Technology and Nanyang Technological University), Shigang Chen (University of Florida), Younsuk Dong, Zhichao Cao (Michigan State University)
+Stable Hierarchical Routing for Operational LEO Networks
+Yuanjie Li, Lixin Liu, Hewu Li, Wei Liu, Yimei Chen, Wei Zhao, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai (Tsinghua University)
+Deciphering the Enigma of Satellite Computing with COTS Devices: Measurement and Analysis
+Ruolin Xing, Mengwei Xu, Ao Zhou (Beijing University of Posts and Telecommunications), Qing Li (Peking University), Yiran Zhang (Beijing University of Posts and Telecommunications), Feng Qian (University of Southern California), Shangguang Wang (Beijing University of Posts and Telecommunications)
+Session 2: Edge and Cloud Computing
+Session Chair: Hui Guan
+11:00 - 12:00
+Asteroid: Resource-Efficient Hybrid Pipeline Parallelism for Collaborative DNN Training on Heterogeneous Edge Devices
+Shengyuan Ye, Liekang Zeng (Sun Yat-sen University), Xiaowen Chu (Data Science and Analytics Thrust, HKUST(GZ)), Guoliang Xing (The Chinese University of Hong Kong), Xu Chen (Sun Yat-sen University)
+FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices
+Xiangyu Li, Yuanchun Li, Yuanzhe Li (Institute for AI Industry Research (AIR), Tsinghua University), Ting Cao (Microsoft Research), Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University)
+Delta: A Cloud-assisted Data Enrichment Framework for On-Device Continual Learning
+Chen Gong, Zhenzhe Zheng, Fan Wu (Shanghai Jiao Tong University), Xiaofeng Jia (Beijing Big Data Centre), Guihai Chen (Shanghai Jiao Tong University)
+CloudRIC: Open Radio Access Network (O-RAN) Virtualization with Shared Heterogeneous Computing
+Leonardo Lo Schiavo (IMDEA Networks Institute and Universidad Carlos III de Madrid), Gines Garcia-Aviles (i2CAT Foundation), Andres Garcia-Saavedra (NEC Laboratories Europe GmbH), Marco Gramaglia (Universidad Carlos III de Madrid), Marco Fiore (IMDEA Networks Institute), Albert Banchs (IMDEA Networks Institute and Universidad Carlos III de Madrid), Xavier Costa-Perez (NEC Laboratories Europe GmbH, i2CAT Foundation and ICREA)
+SpotLight: Accurate, Explainable and Efficient Anomaly Detection for Open RAN
+Chuanhao Sun, Ujjwal Pawar, Molham Khoja (The University of Edinburgh), Xenofon Foukas (Microsoft), Mahesh Marina (The University of Edinburgh), Bozidar Radunovic (Microsoft)
+Test-of-Time Award Talk 1:
+Paper: Agile Application-aware Adaptation for Mobility, Brian D. Noble, M. Satyanarayanan, Dushyanth Narayanan, James Eric Tilton, Jason Flinn, and Kevin R. Walker, ACM SOSP, 1997.
+Session Chair: Sung-Ju Lee
+12:00 - 12:20
+Session 3: LLMs and Mobile AI
+Session Chair: Charlie Hu
+14:00 - 15:00
+Mobile Foundation Model as Firmware
+Jinliang Yuan, Chen Yang, Dongqi Cai, Shihe Wang, Xin Yuan, Zeling Zhang, Xiang Li, Dingge Zhang, Hanzi Mei, Xianqing Jia, Shangguang Wang, Mengwei Xu (Beijing University of Posts and Telecommunications)
+MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation
+Sunjae Lee, Junyoung Choi, Jungjae Lee, Munim Hasan Wasi (School of Computing, KAIST, Daejeon, Korea, Republic of), Hojun Choi (KAIST, Daejeon, Korea, Republic of), Steve Ko (Simon Fraser University, Canada), Sangeun Oh (Korea University, Seoul, Korea, Republic of), Insik Shin (School of Computing, KAIST & Fluiz, Daejeon, Korea, Republic of)
+Turbocharge Speech Understanding with Pilot Inference
+Rongxiang Wang, Felix Xiaozhu Lin (University of Virginia)
+MELTing point: Mobile Evaluation of Language Transformers
+Stefanos Laskaridis, Kleomenis Katevas, Lorenzo Minto (Brave Software), Hamed Haddadi (Imperial College London and Brave Software)
+AutoDroid: LLM-powered Task Automation in Android
+Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu (Institute for AI Industry Research (AIR), Tsinghua University), Toby Jia-Jun Li (Department of Computer Science and Engineering, University of Notre Dame), Shiqi Jiang (Microsoft Research), Yunhao Liu (Global Innovation Exchange & Department of Automation, Tsinghua University), Yaqin Zhang, Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University)​
+Session 4: Millimeter-Wave Applications
+Session Chair: Yasaman Ghasempour
+15:00 - 16:00
+Crowd Analytics with a Single mmWave Radar
+Anurag Pallaprolu, Phillip Peng, Shaan Sandhu, Winston Hurst, Yasamin Mostofi (University of California, Santa Barbara)
+Enabling On-Demand Low-Power mmWave Repeaters via Passive Beamforming
+Tianxiang Li, Mohammad Hossein Mazaheri, Omid Abari (UCLA)
+AutoMS: Automated Service for mmWave Coverage Optimization using Low-cost Metasurfaces
+Ruichun Ma (Yale), Shicheng Zheng (USTC), Hao Pan (MSRA), Lili Qiu (MSRA, UT Austin), Xingyu Chen (UCSD), Liangyu Liu (USTC), Yihong Liu (University of Glasgow), Wenjun Hu (Yale), Ju Ren (Tsinghua)
+Hydra: Exploiting Multi-Bounce Scattering for Beyond-Field-of-View mmWave Radar
+Nishant Mehrotra, Divyanshu Pandey (Rice University), Akarsh Prabhakara, Yawen Liu, Swarun Kumar (Carnegie Mellon University), Ashutosh Sabharwal (Rice University)
+Around the Corner mmWave Imaging in Practical Environments
+Laura Dodds (MIT), Hailan Shanbhag, Junfeng Guan (EPFL), Saurabh Gupta (UIUC), Haitham Hassanieh (EPFL)​
+Session 5: Advances in Wireless Sensing
+Session Chair: Elahe Soltanaghai
+16:30 - 17:30
+WiProfile: Unlocking Diffraction Effects for Sub-Centimeter Target Profiling Using Commodity WiFi Devices
+Zhiyun Yao, Xuanzhi Wang (School of Computer Science, Peking University), Kai Niu (Beijing Xiaomi Mobile Software Company Ltd.), Rong Zheng (Dept. of Computing and Software, McMaster University), Junzhe Wang (School of Computer Science, Peking University), Daqing Zhang (School of Computer Science, Peking University and SAMOVAR, Telecom SudParis, IP Paris)
+MSense: Boosting Wireless Sensing Capability Under Motion Interference
+Zhaoxin Chang (Telecom SudParis, Institut Polytechnique de Paris), Fusang Zhang (Institute of Software, Chinese Academy of Sciences and University of Chinese Academy of Sciences), Jie Xiong (Microsoft Research Asia and University of Massachusetts Amherst), Weiyan Chen (China Mobile Research Institute), Daqing Zhang (Telecom SudParis, Institut Polytechnique de Paris and Peking University)
+Practical Adversarial Attack on WiFi Sensing Through Unnoticeable Communication Packet Perturbation
+Changming Li (Rutgers University), Mingjing Xu (Temple University), Yicong Du, Limin Liu (University of Electronic Science and Technology of China), Cong Shi (New Jersey Institute of Technology), Yan Wang (Temple University), Hongbo Liu (University of Electronic Science and Technology of China), Yingying Chen (Rutgers University)
+SiWiS: Fine-grained Human Detection Using Single WiFi Device
+Kunzhe Song, Qijun Wang, Shichen Zhang, Huacheng Zeng (Michigan State University)
+Enabling Visual Recognition at Radio Frequency
+Haowen Lai, Gaoxiang Luo, Yifei Liu, Mingmin Zhao (University of Pennsylvania)
+Posters & Demos
+17:30 - 19:00
+N2Women Dinner Meeting
+18:30 - 20:30
+Wednesday, Nov 20, 2024
+Keynote 2: Carrier Sense Multiple Access (CSMA)
+by Fouad Tobagi
+Session Chair: Ashutosh Sabharwal
+8:30 - 9:30
+Session 6: Mobile Health and Biomedical Applications
+Session Chair: VP Nguyen
+9:30 - 10:30
+Exploring Biomagnetism for Inclusive Vital Sign Monitoring: Modeling and Implementation
+Xiuzhen Guo, Long Tan (Zhejiang University), Tao Chen (University of Pittsburgh), Chaojie Gu, Yuanchao Shu, Shibo He (Zhejiang University), Yuan He (Tsinghua University), Jiming Chen (Zhejiang University), Longfei Shangguan (University of Pittsburgh)
+Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones
+Tao Chen, Yongjie Yang (University of Pittsburgh), Xiaoran Fan (Google), Xiuzhen Guo (Zhejiang University), Jie Xiong (University of Massachusetts Amherst and Microsoft Research Asia), Longfei Shangguan (University of Pittsburgh)
+ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital Biomarkers of Alzheimer's Disease
+Xiaomin Ouyang, Xian Shuai, Yang Li, Li Pan, Xifan Zhang, Heming Fu, Sitong Cheng, Xinyan Wang, Shihua Cao, Jiang Xin, Hazel Mok, Zhenyu Yan (The Chinese University of Hong Kong), Doris Sau Fung Yu (The University of Hong Kong), Timothy Kwok, Guoliang Xing (The Chinese University of Hong Kong)
+Neuralite: Enabling Wireless High-Resolution Brain-Computer Interfaces
+Hongyao LIU, Junyi Wang, Liuqun Zhai, Yuguang Fang, Jun Huang (City University of Hong Kong)
+MetaBioLiq: A Wearable Passive Metasurface Aided mmWave Sensing Platform for BioFluids
+Baicheng Chen, John Nolan, Xinyu Zhang (University of California San Diego)
+Session 7: Novel RF Sensing Technologies
+Session Chair: Mingmin Zhao
+11:00 - 12:00
+RF-Egg: An RF Solution for Fine-Grained Multi-Target and Multi-Task Egg Incubation Sensing
+Zehua Sun, Tao Ni, Yongliang Chen, Di Duan, Kai Liu, Weitao Xu (City University of Hong Kong)
+Fine-grained Textile Moisture Sensing with Commodity UWB
+Chi Lin, Zhaohe Wang (Dalian University of Technology), Jie Xiong (University of Massachusetts Amherst), Fengqi Li (Dalian Jiaotong University), Guowei Wu (Dalian University of Technology)
+GPSense: Passive Sensing with Pervasive GPS Signals
+Huixin Dong (HuaZhong University of Science and Technology), Minhao Cui (UMASS Amherst), Ning Wang (HuaZhong University of Science and Technology), Lili Qiu (UT Austin, MSR Asia Shanghai), Jie Xiong (MSR Asia and University of Massachusetts Amherst), Wei Wang (Huazhong University of Science and Technology)
+Gastag: A Gas Sensing Paradigm using Graphene-based Tags
+Xue Sun (Northwest University), Jie Xiong (Microsoft Research Asia and University of Massachusetts Amherst), Chao Feng, Xiaohui Li, Jiayi Zhang, Binghao Li, Dingyi Fang, Xiaojiang Chen (Northwest University)
+Cost-Effective Soil Carbon Sensing with Wi-Fi and Optical Signals
+Jian Ding (Yale University), Ranveer Chandra (Microsoft), Rattan Lal (Ohio State University), Leandros Tassiulas (Yale University)
+Test-of-Time Award Talk 2:
+Paper: "ArrayTrack: A Fine-Grained Indoor Location System," Jie Xiong and Kyle Jamieson, USENIX NSDI, 2013.
+Session Chair: Sung-Ju Lee
+12:00 - 12:20
+Session 8: Underwater and Acoustic Technologies
+Session Chair: Rong Zheng
+14:00 - 15:00
+SURF: Eavesdropping on Underwater Communications from the Air
+Poorya Mollahosseini (Princeton University), Sayed Saad Afzal, Fadel Adib (Massachusetts Institute of Technology), Yasaman Ghasempour (Princeton University)
+SeaScan: An Energy-Efficient Underwater Camera for Wireless 3D Color Imaging
+Nazish Naeem, Jack Rademacher, Ritik Patnaik, Tara Boroushaki, Fadel Adib (Massachusetts Institute of Technology)
+UWBeacon: Lighting up Centimeter-Level Underwater Positioning
+Chi Lin, Jianan Lin (Dalian University of Technology), Jie Xiong (University of Massachusetts Amherst), Qiwei Wang, Lei Wang, Guowei Wu, Xin Fan, Zhongxuan Luo (Dalian University of Technology)
+MuDiS: An Audio-independent, Wide-angle, and Leak-free Multi-directional Speaker
+Yijie Li (SJTU), Juntao Zhou (SJTU), Dian Ding (SJTU), Yi-Chao Chen (SJTU), Lili Qiu (MSRA, UT Austin), Jiadi Yu (SJTU), Guangtao Xue (SJTU)
+WavePurifier: Purifying Audio Adversarial Examples via Hierarchical Diffusion Models
+Hanqing Guo (Michigan State University, University of Hawaii at Manoa), Guangjing Wang, Bocheng Chen, Yuanda Wang (Michigan State University), Xiao Zhang (Duke University), Xun Chen (Samsung Research America), Qiben Yan, Li Xiao (Michigan State University)
+Session 9: Novel Imaging and Display Technologies
+Session Chair: Bo Han
+15:00 - 16:00
+MeatSpec: Enabling Ubiquitous Meat Fraud Inspection through Consumer-Level Spectral Imaging
+Haiyan HU, Yinan ZHU (HKUST), Baichen Yang (Hong Kong University of Science and Technology), Hua Kang (Noah's Ark Lab, Huawei), Shanwen CHEN, Qian ZHANG (HKUST)
+LightPure: Realtime Adversarial Image Purification for Mobile Devices Using Diffusion Models
+Hossein Khalili, Seongbin Park, Vincent Li, Brandan Bright (UCLA), Ali Payani, Ramana Rao Kompella (Cisco Systems), Nader Sehatbakhsh (UCLA)
+An End-to-End, Low-Cost, and High-Fidelity 3D Video Pipeline for Mobile Devices
+Tiancheng Fang, Chaoyue Niu, Yujie Sun (Shanghai Jiao Tong University), Chengfei Lv (Zhejiang University & Alibaba Group), Xiaotang Jiang, Ben Xue (Alibaba Group), Fan Wu, Guihai Chen (Shanghai Jiao Tong University)
+Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices
+Kai Huang, Xiangyu Yin (University of Pittsburgh), Tao Gu (Macquarie University), Wei Gao (University of Pittsburgh)
+GazeTrak: Exploring Acoustic-based Eye Tracking on a Glass Frame
+Ke Li, Ruidong Zhang, Boao Chen, Siyuan Chen (Cornell University), Sicheng Yin (University of Edinburgh), Saif Mahmud, Qikang Liang, Francois Guimbretiere, Cheng Zhang (Cornell University)
+Social Events & Banquet
+16:00 - 21:30
+Thursday, Nov 21, 2024
+Session 10: Advanced Machine Learning for Mobile Systems
+Session Chair: Lu Su
+8:30 - 9:30
+ParallelSFL: A Novel Split Federated Learning Framework Tackling Heterogeneity Issues
+Yunming Liao, Yang Xu, Hongli Xu, Zhiwei Yao, Liusheng Huang (University of Science and Technology of China), Chunming Qiao (SUNY at Buffalo)
+LATTE: Layer Algorithm-aware Training Time Estimation for Heterogeneous Federated Learning
+Kun Wang, Zimu Zhou, Zhenjiang Li (City University of Hong Kong)
+αLiDAR: An Adaptive High-Resolution Panoramic LiDAR System
+Jiahe Cui (Beihang University, The Chinese University of Hong Kong), Yuze He (The Chinese University of Hong Kong), Jianwei Niu, Zhenchao Ouyang (Beihang University), Guoliang Xing (The Chinese University of Hong Kong)
+Binary Optical Machine Learning: Million-Scale Physical Neural Networks with Nano Neurons
+Xueyuan Yang, Zhenlin An, Qingrui Pan, Lei Yang (The Hong Kong Polytechnic University), Dangyuan Lei, Yulong Fan (City University of Hong Kong)
+RF-Diffusion: Radio Signal Generation via Time-Frequency Diffusion
+Guoxuan Chi, Zheng Yang (Tsinghua University), Chenshu Wu (The University of Hong Kong), Jingao Xu (Tsinghua University), Yuchong Gao (Beijing University of Posts and Telecommunications), Yunhao Liu (Tsinghua University), Tony Xiao Han (Huawei Technologies Co., Ltd.)
+Session 11: Vehicular and Autonomous Systems
+Session Chair: Deepak Vasisht
+9:30 - 10:30
+AeroBridge: Autonomous Drone Handoff System for Emergency Battery Service
+Avishkar Seth, Alice James, Endrowednes Kuantama, Richard Han, Subhas Mukhopadhyay (Macquarie University)
+Malicious Attacks against Multi-Sensor Fusion in Autonomous Driving
+Yi Zhu (SUNY at Buffalo), Chenglin Miao (Iowa State University), Hongfei Xue (University of North Carolina at Charlotte), Yunnan Yu (SUNY at Buffalo), Lu Su (Purdue University), Chunming Qiao (SUNY at Buffalo)
+Map++: Towards User-Participatory Visual SLAM Systems with Efficient Map Expansion and Sharing
+Xinran Zhang, Hanqi Zhu, Yifan Duan (University of Science and Technology of China), Wuyang Zhang (Meta), Longfei Shangguan (University of Pittsburgh), Yu Zhang, Jianmin Ji, Yanyong Zhang (University of Science and Technology of China)
+RECAP: 3D Traffic Reconstruction
+Christina Suyong Shin, Weiwu Pang (University of Southern California), Chuan Li, Fan Bai (General Motors), Fawad Ahmad (Rochester Institute of Technology), Jeongyeup Paek (Chung-Ang University), Ramesh Govindan (University of Southern California)
+Foes or Friends: Embracing Ground Effect for Edge Detection on Lightweight Drones
+Chenyu Zhao, Ciyu Ruan (Tsinghua University), Jingao Xu (Carnegie Mellon University), Haoyang Wang, Shengbo Wang, Jirong Zha, Jiaqi Li, Zheng Yang, Yunhao Liu, Xiao-Ping Zhang, and Xinlei Chen (Tsinghua University)
+Session 12: Novel Metasurface Applications
+Session Chair: Akarsh Prabhakara
+11:00 - 12:00
+RFMagus: Programming the Radio Environment With Networked Metasurfaces
+Xinyi Li (Tsinghua University), Gaoteng Zhao, Ling Chen (Northwest University), Xinyu Zhang (University of California San Diego), Ju Ren (Tsinghua University)
+RF-Mediator: Tuning Medium Interfaces with Flexible Metasurfaces
+Ruichun Ma, Wenjun Hu (Yale University)
+Hydra: Attacking OFDM-base Communication System via Metasurfaces Generated Frequency Harmonics
+Yangfan Zhang (Northwest University), Yaxiong Xie (University at Buffalo), Zhihao Hui, Hao Jia, Xiaojiang Chen (Northwest University)
+Plug-and-play Indoor GPS Positioning System with the Assistance of Optically Transparent Metasurfaces
+Ruinan Li, Xiaolong Zheng, Liang Liu, Huadong Ma (Beijing University of Posts and Telecommunications)
+GPMS: Enabling Indoor GNSS Positioning using Passive Metasurfaces
+Yezhou Wang (SJTU), Hao Pan (MSRA), Lili Qiu (MSRA, UT Austin), Linghui Zhong (Central South University), Jiting Liu (Columbia), Ruichun Ma (Yale), Yi-Chao Ma (SJTU), Guangtao Xue (SJTU), Ju Ren (Tsinghua)
+Session 13: Next-Generation Mobile Networks
+Session Chair: Mahesh Marina
+14:00 - 15:00
+HORCRUX: Accurate Cross Band Channel Prediction
+Avishek Banerjee, Xingya Zhao, Vishnu Chhabra, Kannan Srinivasan, Srinivasan Parthasarathy (Ohio State University)
+Wireless Latency Shift Keying
+Jacob Johnson, Cody Arvonen, Ashton Palacios, Philip Lundrigan (Brigham Young University)
+M2HO: Mitigating the Adverse Effects of 5G Handovers on TCP
+Zhutian Liu, Qing Deng, Zhaowei Tan, Zhiyun Qian (University of California, Riverside), Xinyu Zhang (University of California San Diego), Ananthram Swami (US Army Research Lab), Srikanth V. Krishnamurthy (University of California, Riverside)
+Mambas: Maneuvering Analog Multi-User Beamforming using an Array of Subarrays in mmWave Networks
+Zhihui Gao (Duke University), Zhenzhou Qi, Tingjun Chen (Duke University)
+Demystifying Privacy in 5G Stand Alone Networks
+Stavros Eleftherakis (IMDEA Networks, Universidad Carlos III de Madrid), Timothy Otim, Giuseppe Santaromita (IMDEA Networks Institute), Almudena Díaz Zayas (University de Málaga), Domenico Giustiniano (IMDEA Networks Institute), Nicolas Kourtellis (Telefonica Research)
+Session 14: Localization and Tracking
+Session Chair: Nirupam Roy
+15:00 - 16:00
+MoiréVision: A Generalized Moiré-based Mechanism for 6-DoF Motion Sensing
+Jingyi Ning, Lei Xie, Zhihao Yan (State Key Laboratory for Novel Software Technology, Nanjing University), Yanling Bu (College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics), Jun Luo (School of Computer Science and Engineering, Nanyang Technological University)
+Polaris: Accurate, Vision-free Fiducials for Mobile Robots with Magnetic Constellation
+Jike Wang (Shanghai Jiao Tong University), Yasha Iravantchi, Alanson Sample, Kang G. Shin (The University of Michigan, Ann Arbor), Xinbing Wang, Dongyao Chen (Shanghai Jiao Tong University)
+Experience: Practical Challenges for Indoor AR Applications
+Shunpei Yamaguchi (Osaka University), Aditya Arun (University of California San Diego), Takuya Fujiwara, Misaki Sakuta, Ryotaro Hada, Takuya Fujihashi, Takashi Watanabe (Osaka University), Dinesh Bharadia (University of California San Diego), Shunsuke Saruwatari (Osaka University)
+Rethinking Orientation Estimation with Smartphone-equipped Ultra-wideband Chips
+Hao Zhou (Pennsylvania State University), Kuang Yuan (Carnegie Mellon University), Mahanth Gowda (Pennsylvania State University), Lili Qiu (University of Texas at Austin), Jie Xiong (University of Massachusetts Amherst)
+Enabling Physical Localization of Uncooperative Cellular Devices
+Taekkyung Oh (KAIST), Sangwook Bae (Cape), Junho Ahn (KAIST), Yonghwa Lee (Theori), Tuan Dinh Hoang, Min Suk Kang (KAIST), Nils Ole Tippenhauer (CISPA Helmholtz Center for Information Security), Yongdae Kim (KAIST)
+Session 15: Multimedia and Streaming Technologies
+Session Chair: Wei Gao
+16:30 - 17:30
+Bere: A Novel Video Recommender System for Virtual Reality Using Human Behavioral Signals
+Huadi Zhu, Chaowei Wang, Venkateshwar Reddy Darmanola (The University of Texas at Arlington), Hongbo Guo (Meta), Wenqiang Jin (Hunan University), Ming Li (The University of Texas at Arlington)
+Chorus: Coordinating Mobile Multipath Scheduling and Adaptive Video Streaming
+Gerui Lv, Qinghua Wu (Institute of Computing Technology, Chinese Academy of Sciences), Yanmei Liu (Unaffiliated), Zhenyu Li, Qingyue Tan, Furong Yang (Institute of Computing Technology, Chinese Academy of Sciences), Wentao Chen, Yunfei Ma, Hongyu Guo, Ying Chen (Unaffiliated), Gaogang Xie (Computer Network Information Center, Chinese Academy of Sciences)
+MuV2: Scaling up Multi-user Mobile Volumetric Video Streaming via Content Hybridization and Sharing
+Yu Liu (University of Southern California), Puqi Zhou (George Mason University), Zejun Zhang, Anlan Zhang (University of Southern California), Bo Han (George Mason University), Zhenhua Li (Tsinghua University), Feng Qian (University of Southern California)
+Logan: Loss-tolerant Live Video Analytics System
+Kichang Yang, Minkyung Jeong (Seoul National University), Juheon Yi (Nokia Bell Labs), Jingyu Lee, KyoungSoo Park, Youngki Lee (Seoul National University)
+Venus: Enhancing QoE of Crowdsourced Live Video Streaming by Exploiting Multiflow Viewer Assistance
+Huanhuan Zhang, Congkai An, Anfu Zhou, Yifan Zhu, Weilin Sun, Yixuan Lu, Jiahao Chen, Liang Liu, Huadong Ma, Aiguo Fei (Beijing University of Posts and Telecommunications)
+NSF Industry University Cooperative Research Center (IUCRC) Program:
+Mohan Kumar, Program Director, US NSF CISE/CNS IUCRC
+Room: South American B
+16:30 - 17:30
+MobiJob
+17:30 - 18:30
+SIGMOBILE Business Meeting
+17:30 - 18:30
+Friday, Nov 22, 2024
+Rockstar Award Talk: Wireless is Raw Energy, and so is Wireless Research! by Swarun Kumar
+(Carnegie Mellon University)
+Session Chair: Xinyu Zhang
+8:30 - 9:30
+Session 16: Emerging Mobile Applications
+Session Chair: Yuanchao Shu
+9:30 - 10:30
+Enabling Cross-Medium Wireless Networks with Miniature Mechanical Antennas
+Zheng Gong (The Hong Kong Polytechnic University), Zhenlin An (The Hong Kong Polytechnic University, Princeton University), Donghui Dai, Jingyu Tong, Shuijie Long, Lei Yang (The Hong Kong Polytechnic University)
+MicroSurf: Guiding Energy Distribution inside Microwave Oven with Metasurfaces
+Yiwen Song (CMU), Hao Pan (MSRA), Longyuan Ge (SJTU), Lili Qiu (MSRA, UT Austin), Swarun Kumar (CMU), Yi-Chao Chen (SJTU)
+Hydra: Accurate Multi-Modal Leaf Wetness Sensing with mm-Wave and Camera Fusion
+Yimeng Liu, Maolin Gan, Huaili Zeng (Michigan State University), Li Liu (Tsinghua University), Younsuk Dong, Zhichao Cao (Michigan State University)
+Hornbill: A Portable, Touchless, and Battery-Free Electrochemical Bio-tag for Multi-pesticide Detection
+Guorong He (Northwest University), Yaxiong Xie (University at Buffalo), Chao Zheng, Longlong Zhang, Qi Wu, Wenyan Zhang, Dan Xu, Xiaojiang Chen (Northwest University)
+MoiréVib: Micron-level Vibration Detection based on Moiré Pattern
+Jingyi Ning, Zhihao Yan, Zhaowei Wu, Lei Xie, Chuyu Wang (State Key Laboratory for Novel Software Technology, Nanjing University), Yingying Chen (Wireless Information Network Laboratory, Rutgers University), Baoliu Ye, Sanglu Lu (State Key Laboratory for Novel Software Technology, Nanjing University)
+Session 17: Cellular and Long-Range Communication
+Session Chair: Swarun Kumar
+11:00 - 12:00
+Revolutionizing LoRa Gateway with XGate: Scalable Concurrent Transmission across Massive Logical Channels
+Shiming Yu, Xianjin Xia (The Hong Kong Polytechnic University), Ningning Hou (Macquarie University), Yuanqing Zheng (The Hong Kong Polytechnic University), Tao Gu (Macquarie University)
+Demeter: Reliable Cross-soil LPWAN with Low-cost Signal Polarization Alignment
+Yidong Ren (Michigan State University), Wei Sun (University of California, Los Angeles), Jialuo Du (Tsinghua University), Huaili Zeng, Younsuk Dong (Michigan State University), Mi Zhang (The Ohio State University), Shigang Chen (University of Florida), Yunhao Liu (Tsinghua University), Tianxing Li, Zhichao Cao (Michigan State University)
+Rethinking Process Management for Interactive Mobile Systems
+Jianwei Zheng (Tsinghua University, Xiaomi Inc.), Zhenhua Li (Tsinghua University), Feng Qian (University of Southern California), Wei Liu, Hao Lin, Yunhao Liu (Tsinghua University), Tianyin Xu (University of Illinois at Urbana-Champaign), Nan Zhang, Ju Wang, Cang Zhang (Xiaomi Technology Co. LTD)
+SEEN: ML Assisted Cellular Service Diagnosis
+Xiaofeng Shi, Amit Sheoran, Jia Wang, Mukesh Mantan (AT&T Labs Research)
+Uncovering Problematic Designs Hindering Ubiquitous Cellular Emergency Services Access
+Yiwen Hu (Michigan State Univesity), Min-Yue Chen, Haitian Yan (Michigan State University), Chuan-Yi Cheng (National Yang Ming Chiao Tung University), Guan-Hua Tu (Michigan State University), Chi-Yu Li (National Yang Ming Chiao Tung University), Tian Xie (Utah State University), Chunyi Peng (Purdue University), Li Xiao, Jiliang Tang (Michigan State University)
+Sisyphus: Redefining Low Power for LoRa Receiver
+Han Wang, Yihang Song, Qianhe Meng, Zetao Gao (School of Computer Science and Engineering, University of Electronic Science and Technology of China (UESTC), P.R. China); Chong Zhang (School of Computer Science and Engineering, University of Electronic Science and Technology of China (UESTC), P.R. China；School of Computer Science, Southwest Petroleum University (SWPU), P.R. China); Li Lu (School of Computer Science and Engineering, University of Electronic Science and Technology of China (UESTC), P.R. China)
+Session 18: Security and Privacy in Mobile Systems
+Session Chair: Yingying (Jennifer) Chen
+12:00 - 13:00
+Inaudible Backdoor Attack via Stealthy Frequency Trigger Injection in Audio Spectrogram
+Tianfang Zhang, Huy Phan (Rutgers University), Zijie Tang (Temple University), Cong Shi (New Jersey Institute of Technology), Yan Wang (Temple University), Bo Yuan, Yingying Chen (Rutgers University)
+Beamforming made Malicious: Manipulating Wi-Fi Traffic via Beamforming Feedback Forgery
+Mingming Xu (Nanjing University of Posts and Telecommunications), Yinghui He, Xin Li, Jingzhi Hu (Nanyang Technological University), Zhe Chen (Fudan University), Fu Xiao (Nanjing University of Posts and Telecommunications), Jun Luo (Nanyang Technological University)
+ProvCam: A Camera Module with Self-Contained TCB for Producing Verifiable Videos
+Yuxin (Myles) Liu (University of California, Irvine), Zhihao Yao (New Jersey Institute of Technology), Mingyi Chen, Ardalan Amiri Sani (University of California, Irvine), Sharad Agarwal (Microsoft), Gene Tsudik (University of California, Irvine)
+Multimodal Strategy To Defend Mobile Devices Against Vishing Attacks
+Manas Mishra, Saurabh Jain, Suraj Patel M, Sharmila Mani, Abhijeet Boragule, Nikhil Sahni, Renju Chirakarotu Nair (Samsung Research India Bangalore)
+IMS is Not That Secure on Your 5G/4G Phones
+Jingwen Shi, Sihan Wang, Min-Yue Chen, Guan-Hua Tu (Michigan State University), Tian Xie (Utah State University), Man-Hsin Chen (National Yang Ming Chiao Tung University), Yiwen Hu (Michigan State University), Chi-Yu Li (National Yang Ming Chiao Tung University), Chunyi Peng (Purdue University)
+Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos
+Shen Wang, Xiaopeng Zhao, Donghui Dai, Lei Yang (The Hong Kong Polytechnic University)
+Session 19: Smart Cities
+Session Chair: Tingjun Chen
+14:00 - 15:30
+Soar: Design and Deployment of A Smart Roadside Infrastructure System for Autonomous Driving
+Shuyao Shi, Neiwen Ling, Zhehao Jiang, Xuan Huang, Yuze He, Xiaoguang Zhao, Bufang Yang, Chen Bian, Jingfei Xia, Zhenyu Yan, Raymond Yeung, Guoliang Xing (The Chinese University of Hong Kong)
+Experiences of Deploying a Citywide Crowdsourcing Platform to Search for Missing People with Dementia
+Xiubin Fan (City University of Hong Kong), Guanyao Li (Guangzhou Urban Planning and Design Survey Research Institute Co.,Ltd.), Zhongming Lin (The Hong Kong University of Science and Technology), Yuming Hu (University of Minnesota - Twin Cities), Yang Liu (Guangzhou Urban Planning and Design Survey Research Institute Co.,Ltd.), Tianrui Jiang (The Hong Kong University of Science and Technology), Zhimeng Yin (City University of Hong Kong), Feng Qian (University of Southern California), Shuai Wang (Southeast University), S.-H. Gary Chan (The Hong Kong University of Science and Technology)
+Pushing Wireless Charging from Station to Travel
+Lili Chen (Tsinghua University), Bozhong Yu (Northwest University), Yongjian Fu (Central South University), Ju Ren (Tsinghua University), Hao Pan (Microsoft Research Asia), Jeremy Gummeson (University of Massachusetts Amherst), Yaoxue Zhang (Tsinghua University)
+EVLeSen: In-Vehicle Sensing with EV-Leaked Signal
+Minhao Cui, Binbin Xie (University of Massachusetts Amherst), Qing Wang (Delft University of Technology), Jie Xiong (University of Massachusetts Amherst)
+See Through Vehicles: Fully Occluded Vehicle Detection with Millimeter Wave Radar
+Chenming He, Chengzhen Meng, Chunwang He (University of Science and Technology of China), Xiaoran Fan (Google), Beibei Wang (Institute of Artificial Intelligence, Hefei Comprehensive National Science Center), Yubo Yan, Yanyong Zhang (University of Science and Technology of China)
+Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices
+Jeho Lee, Chanyoung Jung, Jiwon Kim, Hojung Cha (Yonsei University)
+Session 20: Energy-Efficient Communication and Computation
+Session Chair: Song Min Kim
+15:30 - 16:40
+Savannah: Efficient mmWave Baseband Processing with Minimal and Heterogeneous Resources
+Zhenzhou Qi, Chung-Hsuan Tung (Duke University), Anuj Kalia (Microsoft), Tingjun Chen (Duke University)
+Pushing the Throughput Limit of OFDM-based Wi-Fi Backscatter Communication
+Qihui Qin, Kai Chen (Northwest University, China), Yaxiong Xie (University at Buffalo), Heng Luo, Dingyi Fang, Xiaojiang Chen (Northwest University, China)
+Enabling High-Rate Backscatter Sensing at Scale
+Mingqi Xie, Meng Jin, Fengyuan Zhu, Yuzhe Zhang, Xiaohua Tian, Xinbing Wang (Shanghai Jiao Tong University), Chenghu Zhou (Chinese Academy of Sciences)
+DREW: Double-Throughput Emulated WiFi
+Hsun-Wei Cho, Kang G. Shin (The University of Michigan)
+ZEROECG: Zero-Sensation ECG Monitoring By Exploring RFID MOSFET
+Wenli Jiao, Ju Wang, Xinzhuo Gao, Long Du, Yanlin Li, Lili Zhao, Dingyi Fang, Xiaojiang Chen (Northwest University)
+Closing Remarks
+16:40 - 16:50

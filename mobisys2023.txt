@@ -1,0 +1,220 @@
+Accepted Papers
+BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems
+Authors: Matthew Corbett and Brendan David-John (Virginia Tech); Jiacheng Shang (Montclair State University); Y. Charlie Hu (Purdue University); Bo Ji (Virginia Tech)
+
+DOI: https://doi.org/10.1145/3581791.3596830
+
+ConvReLU++: Reference-based Lossless Acceleration of Conv-ReLU Operations on Mobile CPU
+Authors: Rui Kong (Shanghai Jiao Tong University), Yuanchun Li and Yizhen Yuan (Institute for AI Industry Research (AIR), Tsinghua University), Linhe Kong (Shanghai Jiao Tong University)
+
+DOI: https://doi.org/10.1145/3581791.3596831
+
+Towards Bone-Conducted Vibration Speech Enhancement on Head-Mounted Wearables
+Authors: Lixing He, Haozheng Hou, Shuyao Shi, Xian Shuai, and Zhenyu Yan (The Chinese University of Hong Kong)
+
+DOI: https://doi.org/10.1145/3581791.3596832
+
+Towards Seamless Wireless Link Connection
+Authors: Lili Chen (Tsinghua University); Bozhong Yu (Northwest University); Ju Ren (Tsinghua University); Jeremy Gummeson (University of Massachusetts Amherst); Yaoxue Zhang (Tsinghua University)
+
+DOI: https://doi.org/10.1145/3581791.3596833
+
+BioScatter: Low-Power Sweat Sensing with Backscatter
+Authors: Wenli Jiao, Yanlin Li, Xiangdong Xi, Ju Wang, Dingyi Fang, and Xiaojiang Chen (Northwest University)
+
+DOI: https://doi.org/10.1145/3581791.3596834
+
+ Artifacts available  Artifacts evaluated functional
+Leggiero: Analog WiFi Backscatter with Payload Transparency
+Authors: Xin Na, Xiuzhen Guo, Zihao Yu, Jia Zhang, Yuan He and Yunhao Liu (Tsinghua University)
+
+DOI: https://doi.org/10.1145/3581791.3596834
+
+Industrial Knee-jerk: In-Network Simultaneous Planning and Control on a TSN Switch
+Authors: Zeyu Wang, Jingao Xu, Xu Wang, Xiangwen Zhuge, Xiaowu He and Zheng Yang (Tsinghua University)
+
+DOI: https://doi.org/10.1145/3581791.3596836
+
+EchoAttack: Practical Inaudible Attacks To Smart Earbuds
+Authors: Gen Li, Zhichao Cao, Tianxing Li(Michigan State University)
+
+DOI: https://doi.org/10.1145/3581791.3596837
+
+RoFin: 3D Hand Pose Reconstructing via 2D Rolling Fingertips
+Authors: Xiao Zhang, Griffin Klevering, Juexing Wang, Li Xiao and Tianxing Li (Michigan State University)
+
+DOI: https://doi.org/10.1145/3581791.3596838
+
+mm3DFace: Nonintrusive 3D Facial Reconstruction Leveraging mmWave Signals
+Authors: Jiahong Xie, Hao Kong, Jiadi Yu (Shanghai Jiao Tong Univeristy); Yingying Chen (Rutgers University); Linghe Kong, Yanmin Zhu and Feilong Tang (Shanghai Jiao Tong University)
+
+DOI: https://doi.org/10.1145/3581791.3596839
+
+Mozart: A Mobile ToF System for Sensing in the Dark through Phase Manipulation
+Authors: Zhiyuan Xie, Xiaomin Ouyang and Li Pan (The Chinese University of Hong Kong); Wenrui Lu (University of Michigan, Ann Arbor); Guoliang Xing (The Chinese University of Hong Kong), Xiaoming Liu (Michigan State University)
+
+DOI: https://doi.org/10.1145/3581791.3596840
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable
+BioCase: Privacy Protection via Acoustic Sensing of Finger Touches on Smartphone Case Mini-Structures
+Authors: Yilin Yang, Xin Li (Rutgers University); Zhengkun Ye, Yan Wang (Temple University); Yingying Chen (Rutgers University)
+
+DOI: https://doi.org/10.1145/3581791.3596841
+
+Boosting DNN Cold Inference on Edge Devices
+Authors: Rongjie Yi (State Key Laboratory of Networking and Switching Technology, Beijing, China); Ting Cao (Microsoft Research); Ao Zhou, Xiao Ma, Shuangguang Wang, Mengwei Xu (State Key Laboratory of Networking and Switching Technology, Beijing, China)
+
+DOI: https://doi.org/10.1145/3581791.3596842
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable  Results replicated
+MixMax: Leveraging Heterogeneous Batteries to Alleviate Low Battery Experience for Mobile Users
+Authors: Jaeheon Kwak, Sunjae Lee, Dae R. Jeong, Arjun Kumar, Dongjae Shin, Ilju Kim (KAIST); Donghwa Shin, Kilho Lee (Soongsil University); Jinkyu Lee (Sungkyunkwan University); Insik Shin (KAIST)
+
+DOI: https://doi.org/10.1145/3581791.3596843
+
+Harmony: Heterogeneous Multi-Modal Federated Learning through Disentangled Model Training
+Authors: Xiaomin Ouyang, Zhiyuan Xie, Heming Fu, Sitong Cheng, Li Pan (The Chinese University of Hong Kong); Neiwen Ling and Guoliang Xing (The Chinese University of Hong Kong); Jiayu Zhou (Michigan State University); Jianwei Huang (The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Artificial Intelligence and Robotics for Society)
+
+DOI: https://doi.org/10.1145/3581791.3596844
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable
+HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices
+Authors: Seunghyeok Jeon (Yonsei University); Yonghun Choi (Korea Institute of Science and Technology); Yeonwoo Cho and Hojung Cha (Yonsei University)
+
+DOI: https://doi.org/10.1145/3581791.3596845
+
+LeopardSeal: Detecting Call Interception via Audio Rogue Base Stations
+Authors: Christian Peeters, Tyler Tucker, Anushri Jain, Kevin Butler and Patrick Traynor (University of Florida)
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable
+Boosting the Long Range Sensing Potential of LoRa
+Authors: Binbin Xie, Minhao Cui, Deepak Ganesan,Xiangru Chen, and Jie Xiong (University of Massachusetts Amherst)
+
+DOI: https://doi.org/10.1145/3581791.3596847
+
+Passive Vital Sign Monitoring via Facial Vibrations Leveraging AR/VR Headsets
+Authors: Tianfang Zhang (Rutgers University); Cong Shi (New Jersey Institute of Technology); Payton Walker (Texas A&M University, College Station); Zhengkun Ye and Yan Wang (Temple University); Nitesh Saxena (Texas A&M University, College Station); Yingying Chen (Rutgers University)
+
+DOI: https://doi.org/10.1145/3581791.3596848
+
+Fusang: Graph-inspired Robust and Accurate Object Recognition on Commodity mmWave Devices
+Authors: Guorong He, Shaojie Chen, Dan Xu and Xiaojiang Chen (Northwest University); Yaxiong Xie (University at Buffalo); Xinhuai Wang (Xidian University) and Dingyi Fang (Northwest University)
+
+DOI: https://doi.org/10.1145/3581791.3596849
+
+ Artifacts available  Artifacts evaluated functional
+Contactless Material Identification with Millimeter Wave Vibrometry
+Authors: Hailan Shanbhag (EPFL); Sohrab Madani, Akhil Isanaka, Deepak Nair and Saurabh Gupta (UIUC); Haitham Hassanieh (EPFL)
+
+DOI: https://doi.org/10.1145/3581791.3596850
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable
+OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices
+Authors: Seonghoon Park, Yeonwoo Cho, Hyungchol Jun, Jeho Lee and Hojung Cha (Yonsei University)
+
+DOI: https://doi.org/10.1145/3581791.3596851
+
+ElasticTrainer: Speeding Up On-Device Training with Runtime Elastic Tensor Selection
+Authors: Kai Huang, Boyuan Yang, Wei Gao (University of Pittsburgh)
+
+DOI: https://doi.org/10.1145/3581791.3596852
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable  Results replicated
+EMSAssist: An End-to-End Mobile Voice Assistant at the Edge for Emergency Medical Services
+Authors: Liuyi Jin, Tian Liu, Amran Haroon, Radu Stoleru and Michael Middleton (Texas A&M University); Ziwei Zhu (George Mason University); Theodora Chaspari (Texas A&M University)
+
+DOI: https://doi.org/10.1145/3581791.3596853
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable  Results replicated
+PTEase: Objective Airway Examination for Pulmonary Telemedicine using Commodity Smartphones
+Authors: Xiangyu Yin and Kai Huang (University of Pittsburgh); Erick Forno, Wei Chen (University of Pittsburgh); Heng Huang and Wei Gao (University of Pittsburgh)
+
+DOI: https://doi.org/10.1145/3581791.3596854
+
+When VLC Meets Under-Screen Camera
+Authors: Hanting Ye (Delft University of Technology); Jie Xiong (University of Massachusetts Amherst); Qing Wang (Delft University of Technology)
+
+DOI: https://doi.org/10.1145/3581791.3596855
+
+Wireless earbuds for low-cost hearing screening
+Authors: Justin Chan, Antonio Glenn, Malek Itani and Lisa R. Mancl (University of Washington); Emily Gallagher (Seattle Children’s Hospital and Research Institute); Randall Bly (University of Washington); Shwetak Patel (University of Washington and Google); Shyamnath Gollakota (University of Washington)
+
+DOI: https://doi.org/10.1145/3581791.3596856
+
+ Artifacts available
+No More Companion Apps Hacking but One Dongle: Hub-Based Blackbox Fuzzing of IoT Firmware
+Authors: Xiaoyue Ma and Qiang Zeng (George Mason University); Haotian Chi (Shanxi University); Lannan Luo (George Mason University)
+
+DOI: https://doi.org/10.1145/3581791.3596857
+
+ Artifacts evaluated functional  Artifacts evaluated reusable
+Timespan-based Backscatter Using a Single COTS Receiver
+Authors: Caihui Du, Jiahao Liu and Shuai Wang (Beijing Institute of Technology); Rongrong Zhang (Capital Normal University); Wei Gong (University of Science and Technology of China); Jihong Yu (Beijing Institute of Technology)
+
+DOI: https://doi.org/10.1145/3581791.3596858
+
+SoundSieve: Seconds-Long Audio Event Recognition on Intermittently-Powered Systems
+Authors: Mahathir Monjur (UNC Chapel Hill); Yubo Luo and Zhenyu Wang (University of North Carolina at Chapel Hill) and Shahriar Nirjon (UNC Chapel Hill)
+
+DOI: https://doi.org/10.1145/3581791.3596859
+
+SIGNiPHY: Reconciling random access with directional reception for efficient mmWave WLANs
+Authors: Nina Grosheva and Sai Pavan Deram (IMDEA Networks Institute, Universidad Carlos III de Madrid); Jesus O. Lacruz (IMDEA Networks Institute); Joerg Widmer (IMDEA Networks)
+
+DOI: https://doi.org/10.1145/3581791.3596860
+
+Sirius: A Self-Localization System for Resource-Constrained IoT Sensors
+Authors: Nakul Garg and Nirupam Roy (University of Maryland, College Park)
+
+DOI: https://doi.org/10.1145/3581791.3596861
+
+ Artifacts available
+"Is this my president speaking?" Tamper-proofing Speech in Live Recordings
+Authors: Irtaza Shahid and Nirupam Roy (University of Maryland)
+
+DOI: https://doi.org/10.1145/3581791.3596862
+
+LocRa: Enable Practical Long-Range Backscatter Localization for Low-Cost Tags
+Authors: Jinyan Jiang, Jiliang Wang, YiJie Chen, Yihao Liu and Yunhao Liu (Tsinghua University)
+
+DOI: https://doi.org/10.1145/3581791.3596863
+
+Minimizing a Smartphone's TCB for Security-Critical Programs with Exclusively-Used, Physically-Isolated, Statically-Partitioned Hardware
+Authors: Zhihao Yao, Seyed Mohammadjavad Seyed Talebi, Mingyi Chen and Ardalan Amiri Sani (University of California, Irvine); Thomas Anderson (University of Washington)
+
+DOI: https://doi.org/10.1145/3581791.3596864
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable  Results replicated
+EEFL: High-Speed Wireless Communications Inspired Energy Efficient Federated Learning over Mobile Devices
+Authors: Rui Chen and Qiyu Wan (University of Houston); Xinyue Zhang (Kennesaw State University); Xiaoqi Qin and Yanzhao Hou (Beijing University of Posts and Telecommunications); Di Wang (King Abdullah University of Science and Technology); Xin Fu and Miao Pan (University of Houston)
+
+DOI: https://doi.org/10.1145/3581791.3596865
+
+SmartShell: A Near-Field Reflective Surface Enhancing RSS
+Authors: Linling Zhong, Mingwei Ouyang, Fengyuan Zhu, Meng Jin, Xinbing Wang and Xinping Guan (Shanghai Jiao Tong University); Chenghu Zhou (Chinese Academy of Sciences); Xiaohua Tian (Shanghai Jiao Tong University)
+
+DOI: https://doi.org/10.1145/3581791.3596866
+
+ Artifacts available  Artifacts evaluated functional  Artifacts evaluated reusable
+DF-Sense: Multi-user Acoustic Sensing for Heartbeat Monitoring with Dualforming
+Authors: Lei Wang (Peking University); Tao Gu (Macquarie University); Wei Li (Peking University); Haipeng Dai (Nanjing University); Yong Zhang (SIAT,CAS); Dongxiao Yu (Shandong University); Chenren Xu and Daqing Zhang (Peking University)
+
+DOI: https://doi.org/10.1145/3581791.3596867
+
+Enabling Native WiFi Connectivity for Ambient Backscatter
+Authors: Longzhi Yuan and Wei Gong (University of Science and Technology of China)
+
+DOI: https://doi.org/10.1145/3581791.3596868
+
+Hawkeye: Hectometer-range Subcentimeter Localization for Large-scale mmWave Backscatter
+Authors: Kang Min Bae and Hankyeol Moon (KAIST); Sung-Min Sohn (Arizona State University); Song Min Kim (KAIST)
+
+DOI: https://doi.org/10.1145/3581791.3596869
+
+ Artifacts available  Artifacts evaluated functional
+NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors
+Authors: Jianyu Wei (University of Science and Technology of China, Microsoft Research); Ting Cao, Shijie Cao and Shiqi Jiang (Microsoft Research); Shaowei Fu (University of Science and Technology of China); Mao Yang (Microsoft Research); Yanyong Zhang (University of Science and Technology of China); Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University, Shanghai Artificial Intelligence Laboratory)
+
+DOI: https://doi.org/10.1145/3581791.3596870
+
+ Artifacts available  Artifacts evaluated functional

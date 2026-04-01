@@ -1,0 +1,81 @@
+CoNEXT 2024 Accepted Papers
+NetConfEval: Can LLMs Facilitate Network Configuration?
+Changjie Wang (KTH Royal Institute of Technology) Mariano Scazzariello (KTH Royal Institute of Technology) Alireza Farshin (RISE Research Institutes of Sweden) Simone Ferlin (Red Hat) Dejan Kostić (KTH Royal Institute of Technology / RISE Research Institutes of Sweden) Marco Chiesa (KTH Royal Institute of Technology)
+Twist: A Multi-site Transmission Solutions for On-demand Video Streaming
+Haiping Wang (ByteDance) Ruixiao Zhang (The University of Hong Kong) Chaojun Li (ByteDance) Zhichen Xue (ByteDance) Yajie Peng (ByteDance) Xiaofei Pang (ByteDance) Yixuan Zhang (Tsinghua University) Shaorui Ren (Tsinghua University) Shu Shi (ByteDance)
+ROND: Rethinking Overlay Network Design with Underlay Network Awareness
+Huahai Zhang (Beijing University of Posts and Telecommunications) Yuchao Zhang (Beijing University of Posts and Telecommunications) PeiZhuang Cong (Beijing University of Posts and Telecommunications) Wendong Wang (Beijing University of Posts and Telecommunications)
+BYOG : Multi-Channel, real-time LoRaWAN Gateway testbed using general-purpose Software Defined Radio
+Muhammad Osama Shahid (University of Wisconsin-Madison) Bhuvana Krishnaswamy (University of Wisconsin-Madison)
+A First Look At IPv6 Hypergiant Infrastructure
+Fahad Hilal (Max Planck Institute for Informatics) Patrick Sattler (Technical University of Munich (TUM)) Kevin Vermeulen (LAAS-CNRS) Oliver Gasser (IPinfo / Max Planck Institute for Informatics)
+Sustainable Connections: Exploring Energy Efficiency in 5G Networks
+Yibo Ma (Tsinghua University) Tong Li (Tsinghua University) Yuwei Du (Tsinghua University) Schahram Dustdar (TU Wien) Zhaocheng Wang (Tsinghua University) Yong Li (Tsinghua University) Short
+NetDiff: A Service-Guided Hierarchical Diffusion Model for Network Flow Trace Generation
+Shiyuan Zhang (Tsinghua University) Tong Li (Tsinghua University) Depeng Jin (Tsinghua University) Yong Li (Tsinghua University)
+iGuard: Efficient Isolation Forest Design for Malicious Traffic Detection in Programmable Switches
+Sankalp Mittal (Indian Institute of Technology, Hyderabad) Harikrishan V. (Indian Institute of Technology, Hyderabad) Patel Heetkumar (Indian Institute of Technology, Hyderabad) Praveen Tammana (Indian Institute of Technology, Hyderabad) Short
+NR-Scope: A Practical 5G Standalone Telemetry Tool
+Haoran Wan (Princeton University) Xuyang Cao (Princeton University) Alexander Marder (Johns Hopkins University) Kyle Jamieson (Princeton University) Short
+Geofeeds: Revolutionizing IP Geolocation or Illusionary Promises?
+Ioana Livadariu (Simula Metropolitan) Kevin Vermeulen (LAAS-CNRS) Maxime Mouchet (IPinfo) Vasilis Giotsas (Cloudflare Inc)
+SQUID: Faster Analytics via Sampled Quantile Estimation
+Ran Ben Basat (University College London) Gil Einziger (Ben Gurion University) Wenchen Han (University College London) Bilal Tayh (Ben Gurion University)
+Stress Testing the DMARC Reporting System: Compliance with Standards and Ways of Improvement
+Olivier Hureau (Université Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG) Andrzej Duda (Université Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG) Maciej Korczynski (Université Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG) Short
+EdgeCross: Cloud Scale Traffic Management at Peering Edges
+Xiaoliang Wang (Nanjing University) Chaoyang Ji Wei Sun, Penghui Mi, Yong Zhu, Boayi An, Yinhua Wang, Daiyang Yu, Lixiang Wang, Xuezhi Yu, Qiong Xie, Xiang Huang, Mingliang Yin (Huawei Cloud Computing Technologies Co., Ltd.) Yuhang Chen Cam-Tu Nguyen, Chen Tian (Nanjing University) Yihang Lv (Huawei Cloud Computing Technologies Co., Ltd.) Xiaoming Fu (Goettingen University and Fudan University)
+FAJITA: Stateful Packet Processing at 100 Million pps
+Hamid Ghasemirahni (KTH Royal Institute of Technology) Alireza Farshin (NVIDIA) Mariano Scazzariello (KTH Royal Institute of Technology) Gerald Q. Maguire Jr. (KTH Royal Institute of Technology) Dejan Kostić (KTH Royal Institute of Technology) Marco Chiesa (KTH Royal Institute of Technology)
+RECC: Joint Congestion Control Based on RTT and ECN for High-speed RDMA Networks
+Zirui Wan (Beijing University of Posts and Telecommunications) Jiao Zhang (Beijing University of Posts and Telecommunications) Haoran Wei (ByteDance China) Zhuo Jiang (ByteDance China) Xiaolong Zhong (ByteDance China) Wenfei Wu (Peking University) Huaping Zhou (ByteDance China) Tian Pan (Beijing University of Posts and Telecommunications) Tao Huang (Beijing University of Posts and Telecommunications)
+A First View of Topics API Usage in the Wild
+Alberto Verna (Politecnico di Torino) Nikhil Jha (Politecnico di Torino) Martino Trevisan (University of Trieste) Marco Mellia (Politecnico di Torino) Short
+WaveFlex: A Smart Surface for Private 5G CBRS Networks
+Fan Yi (Princeton University) Kun Woo Cho (Princeton University) Yaxiong Xie (University at Buffalo) Kyle Jamieson (Princeton University)
+RecenTo: Finding Top-K Flows of the Recent Past
+Shir Landau Feibish (The Open University of Israel) Aviya Ozery (The Open University of Israel) Jonathan Diamant (The Open University of Israel)
+SetD4: Sets With Deletions and Decay in the Data Plane
+Shir Landau Feibish (The Open University of Israel) Jonathan Diamant (The Open University of Israel)
+Estimating Video Quality Using Coarse-Grained Features: Insights and Limitations from Gaussian Mixture Models
+Jiamo Liu (University of California Santa Barbara) Marcin Waz (Viasat) Jae Chung (Viasat) Kevin Moslehpour (Viasat) David Lerner (Viasat) Elizabeth M. Belding (University of California Santa Barbara) Short
+Practically High Performant Neural Adaptive Video Streaming
+Sagar Patel (University of California, Irvine) Junyang Zhang (University of California, Irvine) Nina Narodytska (VMware Research) Sangeetha Abdu Jyothi (University of California, Irvine and VMware Research)
+NetGSR: Towards Efficient and Reliable Network Monitoring with Generative Super Resolution
+Chuanhao Sun (The University of Edinburgh) Kai Xu (The University of Edinburgh) Gianni Antichi (The Polytechnic University of Milan) Mahesh Marina (The University of Edinburgh)
+Bringing Collaborative Positioning to Native 5G Systems for Enhanced 2D & 3D Location Services
+Yu-Tai Lin (Georgia Institute of Technology) Neil Matson (Georgia Institute of Technology) Karthik Sundaresan (Georgia Tech)
+A Systematic Comparison of Large Language Models Performance for Intrusion Detection
+Minh-Thanh Bui (Huawei Technologies Co. Ltd., Paris, France) Matteo Boffa (Politecnico di Torino) Rodolfo Valentim (Politecnico di Torino) Jose Manuel Navarro (Huawei Technologies Co., Ltd., Paris, France) Fuxing Chen (Huawei Technologies Co. Ltd., Paris, France) Xiaosheng Bao (Huawei Technologies Co., Ltd., Paris, France) Zied Ben Houidi (Huawei Technologies Co. Ltd., Paris, France) Dario Rossi (Huawei Technologies Co. Ltd., Paris, France)
+Wixor: Dynamic TDD Policy Adaptation for 5G/xG Networks
+Ahmad Hassan (University of Southern California) Shivang Aggarwal (Hewlett Packard Labs) Mohamed Ibrahim (Hewlett Packard Labs) Puneet Sharma (Hewlett Packard Labs) Feng Qian (University of Southern California)
+Saving Private WAN: Using Internet Paths to Offload WAN Traffic in Conferencing Services
+Bhaskar Kataria (Microsoft Research India) Palak LNU (Microsoft Research India) Rahul Bothra (UIUC) Rohan Gandhi (Microsoft Research India) Debopam Bhattacherjee (Microsoft Research India) Venkata N. Padmanabhan (Microsoft Research India) Irena Atov (Microsoft) Sriraam Ramakrishnan (Microsoft) Somesh Chaturmohta (Microsoft) Chakri Kotipalli (Microsoft) Rui Liang (Microsoft) Ken Sueda (Microsoft) Xin He (Microsoft) Kevin Hinton (Microsoft)
+F3: Fast and Flexible Network Telemetry with an FPGA coprocessor
+Weiqi Feng (Harvard University) Jiaqi Gao (Alibaba) Xiaoqi Chen (VMware Research) Gianni Antichi (Politecnico di Milano and Queen Mary University of London) Ran Ben Basat (UCL) Michael Mingchao Shao (Meta) Ying Zhang (Meta) Minlan Yu (Harvard University)
+Measuring DNS-over-HTTPS Downgrades: Prevalence, Techniques, and Bypass Strategies
+Jinseo Lee (KAIST) David Mohaisen (University of Central Florida) Min Suk Kang (KAIST)
+FlowChronicle: Synthetic Network Flow Generation through Pattern Set Mining
+Joscha Cüppers (CISPA Helmholtz Center for Information Security) Adrien Schoen (Inria, Univ Rennes, IRISA) Gregory Blanc (Télécom SudParis, Institut Polytechnique de Paris) Pierre-Francois Gimenez (PIRAT, CentraleSupélec, Inria, Univ Rennes, CNRS, IRISA)
+SONIC: Connect the Unconnected via FM Radio & SMS
+Ayush Pandey (New York University Abu Dhabi (NYUAD)) Rohail Asim (New York University Abu Dhabi (NYUAD)) Khalid Mengal (New York University Abu Dhabi (NYUAD)) Matteo Varvello (Nokia Bell Labs) Yasir Zaki (NYU Abu Dhabi) Short
+Privacy implications of AMQ-based PQ TLS authentication
+Dimitri Francolla (ETH Zurich) Mia Filić (ETH Zurich) Shannon Veitch (ETH Zurich) Short
+The Multiple Benefits of Secure Transport for BGP
+Thomas Wirtgen (UCLouvain) Nicolas Rybowski (UCLouvain) Cristel Pelsser (UCLouvain) Olivier Bonaventure (UCLouvain)
+PACER: Accelerating Distributed GNN Training Using Communication-Efficient Partition Refinement and Caching
+Shohaib Mahmud (University of Virginia) Haiying Shen (University of Virginia) Anand Iyer (Georgia Institute of Technology)
+Helix: A RAN Slicing Based Scheduling Framework for Massive MIMO Networks
+Qing An (Rice University) Divyanshu Pandey (Rice University) Rahman Doost-Mohammady (Rice University) Ashutosh Sabarwal (Rice University) Srinivas Shakkottai (Texas A&M University)
+SPARC: Spatio-Temporal Adaptive Resource Control for Multi-site Spectrum Management in NextG Cellular Networks
+Ushasi Ghosh (UCSD) Azuka Chiejina (George Mason University) Nathan Hughes Stephenson (George Mason University) Vijay K Shah (GMU) Srinivas Shakkottai (Texas A&M University) Dinesh Bharadia (UCSD)
+VIGOR: Reviving Cloud Gaming Sessions
+Zhaoyuan He (UT Austin) Yifan Yang (Microsoft Research Asia) Shuozhe Li (UT Austin) Lili Qiu (Microsoft Research Asia, UT Austin) Diyuan Dai (UT Austin) Yuqing Yang (Microsoft Research Asia)
+Query Planning for Robust and Scalable Hybrid Network Telemetry Systems
+Chaofan Shou (University of California Berkeley) Rohan Bhatia (University of California Santa Barbara, USA) Arpit Gupta (University of California Santa Barbara, USA) Rob Harrison (United States Military Academy) Daniel Lokshtanov (University of California Santa Barbara, USA) Walter Willinger (NIKSUN, Inc.)
+Real-Time Neural Video Recovery and Enhancement on Mobile Devices
+Zhaoyuan He (UT Austin) Yifan Yang (Microsoft Research Asia) Lili Qiu (UT Austin, Microsoft Research Asia) Kyoungjun Park (UT Austin)
+IPREDS: Efficient prediction system for Internet-wide port and service scanning
+Yirui Luo (Tsinghua University) Chenglong Li (Tsinghua University) Zhiliang Wang (Tsinghua University) Jiahai Yang (Tsinghua University)
+Taming the Elephants: Affordable Flow Length Prediction in the Data Plane
+Raphael Azorin (Huawei Technologies Co. Ltd) Andrea Monterubbiano (Sapienza University) Gabriele Castellano (Huawei Technologies Co. Ltd) Massimo Gallo (Huawei Technologies Co. Ltd) Salvatore Pontarelli (Sapienza University) Dario Rossi (Huawei Technologies Co. Ltd)

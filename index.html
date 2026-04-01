@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conference Date Tracker</title>
+    <link rel="stylesheet" href="website/css/site.css" />
+    <script id="seedDeadlineData" type="application/json">
+      {
+        "generated_at": "2026-04-02T00:00:00+00:00",
+        "source_csv": "cleaned/accepted_papers.csv",
+        "conference_count": 13,
+        "conferences": [
+          {
+            "conference": "CoNEXT",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "INFOCOM",
+            "years_in_csv": [2023, 2024, 2025, 2026],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "MMSys",
+            "years_in_csv": [2023, 2024, 2025, 2026],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "MobiCom",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": 2026,
+            "deadline_iso": "2026-03-13",
+            "deadline_display": "March 13, 2026",
+            "deadline_label": "Paper Submission",
+            "source_kind": "official",
+            "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html"
+          },
+          {
+            "conference": "MobiHoc",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "MobiSys",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": 2026,
+            "deadline_iso": "2025-12-05",
+            "deadline_display": "December 05, 2025",
+            "deadline_label": "Paper Submission",
+            "source_kind": "official",
+            "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/"
+          },
+          {
+            "conference": "NSDI",
+            "years_in_csv": [2023, 2024, 2025, 2026],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "PerCom",
+            "years_in_csv": [2023, 2024, 2025, 2026],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "SenSys",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": 2026,
+            "deadline_iso": "2025-11-13",
+            "deadline_display": "November 13, 2025",
+            "deadline_label": "Full Paper Submission",
+            "source_kind": "official",
+            "source_url": "https://sensys.acm.org/2026/cfp.html"
+          },
+          {
+            "conference": "SIGCOMM",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": 2026,
+            "deadline_iso": "2026-02-06",
+            "deadline_display": "February 06, 2026",
+            "deadline_label": "Paper Submission Deadline",
+            "source_kind": "official",
+            "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/"
+          },
+          {
+            "conference": "SIGSPATIAL",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          },
+          {
+            "conference": "SSRR",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": 2025,
+            "deadline_iso": "2025-10-15",
+            "deadline_display": "October 15, 2025",
+            "deadline_label": "Full Papers",
+            "source_kind": "official",
+            "source_url": "https://www.ssrr2025.org/contribute"
+          },
+          {
+            "conference": "UbiComp",
+            "years_in_csv": [2023, 2024, 2025],
+            "latest_tracked_edition": null,
+            "deadline_iso": "",
+            "deadline_display": "",
+            "deadline_label": "",
+            "source_kind": "",
+            "source_url": "",
+            "submission_cycles": []
+          }
+        ],
+        "failures": []
+      }
+    </script>
+    <script defer src="website/js/app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <section class="hero__copy">
+          <p class="hero__eyebrow">Conference Watch</p>
+          <h1>Conference Date Tracker</h1>
+          <p class="hero__lede">
+            A local deadline tracker that starts from the conference series inside
+            <code>accepted_papers.csv</code>, caches the latest submission deadlines into JSON,
+            and turns the accepted-paper metadata into an interactive conference intelligence dashboard.
+          </p>
+        </section>
+        <aside class="hero__actions">
+          <div class="action-row">
+            <button class="refresh-button" id="refreshButton" type="button">Refresh List</button>
+            <button class="secondary-button" id="downloadButton" type="button">Download Cache JSON</button>
+          </div>
+          <p id="refreshStatus" class="status-line">Waiting for the cached deadline database…</p>
+          <p id="dataSource">Source CSV: waiting for data</p>
+        </aside>
+      </header>
+
+      <section class="summary-grid" aria-label="Tracker summary">
+        <article class="summary-card">
+          <p class="summary-card__label">Tracked Conferences</p>
+          <p class="summary-card__value" data-summary="total">0</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-card__label">Future Deadlines</p>
+          <p class="summary-card__value" data-summary="open">0</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-card__label">Most Urgent</p>
+          <p class="summary-card__value" data-summary="urgent">No data</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-card__label">Last Refreshed</p>
+          <p class="summary-card__value" data-summary="refreshed">Waiting for cache</p>
+        </article>
+      </section>
+
+      <nav class="tab-bar" role="tablist" aria-label="Conference tracker tabs">
+        <button class="tab-button is-active" data-tab="tab-submissions" role="tab" aria-selected="true" type="button">
+          Submission Date Tracker
+        </button>
+        <button class="tab-button" data-tab="tab-tags" role="tab" aria-selected="false" type="button">
+          Tags & Fit
+        </button>
+        <button class="tab-button" data-tab="tab-titles" role="tab" aria-selected="false" type="button">
+          Title Language
+        </button>
+        <button class="tab-button" data-tab="tab-universities" role="tab" aria-selected="false" type="button">
+          Universities
+        </button>
+        <button class="tab-button" data-tab="tab-authors" role="tab" aria-selected="false" type="button">
+          Authors
+        </button>
+        <button class="tab-button" data-tab="tab-coverage" role="tab" aria-selected="false" type="button">
+          Coverage
+        </button>
+        <button class="tab-button" data-tab="tab-about" role="tab" aria-selected="false" type="button">
+          Refresh Flow
+        </button>
+      </nav>
+
+      <section id="tab-submissions" class="tab-panel is-active" role="tabpanel">
+        <div class="toolbar">
+          <label class="search-label">
+            Filter conferences
+            <input id="conferenceSearch" type="search" placeholder="Search by conference name or year" />
+          </label>
+          <p class="toolbar__meta">The first tab now shows every tracked submission cycle when a conference uses multiple rounds.</p>
+        </div>
+        <div id="trackerList" class="tracker-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-tags" class="tab-panel" role="tabpanel">
+        <div id="tagsDashboard" class="analytics-dashboard" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-titles" class="tab-panel" role="tabpanel">
+        <div id="titlesDashboard" class="analytics-dashboard" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-universities" class="tab-panel" role="tabpanel">
+        <div id="universitiesDashboard" class="analytics-dashboard" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-authors" class="tab-panel" role="tabpanel">
+        <div id="authorsDashboard" class="analytics-dashboard" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-coverage" class="tab-panel coverage-panel" role="tabpanel">
+        <div class="list-panel">
+          <article class="list-card">
+            <h3>Tracked Conference Series</h3>
+            <ul class="bullet-list" id="coverageList"></ul>
+          </article>
+          <article class="list-card">
+            <h3>Accepted Paper Coverage</h3>
+            <ul class="bullet-list" id="paperCoverageList"></ul>
+          </article>
+          <article class="list-card">
+            <h3>Refresh Notes</h3>
+            <ul class="bullet-list" id="failureList"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="tab-about" class="tab-panel about-panel" role="tabpanel">
+        <article class="about-card">
+          <h3>How Refresh Works</h3>
+          <p>
+            The refresh button runs fully in JavaScript. It reads
+            <code>cleaned/accepted_papers.csv</code>, identifies the conference series,
+            fetches configured official CFP pages through browser-accessible proxies,
+            extracts submission dates, keeps multiple cycle deadlines when they exist,
+            and stores the updated cache in your browser. The analytics tabs read the
+            accepted-paper CSV directly and render their charts fully client-side too.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Folders</h3>
+          <p>
+            Styling lives in <code>website/css</code>, browser logic lives in
+            <code>website/js</code>, and the deadline cache lives in
+            <code>website/db</code> as a deploy-time seed. The only HTML entry point is this root
+            <code>index.html</code>.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>GitHub Pages Note</h3>
+          <p>
+            GitHub Pages cannot rewrite files at runtime, so refreshes are saved in
+            browser storage instead of editing files on the server. Use
+            <code>Download Cache JSON</code> if you want to export the refreshed cache and
+            commit it back into <code>website/db/conference_deadlines.json</code> later.
+          </p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>

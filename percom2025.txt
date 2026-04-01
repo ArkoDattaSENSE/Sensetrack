@@ -1,0 +1,88 @@
+Accepted Papers (Main Conference)
+Full Length Papers
+OCTOPINF: Workload-Aware Real-Time Inference Serving for Edge Video Analytics
+Thanh-Tung Nguyen (Korea Advanced Institute of Science and Technology), Lucas Liebe (Korea Advanced Institute of Science and Technology), Nhat-Quang Tau (Korea Advanced Institute of Science and Technology), Yuheng Wu (Korea Advanced Institute of Science and Technology), Jinghan Cheng (Korea Advanced Institute of Science and Technology) and Dongman Lee (Korea Advanced Institute of Science and Technology)
+
+MuJo: Multimodal Joint Feature Space Learning for Human Activity Recognition
+Stefan Gerd Fritsch (Deutsches Forschungszentrum für Künstliche Intelligenz), Cennet Oguz (Deutsches Forschungszentrum für Künstliche Intelligenz), Vitor Fortes Rey (Deutsches Forschungszentrum für Künstliche Intelligenz), Lala Ray (Deutsches Forschungszentrum für Künstliche Intelligenz), Maximilian Kiefer-Emmanouilidis (Deutsches Forschungszentrum für Künstliche Intelligenz), and Paul Lukowicz (Deutsches Forschungszentrum für Künstliche Intelligenz)
+
+RespEar: Earable-Based Robust Respiratory Rate Monitoring
+Yang Liu (University of Cambridge), Kayla-Jade Butkow (University of Cambridge), Jake Stuchbury-Wass (University of Cambridge), Adam Pullin (University of Cambridge), Dong Ma (Singapore Management University), and Cecilia Mascolo (University of Cambridge)
+
+WalkEar: Holistic Gait Monitoring using Earables
+Jake Stuchbury-Wass (University of Cambridge), Yang Liu (University of Cambridge), Kayla-Jade Butkow (University of Cambridge), Josh Carter (University of Bath), Qiang Yang (University of Cambridge), Mathias Ciliberto (University of Cambridge), Ezio Preatoni (University of Bath), Dong Ma (Singapore Management University), and Cecilia Mascolo (University of Cambridge)
+
+FineSat: Enhancing GNSS Signals for High-precision Sensing
+Anlan Yu (Peking University), Xuanzhi Wang (Peking University), Pei Wang (Institut Polytechnique de Paris), Jinkun Li (JD), Xujun Ma (Institut Polytechnique de Paris), Zhiqing Hong (Rutgers University), Haotian Wang (JD), Yi Ding (University of Texas at Dallas) and Daqing Zhang (Peking University)
+
+CollageMap: Tailoring Generative Fingerprint Map via Obstacle-Aware Adaptation for Site-Survey-Free Indoor Localization
+Yeawon You (Ewha Womans University), Jinyi Yoon (Virginia Tech), Dayeon Kang (University of Massachusetts at Amherst), Jeewoon Kim (University of California, Irvine), and Hyungjune Lee (Ewha Womans University)
+
+InterHandNet: Capturing Two-hand Interaction for Robust Hand-washing Activity Recognition
+Yiqing Zhang (Osaka University) and Takuya Maekawa (Osaka University)
+
+EcoVis: Towards Energy and Connectivity Optimized Visual Surveillance
+Manoj Lenka (Indian Institute of Technology, Madras) and Ayon Chakraborty (Indian Institute of Technology, Madras)
+
+Multilevel Transfer Learning for Complex Work Activity Recognition in Logistic Domain
+Jaime Morales (Osaka University), Qingxin Xia (Osaka University), Naoya Yoshimura (Osaka University), Hirotomo Oshima (Toshiba), Masamitsu Fukuda (Toshiba), Yasuo Namioka (Advanced Institute of Industrial Technolog), and Takuya Maekawa (Osaka University)
+
+Your Smart Home Exchanged 3M Messages: Defining and Analyzing Smart Device Passive Mode
+Christian Badolato (University of Maryland, Baltimore County), Kaur Kullman (University of Maryland, Baltimore County), Nikolaos Papadakis (Institut Polytechnique de Paris), Manav Bhatt (University of Maryland, Baltimore County), Georgios Bouloukakis (Institut Polytechnique de Paris), Don Engel (University of Maryland, Baltimore County), and Roberto Yus (University of Maryland, Baltimore County)
+
+BiteSense: Earable-Based Inertial Sensing for Eating Behaviour Assessment
+Chugh Garvit (Indian Institute of Technology, Jodhpur), Indrajeet Ghosh (University of Maryland, Baltimore County), Sandip Chakraborty (Indian Institute of Technology, Kharagpur), and Suchetana Chakraborty (Indian Institute of Technology, Jodhpur)
+
+CamFirm: A pair of headphones could guide you to the spy camera
+Qianru Liao (The Hong Kong University of Science and Technology), Jinyu Lin (The Hong Kong University of Science and Technology), Yongzhi Huang (Shenzhen University), Zijun Gong (The Hong Kong University of Science and Technology), and Kaishun Wu (The Hong Kong University of Science and Technology)
+
+NeuralPrefix: A Zero-shot Sensory Data Imputation Plugin
+Abdelwahed Khamis (CSIRO) and Sara Khalifa (Queensland University of Technology)
+
+In-bed Pressure Image-supported Diffusion for 3D Human Mesh Recovery
+Quan Wan (University of Science and Technology of China), Ziyu Wu (University of Science and Technology of China), Xiaohui Cai (University of Science and Technology of China), Mengting Niu (University of Science and Technology of China), and Fangting Xie (University of Science and Technology of China)
+
+Teaching Things To Think: Bootstrapping Local Reasoning for Smart(er) Devices
+Evan King (The University of Texas at Austin), Haoxiang Yu (The University of Texas at Austin), Sahil Vartak (The University of Texas at Austin), Jenna Jacob (The University of Texas at Austin), Sangsu Lee (The University of Texas at Austin), and Christine Julien (The University of Texas at Austin & Virginia Tech)
+
+Short Papers
+PAIL: Predictable and Adaptive Intermittent Lifecycling for Robust Coordination between Batteryless Systems
+Vishak Narayanan (Iowa State University), Mahmoud Gshash (Iowa State University), Vishal Deep (Iowa State University), Mathew L Wymore (Iowa State University), Daji Qiao (Iowa State University), Nathan M Neihart (Iowa State University), and Henry Duwe (Iowa State University)
+
+Resource-Efficient Multiview Perception: Integrating Semantic Masking with Masked Autoencoders
+Kosta Dakic (University of Sydney), Kanchana Thilakarathna (University of Sydney), Rodrigo Calheiros (Western Sydney University), and Teng Joon Lim (University of Sydney)
+
+ENOCH: ENabling On-body network Contention Handling
+Mengyao Liu (Katholieke Universiteit Leuven), Jonathan Oostvogels (Katholieke Universiteit Leuven), Bingwu Fang (Katholieke Universiteit Leuven), Sam Michiels (Katholieke Universiteit Leuven), Haoxiang Ma (IDSSE), Yang Yang (IDSSE), and Danny Hughes (Katholieke Universiteit Leuven)
+
+The Power of Periodicity: Exploiting Periodic UWB CIRs for Robust Activity Recognition with Attention-aware Multi-level Wavelet
+Han Lin (Tokyo Institute of Technology), Atsushi Nomura (Tokyo Institute of Technology), Kota Tsubouchi (LY Corporation), Nobuhiko Nishio (Ritsumeikan University), and Masamichi Shimosaka (Tokyo Institute of Technology)
+
+AdaOrb: Adapting In-Orbit Analytics Models for Location-aware Earth Observation Tasks
+Zhouyu Li (North Carolina State University), Pinxiang Wang (North Carolina State University), Xiaochun Liang (North Carolina State University), Xuanhao Luo (North Carolina State University), Yuchen Liu (North Carolina State University), Xiaojian Wang (North Carolina State University), Huayue Gu (North Carolina State University), and Ruozhou Yu (North Carolina State University)
+
+CarVision: Vehicle Ranging and Tracking Using mmWave Radar for Enhanced Driver Safety
+Rajib Sarkar, Argha Sen (Indian Institute of Technology, Kharagpur), and Sandip Chakraborty (Indian Institute of Technology, Kharagpur)
+
+Deciphering Micro-Scale, Sub-Hertz Mechanical Vibrations in Industry 4.0: A Battery-Free Sensing Approach
+Yuanhao Feng (University of Science and Technology of China), Donghui Dai (The Hong Kong Polytechnic University), Xiaopeng Zhao (The Hong Kong Polytechnic University), Jingyu Tong (The Hong Kong Polytechnic University), Zheng Gong (The Hong Kong Polytechnic University), and Lei Yang (The Hong Kong Polytechnic University)
+
+RACENet: Real-time Adaptive Class-aware Early-exit Networks for Edge Devices
+Mohammed Ayyat (Virginia Commonwealth University) and Tamer Nadeem (Virginia Commonwealth University)
+
+Semantically Encoding Activity Labels for Context-Aware Human Activity Recognition
+Wen Ge (Worcester Polytechnic Institute), Guanyi Mou (Worcester Polytechnic Institute), Emmanuel Agu (Worcester Polytechnic Institute), and Kyumin Lee (Worcester Polytechnic Institute)
+PerCom 2025 @ X (Twitter)
+Tweets by IEEEPerCom
+PerCom 2025 @ LinkedIn
+IEEEPerCom 2025 @ LinkedIn
+PerCom 2025 @ Facebook
+
+Previous PerComs
+PerCom 2024
+PerCom 2023
+PerCom 2022
+IEEE Computer Society Sustainability impact
+IEEE Computer Society Sustainability Impact
+
+Th

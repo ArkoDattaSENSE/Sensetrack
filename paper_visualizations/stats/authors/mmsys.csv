@@ -1,0 +1,714 @@
+author,count
+C. Timmerer,7
+Jashanjot Singh Sidhu,7
+Yao Liu,6
+Abdelhak Bentaleb,6
+Mea Wang,5
+Cheng-Hsin Hsu,4
+C. Midoglu,4
+S. S. Sabet,4
+P. Halvorsen,4
+Yuan-Chun Sun,3
+Jiangchuan Liu,3
+E. Artioli,3
+F. Tashtarian,3
+F. De Turck,3
+W. Zhang,3
+J. Wang,3
+H. Amirpour,3
+S. Afzal,3
+S. Gautam,3
+M. H. Sarkhoosh,3
+Chidambar Joshi,3
+Narciso García,2
+Kuan-Yu Lee,2
+Jia-Wei Fang,2
+Yuang Shi,2
+Wei Tsang Ooi,2
+Silvia Rossi,2
+Yixuan Zhang,2
+Teemu Kämäräinen,2
+Matti Siekkinen,2
+Akram Ansari,2
+Mark Claypool,2
+Yiling Xu,2
+Christian Timmerer,2
+Klara Nahrstedt,2
+Fangxin Wang,2
+Zhongze Tang,2
+Sheng Wei,2
+M. K. Yucel,2
+A. Freeman,2
+A. Wieckowski,2
+B. Bross,2
+D. Marpe,2
+J. Zhao,2
+J. Pan,2
+M. De Fré,2
+J. van der Hooft,2
+T. Wauters,2
+B. Chen,2
+Y. Jiang,2
+Z. Gurel,2
+A. C. Begen,2
+W. Brescia,2
+L. De Cicco,2
+S. Mascolo,2
+P. Testolina,2
+C. Bauer,2
+S. Linder,2
+R. Prodan,2
+T. Torjusen,2
+Ihab Amer,2
+Mehdi Houshmand Sarkhoosh,2
+Sushant Gautam,2
+Cise Midoglu,2
+Saeed Shafiee Sabet,2
+Tomas Kupka,2
+Pål Halvorsen,2
+Jérémy Ouellette,2
+Mufeng Zhu,2
+Guodong Chen,2
+Mallesham Dasari,2
+and Abdelhak Bentaleb,2
+Gabriel de Castro Araújo,1
+Henrique Domingues Garcia,1
+Mylène C.Q. Farias,1
+Ravi Prakash,1
+Marcelo Carvalho,1
+Srinivas Gudumasu,1
+Gireg Maury,1
+Ariel Glasroth,1
+Ahmed Hamza,1
+Carlos Cortés,1
+María Rubio,1
+Jesús Gutiérrez,1
+Beatriz Sánchez,1
+Pablo Pérez,1
+Teresa Hernando,1
+Daniel Berjón,1
+Francisco Morán,1
+Javier Usón,1
+Cesar Díaz,1
+Julián Cabrera,1
+Jin Heo,1
+Ketan Bhardwaj,1
+Ada Gavrilovska,1
+A 6DoF VR Dataset of 3D virtualWorld for Privacy-Preserving Approach and Utility-Privacy Tradeoff,1
+Thomas P. W. Paiva,1
+Simone Ferlin,1
+Anna Brunstrom,1
+Ozgu Alay,1
+Bruno Y. L. Kimura,1
+Chinmaey Shende,1
+Cheonjin Park,1
+Subhabrata Sen,1
+Bing Wang,1
+Hendrik Hachmann,1
+Bodo Rosenhahn,1
+Rui Dai,1
+Pranav Venkatram,1
+Yifan Ding,1
+Piers O'Hanlon,1
+Adil Aslam,1
+SMART360: Simulating Motion prediction and Adaptive bitRate sTrategies for 360° video streaming,1
+Irene Viola,1
+Laura Toni,1
+Pablo Cesar,1
+An Asynchronous Intensity Representation for Framed and Event Video Sources,1
+Na Li,1
+AI for Compression and Compression for AI,1
+Chenfei Tian,1
+Shaorui Ren,1
+and Mingwei Xu,1
+Short presentations: 3 min each. 18 papers for ODS and 6 papers for Demos,1
+Perceptual annotation of local distortions in videos: tools and datasets,1
+Gazi Karam Illahi,1
+Ashutosh Vaishnav,1
+Factors Influencing Video Quality of Experience in Ecologically Valid Experiments: Measurements and a Theoretical Mode,1
+Vijay John,1
+Yasutomo Kawanishi,1
+Video Decoding Performance and Requirements for XR Applications,1
+Michael Rudolph,1
+Stefan Schneegass,1
+Amr Rizk,1
+Luis Carvalho,1
+Tobias Washüttl,1
+Gerhard Widmer,1
+Raphael Abreu,1
+Douglas Mattos,1
+Joel Santos,1
+George Guinea,1
+Débora C. Muchaluat-Saade,1
+Yang Liu,1
+Emir Halepovic,1
+"""You AR' right in front of me"": RGBD-based capture and rendering for remote training",1
+QoE- and Energy-aware Content Consumption For HTTP Adaptive Streaming,1
+Shengmei Liu,1
+Yi-Zhen Tsai,1
+James Luo,1
+Yunshu Wang,1
+Jiasi Chen,1
+Mindi Ruan,1
+Xiangxu Yu,1
+Na Zhang,1
+Chuanbo Hu,1
+Shuo Wang,1
+Xin Li,1
+Ruopeng Chen,1
+Mengbai Xiao,1
+Dongxiao Yu,1
+Guanghui Zhang,1
+Danyang Song,1
+Cong Zhang,1
+Yifei Zhu,1
+Jan Outters,1
+Mickael Raulet,1
+Joris Herbots,1
+Arno Verstraete,1
+Maarten Wijnants,1
+Peter Quax,1
+Wim Lamotte,1
+Xudong Zhao,1
+Xinyao Zeng,1
+Linyao Gao,1
+Yanfeng Wang,1
+Robert Seeliger,1
+Stefan Pham,1
+Stefan Arbanowski,1
+Christian Herglotz,1
+Matthias Kränzler,1
+Robert Ludwig,1
+André Kaup,1
+Vignesh V Menon,1
+Christian Feldmann,1
+Klaus Schoeffmann,1
+Mohammed Ghanbari,1
+Soonbin Lee,1
+Jong-Beom Jeong,1
+Eun-Seok Ryu,1
+Yueheng Li,1
+Qianyuan Zheng,1
+Zicheng Zhang,1
+Hao Chen,1
+Zhan Ma,1
+Jiaxi Li,1
+Jingwei Liao,1
+Bo Chen,1
+Anh Nguyen,1
+Aditi Tiwari,1
+Qian Zhou,1
+Zhisheng Yan,1
+Haoyuan Zhao,1
+Hao Fang,1
+Feng Wang,1
+Rongyu Zhang,1
+Lixuan Du,1
+Jiaming Liu,1
+Congcong Song,1
+Xiaoqi Li,1
+Ming Lu,1
+Yandong Guo,1
+Shanghang Zhang,1
+Burak Kara,1
+Gwendal Simon,1
+Bruno Tuffin,1
+Jerome Vieron,1
+Ali C. Begen,1
+VE-Match: Video Encoding Matching-based Model for Cloud and Edge Computing Instances,1
+Welcome and Overview of Workshops,1
+Ila Gokarn,1
+Hemanth Sabbella,1
+Yigong Hu,1
+Tarek Abdelzaher,1
+Archan Misra,1
+Huy Phan,1
+Xianglong Feng,1
+Bo Yuan,1
+Saturday,1
+10 June 2023: Workshops,1
+F. Barbato,1
+U. Michieli,1
+P. Zanuttigh,1
+M. Ozay,1
+C. Chen,1
+W. Yin,1
+Z. Huang,1
+S. Shi,1
+K. Mayer-Patel,1
+M. Singh,1
+M. Josué,1
+D. C. Muchaluat-Saade,1
+M. F. Moreno,1
+A. Zeynali,1
+M. Hajiesmaili,1
+R. K. Sitaraman,1
+A. Rahmanian,1
+A. Ali-Eldin,1
+S. Amin,1
+H. Gustafsson,1
+E. Skartados,1
+B. Manganelli,1
+A. Drosou,1
+A. Saa-Garriga,1
+M. A. Arab,1
+A. Ghorbanpour,1
+M. Hefeeda,1
+A. Alhilal,1
+Z. Wu,1
+Y. H. Tsui,1
+P. Hui,1
+S. Zoltanski,1
+Ç. Erdem,1
+K. Kousias,1
+O. Alay,1
+C. Griwodz,1
+V. George,1
+J. Brandenburg,1
+G. Hege,1
+T. Hinz,1
+T. Schierl,1
+F. Hechler,1
+M. Rudolph,1
+A. Rizk,1
+S. Jin,1
+R. Zhu,1
+A. Hassan,1
+X. Zhu,1
+X. Zhang,1
+Z. M. Mao,1
+F. Qian,1
+Z. Zhang,1
+Y. Shi,1
+B. Clement,1
+W. T. Ooi,1
+J. He,1
+M. Ammar,1
+E. Zegura,1
+E. Halepovic,1
+T. Karagioules,1
+H. Alimohammadzadeh,1
+S. Zhu,1
+J. Bai,1
+S. Ghandeharizadeh,1
+X. Xu,1
+S. Liu,1
+R. Darcey,1
+T. Flanagan,1
+C. Nakagawa,1
+S. O'Connor,1
+M. Oliveira,1
+A. Kuwahara,1
+J. Scovell,1
+M. Claypool,1
+S. N. Gunkel,1
+R. Hindriks,1
+Y. Shiferaw,1
+S. Dijkstra-Soudarissanane,1
+O. Niamut,1
+M. Wu,1
+H. Guo,1
+Z. Yan,1
+K. Nahrstedt,1
+S. Khairy,1
+G. Mittag,1
+V. Gopal,1
+F. Y. Yan,1
+Z. Niu,1
+E. Ameri,1
+S. Inglis,1
+M. Golestaneh,1
+R. Cutler,1
+Q. Tan,1
+G. Lv,1
+X. Fang,1
+J. Zhang,1
+Z. Yang,1
+Q. Wu,1
+J. Usón,1
+J. Cabrera,1
+D. Sheng,1
+B. Gao,1
+G. Liu,1
+Q. Qi,1
+J. Adhuran,1
+M. G. Martini,1
+A. Hirway,1
+Y. Qiao,1
+N. Murray,1
+M. Hjeij,1
+M. Montagud,1
+X. Tao,1
+R. Xu,1
+C. Liu,1
+M. Hu,1
+S. Qian,1
+Y. Zhang,1
+T. Lin,1
+E. Cetinkaya,1
+A. Pehlivanoglu,1
+I. U. Ayten,1
+B. Yumakogullari,1
+M. E. Ozgun,1
+E. Deniz,1
+B. Lu,1
+K. Wang,1
+J. Xu,1
+L. Song,1
+R. Xie,1
+C. Carballo Gonzalez,1
+M. Murroni,1
+G. Li,1
+H. Chiang,1
+Y. Li,1
+S. Shirmohammadi,1
+C. Hsu,1
+N. Barone,1
+M. Polese,1
+P. Johari,1
+T. Melodia,1
+D. Lorenzi,1
+T. Malon,1
+S. Chambon,1
+A. Crouzil,1
+L. Lechelek,1
+C. Brocard,1
+N. Bernardeau,1
+L. Abadie,1
+B. Sera,1
+T. Hartmann,1
+M. Le Bras,1
+M. Nguyen,1
+S. Vats,1
+X. Zhou,1
+I. Viola,1
+P. Cesar,1
+H. Hellwagner,1
+M. Ghasempour,1
+L. Qu,1
+W. Hamidouche,1
+P. Gomes,1
+L. Toni,1
+M. Neugebauer,1
+X. Li,1
+E. Vikberg,1
+B. Cho,1
+Y. Xiao,1
+Y. Xu,1
+J. Du,1
+Y. Ning,1
+S. Zhou,1
+Y. Cao,1
+A. Premkumar,1
+P. T. Rajendran,1
+V. V. Menon,1
+S. Baldoni,1
+F. Battisti,1
+F. Chiariotti,1
+F. Mistrorigo,1
+A. B. Shofi,1
+A. Traspadini,1
+A. Zanella,1
+M. Zorzi,1
+A. A. Jabal,1
+A. Alfarrarjeh,1
+S. Alsaggar,1
+R. AbuRumman,1
+K. Abuqaoud,1
+L. Abuhejleh,1
+I. Almatar,1
+S. H. Kim,1
+E. J. Kassab,1
+H. M. Solberg,1
+M. Riegler,1
+H. Tampio,1
+J. Räsänen,1
+M. Viitanen,1
+A. Mercat,1
+G. Gautier,1
+J. Vanne,1
+J. Zhu,1
+Y. Hu,1
+J. Sameri,1
+S. Van Damme,1
+S. Schwarzmann,1
+Q. Wei,1
+R. Trivisonno,1
+M. T. Vega,1
+P. K. Rachabatuni,1
+P. Mazzanti,1
+M. Bertini,1
+S. Petrangeli,1
+H. Wang,1
+M. Fisher,1
+D. Kozma,1
+M. Mahamli,1
+P. Blumenthal,1
+A. Parsons,1
+M. Lux,1
+S. Rabung,1
+P. Herrmann,1
+T. Albert,1
+S. Andreas,1
+S. Hohnwald,1
+E. Potetsianakis,1
+E. Alexiou,1
+E. Thomas,1
+T. E. Civelek,1
+D. Ugur,1
+B. Kara,1
+G. Simon,1
+S. Radler,1
+L. Prüller,1
+M. Majidi,1
+T. Kupka,1
+D. Johansen,1
+Mohammed Metwaly,1
+Alexander J. Quinn,1
+Abhinav Bhattacharya,1
+Luís Fernando de Souza Cardoso,1
+Andy Schleising,1
+Gareth Rendle,1
+Adrian Kreskowski,1
+Felix Immohr,1
+Rakesh Rao Ramachandra Rao,1
+Wolfgang Broll,1
+Alexander Raake,1
+Dominik Winecki,1
+Arnab Nandi,1
+Håkon Medhus Fornes,1
+Elias Hoel Birketvedt,1
+Carsten Griwodz,1
+Magnus Skjegstad,1
+Michael Welzl,1
+Özgü Alay,1
+Zili Meng,1
+Enhuan Dong,1
+Yan Zhang,1
+Mingwei Xu,1
+Jianping Wu,1
+Jiakun Li,1
+Yuan Zhang,1
+Lingjun Pu,1
+Tao Lin,1
+Jinyao Yan,1
+Shubham Chaudhary,1
+Navneet Mishra,1
+Keshav Gambhir,1
+Tanmay Rajore,1
+Arani Bhattacharya,1
+Kirill Paramonov,1
+Mete Ozay,1
+Aristeidis Mystakidis,1
+Nikolaos Tsalikidis,1
+Dimitrios Sotos,1
+Anastasios Drosou,1
+Dimitrios Tzovaras,1
+Hyunjun Kim,1
+Kiseok Chang,1
+Sangdok Mo,1
+Namwoong Kim,1
+Woojong Yoo,1
+Ji Joong Moon,1
+Umberto Michieli,1
+Deniz Ugur,1
+Mohamed Hefeeda,1
+Vali Lalioti,1
+János Dóka,1
+Bálint György Nagy,1
+Dávid Jocha,1
+Bence Formanek,1
+Iván Viciedo,1
+Adrian Rodrigo,1
+David Gomez-Barquero,1
+Balázs Sonkoly,1
+Kyle Jorgensen,1
+Diwakar Krishnamurthy,1
+Emanuele Artioli,1
+Farzad Tashtarian,1
+Jit Chatterjee,1
+Tom Bovie,1
+Bram Beysens,1
+Maria Torres Vega,1
+Zhijian Wang,1
+Rongwei Lu,1
+Zhiyang Zhang,1
+Cedric Westphal,1
+Dongbiao He Jingyan Jiang,1
+Cheng-Tse Lee,1
+Chun-Ying Huang,1
+Xinqi Jin,1
+Zhui Zhu,1
+Xikai Sun,1
+Fan Dang,1
+Jingao Xu,1
+Kebin Liu,1
+Xinlei Chen,1
+Yunhao Liu,1
+Spatial Visibility and Temporal Dynamics: Rethinking Field of View Prediction in Adaptive Point Cloud Video Streaming,1
+Qinjun Jiang,1
+Yihan Pang,1
+William Sentosa,1
+Steven Gao,1
+Muhammad Huzaifa,1
+Jeffrey Zhang,1
+Javier Perez-Ramirez,1
+Dibakar Das,1
+David Gonzalez-Aguirre,1
+Brighten Godfrey,1
+Sarita Adve,1
+Matthias de Fré,1
+Jeroen van der Hooft,1
+Chia-Yu Chang,1
+Koen de Schepper,1
+Patrice Rondao Alface,1
+Danny de Vleeschauwer,1
+Tim Wauters,1
+Peter Steenkiste,1
+Filip de Turck,1
+Secure the Stream,1
+Not the Hosts: Attribute-Based Encryption for DRM Enabled Video Streaming,1
+Amaya Jiménez-Moreno,1
+Elena Conderana-Medem,1
+Silvia Casino-Colom,1
+Marta Orduna,1
+Ester Gonzalez-Sosa,1
+Pablo Perez,1
+Alvaro Villegas,1
+Varun Pradhan,1
+Pablo César,1
+Tiantian Feng,1
+Tuo Zhang,1
+Salman Avestimehr,1
+Shrikanth Narayanan,1
+Quanwei Zhang,1
+Zhiming Huang,1
+Jinwei Zhao,1
+Jianping Pan,1
+Sahir Sharma,1
+Conor Keighrey,1
+James Lardner,1
+Shane Gilligan,1
+Niall Murray,1
+Jie Li,1
+Shujiao Chen,1
+Qiyue Li,1
+Zhi Liu,1
+Zichen Zhu,1
+Mengmei Ye,1
+Samin Shahriar Tokey,1
+Benjamin Boudaoud,1
+Joohwan Kim,1
+Josef Spjut,1
+Nunzio Barone,1
+Walter Brescia,1
+Gabriele Santangelo,1
+Antonio Pio Maggio,1
+Ivan Cisternino,1
+Luca De Cicco,1
+Saverio Mascolo,1
+Yuran Sun,1
+Zhuoying Zhang,1
+Zhenxiao Luo,1
+Alan William Dougherty,1
+Man Ho Yip,1
+Yi King Choi,1
+Chuan Wu,1
+Zhiming Hu,1
+Salar Hosseini Khorasgani,1
+Weiming Ren,1
+Iqbal Mohomed,1
+Mingju Liu,1
+Cunxi Yu,1
+Xize Duan,1
+Yili Jin,1
+Lei Zhang,1
+Filip Hácha,1
+Libor Váša,1
+Simon N.B. Gunkel,1
+Tessa Klunder,1
+Frank Ansorge,1
+Piotr Zuraniewski,1
+Hadi Heidarirad,1
+Ziyu Zhong,1
+Mufan Liu,1
+Le Yang,1
+Yifan Wang,1
+Jenq-Neng Hwang,1
+Amir Jahanian Najafabadi,1
+Jean Botev,1
+Ningyuan Sun,1
+Carolyn Kroger,1
+Loubna Lechelek,1
+Sylvie Chambon,1
+Alain Crouzil,1
+Saddam Abdulwahab,1
+Christian Brocard,1
+Charles-Edouard Coquillard,1
+Laurence Abadie,1
+Bruno Sera,1
+Thierry Hartmann,1
+Marjorie Le Bras,1
+Louis Fréneau,1
+Guillaume Gautier,1
+Alexandre Mercat,1
+Jarno Vanne,1
+Syed Ali John Naqvi,1
+and Emir Halepovic,1
+Sam Ziaie Kondori,1
+and Cheng-Hsin Hsu,1
+Malte Wehmeier,1
+Eric Lanfer,1
+Kathrin Elmenhorst,1
+and Nils Aschenbruck,1
+Sagar Bharadwaj Kalasibail Seetharam,1
+Renata Teixeira,1
+Xiaoqing Zhu,1
+Kyle Swanson,1
+and Srinivasan Seshan,1
+Aman Sahu,1
+Barry Porter,1
+Rajiv Ramdhany,1
+and Nicholas Race,1
+Seoyong Nam,1
+Hyunwook Jung,1
+and Yongjae Yoo,1
+Tianyu Chen,1
+Mohammad Hajiesmaili,1
+and Ramesh K. Sitaraman,1
+Lingzhi Zhao,1
+Yongqiang Gui,1
+Yanyan Suo,1
+Sandesh Dhawaskar Sathyanarayana,1
+Ruixiao Zhang,1
+and Shu Shi,1
+Ghazaleh Bakhtiariazad,1
+Haseeb Ur Rehman,1
+Shervin Shirmohammadi,1
+and Mohamed Hefeeda,1
+Mayesha Maliha Rahman Mithila and Mylene C.Q. Farias,1
+Alireza Mohammadhosseini,1
+Jacob Chakareski,1
+and Mallesham Dasari,1
+Pina Kolling,1
+Andrew Freeman,1
+and Amr Rizk,1
+Kunjal Panchal,1
+Saayan Mitra,1
+Somdeb Sarkhel,1
+Haoliang Wang,1
+Ishita Dasgupta,1
+Gang Wu,1
+and Hui Guan,1
+Zoha Azimi Ourimi,1
+Reza Fahrani,1
+Radu Prodan,1
+and Christian Timmerer,1
+Ali Mollaahmadi Dehaghi,1
+Hossein KhademSohi,1
+Reza Razavi,1
+Steve Drew,1
+and Mohammad Moshirpour,1
+Joon-Seok Song,1
+Juyeob Lee,1
+and Eunil Park,1

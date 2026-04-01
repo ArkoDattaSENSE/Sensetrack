@@ -1,0 +1,61 @@
+CoNEXT 2023 Accepted Papers
+Aggressive Internet-Wide Scanners: Network Impact and Longitudinal Characterization
+A. Anand (Georgia Institute of Technology), M. Kallitsis (Merit Network, Inc.), J. Sippe (University of Colorado Boulder), A. Dainotti (Georgia Institute of Technology)
+Amoeba: Circumventing ML-supported Network Censorship via Adversarial Reinforcement Learning
+H. Liu (The University of Edinburgh), Alec F. Diallo (The University of Edinburgh), P. Patras (The University of Edinburgh)
+C2Store: C2 Server Profiles at Your Fingertips
+V. Jain (University of California, Riverside), S. M. M. Alam (University of California, Riverside), Srikanth V. Krishnamurthy (University of California, Riverside), M. Faloutsos (University of California, Riverside)
+Change Point Detection in WLANs with Random AP Forests
+A. Huet (Huawei Technologies Co., Ltd), J. Krolikowski (Huawei Technologies Co., Ltd), J. M. Navarro (Huawei Technologies Co., Ltd), F. Chen (Huawei Technologies Co., Ltd), D. Rossi (Huawei Technologies Co., Ltd)
+Characterizing Distributed Mobile Augmented Reality Applications at the Edge
+G. Bartolomeo (Technical University of Munich), J. Cao (University of Oulu), X. Su (Norwegian University of Science and Technology), N. Mohan (Technical University of Munich)
+Dances with Blues: Harnessing Multi-Frequency Carriers for Commodity Bluetooth Backscatter
+M. Jiang (University of Science and Technology of China), W. Gong (University of Science and Technology of China)
+Data-driven Analysis of the Cost-Performance Trade-off of Reconfigurable Intelligent Surfaces in a Production Network
+M. Rossanese (NEC Laboratories Europe GmbH), A. Garcia-Saavedra (NEC Laboratories Europe GmbH), A. Lutu (Telefonica Research), X. Costa-Perez (NEC Laboratories Europe GmbH, i2CAT Foundation, and ICREA)
+DDoS2Vec: Flow-Level Characterisation of Volumetric DDoS Attacks at Scale
+R. S. Samra (University of Waikato), M. Barcellos (University of Waikato)
+Dependent Misconfigurations in 5G/4.5G Radio Resource Control
+Z. Zhang (UCLA), Y. Liu (Purdue University), Q. Li (UCLA), Z. Liu (Purdue University), C. Peng (Purdue University), S. Lu (University of California, Los Angeles)
+DINC: Toward Distributed In-Network Computing
+C. Zheng (University of Oxford), H. Tang (Yale University), M. Zang (Technical University of Denmark), X. Hong (University of Oxford), A. Feng (Yale University), L. Tassiulas (Yale University), N. Zilberman (University of Oxford)
+Dissecting the Performance of Satellite Network Operators
+A. Raman (Telefonica Research), M. Varvello (Nokia Bell Labs), H. Chang (Nokia Bell Labs), N. Sastry (University of Surrey, UK), Y. Zaki (NYU Abu Dhabi)
+Divided at the Edge - Measuring Performance and the Digital Divide of Cloud Edge Data Centers
+N. Martin (Tufts University), F. Dogar (Tufts University)
+Empowerment of Atypical Viewers via Low-Effort Personalized Modeling of Video Streaming Quality
+L. Peroni (IMDEA Networks Institute and UC3M), S. Gorinsky (IMDEA Networks Institute), F. Tashtarian (Alpen-Adria Universität Klagenfurt), C. Timmerer (Alpen-Adria Universität Klagenfurt)
+Enhancing the Unlinkability of Circuit-Based Anonymous Communications with k-Funnels
+V. Nunes (INESC-ID / Instituto Superior Tecnico, University of Lisbon), J. Brás (INESC-ID / Instituto Superior Tecnico, University of Lisbon), A. Carvalho (INESC-ID / Instituto Superior Tecnico, University of Lisbon), D. Barradas (University of Waterloo), K. Gallagher (NOVA LINCS & NOVA School of Science and Technology), N. Santos (INESC-ID / Instituto Superior Tecnico, University of Lisbon)
+EXPLORA: AI/ML EXPLainability for the Open RAN
+C. Fiandrino (IMDEA Networks Institute), L. Bonati (Northeastern University), S. D'Oro (Northeastern University), M. Polese (Northeastern University), T. Melodia (Northeastern University), J. Widmer (IMDEA Networks)
+Exploring the Benefits of Carbon-Aware Routing
+S. E. Zahr (University of Oxford), P. Gunning (BT), N. Zilberman (University of Oxford)
+FlexCP: A Scalable Multipath TCP Proxy for Cellular Networks
+D. Kim (KAIST), Y. Moon (Samsung Research), J. Hwang (Sungkyunkwan University), K. Park (KAIST)
+Flock: Accurate network fault localization at scale
+V. Harsh (University of Illinois at Urbana-Champaign), T. Meng (University of Illinois at Urbana-Champaign), K. Agrawal (University of Illinois at Urbana-Champaign), B. Godfrey (University of Illinois at Urbana-Champaign/VMware)
+LEAF: Navigating Concept Drift in Cellular Networks
+S. Liu (University of Chicago), F. Bronzino (École Normale Supérieure de Lyon), P. Schmitt (University of Hawaii, Manoa), A. N. Bhagoji (University of Chicago), N. Feamster (University of Chicago), H. G. Crespo (Verizon), T. Coyle (Verizon), B. Ward (Verizon)
+LEO Satellite vs. Cellular Networks: Exploring the Potential for Synergistic Integration
+B. Hu (University of Southern California), X. Zhang (University of Michigan), Q. Zhang (University of Minnesota - Twin Cities), N. Varyani (University of Minnesota - Twin Cities), Z. Morley Mao (University of Michigan and Google), F. Qian (University of Southern California), Z. Zhang (University of Minnesota - Twin Cities)
+Making Sense of Constellations: Methodologies for Understanding Starlink's Scheduling Algorithms
+H. B. Tanveer (University of Iowa), M. Puchol (Google X), R. Singh (Cornell University), A. Bianchi (Purdue University), R. Nithyanand (University of Iowa)
+Millions of Low-latency State Insertions on ASIC Switches
+T. Caiazzi (KTH Royal Institute of Technology / Roma Tre University), M. Scazzariello (KTH Royal Institute of Technology), M. Chiesa (KTH Royal Institute of Technology)
+Modular Data Plane Verification for Compositional Networks
+X. Liu (Xi'an Jiaotong University), P. Zhang (Xi'an Jiaotong University), H. Li (Xi'an Jiaotong Universifty), W. Sun (Xi'an Jiaotong Universifty)
+Packed to the Brim: Investigating the Impact of Highly Responsive Prefixes on Internet-wide Measurement Campaigns
+P. Sattler (Technical University of Munich), J. Zirngibl (Technical University of Munich), M. Jonker (University of Twente), O. Gasser (Max Planck Institute for Informatics), G. Carle (Technical University of Munich), R. Holz (University of Münster)
+Practical Packet Deflection in Datacenters
+S. Abdous (Johns Hopkins University), E. Sharafzadeh (Johns Hopkins University), S. Ghorbani (Johns Hopkins University and Meta)
+Revocation Speedrun: How the WebPKI Copes with Fraudulent Certificates
+J. Frieß (ATHENE Center, TU Darmstadt & Fraunhofer SIT), H. Shulman (ATHENE Center, Goethe University Frankfurt & Fraunhofer SIT), M. Waidner (ATHENE Center, TU Darmstadt & Fraunhofer SIT)
+Securing Name Resolution in the IoT: DNS over CoAP
+M. S. Lenders (Freie Universität Berlin), C. Amsüss (Unaffiliated), C. Gündogan (Huawei Technologies), M. Nawrocki (Freie Universität Berlin), T. Schmidt (HAW Hamburg), M. Wählisch (TU Dresden)
+SPADA: A Sparse Approximate Data Structure representation for data plane per-flow monitoring
+A. Monterubbiano (University of Rome "La Sapienza"), R. Azorin (Huawei Technologies Co. Ltd), G. Castellano (Huawei Technologies Co. Ltd), M. Gallo (Huawei Technologies Co. Ltd), S. Pontarelli (University of Rome "La Sapienza"), D. Rossi (Huawei Technologies Co. Ltd)
+The Performance of Post-Quantum TLS 1.3
+M. Sosnowski (Technical University of Munich), F. Wiedner (Technical University of Munich), E. Hauser (Technical University of Munich), L. Steger (Technical University of Munich), D. Schoinianakis (Nokia Bell Labs), S. Gallenmüller (Technical University of Munich), G. Carle (Technical University of Munich)
+Yarrpbox: Detecting Middleboxes at Internet-Scale
+F. Hilal (Max Planck Institute for Informatics), O. Gasser (Max Planck Institute for Informatics)

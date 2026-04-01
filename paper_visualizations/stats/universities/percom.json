@@ -1,0 +1,830 @@
+[
+  [
+    "University of Cambridge",
+    11
+  ],
+  [
+    "University of Georgia, USA",
+    9
+  ],
+  [
+    "North Carolina State University",
+    8
+  ],
+  [
+    "Deutsches Forschungszentrum f\u00fcr K\u00fcnstliche Intelligenz",
+    6
+  ],
+  [
+    "Indian Institute of Technology Kharagpur, India",
+    5
+  ],
+  [
+    "Delft University of Technology, The Netherlands",
+    5
+  ],
+  [
+    "Osaka University, Japan",
+    5
+  ],
+  [
+    "Katholieke Universiteit Leuven",
+    5
+  ],
+  [
+    "University of Science and Technology of China",
+    5
+  ],
+  [
+    "The University of Texas at Austin",
+    5
+  ],
+  [
+    "Monash University, Australia",
+    4
+  ],
+  [
+    "University of Science and Technology of China, China",
+    4
+  ],
+  [
+    "Yonsei University, Korea (South)",
+    4
+  ],
+  [
+    "University of Cambridge, United Kingdom (Great Britain)",
+    4
+  ],
+  [
+    "Singapore Management University, Singapore",
+    4
+  ],
+  [
+    "The Hong Kong University of Science and Technology",
+    4
+  ],
+  [
+    "Osaka University",
+    4
+  ],
+  [
+    "Korea Advanced Institute of Science and Technology",
+    4
+  ],
+  [
+    "Worcester Polytechnic Institute",
+    4
+  ],
+  [
+    "Shenzhen University, China",
+    3
+  ],
+  [
+    "University of Sussex, United Kingdom (Great Britain)",
+    3
+  ],
+  [
+    "The University of Tokyo, Japan",
+    3
+  ],
+  [
+    "New Jersey Institute of Technology, USA",
+    3
+  ],
+  [
+    "Northeastern University, USA",
+    3
+  ],
+  [
+    "University of Maryland, Baltimore County, USA",
+    3
+  ],
+  [
+    "German Research Center for Artificial Intelligence, Germany",
+    3
+  ],
+  [
+    "Indian Institute of Technology, Kharagpur",
+    3
+  ],
+  [
+    "University of Sydney",
+    3
+  ],
+  [
+    "Tokyo Institute of Technology",
+    3
+  ],
+  [
+    "The University of Osaka, Japan",
+    3
+  ],
+  [
+    "Hokkaido University, Japan",
+    3
+  ],
+  [
+    "Shanghai Jiao Tong University, China",
+    3
+  ],
+  [
+    "University of Melbourne, Australia",
+    2
+  ],
+  [
+    "Tokyo Institute of Technology, Japan",
+    2
+  ],
+  [
+    "City University of Hong Kong, Hong Kong",
+    2
+  ],
+  [
+    "Georgia Institute of Technology, USA",
+    2
+  ],
+  [
+    "Korea Advanced Institute of Science and Technology, Korea (South)",
+    2
+  ],
+  [
+    "Old Dominion University, USA",
+    2
+  ],
+  [
+    "Virginia Commonwealth University, USA",
+    2
+  ],
+  [
+    "University of Arizona, USA",
+    2
+  ],
+  [
+    "Francesco Restuccia",
+    2
+  ],
+  [
+    "NXP Semiconductors, The Netherlands",
+    2
+  ],
+  [
+    "Cardiff University, United Kingdom (Great Britain)",
+    2
+  ],
+  [
+    "Technical University of Munich, Germany",
+    2
+  ],
+  [
+    "Georgios Bouloukakis",
+    2
+  ],
+  [
+    "Telecom SudParis, France",
+    2
+  ],
+  [
+    "Hong Kong University of Science and Technology, Hong Kong",
+    2
+  ],
+  [
+    "The Hong Kong University of Science and Technology, Hong Kong",
+    2
+  ],
+  [
+    "Missouri University of Science and Technology, USA",
+    2
+  ],
+  [
+    "Paul Lukowicz",
+    2
+  ],
+  [
+    "DFKI, Germany",
+    2
+  ],
+  [
+    "DFKI and University of Kaiserslautern, Germany",
+    2
+  ],
+  [
+    "The Pennsylvania State University, USA",
+    2
+  ],
+  [
+    "Indian Institute of Technology, Jodhpur",
+    2
+  ],
+  [
+    "Ewha Womans University",
+    2
+  ],
+  [
+    "IDSSE",
+    2
+  ],
+  [
+    "Peking University",
+    2
+  ],
+  [
+    "Institut Polytechnique de Paris",
+    2
+  ],
+  [
+    "JD",
+    2
+  ],
+  [
+    "Toshiba",
+    2
+  ],
+  [
+    "Singapore Management University",
+    2
+  ],
+  [
+    "University of Bath",
+    2
+  ],
+  [
+    "University of G\u00f6ttingen, Germany",
+    2
+  ],
+  [
+    "University of Toronto, Canada",
+    2
+  ],
+  [
+    "The University of Melbourne, Australia",
+    2
+  ],
+  [
+    "University of Maryland Baltimore County, USA",
+    2
+  ],
+  [
+    "Indian Institute of Technology Jodhpur, India",
+    2
+  ],
+  [
+    "Pengcheng Laboratory, China",
+    2
+  ],
+  [
+    "Seoul National University, Korea (South)",
+    2
+  ],
+  [
+    "Lahore University of Management Sciences, Pakistan",
+    2
+  ],
+  [
+    "Virginia Tech, USA",
+    2
+  ],
+  [
+    "VinUniversity, Vietnam",
+    2
+  ],
+  [
+    "The Hong Kong University of Science and Technology (Guangzhou), China",
+    2
+  ],
+  [
+    "The Chinese University of Hong Kong, Hong Kong",
+    1
+  ],
+  [
+    "Monash University, Australia & The University of Melbourne, Australia",
+    1
+  ],
+  [
+    "Karlsruhe Institute of Technology, Germany",
+    1
+  ],
+  [
+    "Karlsruhe Institute of Technology & Centre for Tactile Internet (CeTI)/TU Dresden, Germany",
+    1
+  ],
+  [
+    "Paderborn University, Germany",
+    1
+  ],
+  [
+    "South East Technological University, Ireland",
+    1
+  ],
+  [
+    "Huawei Technologies Research and Development UK Ltd, United Kingdom (Great Britain)",
+    1
+  ],
+  [
+    "Yahoo Japan Corporation, Japan",
+    1
+  ],
+  [
+    "Ritsumeikan University, Japan",
+    1
+  ],
+  [
+    "Michigan State University, USA",
+    1
+  ],
+  [
+    "Nanyang Technological University, Singapore",
+    1
+  ],
+  [
+    "Yuuki Nishiyama",
+    1
+  ],
+  [
+    "Universiy of Tokyo, Japan",
+    1
+  ],
+  [
+    "University of Tokyo, Japan",
+    1
+  ],
+  [
+    "Yonsei University, S. Korea, Korea (South)",
+    1
+  ],
+  [
+    "Georgia Insitute of Technology, USA",
+    1
+  ],
+  [
+    "University of Twente, The Netherlands",
+    1
+  ],
+  [
+    "KAIST, Korea (South)",
+    1
+  ],
+  [
+    "Riki Ukyo",
+    1
+  ],
+  [
+    "The University of Arizona, USA",
+    1
+  ],
+  [
+    "Valeria Cardellini and Francesco Lo Presti",
+    1
+  ],
+  [
+    "University of Rome Tor Vergata, Italy",
+    1
+  ],
+  [
+    "New Jersey Insittute of Technology, USA",
+    1
+  ],
+  [
+    "Qualcomm Technologies Inc, USA",
+    1
+  ],
+  [
+    "Qualcomm Incorporated, USA",
+    1
+  ],
+  [
+    "Kent State University, USA",
+    1
+  ],
+  [
+    "Delft Technology University, The Netherlands",
+    1
+  ],
+  [
+    "Francesco Gringoli",
+    1
+  ],
+  [
+    "University of Brescia, Italy",
+    1
+  ],
+  [
+    "CNIT/University of Brescia, Italy",
+    1
+  ],
+  [
+    "IIT KHARAGPUR, India",
+    1
+  ],
+  [
+    "IIT Kharagpur, India",
+    1
+  ],
+  [
+    "Cambridge University, United Kingdom (Great Britain) & Nokia Bell Labs, Cambrdige, United Kingdom (Great Britain)",
+    1
+  ],
+  [
+    "Hamburg University of Applied Sciences & Hamburg University of Technology & NXP Semiconductors, Germany",
+    1
+  ],
+  [
+    "Hamburg University of Applied Sciences, Germany",
+    1
+  ],
+  [
+    "Hamburg University of Technology, Germany",
+    1
+  ],
+  [
+    "Nokia Bell Labs, United Kingdom (Great Britain)",
+    1
+  ],
+  [
+    "University of Colorado Boulder, USA",
+    1
+  ],
+  [
+    "Vincent Bode",
+    1
+  ],
+  [
+    "Siemens AG, Germany",
+    1
+  ],
+  [
+    "TU M\u00fcncheng, Germany",
+    1
+  ],
+  [
+    "HKUST, Hong Kong",
+    1
+  ],
+  [
+    "Hong Kong University of Science and Technology & University of Helsinki, Hong Kong",
+    1
+  ],
+  [
+    "Keisuke Higashiura",
+    1
+  ],
+  [
+    "Yusuke Asai",
+    1
+  ],
+  [
+    "Nagoya University, Japan",
+    1
+  ],
+  [
+    "Western Michigan University, USA",
+    1
+  ],
+  [
+    "Deutsches Forschungszentrum f\u00fcr K\u00fcnstliche Intelligenz & University of Kaiserslautern, Germany",
+    1
+  ],
+  [
+    "RPTU, Germany",
+    1
+  ],
+  [
+    "Haruki Yonekura",
+    1
+  ],
+  [
+    "The Hong Kong University of Science and Technology & Southern University of Science and Technology, China",
+    1
+  ],
+  [
+    "Southern University of Science and Technology, USA",
+    1
+  ],
+  [
+    "University of Cologne, Germany",
+    1
+  ],
+  [
+    "Pennsylvania State University, USA",
+    1
+  ],
+  [
+    "University of Maryland, Baltimore County",
+    1
+  ],
+  [
+    "Shenzhen University",
+    1
+  ],
+  [
+    "Virginia Tech",
+    1
+  ],
+  [
+    "University of Massachusetts at Amherst",
+    1
+  ],
+  [
+    "University of California, Irvine",
+    1
+  ],
+  [
+    "Rutgers University",
+    1
+  ],
+  [
+    "University of Texas at Dallas) and Daqing Zhang (Peking University",
+    1
+  ],
+  [
+    "Osaka University) and Takuya Maekawa (Osaka University",
+    1
+  ],
+  [
+    "and Paul Lukowicz",
+    1
+  ],
+  [
+    "Masamitsu Fukuda",
+    1
+  ],
+  [
+    "Advanced Institute of Industrial Technolog",
+    1
+  ],
+  [
+    "CSIRO) and Sara Khalifa (Queensland University of Technology",
+    1
+  ],
+  [
+    "Korea Advanced Institute of Science and Technology) and Dongman Lee (Korea Advanced Institute of Science and Technology",
+    1
+  ],
+  [
+    "Virginia Commonwealth University) and Tamer Nadeem (Virginia Commonwealth University",
+    1
+  ],
+  [
+    "Western Sydney University",
+    1
+  ],
+  [
+    "The University of Texas at Austin & Virginia Tech",
+    1
+  ],
+  [
+    "LY Corporation",
+    1
+  ],
+  [
+    "Ritsumeikan University",
+    1
+  ],
+  [
+    "Deloitte, Germany",
+    1
+  ],
+  [
+    "IRIT - CNRS, France",
+    1
+  ],
+  [
+    "IRIT - Universit\u00e9 de Toulouse, France",
+    1
+  ],
+  [
+    "Canada",
+    1
+  ],
+  [
+    "University Health Network, Canada",
+    1
+  ],
+  [
+    "Sunnybrook Health Sciences Centre, Canada",
+    1
+  ],
+  [
+    "Indian Institute of Technology Madras, India",
+    1
+  ],
+  [
+    "Indian Institute of Technology, Madras, India",
+    1
+  ],
+  [
+    "Nocturnal.Inc, USA",
+    1
+  ],
+  [
+    "University of North Carolina at Charlotte, USA",
+    1
+  ],
+  [
+    "Ulsan National Institute of Science and Technology, Korea (South)",
+    1
+  ],
+  [
+    "University of Maryland, College Park, USA",
+    1
+  ],
+  [
+    "Eindhoven University of Technology, The Netherlands",
+    1
+  ],
+  [
+    "University of Nebraska Omaha, USA",
+    1
+  ],
+  [
+    "University of Hawaii at Manoa, USA",
+    1
+  ],
+  [
+    "Old Dominion University & School of Cybersecurity, USA",
+    1
+  ],
+  [
+    "Iowa State University, USA",
+    1
+  ],
+  [
+    "University of Chinese Academy of Sciences, China",
+    1
+  ],
+  [
+    "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, China",
+    1
+  ],
+  [
+    "Northumbria University Newcastle, United Kingdom (Great Britain)",
+    1
+  ],
+  [
+    "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China",
+    1
+  ],
+  [
+    "Univ Rennes, CNRS, INRIA, IRISA",
+    1
+  ],
+  [
+    "IRIT-INPT, France",
+    1
+  ],
+  [
+    "INSA Rennes, France",
+    1
+  ],
+  [
+    "Argonne National Laboratory, USA",
+    1
+  ],
+  [
+    "University of Virginia, USA",
+    1
+  ],
+  [
+    "Hara Laboratory, Osaka University, Japan",
+    1
+  ],
+  [
+    "Deakin University, Australia",
+    1
+  ],
+  [
+    "Lingnan University, Hong Kong",
+    1
+  ],
+  [
+    "Harbin Institute of Technology Shenzhen, China",
+    1
+  ],
+  [
+    "Sungkyunkwan University, Korea (South)",
+    1
+  ],
+  [
+    "Microsoft, China",
+    1
+  ],
+  [
+    "Guangdong Second Provincial General Hospital, China",
+    1
+  ],
+  [
+    "Lahore University of Management Sciences (LUMS), Pakistan",
+    1
+  ],
+  [
+    "CISPA Helmholtz Center for Information Security, Germany",
+    1
+  ],
+  [
+    "LUMS, Pakistan",
+    1
+  ],
+  [
+    "Orange Innovation, France",
+    1
+  ],
+  [
+    "T\u00e9l\u00e9com SudParis / IP Paris, France",
+    1
+  ],
+  [
+    "University of Patras, Greece & T\u00e9l\u00e9com SudParis, IP Paris, France",
+    1
+  ],
+  [
+    "Portland State University, USA",
+    1
+  ],
+  [
+    "University of Sydney, Australia",
+    1
+  ],
+  [
+    "University of Jayawardenapura, Sri Lanka",
+    1
+  ],
+  [
+    "Curtin University, Australia",
+    1
+  ],
+  [
+    "Colorado State University, USA",
+    1
+  ],
+  [
+    "The University of Sydney, Australia",
+    1
+  ],
+  [
+    "National Institute of Informatics, Japan",
+    1
+  ],
+  [
+    "DFKI, RPTU Kaiserslautern, Germany",
+    1
+  ],
+  [
+    "University of Michigan at Dearborn, USA",
+    1
+  ],
+  [
+    "University of Michigan- Dearborn, USA",
+    1
+  ],
+  [
+    "UMDearborn, USA",
+    1
+  ],
+  [
+    "University of Kassel, Germany",
+    1
+  ],
+  [
+    "Queensland University of Technology (QUT), Australia",
+    1
+  ],
+  [
+    "CSIRO, Australia",
+    1
+  ],
+  [
+    "Queensland University of Technology, Australia",
+    1
+  ],
+  [
+    "Queensland University of Technology & CSIRO, Australia",
+    1
+  ],
+  [
+    "Trinity College Dublin, Ireland",
+    1
+  ],
+  [
+    "Yukuan Ding",
+    1
+  ],
+  [
+    "Pontificia Universidad Cat\u00f3lica del Per\u00fa, Peru",
+    1
+  ],
+  [
+    "Hong Kong University of Science and Technology, China",
+    1
+  ],
+  [
+    "Cornell University, USA",
+    1
+  ],
+  [
+    "Cornell, USA",
+    1
+  ],
+  [
+    "University of Michigan, USA",
+    1
+  ]
+]

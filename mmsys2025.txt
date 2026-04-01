@@ -1,0 +1,223 @@
+0:30-12:30	
+MMVE Session 1: Content Creation/Analysis
+Multimodal User Experience in Extended Reality: Exploring Hand Tracking, Voice, and Passthrough Interactions Tanja Kojic, Maurizio Vergari, Maximilian Warsinke, Danish Ali, Sebastian Möller, Jan-Niklas Voigt-Antons
+Evaluation of Segmentation Algorithms for Embodiment Improvement in an XR Application
+Amaya Jiménez-Moreno, Elena Conderana-Medem, Silvia Casino-Colom, Marta Orduna, Ester Gonzalez-Sosa, Pablo Perez, Alvaro Villegas
+Analysis of User Experience and Task Performance in a Multi-User Cross-Reality Virtual Object Manipulation Task
+Lea Brzica, Filip Matanović, Sara Vlahović, Nina Pavlin Bernardić, Lea Skorin-Kapov
+Virtual Tool Embodiment in Simulated Gravity Conditions
+Amir Jahanian Najafabadi, Jean Botev, Ningyuan Sun, Carolyn Kroger
+Impact of VR Embodiment on Users' Perception in V-Commerce
+Jit Chatterjee, Tom Bovie, Bram Beysens, Maria Torres Vega
+The Stereo Microscope: Stereo 3D images for complex remote soldering teaching
+Simon N.B. Gunkel, Tessa Klunder, Frank Ansorge, Piotr Zuraniewski
+12:30-13:30	Lunch
+13:30-15:30	
+MMVE Session 2: Embodiment/UX
+Exploring Entropy-Based Solutions for Trajectory Prediction in Virtual Reality
+Varun Pradhan, Silvia Rossi, Pablo César
+Joint Learning of Point Clouds and Motion Vectors for Volumetric Video
+Cheng-Tse Lee, Yuan-Chun Sun, Yuang Shi, Mufeng Zhu, Wei Tsang Ooi, Yao Liu, Chun-Ying Huang, Cheng-Hsin Hsu
+Sketch and Patch: Efficient 3D Gaussian Representation for Man-Made Scenes
+Yuang Shi, Simone Gasparini, Geraldine Morin, Chenggang Yang, Wei Tsang Ooi
+Acceptable Latency in Predictable First-Person VR Cloud Games
+Håkon Medhus Fornes, Elias Hoel Birketvedt, Carsten Griwodz, Magnus Skjegstad, Michael Welzl, Özgü Alay
+Emerging Telepresence Technologies for Hybrid Meetings: Experiences and Lessons Learned from an Interactive Workshop
+Marta Orduna, Ester Gonzalez-Sosa, Andriana Boudouraki, Houda Elmimouni, Veronica Ahumada, Pablo Perez, Jesus Gutiérrez, Pablo César
+15:30-16:00	Coffee Break
+16:00-	Personal Time
+Tuesday, April 1st
+08:00-09:00	Registration (STIAS Foyer)
+09:00-10:00	
+Keynote: On the Road to Scalable, Interoperable and Cost-efficient Realistic Holographic Communications
+Mario Montagud Climent, i2CAT Foundation & University of Valencia
+10:00-10:30	Coffee Break
+10:30-11:00	MMsys'25 Opening
+11:00-12:00	
+MMSys Research Track Session 1: Real-time and Adaptive Streaming
+Session Chair: Simon Gunkel
+Palantir: Towards Efficient Super Resolution for Ultra-high-definition Live Streaming
+Xinqi Jin, Zhui Zhu, Xikai Sun, Fan Dang, Jiangchuan Liu, Jingao Xu, Kebin Liu, Xinlei Chen, Yunhao Liu
+StreamWise: An Intelligent Content Steering for DASH
+Chidambar Joshi, Jashanjot Singh Sidhu, Abdelhak Bentaleb
+COMPACT: Content-aware Multipath Live Video Streaming for Online Classes using Video Tiles
+Shubham Chaudhary, Navneet Mishra, Keshav Gambhir, Tanmay Rajore, Arani Bhattacharya, Mukulika Maity
+12:00-12:30	Doctoral Symposium and Technical Demo Pitches
+12:30-14:00	Lunch (Technical Demo Setup)
+14:00-15:30	
+Doctoral Symposium Posters
+Session Chair: Cheng-Hsin Hsu
+3D Gaussian-based Immersive Media Streaming in Networked Extended Reality
+Yuang Shi
+Time Varying Mesh Compression
+Guodong Chen
+Technical Demos
+Session Chair: Rensu Theart
+Danger Detection and Cloud-Based Vocal Assistance System for Visually Impaired Users Using Meta Quest 3
+Fabrizio De Fiore, John Barrett, Niall Murray, Conor Keighrey
+Real-time Point Cloud Transmission for Immersive Teleoperation of Autonomous Mobile Robots
+Nunzio Barone, Walter Brescia, Gabriele Santangelo, Antonio Pio Maggio, Ivan Cisternino, Luca De Cicco, Saverio Mascolo
+Streaming Face-Off: A Testbed Analysis of Media-over-QUIC and Low-Latency DASH
+Minh Nguyen, Philip Nys, Stefan Pham, Daniel Silhavy, Stefan Arbanowski, Stephan Steglich
+No code XR-CAx experience creation workflows for conducting Equipment Design Reviews
+Sahir Sharma, Conor Keighrey, James Lardner, Shane Gilligan, Niall Murray
+Learned Compression in Adaptive Point Cloud Streaming: Opportunities, Challenges and Limitations
+Michael Rudolph, Amr Rizk
+Efficient and Accurate Scene Text Recognition with Cascaded-Transformers
+Savas Ozkan, Andrea Maracani, Mete Ozay, Hyowon Kim, Sijun Cho, Eunchung Noh, Jeongwon Min, Jung Min Cho
+A Multi-CDN Playground for Dash.js: Enabling Integration of CDN Switching Strategies
+Jashanjot Singh Sidhu, Chidambar Joshi, Abdelhak Bentaleb
+Continual Error Correction on Low-Resource Devices
+Kirill Paramonov, Mete Ozay, Aristeidis Mystakidis, Nikolaos Tsalikidis, Dimitrios Sotos, Anastasios Drosou, Dimitrios Tzovaras, Hyunjun Kim, Kiseok Chang, Sangdok Mo, Namwoong Kim, Woojong Yoo, Ji Joong Moon, Umberto Michieli
+15:30-16:00	Coffee Break
+16:00-17:30	
+MMSys Research Track Session 2: User Interation in XR Systems
+Session Chair: Jean Botev
+Spatial Visibility and Temporal Dynamics: Rethinking Field of View Prediction in Adaptive Point Cloud Video Streaming
+Chen Li, Tongyu Zong, Yueyu Hu, Yong Liu, Yao Wang
+LL-Sparse: Low-Latency 6-DoF Field of View Prediction
+Jérémy Ouellette, Abdelhak Bentaleb
+Enablers of Low-Latency Immersive Interaction in Future Remote-Rendered Mixed Reality Applications
+János Dóka, Bálint György Nagy, Dávid Jocha, Bence Formanek, Iván Viciedo, Adrian Rodrigo, David Gomez-Barquero, Balázs Sonkoly
+Decoupling Video Upscaling from Rendering for Cloud Gaming
+Deniz Ugur, Ihab Amer, Mohamed Hefeeda
+17:30-19:30	Welcome Reception (STIAS)
+Wednesday, April 2nd
+08:00-09:00	Registration (STIAS Foyer)
+Doctoral Symposium Breakfast (STIAS Boardroom)
+09:00-10:00	
+Keynote: Art & Tech - A multimedia journey from VR Ndebele painting to Creative Robotic performances
+Vali Lalioti, University of the Arts London
+10:00-10:30	Coffee Break
+10:30-12:00	
+MMSys Research Track Session 3: Advances in XR Streaming and Compression
+Session Chair: Marta Orduna
+RemoteVIO: Offloading Head Tracking in an End-to-End XR System
+Qinjun Jiang, Yihan Pang, William Sentosa, Steven Gao, Muhammad Huzaifa, Jeffrey Zhang, Javier Perez-Ramirez, Dibakar Das, David Gonzalez-Aguirre, Brighten Godfrey, Sarita Adve
+TVMC: Time-Varying Mesh Compression Using Volume-Tracked Reference Meshes
+Guodong Chen, Filip Hácha, Libor Váša, Mallesham Dasari
+SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes
+Mufeng Zhu, Mingju Liu, Cunxi Yu, Cheng-Hsin Hsu, Yao Liu
+LTS: A DASH Streaming System for Dynamic Multi-Layer 3D Gaussian Splatting Scenes
+Yuan-Chun Sun, Yuang Shi, Cheng-Tse Lee, Mufeng Zhu, Wei Tsang Ooi, Yao Liu, Chun-Ying Huang, Cheng-Hsin Hsu
+12:00-12:30	Open Source and Dataset Pitches
+12:30-14:00	Lunch (Open Source and Dataset Setup)
+14:00-15:30	
+Open Source and Dataset Posters
+Session Chair: Andrew Freeman
+eCHFD: extended Ceasefire Hierarchical Firearm Dataset
+Loubna Lechelek, Sylvie Chambon, Alain Crouzil, Saddam Abdulwahab, Grégory Jalabert, Christian Brocard, Charles-Edouard Coquillard, Laurence Abadie, Bruno Sera, Thierry Hartmann, Marjorie Le Bras
+WIDE-VR: An open-source prototype for web-based VR through adaptive streaming of 6DoF content and viewport prediction
+May Lim, Abdelhak Bentaleb, Roger Zimmermann
+HockeyAI: A Multi-Class Ice Hockey Dataset for Object Detection
+Mehdi Houshmand Sarkhoosh, Sushant Gautam, Cise Midoglu, Saeed Shafiee Sabet, Tomas Kupka, Pål Halvorsen
+uvgVPCCenc: Practical Open-Source Encoder for Fast V-PCC Compression
+Louis Fréneau, Guillaume Gautier, Alexandre Mercat, Jarno Vanne
+OLED-EQ: A Dataset for Assessing Video Quality and Energy Consumption in OLED TVs Across Varying Brightness Levels
+Minh Nguyen, Raphael Koch, Alexander Fischer, Moustafa Ghaddar, Görkem Güclü, Martin Lasak, Robert Seeliger, Stefan Arbanowski, Stephan Steglich
+HockeyRink: A Dataset for Precise Ice Hockey Rink Keypoint Mapping and Analytics
+Mehdi Houshmand Sarkhoosh, Sushant Gautam, Cise Midoglu, Saeed Shafiee Sabet, Tomas Kupka, Pål Halvorsen
+VV-DASH: A Framework for Volumetric Video DASH Streaming
+Hadi Heidarirad, Mea Wang
+Nagare Media Engine: Towards Self-Adapting MPEG NBMP Multimedia Workflows
+Matthias Neugebauer
+A Congestion Control Test Suite for Real-Time Communication
+Quanwei Zhang, Zhiming Huang, Jinwei Zhao, Jianping Pan
+HockeyOrient: A Dataset for Ice Hockey Player Orientation Classification
+Mehdi Houshmand Sarkhoosh, Sushant Gautam, Cise Midoglu, Saeed Shafiee Sabet, Tomas Kupka, Pål Halvorsen
+PCVD: A Dataset of Point Cloud Video for Dynamic Human Interaction
+Jie Li, Shujiao Chen, Qiyue Li, Zhi Liu
+AMIS: An Audiovisual Dataset for Multimodal XR Research
+Abhinav Bhattacharya, Luís Fernando de Souza Cardoso, Andy Schleising, Gareth Rendle, Adrian Kreskowski, Felix Immohr, Rakesh Rao Ramachandra Rao, Wolfgang Broll, Alexander Raake
+MazeLab: A Large-Scale Dynamic Volumetric Point Cloud Video Dataset With User Behavior Traces
+Jérémy Ouellette, Jashanjot Singh Sidhu, Abdelhak Bentaleb
+15:30-16:00	Coffee Break
+16:00-17:30	Diversity Panel
+17:30-19:00	Personal Time
+19:00-	Conference Dinner (Restaurant De Warenmarkt)
+Thursday, April 3rd
+08:00-09:00	Registration (STIAS Foyer)
+09:00-10:00	
+Keynote: Multi-CDN Streaming: Architectures and Optimization Problems
+Yuriy Reznik, Brightcove Inc.
+10:00-10:30	Coffee Break
+10:30-12:30	
+MMSys Research Track Session 4: Emerging Immersive Applications
+Session Chair: Tanja Kojić
+Low-Latency Volumetric Video Conferencing in Congested Networks Through L4S
+Matthias de Fré, Jeroen van der Hooft, Chia-Yu Chang, Koen de Schepper, Patrice Rondao Alface, Danny de Vleeschauwer, Tim Wauters, Peter Steenkiste, Filip de Turck
+XRgo: Design and Evaluation of Rendering Offload for Low-Power Extended Reality Devices
+Steven Gao, Jeffrey Liu, Qinjun Jiang, Finn Sinclair, William Sentosa, Brighten Godfrey, Sarita Adve
+SAILS: A Synchronous Accessible Immersive Online Learning System for Young Learners
+Yuran Sun, Zhuoying Zhang, Zhenxiao Luo, Alan William Dougherty, Man Ho Yip, Yi King Choi, Chuan Wu
+360 Video Viewing with Virtual Reality Headsets: Connecting User Head Movements to Intentions
+Mohammed Metwaly, Alexander J. Quinn
+12:30-14:00	Lunch
+14:00-15:30	
+MMSys Research Track Session 5: Security, AI and Adaptive Multimedia Optimization
+Session Chair: Conor Keighrey
+Secure the Stream, Not the Hosts: Attribute-Based Encryption for DRM Enabled Video Streaming
+Mohammad Waquas Usmani, Susmit Shannigrahi, Michael Zink
+Accelerating Video Segment Access via Quality-Aware Multi-Source Selection
+Dominik Winecki, Arnab Nandi
+To Cap or not to Cap: Bandwidth Capping Effects on Network Interactions and QoE of Competing Short Video Streams
+Nikolas Wehner, Theo Karagioules, Emir Halepovic, Filip Simonovski, Tobias Hossfeld, Michael Seufert
+SAMPL: Self-Attention Modelled Patch Learning for Efficient Visual Understanding
+Zhiming Hu, Salar Hosseini Khorasgani, Weiming Ren, Iqbal Mohomed
+15:30-16:00	Coffee Break
+16:00-16:30	MMSys'25 Closing
+Friday, April 4th
+08:00-09:00	Registration (STIAS Foyer)
+09:00-10:00	
+NOSSDAV Session 1: Immersive Media and Volumetric Streaming
+Session Chair: Amr Rizk
+Enabling Distance-Aware Real-Time Volumetric Video Streaming
+Kyle Jorgensen, Mea Wang, Diwakar Krishnamurthy
+Aero: A Pluggable Congestion Control for QUIC
+Jashanjot Singh Sidhu, Abdelhak Bentaleb
+LLM4Band: Enhancing Reinforcement Learning with Large Language Models for Accurate Bandwidth Estimation
+Zhijian Wang, Rongwei Lu, Zhiyang Zhang, Cedric Westphal, Dongbiao He Jingyan Jiang
+10:00-10:30	Coffee Break
+10:30-12:30	
+NOSSDAV Session 2: Advanced Video Compression and Enhancement
+Session Chair: Amr Rizk
+GSVC: Efficient Video Representation and Compression Through 2D Gaussian Splatting
+Longan Wang, Yuang Shi, Wei Tsang Ooi
+SemConf: A System for Multiparty Semantic Video Conferencing
+Xize Duan, Yili Jin, Lei Zhang, Fangxin Wang
+End-to-End Learning-based Video Streaming Enhancement Pipeline: A Generative AI Approach
+Emanuele Artioli, Farzad Tashtarian, Christian Timmerer
+ModalityMirror: Enhancing Audio Classification in Modality Heterogeneity Federated Learning via Multimodal Distillation
+Tiantian Feng, Tuo Zhang, Salman Avestimehr, Shrikanth Narayanan
+Video Streaming with Kairos: An MPC-Based ABR with Streaming-Aware Throughput Prediction
+Ziyu Zhong, Mufan Liu, Le Yang, Yifan Wang, Yiling Xu, Jenq-Neng Hwang
+Bimodal Semantic-Driven 3D Immersive Telepresence System
+Jiakun Li, Yuan Zhang, Lingjun Pu, Tao Lin, Jinyao Yan
+12:30-14:00	Lunch
+14:00-15:40	
+NOSSDAV Session 3: QUIC and Real-Time Communications
+Session Chair: Marta Orduna
+Pushing the Limits? Frame Rate Benefits to Players for up to 500 Hz in First Person Shooter Games
+Samin Shahriar Tokey, Benjamin Boudaoud, Joohwan Kim, Josef Spjut, Mark Claypool
+Alice: Low-latency Image Live Co-editing via Adaptation Anlan Zhang, Stefano Petrangeli, Haoliang Wang, Yu Shen, Feng Qian
+CAQ: Connection-Aware Adaptive QUIC Configurations for Enhanced Video Streaming
+Jashanjot Singh Sidhu, Abdelhak Bentaleb
+Privacy-Preserving Multimedia Mobile Cloud Computing Using Cost-Effective Protective Perturbation
+Zhongze Tang, Zichen Zhu, Mengmei Ye, Yao Liu, Sheng Wei
+Active Management of Jammed Packets in Wireless Real-Time Communications
+Yixuan Zhang, Zili Meng, Enhuan Dong, Yan Zhang, Mingwei Xu, Jianping Wu
+15:40-16:00	NOSSDAV Closing
+Registration
+Register now for ACM MMSys 2025! Regular fee tickets are available until February 28th!
+Sponsors
+Platinum
+Adobe logo
+Silver
+Stellenbosch University logo
+Bronze
+Alphawave logo
+Technical Support
+ACM logo SIGMM logo
+   
+
+Copyright © 2025 ACM MMSys Conference

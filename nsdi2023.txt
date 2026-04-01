@@ -1,0 +1,271 @@
+NSDI '23 Fall Accepted Papers
+NSDI '23 offers authors the choice of two submission deadlines. The list of accepted papers from the fall deadline is available below. The full program will be available soon.
+
+Hide details  ▾
+
+Fall Accepted Papers
+Transparent GPU Sharing in Container Clouds for Deep Learning Workloads
+Bingyang Wu and Zili Zhang, Peking University; Zhihao Bai, Johns Hopkins University; Xuanzhe Liu and Xin Jin, Peking University
+
+Available Media
+Show details  ▸  
+FLASH: Towards a High-performance Hardware Acceleration Architecture for Cross-silo Federated Learning
+Junxue Zhang and Xiaodian Cheng, iSINGLab at Hong Kong University of Science and Technology and Clustar; Wei Wang, Clustar; Liu Yang, iSINGLab at Hong Kong University of Science and Technology and Clustar; Jinbin Hu and Kai Chen, iSINGLab at Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+SlimWiFi: Ultra-Low-Power IoT Radio Architecture Enabled by Asymmetric Communication
+Renjie Zhao, University of California San Diego; Kejia Wang, Baylor University; Kai Zheng and Xinyu Zhang, University of California San Diego; Vincent Leung, Baylor University
+
+Available Media
+Show details  ▸  
+LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed
+Hao Li and Yihan Dang, Xi'an Jiaotong University; Guangda Sun, Xi'an Jiaotong University and National University of Singapore; Guyue Liu, New York University Shanghai; Danfeng Shan and Peng Zhang, Xi'an Jiaotong University
+
+Available Media
+Show details  ▸  
+DOTE: Rethinking (Predictive) WAN Traffic Engineering
+Yarin Perry, Hebrew University of Jerusalem; Felipe Vieira Frujeri, Microsoft Research; Chaim Hoch, Hebrew University of Jerusalem; Srikanth Kandula and Ishai Menache, Microsoft Research; Michael Schapira, Hebrew University of Jerusalem; Aviv Tamar, Technion
+Awarded Best Paper!
+
+Award: 
+Best Paper
+Available Media
+Show details  ▸  
+Boomerang: Metadata-Private Messaging under Hardware Trust
+Peipei Jiang, Wuhan University and City University of Hong Kong; Qian Wang and Jianhao Cheng, Wuhan University; Cong Wang, City University of Hong Kong; Lei Xu, Nanjing University of Science and Technology; Xinyu Wang, Tencent Inc.; Yihao Wu and Xiaoyuan Li, Wuhan University; Kui Ren, Zhejiang University
+
+Available Media
+Show details  ▸  
+Bolt: Sub-RTT Congestion Control for Ultra-Low Latency
+Serhat Arslan, Stanford University; Yuliang Li, Gautam Kumar, and Nandita Dukkipati, Google LLC
+
+Available Media
+Show details  ▸  
+Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming
+Zhuqi Li, Yaxiong Xie, Ravi Netravali, and Kyle Jamieson, Princeton University
+
+Available Media
+Show details  ▸  
+Remote Procedure Call as a Managed System Service
+Jingrong Chen, Yongji Wu, and Shihan Lin, Duke University; Yechen Xu, Shanghai Jiao Tong University; Xinhao Kong, Duke University; Thomas Anderson, University of Washington; Matthew Lentz, Xiaowei Yang, and Danyang Zhuo, Duke University
+
+Available Media
+Show details  ▸  
+Sketchovsky: Enabling Ensembles of Sketches on Programmable Switches
+Hun Namkung, Carnegie Mellon University; Zaoxing Liu, Boston University; Daehyeok Kim, Microsoft Research; Vyas Sekar and Peter Steenkiste, Carnegie Mellon University
+
+Available Media
+Show details  ▸  
+On Modular Learning of Distributed Systems for Predicting End-to-End Latency
+Chieh-Jan Mike Liang, Microsoft Research; Zilin Fang, Carnegie Mellon University; Yuqing Xie, Tsinghua University; Fan Yang, Microsoft Research; Zhao Lucis Li, University of Science and Technology of China; Li Lyna Zhang, Mao Yang, and Lidong Zhou, Microsoft Research
+
+Available Media
+Show details  ▸  
+Push-Button Reliability Testing for Cloud-Backed Applications with Rainmaker
+Yinfang Chen and Xudong Sun, University of Illinois at Urbana-Champaign; Suman Nath, Microsoft Research; Ze Yang and Tianyin Xu, University of Illinois at Urbana-Champaign
+
+Available Media
+Show details  ▸  
+μMote: Enabling Passive Chirp De-spreading and μW-level Long-Range Downlink for Backscatter Devices
+Yihang Song and Li Lu, University of Electronic Science and Technology of China; Jiliang Wang, Tsinghua University; Chong Zhang, Hui Zheng, and Shen Yang, University of Electronic Science and Technology of China; Jinsong Han, Zhejiang University; Jian Li, University of Electronic Science and Technology of China
+
+Available Media
+Show details  ▸  
+CellDAM: User-Space, Rootless Detection and Mitigation for 5G Data Plane
+Zhaowei Tan, Jinghao Zhao, Boyan Ding, and Songwu Lu, University of California, Los Angeles
+
+Available Media
+Show details  ▸  
+ARK: GPU-driven Code Execution for Distributed Deep Learning
+Changho Hwang, KAIST, Microsoft Research; KyoungSoo Park, KAIST; Ran Shu, Xinyuan Qu, Peng Cheng, and Yongqiang Xiong, Microsoft Research
+
+Available Media
+Show details  ▸  
+RF-Bouncer: A Programmable Dual-band Metasurface for Sub-6 Wireless Networks
+Xinyi Li, Chao Feng, Xiaojing Wang, and Yangfan Zhang, Northwest University; Yaxiong Xie, University at Buffalo SUNY; Xiaojiang Chen, Northwest University
+
+Available Media
+Show details  ▸  
+Hamilton: A High-Performance Transaction Processor for Central Bank Digital Currencies
+James Lovejoy, Federal Reserve Bank of Boston; Madars Virza and Cory Fields, MIT Media Lab; Kevin Karwaski and Anders Brownworth, Federal Reserve Bank of Boston; Neha Narula, MIT Media Lab
+
+Available Media
+Show details  ▸  
+HALP: Heuristic Aided Learned Preference Eviction Policy for YouTube Content Delivery Network
+Zhenyu Song, Princeton University; Kevin Chen, Νikhil Sarda, Deniz Altınbüken, Eugene Brevdo, Jimmy Coleman, Xiao Ju, Pawel Jurczyk, Richard Schooler, and Ramki Gummadi, Google
+
+Available Media
+Show details  ▸  
+Understanding the impact of host networking elements on traffic bursts
+Erfan Sharafzadeh and Sepehr Abdous, Johns Hopkins University; Soudeh Ghorbani, Johns Hopkins University and Meta
+
+Available Media
+Show details  ▸  
+SPEEDEX: A Scalable, Parallelizable, and Economically Efficient Decentralized EXchange
+Geoffrey Ramseyer, Ashish Goel, and David Mazières, Stanford University
+
+Available Media
+Show details  ▸  
+ExoPlane: An Operating System for On-Rack Switch Resource Augmentation
+Daehyeok Kim, Microsoft and University of Texas at Austin; Vyas Sekar and Srinivasan Seshan, Carnegie Mellon University
+
+Available Media
+Show details  ▸  
+Acoustic Sensing and Communication Using Metasurface
+Yongzhao Zhang, Yezhou Wang, and Lanqing Yang, Shanghai Jiao Tong University; Mei Wang, UT Austin; Yi-Chao Chen, Shanghai Jiao Tong University and Microsoft Research Asia; Lili Qiu, UT Austin and Microsoft Research Asia; Yihong Liu, University of Glasgow; Guangtao Xue and Jiadi Yu, Shanghai Jiao Tong University
+
+Available Media
+Show details  ▸  
+Waverunner: An Elegant Approach to Hardware Acceleration of State Machine Replication
+Mohammadreza Alimadadi and Hieu Mai, Stony Brook University; Shenghsun Cho, Microsoft; Michael Ferdman, Peter Milder, and Shuai Mu, Stony Brook University
+
+Available Media
+Show details  ▸  
+OneWAN is better than two: Unifying a split WAN architecture
+Umesh Krishnaswamy, Microsoft; Rachee Singh, Microsoft and Cornell University; Paul Mattes, Paul-Andre C Bissonnette, Nikolaj Bjørner, Zahira Nasrin, Sonal Kothari, Prabhakar Reddy, John Abeln, Srikanth Kandula, Himanshu Raj, Luis Irun-Briz, Jamie Gaudette, and Erica Lan, Microsoft
+
+Available Media
+Show details  ▸  
+SLNet: A Spectrogram Learning Neural Network for Deep Wireless Sensing
+Zheng Yang and Yi Zhang, Tsinghua University; Kun Qian, University of California San Diego; Chenshu Wu, The University of Hong Kong
+
+Available Media
+Show details  ▸  
+Tambur: Efficient loss recovery for videoconferencing via streaming codes
+Michael Rudow, Carnegie Mellon University; Francis Y. Yan, Microsoft Research; Abhishek Kumar, Carnegie Mellon University; Ganesh Ananthanarayanan and Martin Ellis, Microsoft; K.V. Rashmi, Carnegie Mellon University
+
+Available Media
+Show details  ▸  
+Practical Intent-driven Routing Configuration Synthesis
+Sivaramakrishnan Ramanathan, Ying Zhang, Mohab Gawish, Yogesh Mundada, Zhaodong Wang, Sangki Yun, Eric Lippert, and Walid Taha, Meta; Minlan Yu, Harvard University; Jelena Mirkovic, University of Southern California Information Sciences Institute
+
+Available Media
+Show details  ▸  
+Electrode: Accelerating Distributed Protocols with eBPF
+Yang Zhou, Harvard University; Zezhou Wang, Peking University; Sowmya Dharanipragada, Cornell University; Minlan Yu, Harvard University
+
+Available Media
+Show details  ▸  
+LOCA: A Location-Oblivious Cellular Architecture
+Zhihong Luo, Silvery Fu, and Natacha Crooks, UC Berkeley; Shaddi Hasan, Virginia Tech; Christian Maciocco, Intel; Sylvia Ratnasamy, UC Berkeley; Scott Shenker, UC Berkeley and ICSI
+
+Available Media
+Show details  ▸  
+Hermit: Low-Latency, High-Throughput, and Transparent Remote Memory via Feedback-Directed Asynchrony
+Yifan Qiao and Chenxi Wang, UCLA; Zhenyuan Ruan and Adam Belay, MIT CSAIL; Qingda Lu, Alibaba Group; Yiying Zhang, UCSD; Miryung Kim and Guoqing Harry Xu, UCLA
+
+Available Media
+Show details  ▸  
+Exploring Practical Vulnerabilities of Machine Learning-based Wireless Systems
+Zikun Liu, Changming Xu, and Emerson Sie, University of Illinois Urbana-Champaign; Gagandeep Singh, University of Illinois Urbana-Champaign and VMware Research; Deepak Vasisht, University of Illinois Urbana-Champaign
+
+Available Media
+Show details  ▸  
+RHINE: Robust and High-performance Internet Naming with E2E Authenticity
+Huayi Duan, Rubén Fischer, Jie Lou, Si Liu, David Basin, and Adrian Perrig, ETH Zürich
+
+Available Media
+Show details  ▸  
+RingLeader: Efficiently Offloading Intra-Server Orchestration to NICs
+Jiaxin Lin, Adney Cardoza, Tarannum Khan, and Yeonju Ro, UT Austin; Brent E. Stephens, University of Utah; Hassan Wassel, Google; Aditya Akella, UT Austin
+
+Available Media
+Show details  ▸  
+Flattened Clos: Designing High-performance Deadlock-free Expander Data Center Networks Using Graph Contraction
+Shizhen Zhao, Qizhou Zhang, Peirui Cao, Xiao Zhang, and Xinbing Wang, Shanghai Jiao Tong University; Chenghu Zhou, Shanghai Jiao Tong University and Chinese Academy of Sciences
+
+Available Media
+Show details  ▸  
+CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation
+Abdullah Alomar, Pouya Hamadanian, Arash Nasr-Esfahany, Anish Agarwal, Mohammad Alizadeh, and Devavrat Shah, MIT
+Awarded Best Paper!
+
+Award: 
+Best Paper
+Available Media
+Show details  ▸  
+Augmenting Augmented Reality with Non-Line-of-Sight Perception
+Tara Boroushaki, Maisy Lam, and Laura Dodds, Massachusetts Institute of Technology; Aline Eid, Massachusetts Institute of Technology and University of Michigan; Fadel Adib, Massachusetts Institute of Technology
+
+Available Media
+Show details  ▸  
+Arya: Arbitrary Graph Pattern Mining with Decomposition-based Sampling
+Zeying Zhu, Boston University; Kan Wu, University of Wisconsin-Madison; Zaoxing Liu, Boston University
+
+Available Media
+Show details  ▸  
+VeCare: Statistical Acoustic Sensing for Automotive In-Cabin Monitoring
+Yi Zhang, The University of Hong Kong and Tsinghua University; Weiying Hou, The University of Hong Kong; Zheng Yang, Tsinghua University; Chenshu Wu, The University of Hong Kong
+
+Available Media
+Show details  ▸  
+DiSh: Dynamic Shell-Script Distribution
+Tammam Mustafa, MIT; Konstantinos Kallas, University of Pennsylvania; Pratyush Das, Purdue University; Nikos Vasilakis, Brown University
+
+Available Media
+Show details  ▸  
+Invisinets: Removing Networking from Cloud Networks
+Sarah McClure and Zeke Medley, UC Berkeley; Deepak Bansal and Karthick Jayaraman, Microsoft; Ashok Narayanan, Google; Jitendra Padhye, Microsoft; Sylvia Ratnasamy, UC Berkeley and Google; Anees Shaikh, Google; Rishabh Tewari, Microsoft
+
+Available Media
+Show details  ▸  
+Test Coverage for Network Configurations
+Xieyang Xu and Weixin Deng, University of Washington; Ryan Beckett, Microsoft; Ratul Mahajan, University of Washington; David Walker, Princeton University
+
+Available Media
+Show details  ▸  
+Norma: Towards Practical Network Load Testing
+Yanqing Chen, State Key Laboratory for Novel Software Technology, Nanjing University and Alibaba Group; Bingchuan Tian, Alibaba Group; Chen Tian, State Key Laboratory for Novel Software Technology, Nanjing University; Li Dai, Yu Zhou, Mengjing Ma, and Ming Tang, Alibaba Group; Hao Zheng, Zhewen Yang, and Guihai Chen, State Key Laboratory for Novel Software Technology, Nanjing University; Dennis Cai and Ennan Zhai, Alibaba Group
+
+Available Media
+Show details  ▸  
+Empowering Azure Storage with RDMA
+Wei Bai, Shanim Sainul Abdeen, Ankit Agrawal, Krishan Kumar Attre, Paramvir Bahl, Ameya Bhagat, Gowri Bhaskara, Tanya Brokhman, Lei Cao, Ahmad Cheema, Rebecca Chow, Jeff Cohen, Mahmoud Elhaddad, Vivek Ette, Igal Figlin, Daniel Firestone, Mathew George, Ilya German, Lakhmeet Ghai, Eric Green, Albert Greenberg, Manish Gupta, Randy Haagens, Matthew Hendel, Ridwan Howlader, Neetha John, Julia Johnstone, Tom Jolly, Greg Kramer, David Kruse, Ankit Kumar, Erica Lan, Ivan Lee, Avi Levy, Marina Lipshteyn, Xin Liu, Chen Liu, Guohan Lu, Yuemin Lu, Xiakun Lu, Vadim Makhervaks, Ulad Malashanka, David A. Maltz, Ilias Marinos, Rohan Mehta, Sharda Murthi, Anup Namdhari, Aaron Ogus, Jitendra Padhye, Madhav Pandya, Douglas Phillips, Adrian Power, Suraj Puri, Shachar Raindel, Jordan Rhee, Anthony Russo, Maneesh Sah, Ali Sheriff, Chris Sparacino, Ashutosh Srivastava, Weixiang Sun, Nick Swanson, Fuhou Tian, Lukasz Tomczyk, Vamsi Vadlamuri, Alec Wolman, Ying Xie, Joyce Yom, Lihua Yuan, Yanzhao Zhang, and Brian Zill, Microsoft
+
+Available Media
+Show details  ▸  
+SkyPilot: An Intercloud Broker for Sky Computing
+Zongheng Yang, Zhanghao Wu, Michael Luo, Wei-Lin Chiang, Romil Bhardwaj, Woosuk Kwon, Siyuan Zhuang, Frank Sifei Luan, and Gautam Mittal, UC Berkeley; Scott Shenker, UC Berkeley and ICSI; Ion Stoica, UC Berkeley
+
+Available Media
+Show details  ▸  
+mmWall: A Steerable, Transflective Metamaterial Surface for NextG mmWave Networks
+Kun Woo Cho, Princeton University; Mohammad H. Mazaheri, UCLA; Jeremy Gummeson, University of Massachusetts Amherst; Omid Abari, UCLA; Kyle Jamieson, Princeton University
+
+Available Media
+Show details  ▸  
+Disaggregating Stateful Network Functions
+Deepak Bansal, Gerald DeGrace, Rishabh Tewari, Michal Zygmunt, and James Grantham, Microsoft; Silvano Gai, Mario Baldi, Krishna Doddapaneni, Arun Selvarajan, Arunkumar Arumugam, and Balakrishnan Raman, AMD Pensando; Avijit Gupta, Sachin Jain, Deven Jagasia, Evan Langlais, Pranjal Srivastava, Rishiraj Hazarika, Neeraj Motwani, Soumya Tiwari, Stewart Grant, Ranveer Chandra, and Srikanth Kandula, Microsoft
+
+Available Media
+Show details  ▸  
+Attend
+Registration Information
+Registration Discounts
+Grant Opportunities
+Venue, Hotel, and Travel
+Program
+Technical Sessions
+Spring Accepted Papers
+Fall Accepted Papers
+Activities
+Poster Session and Reception
+Participate
+Call for Papers
+Call for Posters
+Instructions for Presenters
+Sponsors
+Sponsor and Exhibitor Information
+About
+Past Symposia
+Symposium Organizers
+Conference Policies
+Code of Conduct
+Questions
+Twitter
+Facebook
+Youtube
+Privacy Policy Contact Us
+© USENIX 2026
+EIN 13-3055038

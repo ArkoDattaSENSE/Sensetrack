@@ -1,0 +1,118 @@
+Accepted Papers
+Fresh Data Delivery: Joint Sampling and Routing for Minimizing the Age of Information
+Adem Utku Atasayar, Aimin Li, Cagri Ali, Elif Uysal (Middle East Technical University)
+
+A QoS Framework for Service Provision in Multi-Infrastructure-Sharing Networks
+Quang Nguyen (Massachusetts Institute of Technology); Eytan Modiano (MIT)
+
+Understanding the Fundamental Trade-Off Between Age of Information and Throughput in Unreliable Wireless Networks
+Lin Wang, I-Hong Hou (Texas A&M University)
+
+Privacy Promises Unmasked: A Comprehensive Study of Privacy Proxies for the Masses
+Heiko Kiesel, Jiska Classen (Hasso Plattner Institute, University of Potsdam)
+
+InterSen: Boosting LoRa Sensing Capability Under Communication Interference
+Qiling Xu (City University of Hong Kong); Binbin Xie (University of Texas at Arlington); Jie Xiong (Nanyang Technological University); Lu Wang (Shenzhen University); Zhimeng Yin (City University of Hong Kong)
+
+TeraFocus: Wideband Beam Focusing with Radial Mobility
+Jy-Chin Liao, Burak Bilgin, Edward Knightly (Rice University)
+
+mmExpert: Integrating Large Language Models for Comprehensive mmWave Data Synthesis and Understanding
+Yifan Yan, Shuai Yang, Xiuzhen Guo, Xiangguang Wang, Wei Chow, Yuanchao Shu, Shibo He (Zhejiang University)
+
+SHRINK: Reducing MIMO Feedback Overhead in Wi-Fi with Dynamic Data-Driven Channel Sounding
+K M Rumman (Northeastern University); Francesca Meneghello (Northeastern University); Khandaker Foysal Haque (Northeastern University); Francesco Gringoli (University of Brescia); Francesco Restuccia (Northeastern University)
+
+Generalizable Policy Learning using Graph Neural Networks
+Jerrod Wigmore, Eytan Modiano (MIT); Brooke Shrader (MIT Lincoln Laboratory)
+
+To Theoretically Understand Transformer-Based In-Context Learning for Optimizing CSMA
+Shugang Hao, Hongbo Li, Lingjie Duan (Singapore University of Technology and Design)
+
+Honeybee: Byzantine Tolerant Decentralized Peer Sampling with Verifiable Random Walks
+Yunqi Zhang, Shaileshh Bojja Venkatakrishnan (The Ohio State University)
+
+AdvO-RAN: Adversarial Deep Reinforcement Learning in AI-Driven Open Radio Access Networks
+Tanzil Hassan (Northeastern University); Francesca Meneghello (Northeastern University); Francesco Restuccia (Northeastern University)
+
+SADIF: Spoofing Attack on BLE Direction Finding Based Localization System
+Runting Zhang (Shanghai Jiao Tong University); Yijie Li (National University of Singapore); Dian Ding, Hao Pan (Shanghai Jiao Tong University); Yongzhao Zhang (UESTC); Yi-Chao Chen (Shanghai Jiao Tong University); Xiaoyu Ji (Zhejiang University); Jiadi Yu, Guangtao Xue (Shanghai Jiao Tong University)
+
+Local-Cloud Inference Offloading for LLMs in Multi-Modal, Multi-Task, Multi-Dialogue Settings
+Liangqi Yuan (Purdue University); Dong-Jun Han (Yonsei University); Shiqiang Wang (IBM Research); Christopher Brinton (Purdue University)
+
+Online Contract Design for Creator Economy in the Era of GenAI
+Yumou Liu (The Chinese University of Hong Kong, Shenzhen); Zhenzhe Zheng, Fan Wu, Guihai Chen (Shanghai Jiao Tong University)
+
+Lightweight Decentralized Federated Learning with Arbitrary Client Participation
+Xinghan Gong, Xiaowen Gong (Auburn University); Ying Sun (The Pennsylvania State University); Shiwen Mao (Auburn University)
+
+Beyond Right to be Forgotten: Managing Heterogeneity Side Effects Through Strategic Incentives
+Jiaqi Shao (Duke Kunshan University); Tao Lin (Westlake University); Xiaojin Zhang (Huazhong University of Science and Technology); Qiang Yang (Hong Kong University of Science and Technology); Bing Luo (Duke Kunshan University)
+
+Odin: Effective End-to-End SLA Decomposition for 5G/6G Network Slicing via Online Learning
+Duo Cheng (Virginia Tech); Ramanujan K Sheshadri, Ahan Kak, Nakjung Choi (Nokia Bell Labs); Xingyu Zhou (Wayne State University); Bo Ji (Virginia Tech)
+
+Practical Design and Orchestration of Frequency-Shifting RIS for NLoS mmWave Sensing
+Aadesh Madnaik (Georgia Institute of Technology); Karthik Sundaresan (Georgia Tech)
+
+Mitigating Jamming Attacks in LoRa Networks: A Defense Strategy Against LoRa-Based Jammers
+Md Ashikul Haque, Abusayeed Saifullah (Wayne State University, US)
+
+REMARKABLE: RIS-Enabled Mobile Beamforming through Kernalized Bandit Learning
+Kubra Alemdar (Northeastern University); Arnob Ghosh (New Jersey Institute of Technology); Vini Chaudhary (Mississippi State University); Ness Shroff (The Ohio State University); Kaushik Chowdhury (University of Texas Austin)
+
+Beyond Static Populations: Efficient Delay-Constrained Scheduling for Dynamic Users via Deep Reinforcement Learning
+Xun Wang, Zhuoran Li, Longbo Huang (Tsinghua University)
+
+Adaptive Sparsification for Communication-Efficient Distributed Learning
+Faeze Moradi Kalarde, Ben Liang (University of Toronto); Min Dong (Ontario Tech University); Yahia A. Eldemerdash Ahmed, Ho Ting Cheng (Ericsson Canada)
+
+Functional Control: Leveraging Function-as-a-Service Platforms for Software-Defined Networking Controllers
+Shuwen Liu, Craig A. Shue (Worcester Polytechnic Institute)
+
+Robust Collaborative Inference with Vertically Split Data Over Dynamic Device Environments
+Surojit Ganguli, Zeyu Zhou, Christopher Brinton, David I. Inouye (Purdue University)
+
+mm-NOLOC: mmWave-based Localization for Mobile Networks without 3GPP Location Service
+Phuc Dinh, Yufei Feng, Eduardo Baena (Northeastern University); Yunmeng Han (University of Cincinnati); Weiming Qi (Michigan State University); Zihan Xu, Moinak Ghoshal, Pau Closas, Dimitrios Koutsonikolas (Northeastern University); Joerg Widmer (IMDEA Networks)
+
+InterfO-RAN: Real-Time In-band Cellular Uplink Interference Detection with GPU-Accelerated dApps
+Neagin Neasamoni Santhi, Davide Villa, Michele Polese, Tommaso Melodia (Northeastern University)
+
+Enhancing Privacy in Decentralized Min-Max Optimization: A Differentially Private Approach
+Yueyang Quan (Northeast University); Chang Wang, Shengjie Zhai (University of Nevada, Las Vegas); Minghong Fang (University of Louisville); Zhuqing Liu (University of North Texas)
+
+Two Levels Are All You Need: Simplifying Data Compression for Timely Edge Classification
+Chengzhang Li (The Ohio State University); Peizhong Ju (University of Kentucky); Atilla Eryilmaz (Ohio State University); Ness Shroff (The Ohio State University)
+
+Online Learning for Optimizing AoI-Energy Tradeoff under Unknown Channel Statistics
+Mohamed A. Abd-Elmagid (The Ohio State University); Ming Shi (The State University of New York at Buffalo); Eylem Ekici, Ness B. Shroff (The Ohio State University)
+
+Human-in-the-loop Learning Through Decentralized Communication Mechanisms
+Yiting Hu, Lingjie Duan (Singapore University of Technology and Design)
+
+Consensus-based Decentralized Multi-agent Reinforcement Learning for Random Access Network Optimization
+Myeung Suk Oh, Zhiyao Zhang (The Ohio State University); FNU Hairi (University of Wisconsin-Whitewater); Alvaro Velasquez (University of Colorado Boulder); Jia Liu (The Ohio State University)
+
+On the Out-of-Distribution Backdoor Attack for Federated Learning
+Jiahao Xu, Zikai Zhang, Rui Hu (University of Nevada, Reno)
+
+Building Trust in Deep Learning Models for Wireless Applications
+Sage Trudeau (University of Texas at Austin, MIT Lincoln Laboratory); Kaushik Chowdhury (University of Texas at Austin)
+
+AODPart: Accuracy-Optimal Online Partitioning for Edge Inference with Delay Constraint
+Shiva Saxena, Ben Liang (University of Toronto)
+
+Decoupling Control & Data Beams in Wideband Multi-antenna Networks
+Ish Kumar Jain (RPI, UCSD); Rohith Reddy Vennam, Dinesh Bharadia (UCSD)
+
+FlexRFML: Dynamic Neural Networks on FPGAs for Next-Generation Radio Spectrum Perception
+Francesco Pessia, Sazzad Sayyed, Francesco Restuccia (Northeastern University)
+
+Optimal Hybrid Feedback-Driven Learning for Wireless Interactive Panoramic Scene Delivery
+Xiaoyi Wu, Juaren Steiger, Bin Li (Pennsylvania State University); R Srikant (UIUC)
+
+DRAGON: Enhancing On-Device Model Performance with Distributed Retrieval-Augmented Generation
+Shangyu Liu, Zhenzhe Zheng (Shanghai Jiao Tong University); Xiaoyao Huang (Cloud Computing Research Institute, China Telecom); Fan Wu, Guihai Chen (Shanghai Jiao Tong University); Jie Wu (Cloud Computing Research Institute, China Telecom)
+

@@ -1,0 +1,160 @@
+List of accepted papers
+ 
+Zengyi Han and Liqiang Xu (The University of Tokyo, Japan); Xuefu Dong (Universiy of Tokyo, Japan); Yuuki Nishiyama (The University of Tokyo, Japan); Kaoru Sezaki (University of Tokyo, Japan)
+
+HeadMon: Head Dynamics Enabled Riding Maneuver Prediction
+
+_____________________________________________________________________________________________
+Peizhao Zhu, Yongpan Zou, Wenyuan Li and Kaishun Wu (Shenzhen University, China)
+
+CHAR: Composite Head-body Activities Recognition with A Single Earable Device
+
+___________________________________________________________________________________________
+
+Lucan de Groot (Delft University of Technology, The Netherlands); Talia Xu (Delft Technology University, The Netherlands); Marco Zuniga (Delft University of Technology, The Netherlands)
+
+DroneVLC: Exploiting Drones and VLC to Gather Data from Batteryless Sensors
+
+_____________________________________________________________________________________________
+
+Thanh-Tung Nguyen (Korea Advanced Institute of Science and Technology, Korea (South)); Si Young Jang (KAIST, Korea (South)); Boyan Kostadinov and Dongman Lee (Korea Advanced Institute of Science and Technology, Korea (South))
+
+PreActo: Efficient Cross-Camera Object Tracking System in Video Analytics Edge Computing
+
+_____________________________________________________________________________________________
+
+Atsushi Nomura and Masato Sugasaki (Tokyo Institute of Technology, Japan); Kota Tsubouchi (Yahoo Japan Corporation, Japan); Nobuhiko Nishio (Ritsumeikan University, Japan); Masamichi Shimosaka (Tokyo Institute of Technology, Japan)
+
+Device-free multi-person indoor localization using the change of ToF
+
+_____________________________________________________________________________________________
+
+Kayla-Jade Butkow and Ting Dang (University of Cambridge, United Kingdom (Great Britain)); Andrea Ferlini (Cambridge University, United Kingdom (Great Britain) & Nokia Bell Labs, Cambrdige, United Kingdom (Great Britain)); Dong Ma (Singapore Management University, Singapore); Cecilia Mascolo (University of Cambridge, United Kingdom (Great Britain))
+
+hEARt: Motion-resilient Heart Rate Monitoring with In-ear Microphones
+
+_____________________________________________________________________________________________
+
+Thilina Dissanayake, Takuya Maekawa and Takahiro Hara (Osaka University, Japan)
+
+Joint Estimation of the Distance and Relative Velocity of Obstacles via Smartphone Active Sound Sensing for Pedestrian Safety
+
+_____________________________________________________________________________________________
+
+Marco Cominelli (University of Brescia, Italy); Francesco Gringoli (CNIT/University of Brescia, Italy); Francesco Restuccia (Northeastern University, USA)
+
+Exposing the CSI: A Systematic Investigation of CSI-based Wi-Fi Sensing Capabilities and Limitations
+
+_____________________________________________________________________________________________
+
+Daeyong Kim, Junick Ahn and Hakjun Lee (Yonsei University, Korea (South)); Hojung Cha (Yonsei University, S. Korea, Korea (South))
+
+Highly Responsive Batteryless System for Indoor Light Energy Harvesting Environments
+
+_____________________________________________________________________________________________
+
+Yihang Cheng and Lan Zhang (University of Science and Technology of China, China); Anran Li (Nanyang Technological University, Singapore)
+
+GFL: Federated Learning on Non-IID data via Privacy-preserving Synthetic data
+
+_____________________________________________________________________________________________
+
+Di Duan and Huanqi Yang (City University of Hong Kong, Hong Kong); Guohao Lan (Delft University of Technology, The Netherlands); Tianxing Li (Michigan State University, USA); Xiaohua Jia and Weitao Xu (City University of Hong Kong, Hong Kong)
+
+EMGSense: A Low-Effort Self-Supervised Domain Adaptation Framework for EMG Sensing
+
+_____________________________________________________________________________________________
+
+Peng Jiang (Old Dominion University, USA); Hongyi Wu (The University of Arizona, USA); Yanxiao Zhao (Virginia Commonwealth University, USA); Danella Zhao (University of Arizona, USA); ChunSheng Xin (Old Dominion University, USA)
+
+SEEK: Detecting GPS Spoofing via a Sequential Dashcam based Vehicle Localization Framework
+
+_____________________________________________________________________________________________
+
+Masakazu Ohno, Riki Ukyo, Tatsuya Amano, Hamada Rizk and Hirozumi Yamaguchi (Osaka University, Japan)
+
+Privacy-preserving Pedestrian Tracking using Distributed 3D LiDARs
+
+_____________________________________________________________________________________________
+
+Argha Sen (Indian Institute of Technology Kharagpur, India); Avijit Mandal and Prasenjit Karmakar (IIT KHARAGPUR, India); Anirban Das (IIT Kharagpur, India); Sandip Chakraborty (Indian Institute of Technology Kharagpur, India)
+
+mmDrive: mmWave Sensing for Live Monitoring and On-Device Inference of Dangerous Driving
+
+_____________________________________________________________________________________________
+
+Harish Kashyap Haresamudram (Georgia Institute of Technology, USA); Irfan A Essa (Georgia Insitute of Technology, USA); Thomas Plötz (Georgia Institute of Technology, USA)
+
+Investigating Enhancements to Contrastive Predictive Coding for Human Activity Recognition
+
+_____________________________________________________________________________________________
+
+Nafees Ahmad and Ho-Fung Leung (The Chinese University of Hong Kong, Hong Kong)
+
+ALAE-TAE-CutMix+: Beyond the State-of-the-Art for Human Activity Recognition Using Wearable Sensors
+
+_____________________________________________________________________________________________
+
+Ziyu Wu, Quan Wan, Mingjie Zhao, Yi Ke, Yiran Fang, Zhen Liang, Fangting Xie and Jingyuan Cheng (University of Science and Technology of China, China)
+
+MassNet: A Deep Learning Approach for Body Weight Extraction from A Single Pressure Image
+
+_____________________________________________________________________________________________
+
+Tianzhang He (Monash University, Australia); Adel Nadjaran Toosi (Monash University, Australia & The University of Melbourne, Australia); Negin Akbari (Monash University, Australia); Tawfiq Islam (University of Melbourne, Australia); Muhammad Aamir Cheema (Monash University, Australia)
+
+An Intent-based Framework for Vehicular Edge Computing
+
+_____________________________________________________________________________________________
+
+Son Nguyen, Duc V. Le and Paul Havinga (University of Twente, The Netherlands)
+
+Learning the world from its words: Anchor-agnostic Transformers for Fingerprint-based Indoor Localization
+
+_____________________________________________________________________________________________
+
+Weiqi Wu, Ammar Hawbani and Wei Gong (University of Science and Technology of China, China)
+
+Ortho-CodeA: Orthogonal Codes Assisted Backscatter Multiple Access
+
+_____________________________________________________________________________________________
+
+Robert Cobden (University of Sussex, United Kingdom (Great Britain)); Muhammad Zeeshan (South East Technological University, Ireland); Daniel Roggen and Robert Prance (University of Sussex, United Kingdom (Great Britain)); Lianglun Lai (Huawei Technologies Research and Development UK Ltd, United Kingdom (Great Britain)); Arash Pouryazdan (University of Sussex, United Kingdom (Great Britain))
+
+Characterisation of Wearable Electric-Field Communication Link for BAN Multimedia Applications
+
+_____________________________________________________________________________________________
+
+Xiaopeng Jiang (New Jersey Institute of Technology, USA); Thinh On (New Jersey Insittute of Technology, USA); Hai Phan and Hessamaldin Mohammadi (New Jersey Institute of Technology, USA); Vijaya D Mayyuri (Qualcomm Technologies Inc, USA); An Chen (Qualcomm Incorporated, USA); Ruoming Jin (Kent State University, USA); Cristian Borcea (New Jersey Institute of Technology, USA)
+
+Zone-based Federated Learning for Mobile Sensing Data
+
+_____________________________________________________________________________________________
+
+Matin Fallahi (Karlsruhe Institute of Technology, Germany); Thorsten Strufe (Karlsruhe Institute of Technology & Centre for Tactile Internet (CeTI)/TU Dresden, Germany); Patricia Arias-Cabarcos (Paderborn University, Germany)
+
+BrainNet: Improving Brainwave-based Biometric Recognition with Siamese Networks
+
+_____________________________________________________________________________________________
+
+Zhaoyuan Xu and Wei Gong (University of Science and Technology of China, China)
+
+BumbleBee: Enabling the Vision of Pervasive ZigBee Backscatter Communication
+
+_____________________________________________________________________________________________
+
+Debasree Das, Sandip Chakraborty and Bivas Mitra (Indian Institute of Technology Kharagpur, India)
+
+DriCon: On-device Just-in-Time Context Characterization for Unexpected Driving Events
+
+_____________________________________________________________________________________________
+
+Gabriele Russo Russo, Tiziana Mannucci, Valeria Cardellini and Francesco Lo Presti (University of Rome Tor Vergata, Italy)
+
+Serverledge: Decentralized Function-as-a-Service for the Edge-Cloud Continuum
+
+_____________________________________________________________________________________________
+
+Steven M. Hernandez and Eyuphan Bulut (Virginia Commonwealth University, USA)
+
+Scheduled Spatial Sensing against Adversarial WiFi Sensing

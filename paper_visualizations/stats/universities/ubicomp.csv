@@ -1,0 +1,109 @@
+university,count
+Fusang Zhang,5
+Paul Lukowicz,4
+HAR,2
+Author PictureYukun Song,1
+Author PictureMegha Thukral,1
+EMS,1
+SMAs,1
+VR,1
+FoV,1
+often to save battery life,1
+Sensing movements and gestures inside the oral cavity has been a long-standing challenge for the wearable research community. This paper introduces EchoNose,1
+To aid smart wearable researchers in selecting optimal ground truth methods for motion capture,1
+MoCap,1
+DMCB,1
+labeled data sets. Recent work has shown that virtual IMU data extracted from videos using computer vision techniques ...,1
+TMJ,1
+The prospect of learning effective representations from unlabeled data alone has led to a boost in developing self-supervised learning,1
+SSL) methods for sensor-based Human Activity Recognition (HAR,1
+large-scale,1
+e.g. to sense active wearing periods or to provide feedback to a force-sensitive therapy like compression,1
+EDA,1
+Growing popularity of wearable haptic devices encouraged researchers to implement on-body interfaces that appropriate different form factors and interaction techniques. Among vibrotactile wearable interfaces,1
+Author PicturePaul Lukowicz,1
+Author PictureBuntarou Shizuki,1
+Author PictureShunsuke Iwakiri,1
+including motion artifacts,1
+especially in real-world wearable settings. These make designing generalizable models to accurately interpret cardiac activities challenging. This paper proposes a focus shift from learning with noisy signals to utilizing the characteristics of a mathematically modelled PPG waveform in an adversarial setting to increase the signal-to-noise ratio. The results show the proposed approach is robust against noisy data. We evaluated the model in a user study,1
+PPG,1
+N=22,1
+android,1
+Smartwatches have firmly established themselves as a popular wearable form factor. The potential expansion of their interaction space to nearby surfaces offers a promising avenue for enhancing input accuracy and usability beyond the confines of a small screen. However,1
+The lack of haptic sensations beyond very simple vibration feedback diminishes the feeling of presence in Virtual Reality. Research suggested various approaches to deliver haptic sensations to the user's palm. However,1
+Useful Field Of View,1
+Head-Mounted Display,1
+time-consuming task requiring researchers to dedicate substantial time,1
+benchmark datasets within the field of Human Activity Recognition in lack richness and size compared to datasets available within related fields. Recently,1
+generalizable feature representations. With the majority of researchers within the wearable community relying on vision modalities to overcome the limited expressiveness of wearable data and accurately label their to-be-released benchmark datasets offline,1
+the annotation of centroid clips suffices to achieve average labelling accuracies close to 90% across three publicly available HAR benchmark datasets. Using the weakly annotated datasets,1
+This work proposes an incremental learning,1
+which significantly outperforms the two existing incremental learning methods,1
+IL) framework for wearable sensor human activity recognition (HAR,1
+KAN,1
+weighted F1 score,1
+EWC) method (51.42%) and experience replay (59.92%,1
+right-eyed displays with optical combiners' centermost edges offset by different angles from the primary position of gaze,1
+PPOG,1
+a school could use wearables to monitor for increased levels of stress or sickness within the student body. The accuracy and utility of current sensing devices make this possible. However,1
+we use real-world data to identify periods of cyclical stress in a cohort of 103 Japanese university students while preserving each student's privacy. We observe heightened waking heart rate,1
+during periods coinciding with significant academic and societal events,1
+HR,1
+HRV,1
+current research often relies on separate sensors for force sensing,1
+increasing system complexity and raising challenges in system scalability. We propose a novel approach that utilizes 3D-printed modified surfaces as the electro-tactile electrode interface to sense applied force and deliver feedback simultaneously without additional sensors. This method simplifies the system,1
+both incorporating simultaneous sensing and tactile feedback.,1
+N=10,1
+including things like device size,1
+ISWC,1
+"IMWUT) to understand the extent to which these professional communities acknowledge and incorporate fundamental questions of wearability into their work. The results found that while wearability is relatively present in the literature (84.44% of ISWC papers, 74.54% of IMWUT papers",1
+including motion data,1
+essential for a broad range of retail applications including customer behavior analysis and in-store navigation.,1
+including the mouth,1
+null,1
+Emerging wearable construction toolkits offer new avenues for hands-on learning through an accessible and creative making process. This paper uses an on-skin wearable prototyping toolkit in hands-on workshops with a total of 45 middle-school students aged between 11 and 15. Besides investigating the effectiveness of utilizing the on-skin toolkit to foster creativity,1
+and a presentation of project prototypes. Our findings suggest positive engagement and interest in the making process from the middle-school students who participated in the on-skin wearable workshop.,1
+we aim to provide an always-available and non-invasive access to information typically obtained through lab analysis. This paper presents our skin-safe fabrication processes and technical evaluations of a lipstick,1
+three cameras and seven pH levels. The results showed improved detection of pH variations compared to traditional methods. A user study with 11 participants was conducted to evaluate usability. This approach offers a convenient and unexplored form factor for monitoring biochemical information,1
+CNN,1
+including rehabilitation and robotics. Despite advancements in neural network-based EEG decoding,1
+EEG)-based Brain-Computer Interfaces (BCIs,1
+which are both labour-intensive and not real-time. An emerging alternative is monitoring physiological signals such as Electrodermal Activity,1
+which reflect students' emotional and cognitive states. In this research,1
+we analyzed these signals from 23 students wearing Empatica E4 devices in real-world scenarios. Diverging from previous studies focused on lab settings or specific subjects,1
+EDA) and Inter-Beat Interval (IBI,1
+the lack of extensive datasets from disabled individuals hinders the development of tailored TMD systems. Our study assesses two data collection methods in TMD for disability research: using non-wheelchair users to simulate wheelchair activities,1
+models trained on both Simulation Real IMU and Virtual IMU exhibited similar performances when sensors were restricted to accelerometer and gyroscope only. This finding guides future researchers toward the use of Simulation Real IMU for comprehensive,1
+TMD,1
+Simulation Real IMU) and generating synthetic sensor data from videos (Virtual IMU,1
+research on sensory ear-worn devices,1
+earables face challenges integrating body temperature sensors because of the limited space available,1
+"""earables"") explored measuring body temperature at different locations in and around the ears. While the tympanic membrane (eardrum",1
+sufficient according to American Society for Testing and Materials,1
+scalable eating activity tracking.,1
+"E.g., what is being eaten",1
+Due to the scarcity of labeled sensor data in HAR,1
+prior research has turned to video data to synthesize Inertial Measurement Units,1
+IMU,1
+the increasing size or complexity of HAR models significantly impacts their deployment on wearable devices with limited computational power. In this study,1
+we report the inference time performance of MLP-HAR on the Samsung Galaxy Watch 5 PRO and the Arduino Portenta H7 LITE,1
+MLP-HAR,1
+including interruption management,1
+and recommendations. Prior research in the digital workplace assistant domain requires users to input their occupation information for effective support. However,1
+and discovering latent relationships among occupation variables. We argue that signals from application usage,1
+VAE,1
+UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs,1
+Pulse-PPG: An Open-Source Field-Trained PPG Foundation Model for Wearable Applications Across Lab and Field Settings,1
+TherAIssist: Assisting Art Therapy Homework and Client-Practitioner Collaboration through Human-AI Interaction,1
+EMooly: Supporting Autistic Children in Collaborative Social-Emotional Learning with Caregiver Participation through Interactive AI-infused and AR Activities,1
+Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-surgical Pain,1
+From awareness to action: Ambient display and customizable attention signals for self-regulated smartphone usage,1
+Yuuki Nishiyama,1
+Megha Thukral,1
+Dennis Moschina,1
+Mukulika Maity,1
+Francesca Faraci,1
+Tania Brusadin,1
+Francesco Franco,1
+Francesco Poggi,1
+Tuukka Panula,1

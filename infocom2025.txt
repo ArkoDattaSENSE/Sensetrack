@@ -1,0 +1,1361 @@
+Achieving Efficient Multipath Validation in Software-Defined Networks
+
+Bing Hu and Yuanguo Bi (Northeastern University, China); Kui Wu (University of Victoria, Canada); Zixuan Huang and Rongfei Zeng (Northeastern University, China)
+
+
+Oracle: QoS-aware Online Service Provisioning in Non-Terrestrial Networks with Safe Transfer Learning
+
+Shengyu Zhang (Singapore University of Technology and Design, Singapore); Songshi Dou, Zhenglong Li and Kwan L. Yeung (The University of Hong Kong, Hong Kong); Tony Q. S. Quek (Singapore University of Technology and Design, Singapore)
+
+
+MULoc: Towards Millimeter-Accurate Localization for Unlimited UWB Tags via Anchor Overhearing
+
+Junqi Ma (Institute of Software, Chinese Academy of Sciences and Univerisity of Chinese Academy of Sciences); Fusang Zhang (Chinese Academy of Sciences & University of Chinese Academy of Sciences, China); Beihong Jin (Institute of Software Chinese Academy of Science & University of Chinese Academy of Sciences, China); Siheng Li and Zhi Wang (Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences, China)
+
+
+iRadar: Synthesizing Millimeter-Waves from Wearable Inertial Inputs for Human Gesture Sensing
+
+Huanqi Yang (City University of Hong Kong, Hong Kong); Mingda Han (Shandong University, China); Xinyue Li (Xidian University, China); Di Duan (City University of Hong Kong, Hong Kong); Tianxing Li (Michigan State University, USA); Weitao Xu (City University of Hong Kong, Hong Kong)
+
+
+Exploring the Structural Property of the Optimal Entanglement Policy for Quantum Switch
+
+Bin Luo (The Chinese University of Hong Kong, China); Xiaojun Lin (The Chinese University of Hong Kong, Hong Kong & Purdue University, West Lafayette (on Leave), USA); John Chi Shing Lui (Chinese University of Hong Kong, Hong Kong)
+
+
+Breaking 'Chicken-Egg': Cross-city Battery Swap Demand Prediction via Knowledge-guided Diffusion
+
+Wenhui Cheng, Han Lu, Chaocan Xiang, Dehua Liu and Tao Xiang (Chongqing University, China)
+
+
+CGFE: Efficient Range Encoding for TCAMs
+
+Jérôme Graf (Università Della Svizzera Italiana (USI), Switzerland & TurbaAI, Germany); Vitalii Demianiuk (TurbaAI, Germany); Pavel Chuprikov (Università della Svizzera Italiana, Switzerland); Yang Feiran (Huawei, China); Sergey I Nikolenko (Harbour Space University, Spain); Patrick Eugster (Università Della Svizzera Italiana (USI), Switzerland)
+
+
+SANE: Safe Charging with Wave Interference
+
+Yuan Yin, Dié Wu and Jing Gao (Sichuan Normal University, China); Jin Yang (Sichuan University, China); Jilin Yang and Tang Liu (Sichuan Normal University, China)
+
+
+MegaScatter: Large-Scale and Ubiquitous Backscatter Network via Multi-Domain Fusion
+
+Shanyue Wang, Yuxin Ding, Yubo Yan, Feiyu Han, Dawei Yan and Panlong Yang (University of Science and Technology of China, China)
+
+
+mmWave-Based Relay Reflector Reconstruction for LiDAR-Free Around-Corner Human Sensing
+
+Jiaxi Lv, Guiyun Fan, Xinyue Fu, Jiahui Sun, Rong Ding and Haiming Jin (Shanghai Jiao Tong University, China)
+
+
+Commercial Dishes Can Be My Ladder: Sustainable and Collaborative Data Offloading in LEO Satellite Networks
+
+Yi Ching Chou and Long Chen (Simon Fraser University, Canada); Hengzhi Wang (Shenzhen University, China); Feng Wang (University of Mississippi, USA); Hao Fang, Haoyuan Zhao and Miao Zhang (Simon Fraser University, Canada); Xiaoyi Fan (Jiangxing Intelligence, Hong Kong)
+
+
+NovaPlan: An Efficient Plan of Renting Ground Stations for Emerging LEO Satellite Networks
+
+Chenwei Gu (University of Tsinghua, China); Qian Wu, Zeqi Lai and Hewu Li (Tsinghua University, China); Yuxuan Weng (Northwestern Polytechnical University, China); Weisen Liu (Tsinghua University, China); Jihao Li (Zhongguancun Laboratory, China); Jun Liu and Yuanjie Li (Tsinghua University, China)
+
+
+Learning to Accelerate Traffic Allocation over Large-Scale Networks
+
+Zhaoxing Yang, Guiyun Fan and Anjie Cao (Shanghai Jiao Tong University, China); Yuchen Guo and Wenlong Li (Shanghai Institute of Satellite Engineering, China); Tianyuan Liu and Haiming Jin (Shanghai Jiao Tong University, China)
+
+
+IPv6 Prefix Target Generation through Pattern and Distribution Learning using Vision-Transformer and Guided-Diffusion
+
+Yaochen Ren (Institute of Information Engineering & Chinese Academy of Sciences, China); Gaopeng Gou (Institute of Information Engineering，Chinese Academy of Sciences, China); Chengshang Hou (Schools of of Cyber Security, University of Chinese Academy of Sciences & Institute of Information Engineering, Chinese Academy of Sciences, China); Tianyu Cui (Zhongguancun Laboratory, China); Zhen Li (Chinese Academy of Sciences, China); Gang Xiong (Institute of Information Engineering, Chinese Academy of Sciences, China); Chang Liu (Chinese Academy of Sciences, China)
+
+
+Fast and Scalable Selective Retransmission for RDMA
+
+Peihao Huang (Central South University & Hunan University); Guo Chen, Xin Zhang, Can Liu, Hongyu Wang, Huijun Shen and Ying Bian (Hunan University, China); Yuanwei Lu (Tencent, China); Zhenyuan Ruan (MIT, USA); Bojie Li (Huawei Technologies co., China); Jiansong Zhang (Alibaba Group, China); Yongfeng Liu (Yunsilicon, China); Zhigang Chen (Central South University, China)
+
+
+HyperJet: Joint Communication and Computation Scheduling for Hypergraph Tasks in Distributed Edge Computing
+
+Kang Huang, Chao Qiu and Chenxuan Hou (Tianjin University, China); Xiuhua Li (Chongqing University, China); Xiaofei Wang (Tianjin University, China)
+
+
+LuminaLink: Enabling Low Cost Secure Visible Light Communication with Birefringence
+
+Ruxin Lin, Bingyan Liu, Yelin Cui, Duo Liu, Ruipeng Gao and Xiaoqiang Zhu (Beijing Jiaotong University, China); Jiqiang Liu (Beijing Jiao Tong University, China); Lingkun Li (Beijing Jiaotong University, China)
+
+
+PSFL: Parallel-Sequential Federated Learning with Convergence Guarantees
+
+Jinrui Zhou, Yu Zhao, Yin Xu and Mingjun Xiao (University of Science and Technology of China, China); Jie Wu (Temple University, USA); Sheng Zhang (Nanjing University, China)
+
+
+CARE: Compatibility-Aware Incentive Mechanisms for Federated Learning with Budgeted Requesters
+
+Xiang Liu (Southeast University, China); Hau Chan (University of Nebraska-Lincoln, USA); Minming Li (City University of Hong Kong, Hong Kong); Xianlong Zeng, Chenchen Fu and Weiwei Wu (Southeast University, China)
+
+
+ArrayPipe: Introducing Job-Array Pipeline Parallelism for High Throughput Model Exploration
+
+Hairui Zhao, Hongliang Li and Qi Tian (Jilin University, China); Jie Wu (Temple University, USA); Meng Zhang, Zhewen Xu, Xiang Li and Haixiao Xu (Jilin University, China)
+
+
+Enabling Reliable LoRa Decoding under Cross-channel Interference
+
+Fu Yu, Xiaolong Zheng, Dan Xia, Liang Liu and Huadong Ma (Beijing University of Posts and Telecommunications, China)
+
+
+ACC: Addressing Performance Limitations in Datacenters with Atomic Congestion Control
+
+Zirui Wan and Jiao Zhang (Beijing University of Posts and Telecommunications, China); Shuai Cheng and Ying Chen (Chinatelecom Research Institute, China); Tian Pan (Beijing University of Posts and Telecommunications, China); Pingping Lin (Shandong Future Network Research Institute, China); Tao Huang (Beijing University of Posts and Telecommunications, China)
+
+
+m\(^3\)ASL: ASL Gesture Recognition with Moving mmWave Radar
+
+Guiyun Fan, Rong Ding, Xiaocheng Wang, Yichen Zhu and Haiming Jin (Shanghai Jiao Tong University, China)
+
+
+VaniKG: Vanishing Key Gradient Attack and Defense for Robust Federated Aggregation
+
+Hongjia Li (Chinese Academy of Sciences, China); Leshui Lv (Institute of Information Engineering, Chinese Academy of Sciences, China); Ding Tang (Chinese Academy of Sciences, China); Yan Zhang (Institute of Information Engineering, Chinese Academy of Sciences, China); Weiping Wang and Xinghua Yang (Chinese Academy of Sciences, China)
+
+
+CEED: Collaborative Early Exit Neural Network Inference at the Edge
+
+Yichong Chen and Zifeng Niu (Imperial College London, United Kingdom (Great Britain)); Manuel Roveri (Politecnico di Milano, Italy); Giuliano Casale (Imperial College London, United Kingdom (Great Britain))
+
+
+Pruning as Scanning: Towards Internet-wide IPv6 Network Periphery Discovery
+
+Tao Yang, Bingnan Hou, Ling Hu, Zhenzhong Yang and Zhiping Cai (National University of Defense Technology, China)
+
+
+C2F: Enabling Context-Aware Edge-Cloud Collaborative Inference for Foundation Models
+
+Mingyue Zhao, Jiayi Shi, Zhengyuan Zhang, Yue Ling, Guanzhou Zhu, Dong Zhao and Huadong Ma (Beijing University of Posts and Telecommunications, China)
+
+
+Push the Limit of Acoustic Indoor Fire Monitoring
+
+Zheng Wang and Xiaoqi Sun (Hunan University, China); Yuanqing Zheng (The Hong Kong Polytechnic University, Hong Kong); Yanwen Wang (Hunan University, China)
+
+
+Enabling In-Network Acceleration over the Cloud
+
+Hao Wang and Decang Sun (The Hong Kong University of Science and Technology, Hong Kong); Jinbin Hu (Changsha University of Science and Technology & Hong Kong University of Science and Technology, China); Kai Chen (Hong Kong University of Science and Technology, China)
+
+
+QuESat: Satellite-Assisted Quantum Internet for Global-Scale Entanglement Distribution
+
+Huayue Gu, Ruozhou Yu, Zhouyu Li and Xiaojian Wang (North Carolina State University, USA); Guoliang Xue (Arizona State University, USA)
+
+
+BAROC: Concealing Packet Losses in LSNs with Bimodal Behavior Awareness for Livecast Ingestion
+
+Haoyuan Zhao (Simon Fraser University, Canada); Jianxin Shi (Nankai University, China & Simon Fraser University, Canada); Guanzhen Wu, Hao Fang, Yi Ching Chou and Long Chen (Simon Fraser University, Canada); Feng Wang (University of Mississippi, USA); Jiangchuan Liu (Simon Fraser University, Canada)
+
+
+Janus: Collaborative Vision Transformer Under Dynamic Network Environment
+
+Linyi Jiang (Shanghai Jiao Tong University, China); Silvery Fu (UC Berkeley, USA); Yifei Zhu (Shanghai Jiao Tong University, China); Bo Li (Hong Kong University of Science and Technology, Hong Kong)
+
+
+SentinelX: A Lightweight Malicious Traffic Detection System Based on Programmable Switches
+
+Zutao Zhang (Tsinghua Shenzhen International Graduate School, China); Zeyu Luan, Qing Li, Zhuyun Qi and Kejun Li (Pengcheng Laboratory, China); Yong Jiang (Tsinghua Shenzhen International Graduate School, China; Pengcheng Laboratory, China); Zhenhui Yuan (University of Warwick, United Kingdom (Great Britain))
+
+
+Distributed On-Orbit Sparse Coding for Efficient Space Situational Awareness Image Transmission
+
+Yutong Liu, Haiming Jin, Wangyinjie Yao, Yunxiang Chen, Yimin Zhao and Linghe Kong (Shanghai Jiao Tong University, China); Rui Li (Innovation Academy for Microsatellites, Chinese Academy of Sciences, China); Xiao-Yang Liu (Columbia University, USA)
+
+
+Online Context Caching for Distributed Large Language Models Serving
+
+Bin Gao (National University of Singapore, Singapore); Zhuomin He (Shanghai Jiaotong University, Hong Kong); Yizhen Yao (Shanghai Jiao Tong University, China); Zhanzhi Lou (National University of Singapore, Singapore); Zhi Zhou (Sun Yat-sen University, China); Weng-Fai Wong (National University off Singapore, Singapore)
+
+
+Fast and Anti-starvation Charging Device Grouping for Magnetic Wireless Power Transfer
+
+Xinyu Wang, Wangqiu Zhou and Hao Zhou (University of Science and Technology of China, China); Tianjian Yang (University of Edinburgh, United Kingdom (Great Britain)); Shenyao Jiang (University of Science and Technology of China, China); Zhi Liu (The University of Electro-Communications, Japan); Yusheng Ji (National Institute of Informatics, Japan & Graduate University for Advanced Studies, SOKENDAI, Japan); Qi Song (University of Science and Technology of China, China)
+
+
+Accelerating End-Cloud Collaborative Inference via Near Bubble-free Pipeline Optimization
+
+Luyao Gao, Jianchun Liu, Hongli Xu and Sun Xu (University of Science and Technology of China, China); Qianpiao Ma (Nanjing University of Science and Technology, China); Liusheng Huang (University of Science and Technology of China, China)
+
+
+AeroEcho: Towards Agricultural Low-power Wide-area Backscatter with Aerial Excitation Source
+
+Yidong Ren, Gen Li, Yimeng Liu, Younsuk Dong and Zhichao Cao (Michigan State University, USA)
+
+
+SignParser: Empowering Dual-Handed Sign Language Translation with a Single Wearable
+
+Xiaochen Liu, Fan Li, Yetong Cao, Binghui Shi and Song Yang (Beijing Institute of Technology, China); Yu Wang (Temple University, USA)
+
+
+StableRoute: When Dijkstra's Algorithm Meets Topology-Varying Satellite Networks
+
+Tian Pan (Beijing University of Posts and Telecommunications, China); Guohao Ruan (China); Qiang Fu (RMIT University, Australia); Zhengjie Luo and Junkai Huang (Beijing University of Posts and Telecommunications, China); Xingshuang Luo (China); Tao Huang (Beijing University of Posts and Telecommunications, China)
+
+
+Energy-Efficient Paging for Duty-Cycled LTE Backscatter
+
+Yunyun Feng (University of Science and Technology of China, China); Xin Liu (Florida State University, USA); Jia Zhao (Simon Fraser University, Canada); Yuan Ding (Heriot-Watt University, United Kingdom (Great Britain)); Gongpu Wang (Beijing Jiaotong University, China); Wei Gong (University of Science and Technology of China, China)
+
+
+Harpagon: Minimizing DNN Serving Cost via Efficient Dispatching, Scheduling and Splitting
+
+Zhixin Zhao, Yitao Hu, Ziqi Gong, Guotao Yang, Wenxin Li, Xiulong Liu and Keqiu Li (Tianjin University, China); Hao Wang (Stevens Institute of Technology, USA)
+
+
+BrokerAS: Towards Fault-tolerant Atomic Cross-chain Swaps
+
+Gaowei Shi, Xiulong Liu, Huan Wang, Yuhan Li, Hao Xu, Liyuan Ma and Keqiu Li (Tianjin University, China)
+
+
+EchoHealth: Non-contact Rehabilitation Exercises via Active Acoustic Sensing
+
+Chao Liu and Hao Chen (Ocean University of China, China); Jingyang Hu, Qibo Zhang, Siyu Chen and Hongbo Jiang (Hunan University, China); Penghao Wang (Ocean University of China, China)
+
+
+Sparse Recovery Transmitter Detection
+
+Blessing Andrew Okoro (University at Albany, USA); Maxwell McNeil (University at Albany -- SUNY, USA); Kavya Meka (University at Albany, SUNY, USA); Karyn Doke (Hamilton College, USA); Petko Bogdanov (University at Albany-SUNY, USA); Mariya Zheleva (UAlbany SUNY, USA)
+
+
+Latency Guarantees for Caching with Delayed Hits
+
+Keerthana Gurushankar, Noah Singer and Bernardo Subercaseaux Roa (Carnegie Mellon University, USA)
+
+
+GeoFL: A Framework for Efficient Geo-Distributed Cross-Device Federated Learning
+
+Maolin Gan and Lanpeng Li (Michigan State University, USA); Samiul Alam (Ohio State University, USA); Li Liu (Tsinghua University, China); Luyang Liu (Google Research, USA); Mi Zhang (The Ohio State University, USA); Zhichao Cao (Michigan State University, USA)
+
+
+Adonis: Neural-enhanced Fine-grained Leaf Wetness Sensing with Efficient mmWave Imaging
+
+Yimeng Liu, Maolin Gan, Gen Li, Younsuk Dong and Zhichao Cao (Michigan State University, USA)
+
+
+DynaGen: Conditional Diffusion Models for Enhancing Acoustic and Seismic-Based Vehicle Detection
+
+Tianshi Wang and Jinyang Li (University of Illinois at Urbana-Champaign, USA); Qikai Yang (University of Illinois at Urbana-Champaign); Ruijie Wang and Yizhuo Chen (University of Illinois at Urbana-Champaign, USA); Dachun Sun (University of Illinois Urbana-Champaign, USA); Bohan Li (University of Illinois at Urbana-Champaign, USA); Yigong Hu (University of Illinois Urbana-Champaign, USA); Tomoyoshi Kimura (University of Illinois at Urbana-Champaign, USA); Denizhan Kara (UIUC, USA); Tarek Abdelzaher (University of Illinois, Urbana Champaign, USA)
+
+
+One Snapshot is All You Need: A Generalized Method for mmWave Signal Generation
+
+Teng Huang, Han Ding, Wenxin Sun and Cui Zhao (Xi'an Jiaotong University, China); Ge Wang (Xi‘an Jiaotong University, China); Fei Wang, Kun Zhao, Zhi Wang and Wei Xi (Xi'an Jiaotong University, China)
+
+
+Control Flow Adaption: An Efficient Simulation Method For Noisy Quantum Networks
+
+Huiping Lin, Ruixuan Deng, Chris Z. Yao and Zhengfeng Ji (Tsinghua University, China); Mingsheng Ying (Tsinghua University & Institute of Software, Chinese Academy of Sciences, China)
+
+
+VersaBeam: Versatile Beamforming for Integrated Sensing and Communication over Commodity Wi-Fi
+
+Yinghui He (Nanyang Technological University, Singapore); Mingming Xu and Fu Xiao (Nanjing University of Posts and Telecommunications, China); Jun Luo (Nanyang Technological University, Singapore)
+
+
+A Principled Approach for Detecting APTs in Massive Networks via Multi-Stage Causal Analytics
+
+Jiaping Gui, Mingjie Nie, Jinyao Guo and Futai Zou (Shanghai Jiao Tong University, China); Mati Ur Rehman and Wajih Ul Hassan (University of Virginia, USA)
+
+
+Edge-aided Multi-modal Collaborative SLAM for Resource-constrained Underground Robots
+
+Kuiyuan Zhang, Shouwan Gao, Pengpeng Chen, Kangjia He and Jiayi He (China University of Mining and Technology, China)
+
+
+The Feasibility of Location Anonymity: An Empirical Study towards a Real-world Location Privacy Protection System in Takeout Services
+
+Lu Zhou (Xidian University, China); Ruoxu Yang (Microsoft Asia-Pacific Technology Co., Ltd., China); Lichuan Ma (Xidian University, China); Guoxing Chen and Haojin Zhu (Shanghai Jiao Tong University, China); Li Yang and Qingqi Pei (Xidian University, China); Qiang Li (Jilin University, China)
+
+
+\(\gamma\)-FedHT: Stepsize-Aware Hard-Threshold Gradient Compression in Federated Learning
+
+Rongwei Lu, Yutong Jiang and Jinrui Zhang (Tsinghua University, China); ChunYang Li (Harbin Institute of Technology, China); Yifei Zhu (Shanghai Jiao Tong University, China); Bin Chen (Harbin Institute of Technology, Shenzhen, China); Zhi Wang (Tsinghua University, China)
+
+
+Network Optimization in Dynamic Systems: Fast Adaptation via Zero-Shot Lagrangian Update
+
+I-Hong Hou (Texas A&M University, USA)
+
+
+Online Scheduling of Edge Multiple-Model Inference with DAG Structure and Retraining
+
+Yifan Zeng (Wuhan University, China); Ruiting Zhou (Southeast University, China); Lei Jiao (University of Oregon, USA); Renli Zhang (Wuhan University, China)
+
+
+Input Integrity and Authentic Results: Towards Trustworthy Aggregation in Federated Learning
+
+Zhangshuang Guan (Zhejiang University, China); Yulin Zhao (University of Chinese Academy of Sciences, China); Zhiguo Wan (Zhejiang Lab, Hangzhou, Zhejiang, China); Wei Wang (Beijing Jiaotong University, China)
+
+
+Age of Information in Energy Harvesting-Enabled Random Access Networks
+
+Fangming Zhao (ZJU-UIUC Institute, Zhejiang University, China); Nikolaos Pappas (Linköping University, Sweden); Meng Zhang (Zhejiang University, China); Howard Yang (Zhejiang University, China & University of Illinois at Urbana Champaign (UIUC), USA)
+
+
+NRCAC: Non-intrusive Microservice Root Cause Analysis Framework for Cloud Providers
+
+Yi Zhai, Luo Junzhou and Jianrui Liu (Southeast University, China)
+
+
+Symmetry-Preserving Architecture for Multi-NUMA Environments (SPANE): A Deep Reinforcement Learning Approach for Dynamic VM Scheduling
+
+Tin Ping Chan, Yunlong Cheng, Yizhan Zhu, Xiaofeng Gao and Guihai Chen (Shanghai Jiao Tong University, China)
+
+
+Hardware-accelerated Flow Interaction Graph Compression for High-speed Anomaly Detection
+
+Tong Yun and Yinxin Kuang (Tsinghua University, China); Haoyu Song (Futurewei Technologies, USA); Zhongyi Gu and Zhuang Ling (Tsinghua University, China); Zhiyu Zhang and Huang Chengkang (Fudan University, China); Yibo Fan (State Key Lab of ASIC and System, Fudan University, China); Yang Xu (Fudan University, China); Jianping Wang (City University of Hong Kong, Hong Kong); Bin Liu (Tsinghua University, China)
+
+
+Commercial RFIDs as Reconfigurable Intelligent Surfaces
+
+Jingyu Tong, Xiaopeng Zhao, Zhicheng Wang and Donghui Dai (The Hong Kong Polytechnic University, Hong Kong); Zhenlin An (University of Pittsburgh, USA); Lei Yang (The Hong Kong Polytechnic University, China)
+
+
+Which way to go? Inferring Fine-grained AS paths with PathRadar
+
+Zitong Jin (Zhongguancun Laboratory, China); Xingang Shi, Qiang Ma, Letong Sun, Zhiliang Wang, Xia Yin and Jianping Wu (Tsinghua University, China)
+
+
+Bailment-Model: Improving AS Routing Models via Bailment AS Behavior Inference
+
+Zitong Jin (Zhongguancun Laboratory, China); Xingang Shi (Tsinghua University, China); Ying Tian (Zhongguancun Laboratory, China); Zhiliang Wang, Xia Yin and Jianping Wu (Tsinghua University, China)
+
+
+Aether: Toward Generalized Traffic Engineering with Elastic Multi-agent Graph Transformers
+
+Yu Fan, Jingyao Liu, Pengjin Xie and Liang Liu (Beijing University of Posts and Telecommunications, China)
+
+
+Repurposing Optical Mice for Acoustic Eavesdropping
+
+Zhimin Mei and Donghui Dai (The Hong Kong Polytechnic University, Hong Kong); Jingyu Tong (The Hong Kong Polytechnic University, Afghanistan); Zheng Gong (The Hong Kong Polytechnic University, Hong Kong); Lei Yang (The Hong Kong Polytechnic University, China)
+
+
+RICOCHET: Scalable Passive Beamforming for mmWave Networks Using Reflectarrays
+
+John Nolan and Xinyu Zhang (University of California San Diego, USA)
+
+
+Tree embedding based mapping system for low-latency mobile applications in multi-access networks
+
+Yu Mi (Case Western Reserve University, USA); Randeep Bhatia and Fang Hao (Bell Labs, Nokia, USA); An Wang (Case Western Reserve University, USA); Steve Benno and T. V Lakshman (Bell Labs, Nokia, USA)
+
+
+Lark: A Buffer-aware Building Block for Programmable Packet Scheduling in Datacenters
+
+Song Zhang (TianJin University, China); Wenxin Li, Yulong Li and Yuan Liu (Tianjin University, China); Lide Suo (TianJin University, China); Sheng Chen, Yitao Hu, Laiping Zhao and Keqiu Li (Tianjin University, China)
+
+
+Novel Drift-Based Design and Analysis for Synchronized and Fresh Communication over Broadcast Channels
+
+Xujin Zhou, Irem Koprulu and Atilla Eryilmaz (The Ohio State University, USA)
+
+
+Cross-Environmental Website Fingerprinting
+
+Jianfeng Li, Dongliang Wang, Yixuan Liu, Yifei Gao, Xiaorong Zhang, Zheng Lin and Xiaobo Ma (Xi'an Jiaotong University, China); Xiapu Luo (The Hong Kong Polytechnic University, Hong Kong); Xiaohong Guan (Xi'an Jiaotong University & Tsinghua University, China)
+
+
+How to BREAK MU-MIMO Precoding in IEEE 802.11 Wi-Fi Networks
+
+Francesca Meneghello (University of Padova, Italy); Francesco Gringoli (CNIT/University of Brescia, Italy); Marco Cominelli (Politecnico di Milano, Italy); Michele Rossi (University of Padova, Italy); Francesco Restuccia (Northeastern University, USA)
+
+
+DoMo: Rethinking Downscaling for Mobile Neural-enhanced Video Streaming
+
+Zhui Zhu and Xu Wang (Tsinghua University, China); Jingao Xu (Carnegie Mellon University, USA); Weichen Zhang (Tsinghua University, China); Yankun Yuan (Yanshan University, China); Fan Dang (Tsinghua University, China); Lin Wang (Yanshan University, China); Yunhao Liu (Tsinghua University, China)
+
+
+Justitia: An Incentive Mechanism towards the Fairness of Cross-shard Transactions
+
+Jian Zheng and Huawei Huang (Sun Yat-sen University, China); Yinqiu Liu (Nanyang Technological University, Singapore); Li Taotao (Sun Yat-sen University, China); Hong-Ning Dai (Hong Kong Baptist University, Hong Kong); Zibin Zheng (Sun Yat-sen University, China)
+
+
+LoFi: Physical-layer CTC from LoRa to WiFi with IEEE 802.11ax
+
+Demin Gao (University of Minnesota & Nanjing Forestry University, China); Wenchao Jiang (Singapore University of Technology and Design, Singapore); Ruofeng Liu (Bose, USA); Weizheng Wang (City University of Hong Kong, Hong Kong); Zhaoyang Han (Nanjing Forestry University, China); Yunhuai Liu (Peking University & Chinese Academy of Sciences, China)
+
+
+R\(^\text{2}\)Scatter: Long-Range Rapid LTE Backscatter Communication Using Tunnel Diodes
+
+Caihui Du (Beijing Institute of Technology, China); Rongrong Zhang (Capital Normal University, China); Chaocan Xiang (Chongqing University, China); Jihong Yu (Beijing Institute of Technology, China); Tao Ma (Xidian University, China)
+
+
+SweaTag: Fine-grained Sweat Amount Sensing with COTS RFID Tags
+
+Zhongkang Qiao, Chuyu Wang, Lei Xie, Yuanmin Chen and Sanglu Lu (Nanjing University, China)
+
+
+Distributed Optimization of Age of Incorrect Information with Dynamic Epistemic Logic
+
+Federico Chiariotti (University of Padova, Italy); Andrea Munari (German Aerospace Center (DLR), Germany); Leonardo Badia (Università degli Studi di Padova, Italy); Petar Popovski (Aalborg University, Denmark)
+
+
+Kairos: Energy-Efficient Radio Unit Control for O-RAN via Advanced Sleep Modes
+
+Josep Xavier Salvat (NEC Labs Europe, Germany); Jose A. Ayala-Romero (NEC Laboratories Europe, Germany); Andres Garcia-Saavedra (NEC Laboratories Europe, Spain); Xavier Costa-Perez (ICREA and i2cat & NEC Laboratories Europe, Spain)
+
+
+6Loda: An IPv6 Target Generation Approach based on pattern filtering and ensemble learning for IPv6 Scanning
+
+Xikai Sun and Fan Dang (Tsinghua University, China); Zihao Yang (Yanshan University, China); Xinqi Jin, Junhao Li and Yunhao Liu (Tsinghua University, China)
+
+
+Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters
+
+Ziyue Luo and Jia Liu (The Ohio State University, USA); Myungjin Lee (Cisco Research, USA); Ness B. Shroff (The Ohio State University, USA)
+
+
+When Labor-Intensive Mobile Crowdsourcing Meets Unobservability: Contextual Bandit Learning with Unobservable Individual Rewards
+
+Changkun Jiang, Bohong Jiang and Jianqiang Li (Shenzhen University, China)
+
+
+Scaling Learning-based Packet Classification Hardware with NeuTree
+
+Jiashuo Yu, Longlong Zhu and Long Huang (Fuzhou University & Quan Cheng Laboratory, China); Xinyang Chen (Fuzhou University, China); Linying Zheng (Zhejiang University, China); Dong Zhang (Fuzhou University & Quan Cheng Laboratory, China); Xiang Chen and Chunming Wu (Zhejiang University, China)
+
+
+An Analytical Latency Model of the Data Distribution Service in ROS 2
+
+Hyung-Seok Park, Sanghoon Lee, Doosik Um, Hyunho Ryu and Kyung-Joon Park (DGIST, Korea (South))
+
+
+Combating Deep Leakage from Gradients in Cross-Silo Federated Learning with QKD
+
+Xiaoyu Wang (University of Science and Technology of China, China); Yangming Zhao (University of Science and Technology of China & Nanjing University, China); Chen Tian (Nanjing University, China); Kai Chen (Hong Kong University of Science and Technology, China); Qi Li (Tsinghua University, China); Kun Yang (University of Essex, United Kingdom (Great Britain)); Chunming Qiao (University at Buffalo, USA)
+
+
+AdaRAG: Adaptive Optimization for Retrieval Augmented Generation with Multilevel Retrievers at the Edge
+
+Tao Ouyang, Guihang Hong, Kongyange Zhao, Zhi Zhou and Weigang Wu (Sun Yat-sen University, China); Zhaobiao Lv (China United Network Telecommunications Corporation Limited, China); Xu Chen (Sun Yat-sen University, China)
+
+
+Exploring Acoustic Reverse Nonlinearity Against Speech Forgery in Real-time Voice Applications
+
+Ming Gao (Nanjing University of Posts and Telecommunications, China); Lingfeng Zhang (Ant Group, China); Yike Chen (Zhejiang University, China); Sifeng He, Feng Qian and Lei Yang (Ant Group, China); Fu Xiao (Nanjing University of Posts and Telecommunications, China); Jinsong Han (Zhejiang University & School of Cyber Science and Technology, China)
+
+
+mSAC: Enhancing Localization with mmWave Sensing and Orthogonal Signals
+
+Mengning Li (North Carolina State University, USA); Wenye Wang (NC State University, USA); Eylem Ekici and Haocheng Zhu (The Ohio State University, USA)
+
+
+Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Network in the Wild
+
+Tingting Li, Ziming Zhao and Jianwei Yin (Zhejiang University, China)
+
+
+Multi-Task Reinforcement Learning For Collaborative Network Optimization in Data Centers
+
+Ting Wang, Kai Cheng and Xiao Du (East China Normal University, China)
+
+
+MARL-based Pricing Strategy via Mutual Attention for MoD Systems with Ridesharing and Repositioning
+
+Shuxin Ge, Xiaobo Zhou and Tie Qiu (Tianjin University, China)
+
+
+FedGPA: Federated Learning with Global-Personalized Collaboration for Edge Anomaly Detection
+
+Zheyi Chen, Longxiang Xue and Luying Zhong (Fuzhou University, China); Geyong Min (University of Exeter, United Kingdom (Great Britain))
+
+
+SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast
+
+Ke Zhou (Tsinghua University, China); Shuai Wang (Zhongguancun Laboratory, China); Li Chen (Huawei, Hong Kong); Dan Li and Shuhan Zhang (Tsinghua University, China)
+
+
+Partially Synchronous BFT Consensus Made Practical in Wireless Networks
+
+Shuo Liu, Minghui Xu, Yuezhou Zheng and Yifei Zou (Shandong University, China); Wangjie Qiu (Beihang University, China); Gang Qu (University of Maryland, USA); Xiuzhen Cheng (Shandong University, China)
+
+
+SenFEED: Dynamic Decentralized Oracle Services for Accurate and Real-Time Sensor Data
+
+Hao Zeng and Helei Cui (Northwestern Polytechnical University, China); Cong Wang (City University of Hong Kong, Hong Kong); Bo Zhang, Zhiwen Yu and Bin Guo (Northwestern Polytechnical University, China)
+
+
+Learning to Optimize Resource Utilization with QoS Guarantees
+
+Zifan Jia (University of Chinese Academy of Sciences, China); Qingsong Liu (University of Umass Amherst, China); Haihui Fan, Xiaoyan Gu, Bo Li and Weiping Wang (Chinese Academy of Sciences, China)
+
+
+GeoLM: Performance-oriented Leader Management for Geo-Distributed Consensus Protocol
+
+Duling Xu, Dafang Zhang, Tong Li, Yunpeng Chai, Zegang Sun and Li WeiMing (Renmin University of China, China); Yangfan Liu (Renming University of China, China); Qipeng Wang (Renmin University of China, China); Jiaqi Liang and Yang Ren (Huawei Technologies Co., Ltd., China); Wei Lu (Renmin University of China, China); Xiaoyong Du (Renmin University of CChina, China)
+
+
+A Generic and Efficient Communication Framework for Message-level In-Network Computing
+
+Xinchen Wan (Hong Kong University of Science and Technology, Hong Kong); Luyang Li (Institute of Computing Technology, Chinese Academy of Sciences, China); Han Tian (University of Science and Technology of China, China); Xudong Liao (The Hong Kong University of Science and Technology, Hong Kong); Xinyang Huang (Hong Kong University of Science and Technology, Hong Kong); Chaoliang Zeng and Zilong Wang (Hong Kong University of Science and Technology, China); Xinyu Yang (Hong Kong University of Science and Technology, Hong Kong); Ke Cheng and Qingsong Ning (ByteDance, China); Grace Liu (Carnegie Mellon University, USA); Layong Luo (Microsoft, China); Kai Chen (Hong Kong University of Science and Technology, China)
+
+
+An Evaluation of RAN Sustainability Strategies in Production Networks
+
+Orlando E. Martínez-Durive (IMDEA Networks Institute, Spain & Universidad Carlos III de Madrid, Spain); Jose Suarez-Varela and Jesus Omaña-Iglesias (Telefonica Research, Spain); Andra Lutu (Telefónica Research, Spain); Marco Fiore (IMDEA Networks Institute, Spain)
+
+
+EC-Chain: Cost-Effective Storage Solution for Permissionless Blockchains
+
+Minghui Xu, Hechuan Guo and Ye Cheng (Shandong University, China); Chunchi Liu (Huawei Technologies, China & The George Washington University, USA); Dongxiao Yu and Xiuzhen Cheng (Shandong University, China)
+
+
+6Map: Enabling Fast Active IPv6 Address Discovery with Programmable Switches
+
+Jiasheng Zhou, Lin He, Yifan Yang, Xiaoyi Shi and Daguo Cheng (Tsinghua University, China); Jinlong E (Renmin University of China, China); Ying Liu (Tsinghua University, China); Dong Zhang (Fuzhou University & Quan Cheng Laboratory, China)
+
+
+ElasticFed: Collaborative Large-small Transformer Training for Federated Continual Learning at Edge
+
+Yunlai Cheng, Rui Han, Qinglong Zhang and Chi Harold Liu (Beijing Institute of Technology, China)
+
+
+ExplabOff: Towards Explorative and Collaborative Task Offloading via Mutual Information-Enhanced MARL
+
+Tao Ren (Institute of Software Chinese Academy of Sciences, China); Zheyuan Hu, Jianwei Niu and Yiming Yao (Beihang University, China)
+
+
+AMoS: Autonomous Multimodal POI Standardization without Extra Annotation
+
+Suyuan Liu, Jingmiao Zhang and Haikuo Yu (University of Science and Technology of China, China); Yan Zhang, Yuetian Wang and Guobin Shen (Alibaba Group, China); Xiang-Yang Li (University of Science and Technology of China, China)
+
+
+SkyOctopus: Enabling Low-Latency Mobile Satellite Network through Multiple Anchors
+
+Shaojie Su, Jiasheng Wu, Zijie Ying, Zhiyuan Zhao, Xiangyu Jia, Wenjun Zhu and Yue Gao (Fudan University, China)
+
+
+Learning Best Paths in Quantum Networks
+
+Xuchuang Wang (University of Massachusetts - Amherst, USA); Maoli Liu, Xutong Liu and Zhuohua Li (The Chinese University of Hong Kong, Hong Kong); Mohammad Hajiesmaili (University of Massachusetts Amherst, USA); John Chi Shing Lui (Chinese University of Hong Kong, Hong Kong); Don Towsley (University of Massachusetts at Amherst, USA)
+
+
+AsyncSC: An Asynchronous Sidechain for Multi-Domain Data Exchange in Internet of Things
+
+Lingxiao Yang and Xuewen Dong (Xidian University, China); Zhiguo Wan (Zhejiang Lab, Hangzhou, Zhejiang, China); Sheng Gao (Central University of Finance and Economics, China); Wei Tong (Zhejiang Sci-Tech University, China); Di Lu and Yulong Shen (Xidian University, China); Xiaojiang Du (Stevens Institute of Technology, USA)
+
+
+Swing Filter: A Low-overhead Filter with Larger Filtering Range for Network Traffic Measurement
+
+Zhaojie Wang, He Huang, Yu-e Sun, Hanwen Zhang and Guoju Gao (Soochow University, China); Haibo Wang (University of Kentucky, USA); Shigang Chen (University of Florida, USA)
+
+
+Designing and Implementing AoI-Optimized Scheduling for Autonomous Driving Systems
+
+Chen Tang, Tuo Shi and Qian Xu (City University of Hong Kong, Hong Kong); Kui Wu (University of Victoria, Canada); Nan Guan (City University of Hong Kong, China); Jen-Ming Wu (Hon Hai Research Institute, Taiwan); Jianping Wang (City University of Hong Kong, Hong Kong)
+
+
+Towards Guaranteed Accuracy for Flow Spread Measurement with (ε, β)-nonduplicate Sampling
+
+Haibo Wang (University of Kentucky, USA); Chaoyi Ma (University of Florida, USA); Dimitrios Melissourgos (Grand Valley State University, USA); Guoju Gao (Soochow University, China); Shigang Chen (University of Florida, USA)
+
+
+Improving Multi-Vehicle Perception Fusion with Millimeter-Wave Radar Assistance
+
+Zhiqing Luo, Yi Wang, YingYing He and Wei Wang (Huazhong University of Science and Technology, China)
+
+
+Optimizing Distributed Deployment of Mixture-of-Experts Model Inference in Serverless Computing
+
+Mengfan Liu (The University of Hong Kong, Hong Kong); Wei Wang (Hong Kong University of Science and Technology, Hong Kong); Chuan Wu (The University of Hong Kong, Hong Kong)
+
+
+CCS-Fi: Widening Wi-Fi Sensing Bandwidth via Compressive Channel Sampling
+
+Xin Li, Hongbo Wang and Jingzhi Hu (Nanyang Technological University, Singapore); Zhe Chen (Fudan University & AIWiSe Company, China); Zhiping Jiang (Xidian University, China); Jun Luo (Nanyang Technological University, Singapore)
+
+
+Formally Verifying the State Machine of TLS 1.3 Handshake in OpenSSL
+
+Jingjing Guan, Hui Li, Xiangdong Li, Xiaolei Wang and Binghan Wang (Beijing University of Posts and Telecommunications, China); Qiuye Wang (Zhejiang University, China); Shengchao Qin (Xidian University, China); Mengda He (Teesside University, UK); Md Armanuzzaman and Ziming Zhao (Northeastern University, USA)
+
+
+Network CoPilot: Intent-Driven Network Configuration Updating for Service Guarantee
+
+Rongxin Han, Jingyu Wang, Haifeng Sun, Zengteng Jiang, Qi Qi, Zirui Zhuang, Yuan Zhang and Jianxin Liao (Beijing University of Posts and Telecommunications, China)
+
+
+CoINT2: A Heuristic Coordinator for Responsive Receive-side Network I/O Virtualization in Overcommitment Cloud
+
+Xu Huan (Shanghai Jiaotong University, China); Jian Li and Haibing Guan (Shanghai Jiao Tong University, China)
+
+
+HydraCC: Finding the Pareto Frontiers of Congestion Control via Multi-objective Evolutionary Exploration
+
+Xiang Ji (Beijing University of Post and Telecommunications, China); Changqiao Xu (Beijing University of Posts and Telecommunications, China); Zekun Zhang and Zhong Lujie (Capital Normal University, China); Gao Kai (Huawei Beijing Research Institute HI-SILICON Laboratory, China); Han Xiao and Shujie Yang (Beijing University of Posts and Telecommunications, China); Gabriel-Miro Muntean (Dublin City University, Ireland)
+
+
+Joint Neural Matrix Completion for Multi-Attribute Mobile Crowd Sensing
+
+Xiaocan Li (Hunan University, China & NA, China); Kun Xie (Hunan University, China); Jigang Wen (Chinese Academy of Science & Institute of Computing Technology, China); Guangxing Zhang (Institute of Computing Technology Chinese Academy of Sciences, China); Wei Liang (Hunan University of Science and Technology, China); Gaogang Xie (CNIC Chinese Academy of Sciences & University of Chinese Academy of Sciences, China); Kenli Li (Hunan University, China)
+
+
+Fast computation of partial index and application to an AoI minimization problem
+
+Haoqian Xue (The Chinese University of Hong Kong, Hong Kong); Xiaojun Lin (The Chinese University of Hong Kong, Hong Kong & Purdue University, West Lafayette (on Leave), USA)
+
+
+AIGC-CM: An Efficient and Scalable Blockchain Solution for AIGC Copyright Management
+
+Liyuan Ma, Dengcheng Hu, Xiulong Liu, Hao Xu, Jianrong Wang and Keqiu Li (Tianjin University, China)
+
+
+ContribChain: A Stress-Balanced Blockchain Sharding Protocol with Node Contribution Awareness
+
+Xinpeng Huang (Beihang University, China & Zhongguancun Laboratory, China); Wanqing Jie and Shiwen Zhang (Beihang University, China); Haofu Yang (Nankai University, China); Wangjie Qiu and Qinnan Zhang (Beihang University, China); Huawei Huang (Sun Yat-sen University, China); Zehui Xiong (Singapore University of Technology and Design, Singapore); Shaoting Tang (Beihang University, China); Hongwei Zheng (Beijing Academy of Blockchain and Edge Computing, China); Zhiming Zheng (The Institute of Artificial Intelligence, Beihang University, China)
+
+
+RFnoID: Protecting RFID Motion Privacy via Metasurface
+
+Yanni Yang and Zheng Shi (Shandong University, China); Zhenlin An (University of Pittsburgh, USA); Runyu Pan (Shandong University, China); Yanling Bu (Nanjing University of Aeronautics and Astronautics, China); Guoming Zhang and Pengfei Hu (Shandong University, China); Jiannong Cao (Hong Kong Polytechnical University, Hong Kong)
+
+
+PDStream: Slashing Long-Tail Delay in Interactive Video Streaming via Pseudo-Dual Streaming
+
+Xuedou Xiao (Wuhan University of Technology, China); Yingying Zuo and Mingxuan Yan (Huazhong University of Science and Technology, China); Kezhong Liu (Wuhan University of Technology, China); Wei Wang (Huazhong University of Science and Technology, China)
+
+
+NetRT: Enhancing RDMA with Retransmission Offloading in Data Center Networks
+
+Wentao Wang, Jiangping Han, Kaiping Xue, Jian Li and Kunpeng Ding (University of Science and Technology of China, China); Ruidong Li (Kanazawa University, Japan)
+
+
+On Non-Commutative Routing
+
+Zhaozhen Wang and Xingang Shi (Tsinghua University, China); Haijun Geng (Shanxi University, China); Zitong Jin (Zhongguancun Laboratory, China); Han Zhang, Xia Yin and Zhiliang Wang (Tsinghua University, China)
+
+
+Constructing 4D Radio Map in LEO Satellite Networks with Limited Samples
+
+Haoxuan Yuan (Fudan University, China); Zhe Chen (Fudan University & AIWiSe Company, China); Zheng Lin, Jinbo Peng, Yuhang Zhong and Xuanjie Hu (Fudan University, China); Songyan Xue (Huawei Technologies Co. Ltd., China); Wei Li (The State Radio Monitoring Center, China); Yue Gao (Fudan University, China)
+
+
+Minimum-hop Constellation Design for Low Earth Orbit Satellite Networks
+
+Chirag Rao (US Army Research Laboratory & Massachusetts Institute of Technology, USA); Eytan Modiano (MIT, USA)
+
+
+Accelerating Clustered Federated Learning in Dynamic D2D Networks with Transferable GNN
+
+Yuhong Jiang and Jia Hu (University of Exeter, United Kingdom (Great Britain))
+
+
+Non-Intrusive Item Authentication with High Robustness for RFID-Enabled Logistics
+
+Jiawei Xue, Chunhui Duan and Fan Li (Beijing Institute of Technology, China); Qihua Feng (Beijing Institute of Technology & Jinan University, China); Ziang Wang (Beijing Institute of Technology, China); Yinan Zhu (The Hong Kong University of Science and Technology (HKUST), Hong Kong)
+
+
+AoI-aware Federated Unlearning for Streaming Data with Online Client Selection and Pricing
+
+Yue Cui (City University of Hong Kong, Hong Kong); Ningning Ding (The Hong Kong University of Science and Technology (Guangzhou), China); Man Hon Cheung (City University of Hong Kong, Hong Kong)
+
+
+5G-Muffler: Covert DoS Attacks over Open Frounthaul Interface of O-RAN 5G Network
+
+Wei Lin (Singapore University of Technology and Design, Singapore); Zongxiao Li (Beihang University, China); Binbin Chen (Singapore University of Technology and Design, Singapore); Jianwei Liu (BeiHang University, China); Ray-Guang Cheng (National Taiwan University of Science and Technology, Taiwan); Fan Zhang (Zhejiang University, China)
+
+
+Robust Contextual Combinatorial Multi-Armed Bandits for Unreliable Network Systems
+
+Junkai Wang (Fudan University, China); Xutong Liu (The Chinese University of Hong Kong, Hong Kong); Jinhang Zuo (City University of Hong Kong, Hong Kong); Yuedong Xu (Fudan University, China)
+
+
+Deep Reinforcement Learning Based Coexistence Management in LPWAN
+
+Md Ashikul Haque and Abusayeed Saifullah (Wayne State University, USA); Haibo Zhang (Universtiy of Otago, New Zealand)
+
+
+CoCaR: Enabling Efficient Dynamic DNN-based Model Caching and Request Routing in MEC
+
+Shuting Qiu, Fang Dong, Siyu Tan, Dian Shen and Ruiting Zhou (Southeast University, China); Qilin Fan (Chongqing University, China)
+
+
+Anchor: A Novel Modeling Methodology for Cooperative UAV-MEC Based on Stochastic Geometry
+
+Yan Li (National University of Defence Technology, China); Lailong Luo (National University of Defense Technology, China); Bangbang Ren (National University of Defence Technology, China); Deke Guo (National University of Defense Technology, China)
+
+
+FedEXT: Differential Federated Learning with Complementary Extension of Edge Models
+
+Zhenyu Wang and Shahriar Nirjon (University of North Carolina at Chapel Hill, USA)
+
+
+PhyDNNs: Bringing Deep Neural Networks to the Physical Layer
+
+Mohammad Abdi (Northeastern University & Institute for the Wireless Internet of Things, USA); Khandaker Foysal Haque (Northeastern University, USA); Francesca Meneghello (University of Padova, Italy); Jonathan D Ashdown (Air Force Research Laboratory, USA); Francesco Restuccia (Northeastern University, USA)
+
+
+Computation and Communication Co-scheduling for Timely Multi-Task Inference at the Wireless Edge
+
+Md Kamran Chowdhury Shisher and Adam Piaseczny (Purdue University, USA); Yin Sun (Auburn University, USA); Christopher G. Brinton (Purdue University, USA)
+
+
+Theory of Mixture-of-Experts for Mobile Edge Computing
+
+Hongbo Li and Lingjie Duan (Singapore University of Technology and Design (SUTD), Singapore)
+
+
+Federated Adaptive Fine-Tuning of Large Language Models with Heterogeneous Quantization and LoRA
+
+Zhidong Gao and Zhenxiao Zhang (The University of Texas at San Antonio, USA); Yanmin Gong and Yuanxiong Guo (University of Texas at San Antonio, USA)
+
+
+DACC: Data Augmentation for Learning-based Congestion Control
+
+Xiaojun Zhu (Central South University & Jiangxi University of Science and Technology, China); Jiawei Huang (Central South University, China); Haifeng Liu (Jiangxi University of Science and Technology, China); Zhaoyi Li, Yijun Li, Shengwen Zhou and Hui Li (Central South University, China); Weihe Li (University of Edinburgh, United Kingdom (Great Britain)); Jingling Liu and Wanchun Jiang (Central South University, China)
+
+
+Towards Lightweight Traffic Forecasting in RDMA Networks: Design and Application
+
+Cheng Yang (University of Science and Technology of China, China); Xiaoning Zhang (University of Electronic Science and Technology of China, China); Bodong Yan and Sun Xu (University of Science and Technology of China, China); Bingyi Liu (Wuhan University of Technology, China); Jianchun Liu (University of Science and Technology of China, China)
+
+
+ACBatch: Adaptive and Cooperative Batching for Edge Inference
+
+Ziming Yang, Zichuan Zheng, Liyou Deng, Shan Zhang, Zhiyuan Wang and Hongbin Luo (Beihang University, China)
+
+
+Downlink Multi-user sub-THz Communication with a Programmable Metasurface
+
+Fahid Hassan and Zhambyl Shaikhanov (Rice University, USA); Jeffrey Lei (Brown University, USA); Hichem Guerboukha (University of Missouri-Kansas City, USA); Hou-Tong Chen (Los Alamos National Lab, USA); Chun-Chieh Chang (Los Alamos National Laboratory, USA); Sadhvikas Addamane and Michael P. Lilly (Sandia National Laboratories, USA); Daniel Mittleman (Brown University, USA); Edward W. Knightly (Rice University, USA)
+
+
+LiDAR-Track: Multi-Person Positioning and Tracking Using LiDAR
+
+Kunhong Ji and Chi Lin (Dalian University of Technology, China); Jie Xiong (Microsoft Research Asia & University of Massachusetts Amherst, USA); Liming Luke Chen (Ulster University, United Kingdom (Great Britain)); Xin Fan and Guowei WU (Dalian University of Technology, China)
+
+
+FD-Filter: A Compact Data Structure for Fine-Grained Intra-Flow Packet Delay Monitoring
+
+Jintao He, Jie Gui, Tian Lv, Jiaqi Zhu and Qun Huang (Peking University, China)
+
+
+HaDT: Hardening Digital Twins for UAVs-Based Industrial Logistics Distribution Systems
+
+Longyu Zhou (Singapore University of Technology and Design, Singapore); Supeng Leng (University of Electronic Science and Technology of China, China); Tony Q. S. Quek (Singapore University of Technology and Design, Singapore)
+
+
+FLM-TopK: Expediting Federated Large Language Model Tuning by Sparsifying Intervalized Gradients
+
+Wenqi Qiu (Shenzhen University, China); Yipeng Zhou (Macquarie University, Australia); Jinzhi Wang (Shenzhen University, China); Quan Z. Sheng (Macquarie University, Australia); Laizhong Cui (Shenzhen University, China)
+
+
+Joint Optimization of Model Inferencing and Task Offloading for MEC-Empowered Large Vision Model Services
+
+Xinyi Zhuang and Jiaqi Wu (Harbin Institute of Technology, Shenzhen, China); Hongjia Wu (Hong Kong Education University, Hong Kong); Tingting Zhang and Lin Gao (Harbin Institute of Technology, Shenzhen, China)
+
+
+Quark: Implementing Convolutional Neural Networks Entirely on Programmable Data Plane
+
+Mai Zhang and Lin Cui (Jinan University, China); Xiaoquan Zhang (JINAN University, China); Fung Po Tso (Loughborough University, United Kingdom (Great Britain)); Zhen Zhang and Yuhui Deng (Jinan University, China); Zhetao Li (Xiangtan University, China)
+
+
+6D Self-Localization of Drones using a Single Millimeter-Wave Backscatter Anchor
+
+Maisy L Lam (MIT, USA); Laura Dodds (Massachusetts Institute of Technology, USA); Aline Eid (University of Michigan, Ann Arbor, USA); Jimmy Hester (Atheraxon, USA); Fadel Adib (MIT, USA)
+
+
+Minimal and Fastest Anonymous Communication against Colluding Passive Adversaries
+
+Yutaro Yoshinaka, Junji Takemasa and Yuki Koizumi (Osaka University, Japan); Toru Hasegawa (Shimane University, Japan)
+
+
+MUFFLER: Secure Tor Traffic Obfuscation with Dynamic Connection Shuffling and Distributing
+
+Minjae Seo (ETRI, Korea (South)); Myoungsung You and Jaehan Kim (KAIST, Korea (South)); Taejune Park (Chonnam National University, Korea (South)); Seungwon Shin (KAIST, Korea (South)); Jinwoo Kim (Kwangwoon University, Korea (South))
+
+
+RoCooper: Robust Cooperative Perception under Vehicle-to-Vehicle Communication Impairments
+
+Tao Tang, Chaokun Zhang and Gong Chen (Tianjin University, China); Jinlong E (Renmin University of China, China)
+
+
+Tri-Ring: Asynchronous Service Provisioning with Online Learning in Edge Cloud Networks
+
+Xiaoxu Ren and Qixin Li (Beijing University of Posts and Telecommunications, China); Hongyang Du (The University of Hong Kong, Hong Kong); Haipeng Yao (Beijing University of Posts and Telecommunications, China); Chao Qiu (Tianjin University, China); Dusit Niyato (Nanyang Technological University, Singapore)
+
+
+ByzSkip - A Byzantine-Resilient Skip Graph
+
+Yuuichi Teranishi (National Institute of Information and Communications Technology & Osaka University, Japan); Toyokazu Akiyama (Kyoto Sangyo University, Japan); Kota Abe (Osaka Metropolitan University, Japan)
+
+
+ConWatcher: Towards Adaptive and Label-Efficient Online Smart Contract Analysis in Blockchains
+
+Qinnan Hu, Yuntao Wang, Zhou Su and Tom H. Luan (Xi'an Jiaotong University, China); Ruidong Li (Kanazawa University, Japan)
+
+
+Espresso: Cost-Efficient Large Model Training by Exploiting GPU Heterogeneity in the Cloud
+
+Qiannan Zhou, Fei Xu, Linxuan Weng, Ruixing Li and Xudong Wu (East China Normal University, China); Li Chen (University of Louisiana at Lafayette, USA); Zhi Zhou (Sun Yat-sen University, China); Fangming Liu (Huazhong University of Science and Technology, China)
+
+
+Mell: Memory-Efficient Large Language Model Serving via Multi-GPU KV Cache Management
+
+Qianli Liu (The Hong Kong Polytechnic University, Hong Kong); Zicong Hong (The Hong Kong Polytechnic University, China); Peng Li (Xi'an Jiaotong University, China); Fahao Chen (The University of Aizu, Japan); Song Guo (The Hong Kong University of Science and Technology, Hong Kong)
+
+
+SPIN: Accelerating Large Language Model Inference with Heterogeneous Speculative Models
+
+Fahao Chen (The University of Aizu, Japan); Peng Li, Tom H. Luan and Zhou Su (Xi'an Jiaotong University, China); Jing Deng (UNC Greensboro, USA)
+
+
+MemFerry: A Fast and Memory Efficient Offload Training Framework with Hybrid GPU Computation
+
+Zhiyi Yao, Zuning Liang, Yuedong Xu and Jin Zhao (Fudan University, China); Jessie Hui Wang (Tsinghua University, China); Tong Li (Renmin University of China, China)
+
+
+INT-assisted Adaptive Packet Scheduling in PDP Switches for End-to-end Latency Control
+
+Zichen Xu (University of Science and Technology of China, China); Xiaoliang Chen (Sun Yat-sen University, USA); Zuqing Zhu (University of Science and Technology of China, China)
+
+
+HyperCom: Enabling High Performance and Composable Data Structures for Software Network Functions with eBPF
+
+Bin Yang, Dian Shen, Hanlin Yang, Lunqi Zhao, Jianrui Liu, cheng jiantao and Beilun Wang (Southeast University, China)
+
+
+MrgRecmp4: Efficient Stateful SFC Recompilation in PDP Switches with Flexible Table Merging
+
+Tingyu Li and Zhen Wei (University of Science and Technology of China, China); Xiaoliang Chen (Sun Yat-sen University, USA); Zuqing Zhu (University of Science and Technology of China, China)
+
+
+Enable Autonomous Backscatter in Everyday Devices
+
+Si Liao and Fengxu Yang (ShanghaiTech University, China); Huangxun Chen (Hong Kong University of Science and Technology (Guangzhou), China); Zhice Yang (ShanghaiTech University, China)
+
+
+Towards Robust RF Fingerprint Identification Using Spectral Regrowth and Carrier Frequency Offset
+
+Lingnan Xie and Linning Peng (Southeast University, China); Junqing Zhang (University of Liverpool, United Kingdom (Great Britain))
+
+
+Enhancing Position Verification in Multi-Node Quantum Networks
+
+Ziyan Zhang (University of Amsterdam, The Netherlands); Florian Speelman (University of Amsterdam & QuSoft, Germany); Paola Grosso (University of Amsterdam, The Netherlands)
+
+
+Understanding the Business of Online Affiliate Marketing: An Empirical Study
+
+Haitao Xu and Yiwen Sun (Zhejiang University, China); Kaleem Ullah Qasim (Southwest Jiaotong University, China); Shuai Hao (Old Dominion University, USA); Wenrui Ma (Zhejiang Gongshang University, China); Zhenyuan Li, Fan Zhang and Meng Han (Zhejiang University, China); Zhao Li (Zhejiang Lab, China)
+
+
+ExClique: An Express Consensus Algorithm for High-Speed Transaction Process in Blockchains
+
+Chonghe Zhao (Shenzhen University, China); Yipeng Zhou (Macquarie University, Australia); Shengli Zhang (Shenzhen University, China); Quan Z. Sheng and Yang Zhang (Macquarie University, Australia); Shiting Wen (NingboTech University, China)
+
+
+Enhanced Bandwidth Measurement and Robust Rate Adaptation for Low-latency Live Streaming
+
+Jiahui Chen (Tsinghua University, China); Yiding Yu, Libo Wang and Ying Chen (Alibaba, China); Tianchi Huang and Lifeng Sun (Tsinghua University, China)
+
+
+Sentinel: Scheduling Live Streams with Proactive Anomaly Detection in Crowdsourced Cloud-Edge Platforms
+
+Yuting Li, Shaoyuan Huang and Tengwen Zhang (Tianjin University, China); Cheng Zhang (Tianjin University of Finance and Economics, China); Xiaofei Wang (Tianjin University, China); Victor C.M. Leung (SMBU, China & The University of British Columbia, Canada)
+
+
+FedUFD: Personalized Edge Computing Using Federated Uncertainty-Driven Feature Distillation
+
+Zerui Shao and Beibei Li (Sichuan University, China); Zhibo Wang (Zhejiang University, China); Yanbing Yang (Sichuan University, China); Peiran Wang (Tsinghua University, China); Jun Luo (Nanyang Technological University, Singapore)
+
+
+3DVidar: A Contact-free 3D Vibration Sensing System Based on a Single mmWave Radar
+
+Yulong Zhang, Xuanheng Li and Yi Sun (Dalian University of Technology, China)
+
+
+ScalaTap: Scalable Outbound Rate Limiting in Public Cloud
+
+Zhongjie Chen and Yingchen Fan (Tsinghua University, China); Kun Qian (Alibaba Group, China); Qingkai Meng (Tsinghua University, China); Ran Shu (Microsoft Research, China); Xiaoyu Li, Yiran Zhang, Bo Wang, Wei Li and Fengyuan Ren (Tsinghua University, China)
+
+
+Drift Plus Optimistic Penalty - A Learning Framework for Stochastic Network Optimization
+
+Sathwik P Chadaga (Massachusetts Institute of Technology, USA); Eytan Modiano (MIT, USA)
+
+
+Latency-aware Online Continual Learning for Non-Stationary Data Streams
+
+Haibo Liu, Da Huo, Zhenzhe Zheng and Fan Wu (Shanghai Jiao Tong University, China)
+
+
+Weir: Delay-based RNIC Cache Control Software Middleware for Scalable RDMA Networks
+
+Yongchen Pan, Jiao Zhang, Yuxuan Hu and Zirui Wan (Beijing University of Posts and Telecommunications, China); Baohong Lin and Junliang Wang (China Telecom Research Institute, China); Huimin Luo (Beijing University of Posts and Telecommunications, China)
+
+
+Optimal and Approximate Parallelism-based Computation Offloading Algorithms for Real-Time Multimodal Learning at the Edge
+
+Quan Chen and Ming Yi (Guangdong University of Technology, China); Jing Li (City University of Hong Kong, Hong Kong); Ning Li (Universidad Politécnica de Madrid, Spain); Hong Gao (Zhejiang Normal University, China); Zhipeng Cai (Georgia State University, USA)
+
+
+MINA: Fine-grained In-network Aggregation Resource Scheduling for Machine Learning Service
+
+Shichen Dong (Nanjing University, China); Zhixiong Niu (Microsoft Research Asia, Hong Kong); Mingchao Zhang, Zhiying Xu and Chuntao Hu (Nanjing University, China); Pengzhi Zhu (NVIDIA, China); Qingchun Song (NVIDIA, USA); Lei Qu (Microsoft Research, China); Peng Cheng (Microsoft Research, USA); Cam-Tu Nguyen (Nanjing University, Vietnam); Shaoling Sun and Xiaohu Xu (China Mobile, China); Yongqiang Xiong (Microsoft Research Asia, China); Wei Wang and Xiaoliang Wang (Nanjing University, China)
+
+
+Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices
+
+Shengyuan Ye and Bei Ouyang (Sun Yat-sen University, China); Liekang Zeng (The Chinese University of Hong Kong, China); Tianyi Qian (Sun Yat-sen University, China); Xiaowen Chu (The Hong Kong University of Science and Technology (Guangzhou) & The Hong Kong University of Science and Technology, Hong Kong); Jian Tang (Midea Group, China); Xu Chen (Sun Yat-sen University, China)
+
+
+Exploring the Internet Routing Registries To Augment AS-level Topology
+
+Akmal Khan (The Islamia University of Bahawalpur, Pakistan); Usama Ejaz (Sangmyung University, Korea (South)); Taekyoung Kwon (Seoul National University, Korea (South)); Hyun-chul Kim (Sangmyung University, Korea (South))
+
+
+Smooth Handovers via Smoothed Online Learning
+
+Michail Kalntis (Delft University of Technology, The Netherlands); Andra Lutu (Telefónica Research, Spain); Jesus Omaña-Iglesias (Telefonica Research, Spain); Fernando A. Kuipers and George Iosifidis (Delft University of Technology, The Netherlands)
+
+
+ZKP-CapBAC: Capability-Based Access Control via On-Chain Zero-Knowledge Proofs for Cross-Domain Hiding Delegation Tree
+
+Yanru Chen, Yuanyuan Zhang, Xin Lin and Tongzhou Xu (Sichuan University, China); Zhiwen Pan (Chinese Academy of Sciences, China); Liangyin Chen (Sichuan University & University of Minnesota, China)
+
+
+An Urban Geography of Mobile Application Usage: Connecting Demand Dynamics and Urban Fabrics
+
+Sachit Mishra and Diego Madariaga (IMDEA Networks Institute, Spain); Cezary Ziemlicki (Orange labs, France); Diala Naboulsi (École de Technologie Supérieure, Canada); Marco Fiore (IMDEA Networks Institute, Spain)
+
+
+DUNE: Distributed Inference in the User Plane
+
+Beyza Butun (Universidad Carlos III de Madrid & IMDEA Networks Institute, Spain); David de Andres Hernandez (IMDEA Networks Institute & Universidad Carlos III de Madrid, Spain); Michele Gucciardo and Marco Fiore (IMDEA Networks Institute, Spain)
+
+
+WIT - Waveform Independent Tunable Channel Model for sub-Terahertz Communication
+
+Shuvam Chakraborty (University at Albany, SUNY, USA); Claire T Parisi and Steven Arbogast (Air Force Research Laboratory, USA); Dola Saha (University at Albany, SUNY, USA); Ngwe Thawdar (Air Force Research Laboratory, USA)
+
+
+Optimizing Age of Information Without Knowing the Age of Information
+
+Zhuoyi Zhao and Igor Kadota (Northwestern University, USA)
+
+
+Achieving Robust Resource Orchestration for Highly Dense Heterogeneous IoT Systems
+
+Chun-Chih Lin (Clemson & Clemson University, USA); Chenxu Jiang (Clemson University, USA); Xiaonan Zhang (Florida State University, USA); Linke Guo (Clemson University, USA)
+
+
+Similarity-Guided Rapid Deployment of Federated Intelligence over Heterogeneous Edge Computing
+
+Hansong Zhou (Florida State University, USA); Jingjing Fu (Clemson University, USA); Yukun Yuan (University of Tennessee at Chattanooga, USA); Linke Guo (Clemson University, USA); Xiaonan Zhang (Florida State University, USA)
+
+
+QCode: Achieving High Capacity in Uncoordinated Access Channels (UCACH) of Broadband Low Earth Orbit (LEO) Satellite Networks
+
+Zhenghao Zhang (Florida State University, USA)
+
+
+Heartbeat Aware Decoding in Molecular Networks
+
+Jiaming Wang (University of Illinois Urbana-Champaign, USA); Samin Beheshti Zavareh (University of Bern, Switzerland); Haitham Hassanieh (Swiss Federal Institute of Technology Lausanne (EPFL), Switzerland); Bhuvana Krishnaswamy (University of Wisconsin-Madison, USA)
+
+
+Deep Learning-augmented SHS Model for Accurate AoI Analysis in Heterogeneous Unsaturated CSMA Networks
+
+Suyang Wang and Yu Cheng (Illinois Institute of Technology, USA)
+
+
+5GC-Fuzz: Finding Deep Stateful Vulnerabilities in 5G Core Network with Black-box Fuzzing
+
+Yu Sun and Xinyu Liu (Beihang University & Key Laboratory of Aerospace Network Security Ministry of Industry and Information Technology, China); Qian Sun (Institute of Computing Technology, Chinese Academy of Sciences & Nanjing Institute of InforSuperBahn, China); Jiaming Wang (Beihang University & Key Laboratory of Aerospace Network Security Ministry of Industry and Information Technology, China); Lin Tian (Institute of Computing Technology, Chinese Academy of Sciences & Nanjing Institute of InforSuperBahn, China); Jianwei Liu (Beihang University & Key Laboratory of Aerospace Network Security Ministry of Industry and Information Technology, China)
+
+
+TurboCache: Empowering Switch-accelerated Key-value Caches with Accurate and Fast Cache Update
+
+Xiang Chen, Longlong Zhu, Linying Zheng and Lingfei Cheng (Zhejiang University, China); Jianshan Zhang and Xu Yang (Minjiang University, China); Dong Zhang (Fuzhou University & Quan Cheng Laboratory, China); Xuan Liu (Yangzhou University, China); Xiaoming Lu (China Mobile (Hang Zhou) Information Technology Co. Ltd, China); Xun Yi and Ibrahim Khalil (RMIT University, Australia); Albert Zomaya (The University of Sydney, Australia); Haifeng Zhou and Chunming Wu (Zhejiang University, China)
+
+
+Optimal Real-Time Synchronized Scheduling for Collaborative Content Delivery
+
+Xuan Wang (Pennsylvania State University, USA); Xiaoyi Wu and Ying Sun (The Pennsylvania State University, USA); Atilla Eryilmaz (The Ohio State University, USA); Bin Li (The Pennsylvania State University, USA)
+
+
+GreenRAN: A Channel-Aware Green O-RAN Framework for NextG Mobile Systems
+
+Chaoqun You and Xingqiu He (Fudan University, China); Yao Sun (University of Glasgow, United Kingdom (Great Britain)); Gang Feng (University of Electronic Science and Technology of China, China); Tony Q. S. Quek (Singapore University of Technology and Design, Singapore)
+
+
+Decentralized Evolutionary Optimization for Multi-Target Tracking and Data Association with Bearing-only Measurements
+
+Tai-You Chen, Wei-Neng Chen and Feng-Feng Wei (South China University of Technology, China); Yang Wang (Northwestern Polytechnical University, China)
+
+
+Network Diffuser for Placing-Scheduling Service Function Chains with Inverse Demonstration
+
+Zuyuan Zhang (George Washington University, USA); Vaneet Aggarwal (Purdue University, USA); Tian Lan (George Washington University, USA)
+
+
+On the Low-Complexity of Fair Learning for Combinatorial Multi-Armed Bandit
+
+Xiaoyi Wu (The Pennsylvania State University, USA); Bo Ji (Virginia Tech, USA); Bin Li (The Pennsylvania State University, USA)
+
+
+WRF-GS: Wireless Radiation Field Reconstruction with 3D Gaussian Splatting
+
+Chaozheng Wen (The Hong Kong University of Science and Technology, Hong Kong); Jingwen Tong (The Hong Kong University of Science and Technology (HKUST), China & University of Houston, USA); Yingdong Hu, Zehong Lin and Jun Zhang (The Hong Kong University of Science and Technology, Hong Kong)
+
+
+Multi-tier Multi-node Scheduling of LLM for Collaborative AI Computing
+
+Mulei Ma (Hong Kong University of Science and Technology (Guangzhou), China); Chenyu Gong (The Hong Kong University of Science and Technology (Guangzhou), China); Liekang Zeng (The Chinese University of Hong Kong, China); Yang Yang (Hong Kong University of Science and Technology (Guangzhou) & Shanghai Reserach Center for Wireless Communications, China)
+
+
+Prism: Mining Task-aware Domains in Non-i.i.d. IMU Data for Flexible User Perception
+
+Yunzhe Li, Facheng Hu, Hongzi Zhu and Quan Liu (Shanghai Jiao Tong University, China); Xiaoke Zhao (Ant Group, China); Jiangang Shen (Shanghai Jiao Tong University, China); Shan Chang (Donghua University, China); Minyi Guo (Shanghai Jiao Tong University, China)
+
+
+TensAllo: Adaptive Deployment of LLMs on Resource-Constrained Heterogeneous Edge Devices
+
+Bowen Zhang, Junyang Zhang, Jiahui Hou and Yixin Wang (University of Science and Technology of China, China)
+
+
+FlowMiner: A Powerful Model Based on Flow Correlation Mining for Encrypted Traffic Classification
+
+Hongbo Xu (Institute of Information Engineering，Chinese Academy of Sciences, China); Chengxiang Si (CNCERT/CC, China); Shuhao Li (Zhongguancun Laboratory, China); Zhenyu Cheng (Chinese Academy of Sciences, China); Chenxu Wang (University of Chinese Academy of Sciences, China & Institute of Information Engineering, Chinese Academy of Sciences, China); Jiang Xie (Zhongguancun Laboratory, China); Peishuai Sun (Chinese Academy of Sciences, China); Qingyun Liu (Institute of Information Engineering, Chinese Academy of Sciences, China)
+
+
+Joint Optimization of Prompt Security and System Performance in Edge-Cloud LLM Systems
+
+Haiyang Huang (Beijing Normal University, China); Tianhui Meng (BNU-HKBU United International College, China & Beijing Normal University, China); Weijia Jia (Beijing Normal University (Zhuhai) and UIC, China)
+
+
+Lightweight Federated Learning with Differential Privacy and Straggler Resilience
+
+Shu Hong (The University of British Columbia, Canada); Xiaojun Lin (The Chinese University of Hong Kong, Hong Kong & Purdue University, West Lafayette (on Leave), USA); Lingjie Duan (Singapore University of Technology and Design (SUTD), Singapore)
+
+
+KubeTeus: An Intelligent Network Policy Generation Framework for Containers
+
+Seungsoo Lee, Bom Kim and Hyeonjun Park (Incheon National University, Korea (South))
+
+
+Using Weak Light Sources to Power Sensor Nodes for Sustainable IoT
+
+Mingzhe Li and Zhen Xiao (City University of Hong Kong, Hong Kong); Cui Zhao (Xi'an Jiaotong University, China); Zhenjiang Li (City University of Hong Kong, Hong Kong)
+
+
+Erasure Coding-based Non-conservative Network Communication: A Ground Up Approach
+
+Xuhong Cai, Yi Chen and Shenghao Yang (The Chinese University of Hong Kong, Shenzhen, China); Xingyan Shi (The Chinese University of Hong Kong, ShenZhen, China)
+
+
+Channel-Adaptive Denoising Diffusion Models for Reliable Semantic Communications
+
+Wei Du and Bo Yang (Northwest A&F University, China)
+
+
+Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting
+
+Tianya Zhao and Ningning Wang (Florida International University, USA); Junqing Zhang (University of Liverpool, United Kingdom (Great Britain)); Xuyu Wang (Florida International University, USA)
+
+
+Privacy-Preserving Wi-Fi Data Generation via Differential Privacy in Diffusion Models
+
+Ningning Wang and Tianya Zhao (Florida International University, USA); Shiwen Mao (Auburn University, USA); Xuyu Wang (Florida International University, USA)
+
+
+CiDer: A Black-box Approach to Classify Node with Certified Robustness Guarantees
+
+Xiaoyu Liang, Haohua Du and Wen Ma (Beihang University, China); Ye Tian (University of Science and Technology of China, China); Xiaoya Xu (Institute 706The Second Academy of China Aerospace Science & Industry Corp., China)
+
+
+CellScatter: Efficient Control and Backscatter Communication via Ambient Cellular Signals
+
+Yuan Hu, Gang Yang and Songbo Fu (University of Electronic Science and Technology of China, China); Marco Di Renzo (Paris-Saclay University, France); Mérouane Debbah (Khalifa University of Science and Technology, United Arab Emirates)
+
+
+Efficient Combinational Sampling Method for Scalable LiDAR-Based 3D Object Detection
+
+Jinmyeong Kim, Wootack Kim, Juheon Yi, Seokgyeong Shin and Youngki Lee (Seoul National University, Korea (South))
+
+
+Leveled Product Codes for Optimal Block Repairs in Geo-distributed Storage Systems
+
+Si Wu (Shandong University, China); Guantian Lin (University of Science and Technology of China, China); Patrick Pak-Ching Lee (The Chinese University of Hong Kong, Hong Kong); Yinlong Xu (University of Science and Technology of China, China)
+
+
+SP-MoE: Expediting Mixture-of-Experts Training with Optimized Pipelining Planning
+
+Ne Wang (Hong Kong University of Science and Technology, Hong Kong); Wenxiang Lin (Harbin Institute of Technology, Shenzhen, China); Lin Zhang (Hong Kong University of Science and Technology, Hong Kong); Shaohuai Shi (Harbin Institute of Technology, Shenzhen, China); Ruiting Zhou (Southeast University, China); Bo Li (Hong Kong University of Science and Technology, Hong Kong)
+
+
+Exploring the Frontiers of RFID Coverage Capacity: Theoretical and Practical Perspectives
+
+Chengxuan Fu, Jia Liu, Xiaoyu Li and Xingyu Chen (Nanjing University, China); Xuan Liu (Hunan University, China); Shigeng Zhang (Central South University, China); Junzhao Du (Xidian University, China)
+
+
+DroneMA: Drone Mobility Alignment Countering AI-based Spoofing Attacks
+
+WeiYang Li, Ning Wang, Chuan Ma and Tao Xiang (Chongqing University, China); Kai Zeng (George Mason University, USA)
+
+
+FairRIC: Real-time Fair Allocation in O-RAN with Shared Computing
+
+Fatih Aslan (Delft University of Technology, The Netherlands); Jose A. Ayala-Romero (NEC Laboratories Europe, Germany); Andres Garcia-Saavedra (NEC Laboratories Europe, Spain); Xavier Costa-Perez (ICREA and i2cat & NEC Laboratories Europe, Spain); George Iosifidis (Delft University of Technology, The Netherlands)
+
+
+Continual Learning with Strategic Selection and Forgetting for Network Intrusion Detection
+
+Xinchen Zhang and Running Zhao (The University of Hong Kong, Hong Kong); Zhihan Jiang (The University of Hong Kong, China); Handi Chen (The University of Hong Kong, Hong Kong); Yulong Ding (Southern University of Science and Technology, China); Edith C.-H. Ngai (The University of Hong Kong & Uppsala University, Hong Kong); Shuang-Hua Yang (Southern University of Science and Technology, China)
+
+
+FaSei: Fast Serverless Edge Inference with Synergistic Lazy Loading and Layer-wise Caching
+
+Zhaowu Huang, Fang Dong and Xiaolin Guo (Southeast University, China); Daheng Yin (Simon Fraser University, Canada)
+
+
+The Power of Alternatives in Network Embedding
+
+Oleg Kolosov and Gala Yadgar (Technion - Israel Institute of Technology, Israel); Rasoul Behravesh (Fondazione Bruno Kessler, Italy); David Breitgand (IBM Research -- Haifa, Israel); Dean H Lorenz (IBM Research - Haifa, Israel)
+
+
+César: Cellular Resource Scheduling-Aware Congestion Control
+
+Juhun Shin and Goodsol Lee (Seoul National University, Korea (South)); Jeongyeup Paek (Chung-Ang University, Korea (South)); Saewoong Bahk (Seoul National University, Korea (South))
+
+
+GraphRx: Graph-Based Collaborative Learning among Multiple Cells for Uplink Neural Receivers
+
+Tianxin Wang and Xudong Wang (Shanghai Jiao Tong University, China); Geoffrey Ye Li (Imperial College London, United Kingdom (Great Britain))
+
+
+FedPDA: Collaborative Learning for Reducing Online-Adaptation Frequency of Neural Receivers
+
+Shuo Wang, Xudong Wang and Tianxin Wang (Shanghai Jiao Tong University, China)
+
+
+LBFT-DAG: a Swift, Leader-driven, DAG-based Consortium Blockchain with Byzantine Fault-tolerance
+
+Xuewen Dong, Yi Liu, Teng Li and xiaojie guo (Xidian University, China); Youliang Tian (Guizhou University, China); Yulong Shen (Xidian University, China); Xiaojiang Du (Stevens Institute of Technology, USA)
+
+
+Collaborative Orchestration with Probabilistic Routing for Dynamic Service Mesh in Clouds
+
+Yi Hu, Haonan Ding, Haoxuan Chen, Jianwen He, Menglan Hu, Chao Cai and Kai Peng (Huazhong University of Science and Technology, China)
+
+
+SymbXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Networks
+
+Abhishek Duttagupta (Universidad Carlos III de Madrid & IMDEA Networks, Spain); MohammadErfan Jabbari (IMDEA Networks, Spain); Claudio Fiandrino, Marco Fiore and Joerg Widmer (IMDEA Networks Institute, Spain)
+
+
+Secure Device Authentication for MmWave MIMO Systems via Mutual Coupling and Spatial AoA
+
+Yulin Teng and Pinchang Zhang (Nanjing University of Posts and Telecommunications, China); Shuangrui Zhao (Xidian University, China); Xiaohong Jiang (Future University-Hakodate, Japan); Yulong Shen (Xidian University, China); Fu Xiao (Nanjing University of Posts and Telecommunications, China)
+
+
+AdaSlicing: Adaptive Online Network Slicing under Continual Network Dynamics in Open Radio Access Networks
+
+Ming Zhao (University of Nebraska-Lincoln, USA); Yuru Zhang (University of Nebraska Lincoln, USA); Qiang Liu (University of Nebraska-Lincoln, USA); Ahan Kak (Nokia Bell Labs, USA); Nakjung Choi (Nokia & Bell Labs, USA)
+
+
+HyperRole: Hyperbolic Graph Transformer for Role Discovery in Online Social Networks
+
+Huijun Tang, Ming Du and Pengfei Jiao (Hangzhou Dianzi University, China); Huaming Wu (Tianjin University, China); Zhidong Zhao (Hangzhou Dianzi University, China)
+
+
+Client Sampling for Communication-Efficient Distributed Minimax Optimization
+
+Wen Xu and Ben Liang (University of Toronto, Canada); Gary Boudreau and Hamza Sokun (Ericsson, Canada)
+
+
+OPTICS: Human Activity-Aware Integrated Optical Wireless Communication and Sensing
+
+Yue Zhang, Wei Wang and Nan Cen (Saint Louis University, USA)
+
+
+GM-BFD: A Generalizable Multi-view Framework for Botnet Flow Detection
+
+Xuejiao Luo (Beijing University of Posts and Telecommunications, China); Pengcheng Wei (Singapore University of Technology and Design, Singapore); Wenyin Liu (Guangdong University of Technology, China); Jiahao Cao (Tsinghua University, China); Jiang Li (Zhongguancun Laboratory, China); Binbin Chen (Singapore University of Technology and Design, Singapore)
+
+
+Delay Analysis of Multi-Link Devices Coexisting with Single-Link Devices in Wi-Fi 7
+
+Yu Zou (Huazhong University of Science and Technology, China); Muyuan Shen and Hao Yin (University of Washington, USA); Yayu Gao (Huazhong University of Science and Technology, China)
+
+
+Wireless Network Virtualization in Uplink Coordinated Multi-Cell MIMO Systems
+
+Ahmed Almehdhar (University of Toronto, Canada); Min Dong (Ontario Tech University, Canada); Ben Liang (University of Toronto, Canada); Gary Boudreau (Ericsson, Canada); Yahia Ahmed (Ericsson Canada, Canada)
+
+
+LCO-AGQ: A Lightweight Client-Oriented Adaptive Gradient Quantization Algorithm for Federated Learning
+
+Hengrui Cui (Nanjing University, China); Zhihao Qu (Hohai University, China); Xinyu Wang (Nanjing University, China); Bin Tang (Hohai University, China); Baoliu Ye (Nanjing University, China)
+
+
+Data-driven Energy Optimization in Mobile Networks with User Experience Guarantees
+
+Anh Khoa Dang (Cnam, France & Ericsson France, France); Hicham Khalife (Ericsson, France); Mathias Sintorn (Expert, Sweden); Stephane Rovedakis (Conservatoire National des Arts et Métiers, France); Stefano Secci (Cnam, France)
+
+
+Parameterized Complexity of Segment Routing
+
+Cristina Bazgan (University Paris Dauphine, France); Morgan Chopin (Orange Innovation, France); Andre Nichterlein (TU Berlin, Germany); Camille Richer (Université Paris-Dauphine & Orange Innovation, France)
+
+
+Distributed Network Tomography for Failure Localization
+
+Federico Trombetti, Viviana Arrigoni and Novella Bartolini (Sapienza University of Rome, Italy)
+
+
+ALPHAS: Adaptive Bitrate Ladder Optimization for Multi-Live Video Streaming
+
+Farzad Tashtarian (Institute of Information Technology, Alpen-Adria Universität Klagenfurt, Austria); Mahdi Dolati (Sharif University of Technology, Iran); Daniele Lorenzi (University of Klagenfurt, Austria); Mojtaba Mozhganfar (University of Tehran, Iran); Sergey Gorinsky (IMDEA Networks Institute, Spain); Ahmad Khonsari (University of Tehran, Iran); Christian Timmerer (Alpen-Adria-Universität Klagenfurt & Bitmovin, Austria); Hermann Hellwagner (Klagenfurt University, Austria)
+
+
+Covering Underwater Shadow Zones using Acoustic Reconfigurable Intelligent Surfaces
+
+Longfei Zhao, Jingbo Tan and Jintao Wang (Tsinghua University, China); Ian F. Akyildiz (Georgia Institute of Technology, USA); Zhi Sun (Tsinghua University, China)
+
+
+Enriching Multi-User OFDMA in Wi-Fi Networks with Frequency-Selective Channel Awareness
+
+Kanghyun Lee, Jongyeon Park, Youngwook Son and Saewoong Bahk (Seoul National University, Korea (South))
+
+
+SafeLead: Detecting and Excluding Random STS Attack in UWB Ranging System
+
+Zhuo Ma, Jiayu Jin, Yang Liu, Yilong Yang, Xinjing Liu, Teng Li, JunWei Zhang and Jianfeng Ma (Xidian University, China)
+
+
+Towards Federated Inference: An Online Model Ensemble Framework for Cooperative Edge AI
+
+Zhi Zhou, Jiajie Xie, Mengke Huang and Tao Ouyang (Sun Yat-sen University, China); Fangming Liu (Huazhong University of Science and Technology, China); Xu Chen (Sun Yat-sen University, China)
+
+
+The Power of Two in Large Service-Marketplaces
+
+Dheeraj Narasimha (INRIA, France); Srinivas Nomula (Indian Institute of Science, India); Srinivas G Shakkottai (Texas A&M University, USA); Parimal Parag (Indian Institute of Science, India)
+
+
+Extreme Edge Sensing-as-a-Service: Bridging Containerization for IoT End Devices
+
+Davide Berardi (Universitas Mercatorum, Italy); Ivan Zyrianoff, Federico Montori and Marco Di Felice (University of Bologna, Italy)
+
+
+Around-Corner and Over-Top 28 GHz Measurement in Manhattan: Path Loss and AoA for MU-MIMO
+
+Abhishek Adhikari and Shivan Mukherjee (Columbia University, USA); Aahan Mehta (Duke University, USA); Manav Kohli (Columbia University, USA); Rodolfo Feick (Universidad Técnica Federico Santa María, Chile); Reinaldo Valenzuela, Dmitry Chizhik and Jinfeng Du (Nokia Bell Labs, USA); Gil Zussman (Columbia University, USA)
+
+
+An Active Identification Overriding Attack against RFID: Attack Strategy and Defense Design
+
+Jiahao Xue and Xiao Han (University of South Florida, USA); Shangqing Zhao (University of Oklahoma, USA); Yao Liu and Zhuo Lu (University of South Florida, USA)
+
+
+Channel Access Deterrence Attack: An Attack against Spectrum Coexistence between NR-U and Wi-Fi in the 5 GHz Band
+
+Md Rashedur Rahman and Moinul Hossain (George Mason University, USA)
+
+
+Adversarial Semi-Bandits with Moving Arms
+
+Zhiming Huang and Jianping Pan (University of Victoria, Canada)
+
+
+Faster Convergence for Unknown-game Bandits
+
+Zhiming Huang and Jianping Pan (University of Victoria, Canada)
+
+
+FedFetch: Faster Federated Learning with Adaptive Downstream Prefetching
+
+Qifan Yan (University of Waterloo, Canada); Andrew Liu and Shiqi He (University of British Columbia, Canada); Mathias Lécuyer (University of British Columbia, France); Ivan Beschastnikh (University of British Columbia, Canada)
+
+
+A Balanced Tuple Partitioning Method for Packet Classification with High-Performance and Scalability
+
+Neng Ren (Computer Network Infomation Center, Chinese Academy of Sciences, China); Yanbiao Li (Computer Network Information Center, Chinese Academy of Sciences, China); Chunyang Zhang and Jing Hu (Huawei Technologies Company Ltd. Shenzhen, China); Lingbo Guo (Computer Network Infomation Center, Chinese Academy of Sciences, China); Gaogang Xie (CNIC Chinese Academy of Sciences & University of Chinese Academy of Sciences, China)
+
+
+Link Configuration for Fidelity-Constrained Entanglement Routing in Quantum Networks
+
+Qiaolun Zhang, Nicola Di Cicco and Memedhe Ibrahimi (Politecnico di Milano, Italy); Raul Almeida Júnior (Federal University of Pernambuco (UFPE), Brazil); Alberto Gatto (Politecnico di Milano, Italy); Raouf Boutaba (University of Waterloo, Canada); Massimo Tornatore (Politecnico di Milano, Italy)
+
+
+SatPipe: Deterministic TCP Adaptation for Highly Dynamic LEO Satellite Networks
+
+Ding Zhao (Johns Hopkins University, USA); Xinyu Zhang (University of California San Diego, USA); Myungjin Lee (Cisco Research, USA)
+
+
+CoRa: A Collision-Resistant LoRa Symbol Detector of Low Complexity
+
+José Ignacio Álamos and Thomas C. Schmidt (Hamburg University of Applied Sciences, Germany); Matthias Wählisch (Technische Universität Dresden, Germany)
+
+
+GNN-SML: Graphic Neural Network-Based Spectrum Misuser Localization
+
+Yan Zhang (The University of Akron, USA); Tao Li (Purdue University, USA); Yanchao Zhang (Arizona State University, USA)
+
+
+Time-Dependent Network Topology Optimization for LEO Satellite Constellations
+
+Dara Ron (George Mason University, USA); Faisal Ahmed Yusufzai (Goerge Mason University, USA); Sebastian Kwakye (George Mason University, USA); Satyaki Roy (University of Alabama, Huntsville, USA); Nishanth Sastry (University of Surrey, United Kingdom (Great Britain)); Vijay K. Shah (North Carolina State University, USA)
+
+
+Cooperative Traffic Map Construction in Vehicular Networks
+
+Ruiqi Wang and Guohong Cao (The Pennsylvania State University, USA)
+
+
+Communication Efficient Asynchronous Stochastic Gradient Descent
+
+Youssef Ahmed (The Ohio State University, USA); Arnob Ghosh (New Jersey Institute of Technology & The Ohio State University, USA); Chih-Chun Wang (Purdue University, USA); Ness B. Shroff (The Ohio State University, USA)
+
+
+Safeguarding WiFi 7 and Beyond: Tackling Protocol-Aware Jamming in Multi-AP Coordination
+
+Munmun Talukder and Linda Jiang Xie (University of North Carolina at Charlotte, USA)
+
+
+PhaseMO: Future-Proof, Energy-efficient, Adaptive Massive MIMO
+
+Adel Heidari and Agrim Gupta (University of California, San Diego, USA); Ish Kumar Jain (University of California San Diego, USA); Dinesh Bharadia (University of California, San Diego, USA)
+
+
+Constrained Over-the-Air Model Updating for Wireless Online Federated Learning with Delayed Information
+
+Juncheng Wang and Yituo Liu (Hong Kong Baptist University, Hong Kong); Ben Liang (University of Toronto, Canada); Min Dong (Ontario Tech University, Canada)
+
+
+Preference Profiling Attacks Against Vertical Federated Learning over Graph Data
+
+Yimin Liu, Peng Jiang and Liehuang Zhu (Beijing Institute of Technology, China)
+
+
+Dual-GT: Dual-scale Spatial Dependency for Grid-Based Traffic Flow Prediction
+
+Xufeng Liang and Zhida Qin (Beijing Institute of Technology, China); Pengzhan Zhou (Chongqing University, China); Shuang Li and Tianyu Huang (Beijing Institute of Technology, China)
+
+
+QLLMS: Quantization-adaptive LLM Scheduling for Partially Informed Edge Serving Systems
+
+Miao Hu, Qi He and Di Wu (Sun Yat-sen University, China)
+
+
+Latency-Constrained Input-Aware Quantization of Time Series Inference Workflows at the Edge
+
+Ashitabh Misra (University of Illinois, Urbana-Champaign, USA); Nurani Saoda (University of Virginia, USA); Tarek Abdelzaher (University of Illinois, Urbana Champaign, USA)
+
+
+PC4: Precision Collective Communication Congestion Control for AI cluster
+
+Taoran Qi (Beihang University & Shanghai Enflame Technology Company Limited, China); Shuo Li (Shanghai Enflame Technology Company Limited, China); Xingqi Zou (Shanghai Enflame Technology Company Limited & Chinese Academy of Sciences, China); Liangce Deng (Shanghai Enflame Technology Company Limited, China); Guodong Wei (Beihang University, China)
+
+
+ 

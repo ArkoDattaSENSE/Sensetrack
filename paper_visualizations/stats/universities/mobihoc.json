@@ -1,0 +1,558 @@
+[
+  [
+    "Northeastern University",
+    21
+  ],
+  [
+    "The Ohio State University",
+    15
+  ],
+  [
+    "Massachusetts Institute of Technology",
+    10
+  ],
+  [
+    "City University of Hong Kong",
+    10
+  ],
+  [
+    "Shanghai Jiao Tong University",
+    10
+  ],
+  [
+    "Shandong University",
+    9
+  ],
+  [
+    "Nanyang Technological University",
+    8
+  ],
+  [
+    "Purdue University",
+    7
+  ],
+  [
+    "Michigan State University",
+    7
+  ],
+  [
+    "University of Science and Technology of China",
+    6
+  ],
+  [
+    "IMDEA Networks Institute",
+    6
+  ],
+  [
+    "The Chinese University of Hong Kong",
+    6
+  ],
+  [
+    "Carnegie Mellon University",
+    5
+  ],
+  [
+    "Singapore University of Technology and Design",
+    5
+  ],
+  [
+    "George Washington University",
+    5
+  ],
+  [
+    "University of Warwick",
+    5
+  ],
+  [
+    "Tsinghua University",
+    5
+  ],
+  [
+    "Virginia Tech",
+    5
+  ],
+  [
+    "Auburn University",
+    4
+  ],
+  [
+    "Northwestern University",
+    4
+  ],
+  [
+    "University of Massachusetts Amherst",
+    4
+  ],
+  [
+    "Duke University",
+    4
+  ],
+  [
+    "Florida State University",
+    4
+  ],
+  [
+    "Texas A&M University",
+    4
+  ],
+  [
+    "Georgia Institute of Technology",
+    3
+  ],
+  [
+    "Rutgers University",
+    3
+  ],
+  [
+    "Universidad Carlos III de Madrid",
+    3
+  ],
+  [
+    "Yale University",
+    3
+  ],
+  [
+    "Penn State University",
+    3
+  ],
+  [
+    "Princeton University",
+    3
+  ],
+  [
+    "IMDEA Networks",
+    3
+  ],
+  [
+    "Zhejiang University",
+    3
+  ],
+  [
+    "Hunan University",
+    3
+  ],
+  [
+    "The Chinese University of Hong Kong, Shenzhen",
+    3
+  ],
+  [
+    "Duke Kunshan University",
+    3
+  ],
+  [
+    "Francesco Restuccia",
+    3
+  ],
+  [
+    "University of Texas at Austin",
+    2
+  ],
+  [
+    "Nokia Bell Labs",
+    2
+  ],
+  [
+    "Temple University",
+    2
+  ],
+  [
+    "Francesco Gringoli",
+    2
+  ],
+  [
+    "University of Brescia/CNIT",
+    2
+  ],
+  [
+    "Arpan Mukhopadhyay",
+    2
+  ],
+  [
+    "IMDEA Networks and University Carlos III of Madrid",
+    2
+  ],
+  [
+    "IBM Research",
+    2
+  ],
+  [
+    "Hong Kong University of Science and Technology",
+    2
+  ],
+  [
+    "University of Waterloo, Canada",
+    2
+  ],
+  [
+    "Pennsylvania State University",
+    2
+  ],
+  [
+    "The University of Hong Kong",
+    2
+  ],
+  [
+    "Shenzhen Institute of Artificial Intelligence and Robotics for Society, The Chinese University of Hong Kong, Shenzhen",
+    2
+  ],
+  [
+    "University of Toronto",
+    2
+  ],
+  [
+    "Francesca Meneghello",
+    2
+  ],
+  [
+    "Cloud Computing Research Institute, China Telecom",
+    2
+  ],
+  [
+    "The University of Texas at Austin",
+    1
+  ],
+  [
+    "Dept. of ECE, Auburn University, Auburn, AL",
+    1
+  ],
+  [
+    "Dept. of ECE, Auburn University",
+    1
+  ],
+  [
+    "University at Buffalo (SUNY)",
+    1
+  ],
+  [
+    "Princeton University/Purdue University",
+    1
+  ],
+  [
+    "Delft University of Technology",
+    1
+  ],
+  [
+    "University at Buffalo",
+    1
+  ],
+  [
+    "University of Michigan",
+    1
+  ],
+  [
+    "Iowa State University",
+    1
+  ],
+  [
+    "IBM Thomas J. Watson Research Center",
+    1
+  ],
+  [
+    "Durham University",
+    1
+  ],
+  [
+    "Yukun Yuan",
+    1
+  ],
+  [
+    "Clemson University",
+    1
+  ],
+  [
+    "University of Tennessee at Chattanooga",
+    1
+  ],
+  [
+    "Mukulika Maity",
+    1
+  ],
+  [
+    "IIIT Delhi",
+    1
+  ],
+  [
+    "Technical University of Munich",
+    1
+  ],
+  [
+    "IIIT-Delhi",
+    1
+  ],
+  [
+    "Chungnam National University",
+    1
+  ],
+  [
+    "Ali Maatouk",
+    1
+  ],
+  [
+    "H. Vincent Poor",
+    1
+  ],
+  [
+    "University of North Carolina at Charlotte",
+    1
+  ],
+  [
+    "Ocean University of China",
+    1
+  ],
+  [
+    "Beijing University of Posts and Telecommunications",
+    1
+  ],
+  [
+    "Rochester Institute of Technology",
+    1
+  ],
+  [
+    "the University of Aizu",
+    1
+  ],
+  [
+    "Georgia State University",
+    1
+  ],
+  [
+    "Nanjing University of Information Science and Technology",
+    1
+  ],
+  [
+    "University of South Florida",
+    1
+  ],
+  [
+    "The Hong Kong Polytechnic University",
+    1
+  ],
+  [
+    "Massachusetts Institute of Technology Lincoln Lab",
+    1
+  ],
+  [
+    "Orange Labs, Lannion, France",
+    1
+  ],
+  [
+    "Purdue University, West Lafayette",
+    1
+  ],
+  [
+    "The Chinese University of Hong Kong and Purdue University (on leave)",
+    1
+  ],
+  [
+    "ShanghaiTech University",
+    1
+  ],
+  [
+    "Washington State University",
+    1
+  ],
+  [
+    "University of Michigan, Ann Arbor",
+    1
+  ],
+  [
+    "University at Buffalo, SUNY",
+    1
+  ],
+  [
+    "TU Delft",
+    1
+  ],
+  [
+    "Macquarie University",
+    1
+  ],
+  [
+    "IIT Bombay",
+    1
+  ],
+  [
+    "IIT Madras",
+    1
+  ],
+  [
+    "University of California, San Diego",
+    1
+  ],
+  [
+    "Bloomberg LP",
+    1
+  ],
+  [
+    "Hewlett Packard Labs",
+    1
+  ],
+  [
+    "Universidad Polit\u00e9cnica de Madrid",
+    1
+  ],
+  [
+    "Hewlett Packard Labs/Carnegie Mellon University",
+    1
+  ],
+  [
+    "Ontario Tech University",
+    1
+  ],
+  [
+    "Ericsson Canada",
+    1
+  ],
+  [
+    "Westlake University",
+    1
+  ],
+  [
+    "Huazhong University of Science and Technology",
+    1
+  ],
+  [
+    "University of Texas at Austin, Massachusetts Institute of Technology Lincoln Laboratory",
+    1
+  ],
+  [
+    "Myeung Suk Oh",
+    1
+  ],
+  [
+    "University of Wisconsin-Whitewater",
+    1
+  ],
+  [
+    "University of Colorado Boulder",
+    1
+  ],
+  [
+    "RPI, UCSD",
+    1
+  ],
+  [
+    "UCSD",
+    1
+  ],
+  [
+    "Northeast University",
+    1
+  ],
+  [
+    "University of Nevada, Las Vegas",
+    1
+  ],
+  [
+    "University of Louisville",
+    1
+  ],
+  [
+    "University of North Texas",
+    1
+  ],
+  [
+    "Francesco Pessia",
+    1
+  ],
+  [
+    "Middle East Technical University",
+    1
+  ],
+  [
+    "Worcester Polytechnic Institute",
+    1
+  ],
+  [
+    "Massachusetts Institute of Technology Lincoln Laboratory",
+    1
+  ],
+  [
+    "University of Texas at Arlington",
+    1
+  ],
+  [
+    "Shenzhen University",
+    1
+  ],
+  [
+    "The Pennsylvania State University",
+    1
+  ],
+  [
+    "Yonsei University",
+    1
+  ],
+  [
+    "Abusayeed Saifullah",
+    1
+  ],
+  [
+    "Wayne State University, US",
+    1
+  ],
+  [
+    "Wayne State University",
+    1
+  ],
+  [
+    "University of Nevada, Reno",
+    1
+  ],
+  [
+    "The State University of New York at Buffalo",
+    1
+  ],
+  [
+    "UIUC",
+    1
+  ],
+  [
+    "Georgia Tech",
+    1
+  ],
+  [
+    "Hasso Plattner Institute, University of Potsdam",
+    1
+  ],
+  [
+    "New Jersey Institute of Technology",
+    1
+  ],
+  [
+    "Mississippi State University",
+    1
+  ],
+  [
+    "University of Texas Austin",
+    1
+  ],
+  [
+    "National University of Singapore",
+    1
+  ],
+  [
+    "UESTC",
+    1
+  ],
+  [
+    "University of Brescia",
+    1
+  ],
+  [
+    "Rice University",
+    1
+  ],
+  [
+    "University of Kentucky",
+    1
+  ],
+  [
+    "Ohio State University",
+    1
+  ],
+  [
+    "University of Cincinnati",
+    1
+  ]
+]

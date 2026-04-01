@@ -1,0 +1,665 @@
+Monday, April 28
+7:30 am–8:55 am
+Continental Breakfast
+Liberty Ballroom Foyer
+
+8:55 am–9:10 am
+Opening Remarks and Awards
+Program Co-Chairs: Theophilus A. Benson, Carnegie Mellon University; Radhika Niranjan Mysore, VMware Research Group
+
+Liberty Ballroom
+
+9:10 am–10:30 am
+Track 1
+Hide details  ▾
+
+Data Centers Queuing and Routing
+Session Chair: Soudeh Ghorbani, Meta and Johns Hopkins University
+
+Liberty Ballroom
+PRED: Performance-oriented Random Early Detection for Consistently Stable Performance in Datacenters
+Xinle Du, Huawei Technologies; Tong Li, Renmin University of China; Guangmeng Zhou, Zhuotao Liu, Hanlin Huang, and Xiangyu Gao, Tsinghua University; Mowei Wang and Kun Tan, Huawei Technologies; Ke Xu, Tsinghua University
+
+Available Media
+Show details  ▸  
+Rajomon: Decentralized and Coordinated Overload Control for Latency-Sensitive Microservices
+Jiali Xing, Akis Giannoukos, Paul Loh, Shuyue Wang, and Justin Qiu, University of Pennsylvania; Henri Maxime Demoulin, DBOS, Inc; Konstantinos Kallas, University of California, Los Angeles; Benjamin C. Lee, University of Pennsylvania
+
+Available Media
+Show details  ▸  
+Learnings from Deploying Network QoS Alignment to Application Priorities for Storage Services
+Matthew Buckley and Parsa Pazhooheshy, Google and University of Toronto; Z. Morley Mao, Nandita Dukkipati, Hamid Hajabdolali Bazzaz, Priyaranjan Jha, Yingjie Bi, and Steve Middlekauff, Google; Yashar Ganjali, University of Toronto
+
+Available Media
+Show details  ▸  
+DISC: Backpressure Mitigation In Multi-tier Applications With Distributed Shared Connection
+Brice Ekane and Djob Mvondo, Univ. Rennes, Inria, CNRS, IRISA, France; Renaud Lachaize, Univ. Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG, 38000 Grenoble, France; Yérom-David Bromberg, Univ. Rennes, Inria, CNRS, IRISA, France; Alain Tchana, Univ. Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG, 38000 Grenoble, France; Daniel Hagimont, IRIT, Université de Toulouse, CNRS, Toulouse INP, UT3 Toulouse, France
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Data Plane Programmability 1
+Session Chair: Daehyeok Kim, The University of Texas at Austin
+
+Independence Ballroom
+Enabling Silent Telemetry Data Transmission with InvisiFlow
+Yinda Zhang, University of Pennsylvania; Liangcheng Yu, University of Pennsylvania and Microsoft Research; Gianni Antichi, Politecnico di Milano and Queen Mary University of London; Ran Ben Basat, University College London; Vincent Liu, University of Pennsylvania
+
+Available Media
+Show details  ▸  
+Unlocking ECMP Programmability for Precise Traffic Control
+Yadong Liu, Tencent; Yunming Xiao, University of Michigan; Xuan Zhang, Weizhen Dang, Huihui Liu, Xiang Li, and Zekun He, Tencent; Jilong Wang, Tsinghua University; Aleksandar Kuzmanovic, Northwestern University; Ang Chen, University of Michigan; Congcong Miao, Tencent
+
+Available Media
+Show details  ▸  
+Enabling Portable and High-Performance SmartNIC Programs with Alkali
+Jiaxin Lin, UT Austin; Zhiyuan Guo, UCSD; Mihir Shah, NVIDIA; Tao Ji, Microsoft; Yiying Zhang, UCSD; Daehyeok Kim and Aditya Akella, UT Austin
+
+Available Media
+Show details  ▸  
+Scaling IP Lookup to Large Databases using the CRAM Lens
+Robert Chang and Pradeep Dogga, University of California, Los Angeles; Andy Fingerhut, Cisco Systems; Victor Rios and George Varghese, University of California, Los Angeles
+
+Available Media
+Show details  ▸  
+10:30 am–11:00 am
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+11:00 am–12:20 pm
+Track 1
+Hide details  ▾
+
+Data Center Resource Scheduling
+Session Chair: Alain Tchana, Grenoble INP
+
+Liberty Ballroom
+Quicksand: Harnessing Stranded Datacenter Resources with Granular Computing
+Zhenyuan Ruan, MIT CSAIL; Shihang Li, Brown University; Kaiyan Fan, MIT CSAIL; Seo Jin Park, University of Southern California; Marcos K. Aguilera, VMware Research by Broadcom; Adam Belay, MIT CSAIL; Malte Schwarzkopf, Brown University
+
+Available Media
+Show details  ▸  
+Beehive: A Scalable Disaggregated Memory Runtime Exploiting Asynchrony of Multithreaded Programs
+Quanxi Li, Hong Huang, Ying Liu, and Yanwen Xia, Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences; Jie Zhang, Peking University; Mosong Zhou, Huawei Cloud; Xiaobing Feng and Huimin Cui, Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences; Quan Chen, Shanghai Jiao Tong University; Yizhou Shan, Huawei Cloud; Chenxi Wang, Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences
+
+Available Media
+Show details  ▸  
+Making Serverless Pay-For-Use a Reality with Leopard
+Tingjia Cao, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau, and Tyler Caraza-Harter, University of Wisconsin-Madison
+
+Available Media
+Show details  ▸  
+GRANNY: Granular Management of Compute-Intensive Applications in the Cloud
+Carlos Segarra, Simon Shillaker, Guo Li, and Eleftheria Mappoura, Imperial College London; Rodrigo Bruno, INESC-ID, Instituto Superior Técnico, University of Lisbon; Lluís Vilanova and Peter Pietzuch, Imperial College London
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Verification 1
+Session Chair: Srinivas Narayana, Rutgers University
+
+Independence Ballroom
+On Temporal Verification of Stateful P4 Programs
+Delong Zhang, Chong Ye, and Fei He, School of Software, BNRist, Tsinghua University, Beijing 100084, China; Key Laboratory for Information System Security, MoE, China
+
+Available Media
+Show details  ▸  
+NDD: A Decision Diagram for Network Verification
+Zechun Li, Peng Zhang, and Yichi Zhang, Xi'an Jiaotong University; Hongkun Yang, Google
+
+Awarded Outstanding Paper!
+Available Media
+Show details  ▸  
+Smart Casual Verification of the Confidential Consortium Framework
+Heidi Howard, Markus A. Kuppe, Edward Ashton, and Amaury Chamayou, Azure Research, Microsoft; Natacha Crooks, Azure Research, Microsoft and UC Berkeley
+
+Available Media
+Show details  ▸  
+VEP: A Two-stage Verification Toolchain for Full eBPF Programmability
+Xiwei Wu, Yueyang Feng, Tianyi Huang, Xiaoyang Lu, Shengkai Lin, Lihan Xie, Shizhen Zhao, and Qinxiang Cao, Shanghai Jiao Tong University
+
+Available Media
+Show details  ▸  
+12:20 pm–2:00 pm
+Symposium Luncheon and Test of Time Award Presentation
+The Design and Implementation of Open vSwitch
+Ben Pfaff, Justin Pettit, Teemu Koponen, Ethan Jackson, Andy Zhou, Jarno Rajahalme, Jesse Gross, Alex Wang, Joe Stringer,
+Pravin Shelar, Keith Amidon, and Martín Casado
+Published in the Proceedings of the 12th USENIX Symposium on Networked Systems Design and Implementation, May 2015
+
+Franklin Hall A
+
+2:00 pm–3:20 pm
+Track 1
+Hide details  ▾
+
+Failure and Diagnosis
+Session Chair: Jia Wang, AT&T
+
+Liberty Ballroom
+MeshTest: End-to-End Testing for Service Mesh Traffic Management
+Naiqian Zheng, Tianshuo Qiao, Xuanzhe Liu, and Xin Jin, Peking University
+
+Available Media
+Show details  ▸  
+Preventing Network Bottlenecks: Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage
+Hamid Hajabdolali Bazzaz, Yingjie Bi, and Weiwu Pang, Google; Minlan Yu, Harvard University; Ramesh Govindan, University of Southern California; Neal Cardwell, Nandita Dukkipati, Meng-Jung Tsai, Chris DeForeest, and Yuxue Jin, Google; Charles Carver, Columbia University; Jan Kopanski, Liqun Cheng, and Amin Vahdat, Google
+
+Available Media
+Show details  ▸  
+Enhancing Network Failure Mitigation with Performance-Aware Ranking
+Pooria Namyar and Arvin Ghavidel, University of Southern California; Daniel Crankshaw, Daniel S. Berger, Kevin Hsieh, and Srikanth Kandula, Microsoft; Ramesh Govindan, University of Southern California; Behnaz Arzani, Microsoft
+
+Available Media
+Show details  ▸  
+One-Size-Fits-None: Understanding and Enhancing Slow-Fault Tolerance in Modern Distributed Systems
+Ruiming Lu, University of Michigan and Shanghai Jiao Tong University; Yunchi Lu and Yuxuan Jiang, University of Michigan; Guangtao Xue, Shanghai Jiao Tong University; Peng Huang, University of Michigan
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+All Things Transport
+Session Chair: Kaihui Gao, Zhongguancun Laboratory
+
+Independence Ballroom
+Pyrrha: Congestion-Root-Based Flow Control to Eliminate Head-of-Line Blocking in Datacenter
+Kexin Liu, Zhaochen Zhang, Chang Liu, and Yizhi Wang, Nanjing University; Vamsi Addanki and Stefan Schmid, TU Berlin; Qingyue Wang, Wei Chen, Xiaoliang Wang, and Jiaqi Zheng, Nanjing University; Wenhao Sun, Tao Wu, Ke Meng, Fei Chen, Weiguang Wang, and Bingyang Liu, Huawei, China; Wanchun Dou, Guihai Chen, and Chen Tian, Nanjing University
+
+Available Media
+Show details  ▸  
+eTran: Extensible Kernel Transport with eBPF
+Zhongjie Chen, Tsinghua University; Qingkai Meng, Nanjing University; ChonLam Lao, Harvard University; Yifan Liu and Fengyuan Ren, Tsinghua University; Minlan Yu, Harvard University; Yang Zhou, UC Berkeley and UC Davis
+
+Available Media
+Show details  ▸  
+White-Boxing RDMA with Packet-Granular Software Control
+Chenxingyu Zhao and Jaehong Min, University of Washington; Ming Liu, University of Wisconsin-Madison; Arvind Krishnamurthy, University of Washington
+
+Available Media
+Show details  ▸  
+SIRD: A Sender-Informed, Receiver-Driven Datacenter Transport Protocol
+Konstantinos Prasopoulos, EPFL; Ryan Kosta, UCSD; Edouard Bugnion, EPFL; Marios Kogias, Imperial College London
+
+Available Media
+Show details  ▸  
+3:20 pm–3:50 pm
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+3:50 pm–5:50 pm
+Track 1
+Hide details  ▾
+
+LLM Training and Resilience
+Session Chair: Hang Zhu, ByteDance Inc.
+
+Liberty Ballroom
+Accelerating Design Space Exploration for LLM Training Systems with Multi-experiment Parallel Simulation
+Fei Gui, Tsinghua University, BNRist, and Tsinghua Shenzhen International Graduate School; Kaihui Gao and Li Chen, Zhongguancun Laboratory; Dan Li, Tsinghua University; Vincent Liu, University of Pennsylvania; Ran Zhang and Hongbing Yang, Zhongguancun Laboratory; Dian Xiong, Tsinghua University
+
+Available Media
+Show details  ▸  
+Optimizing RLHF Training for Large Language Models with Stage Fusion
+Yinmin Zhong, Zili Zhang, Bingyang Wu, and Shengyu Liu, School of Computer Science, Peking University; Yukun Chen, Changyi Wan, Hanpeng Hu, Lei Xia, Ranchen Ming, and Yibo Zhu, StepFun; Xin Jin, School of Computer Science, Peking University
+
+Available Media
+Show details  ▸  
+Minder: Faulty Machine Detection for Large-scale Distributed Model Training
+Yangtao Deng, Tsinghua University; Xiang Shi and Zhuo Jiang, ByteDance; Xingjian Zhang, Tsinghua University; Lei Zhang, Zhang Zhang, Bo Li, Zuquan Song, Hang Zhu, and Gaohong Liu, ByteDance; Fuliang Li, Northeastern University; Shuguang Wang, Haibin Lin, and Jianxi Ye, ByteDance; Minlan Yu, Harvard University
+
+Available Media
+Show details  ▸  
+Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters
+Zhiyi Yao and Pengbo Hu, Fudan University and Tencent; Congcong Miao and Xuya Jia, Tencent; Zuning Liang and Yuedong Xu, Fudan University; Chunzhi He, Hao Lu, Mingzhuo Chen, Xiang Li, Zekun He, Yachen Wang, and Xianneng Zou, Tencent; Junchen Jiang, University of Chicago
+
+Available Media
+Show details  ▸  
+SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability and Precision
+Xizheng Wang, Alibaba Cloud and Tsinghua University; Qingxu Li, Yichi Xu, and Gang Lu, Alibaba Cloud; Dan Li, Tsinghua University; Li Chen, Zhongguancun Laboratory; Heyang Zhou, Alibaba Cloud; Linkang Zheng, Alibaba Cloud and South China University of Technology; Sen Zhang, Yikai Zhu, Yang Liu, Pengcheng Zhang, Kun Qian, Kunling He, Jiaqi Gao, and Ennan Zhai, Alibaba Cloud; Dennis Cai, Alibaba Group; Binzhang Fu, Alibaba Cloud
+
+Available Media
+Show details  ▸  
+ByteCheckpoint: A Unified Checkpointing System for Large Foundation Model Development
+Borui Wan, The University of Hong Kong; Mingji Han, Yiyao Sheng, Yanghua Peng, Haibin Lin, Mofan Zhang, Zhichao Lai, Menghan Yu, Junda Zhang, Zuquan Song, and Xin Liu, ByteDance Inc.; Chuan Wu, The University of Hong Kong
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Video and Cloud Gaming
+Session Chair: Aaron Gember-Jacobson, Colgate University
+
+Independence Ballroom
+Mowgli: Passively Learned Rate Control for Real-Time Video
+Neil Agarwal and Rui Pan, Princeton University; Francis Y. Yan, University of Illinois Urbana-Champaign; Ravi Netravali, Princeton University
+
+Available Media
+Show details  ▸  
+Dissecting and Streamlining the Interactive Loop of Mobile Cloud Gaming
+Yang Li, Jiaxing Qiu, Hongyi Wang, and Zhenhua Li, Tsinghua University; Feng Qian, University of Southern California; Jing Yang, Tsinghua University; Hao Lin, Tsinghua University and University of Illinois Urbana-Champaign; Yunhao Liu, Tsinghua University; Bo Xiao and Xiaokang Qin, Ant Group; Tianyin Xu, University of Illinois Urbana-Champaign
+
+Available Media
+Show details  ▸  
+Region-based Content Enhancement for Efﬁcient Video Analytics at the Edge
+Weijun Wang, Institute for AI Industry Research (AIR), Tsinghua University; Liang Mi, Shaowei Cen, and Haipeng Dai, State Key Laboratory for Novel Software Technology, Nanjing University; Yuanchun Li, Institute for AI Industry Research (AIR), Tsinghua University; Xiaoming Fu, University of Göttingen; Yunxin Liu, Institute for AI Industry Research (AIR), Tsinghua University
+
+Available Media
+Show details  ▸  
+Tooth: Toward Optimal Balance of Video QoE and Redundancy Cost by Fine-Grained FEC in Cloud Gaming Streaming
+Congkai An, Huanhuan Zhang, Shibo Wang, Jingyang Kang, Anfu Zhou, Liang Liu, and Huadong Ma, Beijing University of Posts and Telecommunications; Zili Meng, Hong Kong University of Science and Technology; Delei Ma, Yusheng Dong, and Xiaogang Lei, Well-Link Times Inc.
+
+Available Media
+Show details  ▸  
+AsTree: An Audio Subscription Architecture Enabling Massive-Scale Multi-Party Conferencing
+Tong Meng, Wenfeng Li, Chao Yuan, Changqing Yan, and Le Zhang, ByteDance Inc.
+
+Available Media
+Show details  ▸  
+Tuesday, April 29
+8:00 am–9:00 am
+Continental Breakfast
+Liberty Ballroom Foyer
+
+9:00 am–10:20 am
+Track 1
+Hide details  ▾
+
+Infra For ML
+Session Chair: Ayush Goel, Meta
+
+Liberty Ballroom
+AutoCCL: Automated Collective Communication Tuning for Accelerating Distributed and Parallel DNN Training
+Guanbin Xu, Zhihao Le, Yinhe Chen, Zhiqi Lin, and Zewen Jin, University of Science and Technology of China; Youshan Miao, Microsoft Research; Cheng Li, University of Science and Technology of China; Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing; Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
+
+Available Media
+Show details  ▸  
+OptiReduce: Resilient and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud
+Ertza Warraich, Purdue University; Omer Shabtai and Khalid Manaa, Nvidia; Shay Vargaftik, VMware Research; Yonatan Piasetzky and Matty Kadosh, Nvidia; Lalith Suresh, Feldera; Muhammad Shahbaz, University of Michigan
+
+Available Media
+Show details  ▸  
+Efficient Direct-Connect Topologies for Collective Communications
+Liangyu Zhao, University of Washington; Siddharth Pal, Raytheon BBN Technologies; Tapan Chugh, University of Washington; Weiyang Wang, MIT CSAIL; Jason Fantl, Prithwish Basu, and Joud Khoury, Raytheon BBN Technologies; Arvind Krishnamurthy, University of Washington
+
+Available Media
+Show details  ▸  
+SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads
+Alind Khare and Dhruv Garg, Georgia Institute of Technology; Sukrit Kalra, UC Berkeley; Snigdha Grandhi, Adobe; Ion Stoica, UC Berkeley; Alexey Tumanov, Georgia Institute of Technology
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Fast Scalable Consensus
+Session Chair: Aurojit Panda, New York University
+
+Independence Ballroom
+Pineapple: Unifying Multi-Paxos and Atomic Shared Registers
+Tigran Bantikyan, Northwestern; Jonathan Zarnstorff, unaffiliated; Te-Yen Chou, CMU; Lewis Tseng, UMass Lowell; Roberto Palmieri, Lehigh University
+
+Available Media
+Show details  ▸  
+Ladder: A Convergence-based Structured DAG Blockchain for High Throughput and Low Latency
+Dengcheng Hu, Jianrong Wang, Xiulong Liu, and Hao Xu, Tianjin University; Xujing Wu, Jd.Com, Inc; Muhammad Shahzad, North Carolina State University; Guyue Liu, Peking University; Keqiu Li, Tianjin University
+
+Available Media
+Show details  ▸  
+Vegeta: Enabling Parallel Smart Contract Execution in Leaderless Blockchains
+Tianjing Xu and Yongqi Zhong, Shanghai Jiao Tong University; Yiming Zhang, Shanghai Jiao Tong University and Shanghai Key Laboratory of Trusted Data Circulation, Governance and Web3; Ruofan Xiong, Xiamen University; Jingjing Zhang, Fudan University; Guangtao Xue and Shengyun Liu, Shanghai Jiao Tong University and Shanghai Key Laboratory of Trusted Data Circulation, Governance and Web3
+
+Available Media
+Show details  ▸  
+Shoal++: High Throughput DAG BFT Can Be Fast and Robust!
+Balaji Arun and Zekun Li, Aptos Labs; Florian Suri-Payer, Cornell University; Sourav Das, UIUC; Alexander Spiegelman, Aptos Labs
+
+Available Media
+Show details  ▸  
+10:20 am–10:50 am
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+10:50 am–12:10 pm
+Track 1
+Hide details  ▾
+
+Operational Experiences
+Session Chair: Peter Pietzuch, Imperial College London
+
+Liberty Ballroom
+Learning Production-Optimized Congestion Control Selection for Alibaba Cloud CDN
+Xuan Zeng, Alibaba Cloud; Haoran Xu, Sun Yat-sen University; Chen Chen and Xumiao Zhang, Alibaba Cloud; Xiaoxi Zhang and Xu Chen, Sun Yat-sen University; Guihai Chen, Nanjing University; Yubing Qiu, Yiping Zhang, Chong Hao, and Ennan Zhai, Alibaba Cloud
+
+Available Media
+Show details  ▸  
+GPU-Disaggregated Serving for Deep Learning Recommendation Models at Scale
+Lingyun Yang, Hong Kong University of Science and Technology; Yongchen Wang and Yinghao Yu, Alibaba Group; Qizhen Weng, Hong Kong University of Science and Technology; Jianbo Dong, Kan Liu, Chi Zhang, Yanyi Zi, Hao Li, Zechao Zhang, Nan Wang, Yu Dong, Menglei Zheng, Lanlan Xi, Xiaowei Lu, Liang Ye, Guodong Yang, Binzhang Fu, Tao Lan, Liping Zhang, and Lin Qu, Alibaba Group; Wei Wang, Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+Evolution of Aegis: Fault Diagnosis for AI Model Training Service in Production
+Jianbo Dong, Kun Qian, Pengcheng Zhang, Zhilong Zheng, Liang Chen, Fei Feng, Yichi Xu, Yikai Zhu, Gang Lu, Xue Li, Zhihui Ren, Zhicheng Wang, Bin Luo, Peng Zhang, Yang Liu, Yanqing Chen, Yu Guan, Weicheng Wang, Chaojie Yang, Yang Zhang, Man Yuan, Hanyu Zhao, Yong Li, Zihan Zhao, Shan Li, Xianlong Zeng, Zhiping Yao, Binzhang Fu, Ennan Zhai, Wei Lin, Chao Wang, and Dennis Cai, Alibaba Cloud
+
+Available Media
+Show details  ▸  
+PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality
+Harish Srinivas, Graham Cormode, Mehrdad Honarkhah, Samuel Lurye, Jonathan Hehir, Lunwen He, George Hong, Ahmed Magdy, Dzmitry Huba, Kaikai Wang, Shen Guo, and Shoubhik Bhattacharya, Meta
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Middleboxes
+Session Chair: Eric Keller, University of Colorado Boulder
+
+Independence Ballroom
+HA/TCP: A Reliable and Scalable Framework for TCP Network Functions
+Haoyu Gu, Ali José Mashtizadeh, and Bernard Wong, University of Waterloo
+
+Available Media
+Show details  ▸  
+High-level Programming for Application Networks
+Xiangfeng Zhu, Yuyao Wang, Banruo Liu, Yongtong Wu, and Nikola Bojanic, University of Washington; Jingrong Chen, Duke University; Gilbert Louis Bernstein and Arvind Krishnamurthy, University of Washington; Sam Kumar, University of Washington and UCLA; Ratul Mahajan, University of Washington; Danyang Zhuo, Duke University
+
+Available Media
+Show details  ▸  
+State-Compute Replication: Parallelizing High-Speed Stateful Packet Processing
+Qiongwen Xu, Rutgers University; Sebastiano Miano, Politecnico di Milano; Xiangyu Gao and Tao Wang, New York University; Adithya Murugadass and Songyuan Zhang, Rutgers University; Anirudh Sivaraman, New York University; Gianni Antichi, Queen Mary University of London and Politecnico di Milano; Srinivas Narayana, Rutgers University
+
+Available Media
+Show details  ▸  
+MTP: Transport for In-Network Computing
+Tao Ji, UT Austin; Rohan Vardekar and Balajee Vamanan, University of Illinois Chicago; Brent E. Stephens, Google and University of Utah; Aditya Akella, UT Austin
+
+Available Media
+Show details  ▸  
+12:10 pm–2:00 pm
+Lunch (on your own)
+2:00 pm–3:20 pm
+Track 1
+Hide details  ▾
+
+Rethinking Data Center Efficiency
+Session Chair: Raja Sambasivan, Tufts University
+
+Liberty Ballroom
+ONCache: A Cache-Based Low-Overhead Container Overlay Network
+Shengkai Lin, Shizhen Zhao, Peirui Cao, and Xinchi Han, Shanghai Jiao Tong University; Quan Tian, Wenfeng Liu, Qi Wu, and Donghai Han, Broadcom; Xinbing Wang, Shanghai Jiao Tong University
+
+Available Media
+Show details  ▸  
+GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters
+Kaiqiang Xu and Decang Sun, iSING Lab, Hong Kong University of Science and Technology; Han Tian, USTC; Junxue Zhang and Kai Chen, iSING Lab, Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+The Benefits and Limitations of User Interrupts for Preemptive Userspace Scheduling
+Linsong Guo, Danial Zuberi, Tal Garfinkel, and Amy Ousterhout, UC San Diego
+
+Available Media
+Show details  ▸  
+Securing Public Cloud Networks with Efficient Role-based Micro-Segmentation
+Sathiya Kumaran Mani and Kevin Hsieh, Microsoft; Santiago Segarra, Rice University; Ranveer Chandra, Microsoft; Yajie Zhou, University of Maryland; Srikanth Kandula, Microsoft
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+RDMA
+Session Chair: Vincent Liu, University of Pennsylvania
+
+Independence Ballroom
+Mitigating Scalability Walls of RDMA-based Container Networks
+Wei Liu, Tsinghua University and Alibaba Cloud; Kun Qian, Alibaba Cloud; Zhenhua Li, Tsinghua University; Feng Qian, University of Southern California; Tianyin Xu, UIUC; Yunhao Liu, Tsinghua University; Yu Guan, Shuhong Zhu, Hongfei Xu, Lanlan Xi, Chao Qin, and Ennan Zhai, Alibaba Cloud
+
+Available Media
+Show details  ▸  
+Eden: Developer-Friendly Application-Integrated Far Memory
+Anil Yelam, Stewart Grant, and Saarth Deshpande, UC San Diego; Nadav Amit, Technion, Israel Institute of Technology; Radhika Niranjan Mysore, VMware Research Group; Amy Ousterhout, UC San Diego; Marcos K. Aguilera, VMware Research Group; Alex C. Snoeren, UC San Diego
+
+Available Media
+Show details  ▸  
+Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs
+Qing Wang, Jiwu Shu, Jing Wang, and Yuhao Zhang, Tsinghua University
+
+Available Media
+Show details  ▸  
+ODRP: On-Demand Remote Paging with Programmable RDMA
+Zixuan Wang, Xingda Wei, Jinyu Gu, Hongrui Xie, Rong Chen, and Haibo Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University
+
+Available Media
+Show details  ▸  
+3:20 pm–3:50 pm
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+3:50 pm–5:30 pm
+Track 1
+Hide details  ▾
+
+Storage
+Session Chair: Alan Zaoxing Liu, University of Maryland, College Park
+
+Liberty Ballroom
+Understanding and Profiling NVMe-over-TCP Using ntprof
+Yuyuan Kang and Ming Liu, University of Wisconsin-Madison
+
+Available Media
+Show details  ▸  
+Building an Elastic Block Storage over EBOFs Using Shadow Views
+Sheng Jiang, Carnegie Mellon University; Ming Liu, University of Wisconsin-Madison
+
+Available Media
+Show details  ▸  
+Pushing the Limits of In-Network Caching for Key-Value Stores
+Gyuyeong Kim, Sungshin Women's University
+
+Available Media
+Show details  ▸  
+Track 2
+Hide details  ▾
+
+Cellular and Wireless
+Session Chair: Kate Ching-Ju Lin, National Yang-Ming Chiao Tung University
+
+Independence Ballroom
+CellReplay: Towards accurate record-and-replay for cellular networks
+William Sentosa, University of Illinois Urbana-Champaign; Balakrishnan Chandrasekaran, VU Amsterdam; P. Brighten Godfrey, University of Illinois Urbana-Champaign and Broadcom; Haitham Hassanieh, EPFL
+
+Community Award Winner!
+Available Media
+Show details  ▸  
+Large Network UWB Localization: Algorithms and Implementation
+Nakul Garg and Irtaza Shahid, University of Maryland, College Park; Ramanujan K Sheshadri, Nokia Bell Labs; Karthikeyan Sundaresan, Georgia Institute of Technology; Nirupam Roy, University of Maryland, College Park
+
+Available Media
+Show details  ▸  
+Towards Energy Efficient 5G vRAN Servers
+Anuj Kalia, Microsoft; Nikita Lazarev, MIT; Leyang Xue, The University of Edinburgh; Xenofon Foukas and Bozidar Radunovic, Microsoft; Francis Y. Yan, Microsoft Research and UIUC
+
+Available Media
+Show details  ▸  
+Building Massive MIMO Baseband Processing on a Single-Node Supercomputer
+Xincheng Xie, Wentao Hou, Zerui Guo, and Ming Liu, University of Wisconsin-Madison
+
+Available Media
+Show details  ▸  
+Efficient Multi-WAN Transport for 5G with OTTER
+Mary Hogan, Oberlin College; Gerry Wan, Google; Yiming Qiu, University of Michigan; Sharad Agarwal and Ryan Beckett, Microsoft; Rachee Singh, Cornell University; Paramvir Bahl, Microsoft
+
+Available Media
+Show details  ▸  
+6:00 pm–7:30 pm
+NSDI '25 Poster Session and Reception
+Franklin Hall A
+
+Check out the cool new ideas and the latest preliminary research on display at the Poster Session and Reception. Enjoy dinner, drinks, and the chance to connect with other attendees, authors, and symposium organizers. View the list of accepted posters.
+
+Wednesday, April 30
+8:00 am–9:00 am
+Continental Breakfast
+Liberty Ballroom Foyer
+
+9:00 am–10:20 am
+Hide details  ▾
+
+Verification 2
+Session Chair: Aaron Gember-Jacobson, Colgate University
+
+Liberty Ballroom
+Verifying maximum link loads in a changing world
+Tibor Schneider, ETH Zürich; Stefano Vissicchio, University College London; Laurent Vanbever, ETH Zürich
+
+Available Media
+Show details  ▸  
+A Layered Formal Methods Approach to Answering Queue-related Queries
+Divya Raghunathan, Maria Apostolaki, and Aarti Gupta, Princeton University
+
+Available Media
+Show details  ▸  
+Runtime Protocol Refinement Checking for Distributed Protocol Implementations
+Ding Ding, Zhanghan Wang, Jinyang Li, and Aurojit Panda, NYU
+
+Available Media
+Show details  ▸  
+CEGS: Configuration Example Generalizing Synthesizer
+Jianmin Liu, Tsinghua University; Li Chen, Zhongguancun Laboratory; Dan Li, Tsinghua University; Yukai Miao, Zhongguancun Laboratory
+
+Available Media
+Show details  ▸  
+10:20 am–10:50 am
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+10:50 am–12:10 pm
+Hide details  ▾
+
+Security
+Session Chair: Xiaoqi Chen, Purdue University
+
+Liberty Ballroom
+Suppressing BGP Zombies with Route Status Transparency
+Yosef Edery Anahory, The Hebrew University of Jerusalem; Jie Kong, Nicholas Scaglione, and Justin Furuness, University of Connecticut; Hemi Leibowitz, The College of Management Academic Studies; Amir Herzberg and Bing Wang, University of Connecticut; Yossi Gilad, The Hebrew University of Jerusalem
+
+Available Media
+Show details  ▸  
+ValidaTor: Domain Validation over Tor
+Jens Frieß, National Research Center for Applied Cybersecurity ATHENE and Technische Universität Darmstadt; Haya Schulmann, National Research Center for Applied Cybersecurity ATHENE and Goethe-Universität Frankfurt; Michael Waidner, National Research Center for Applied Cybersecurity ATHENE and Technische Universität Darmstadt
+
+Available Media
+Show details  ▸  
+From Address Blocks to Authorized Prefixes: Redesigning RPKI ROV with a Hierarchical Hashing Scheme for Fast and Memory-Efficient Validation
+Zedong Ni, Computer Network Information Center, Chinese Academy of Sciences; and School of Cyber Science & Engineering, Southeast University; Yinbo Xu, Hui Zou, and Yanbiao Li, Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences; Guang Cheng, School of Cyber Science & Engineering, Southeast University; and Purple Mountain Laboratories; Gaogang Xie, Computer Network Information Center, Chinese Academy of Sciences; and University of Chinese Academy of Sciences
+
+Available Media
+Show details  ▸  
+PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks
+Shihan Lin, Duke University; Suting Chen, Northwestern University; Yunming Xiao, University of Michigan; Yanqi Gu, University of California, Irvine; Aleksandar Kuzmanovic, Northwestern University; Xiaowei Yang, Duke University
+
+Available Media
+Show details  ▸  
+12:10 pm–2:00 pm
+Lunch (on your own)
+2:00 pm–3:20 pm
+Hide details  ▾
+
+Data Plane Programmability 2
+Session Chair: Muhammad Shahbaz, Purdue University
+
+Liberty Ballroom
+ClubHeap: A High-Speed and Scalable Priority Queue for Programmable Packet Scheduling
+Zhikang Chen, Tsinghua University; Haoyu Song, Futurewei Technologies; Zhiyu Zhang and Yang Xu, Fudan University; Bin Liu, Tsinghua University
+
+Available Media
+Show details  ▸  
+Self-Clocked Round-Robin Packet Scheduling
+Erfan Sharafzadeh, Johns Hopkins University and Hewlett Packard Labs; Raymond Matson, University of California Riverside; Jean Tourrilhes and Puneet Sharma, Hewlett Packard Labs; Soudeh Ghorbani, Johns Hopkins University and Meta
+
+Available Media
+Show details  ▸  
+Everything Matters in Programmable Packet Scheduling
+Albert Gran Alcoz, ETH Zürich; Balázs Vass, BME-TMIT; Pooria Namyar, USC; Behnaz Arzani, Microsoft Research; Gábor Rétvári, BME-TMIT; Laurent Vanbever, ETH Zürich
+
+Available Media
+Show details  ▸  
+When P4 Meets Run-to-completion Architecture
+Hao Zheng, State Key Laboratory for Novel Software Technology, Nanjing University, China; Xin Yan, Huawei, China; Wenbo Li, Jiaqi Zheng, and Xiaoliang Wang, State Key Laboratory for Novel Software Technology, Nanjing University, China; Qingqing Zhao, Luyou He, Xiaofei Lai, Feng Gao, and Fuguang Huang, Huawei, China; Wanchun Dou, Guihai Chen, and Chen Tian, State Key Laboratory for Novel Software Technology, Nanjing University, China
+
+Available Media
+Show details  ▸  
+3:20 pm–3:50 pm
+Coffee and Tea Break
+Liberty Ballroom Foyer
+
+3:50 pm–5:10 pm
+Display:
+ColumnList
+View mode:
+condensedStandardExpanded
+Wednesday, April 30
+3:50 pm–5:10 pm
+Hide details  ▾
+
+ML for Networks
+Session Chair: Kevin Hsieh, Microsoft Research
+
+Liberty Ballroom
+Mutant: Learning Congestion Control from Existing Protocols via Online Reinforcement Learning
+Lorenzo Pappone, Computer Science Department, Saint Louis University; Alessio Sacco, DAUIN, Politecnico di Torino; Flavio Esposito, Computer Science Department, Saint Louis University
+
+Available Media
+Show details  ▸  
+CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines
+Gerry Wan, Stanford University; Shinan Liu, University of Chicago; Francesco Bronzino, ENS Lyon; Nick Feamster, University of Chicago; Zakir Durumeric, Stanford University
+
+Available Media
+Show details  ▸  
+Resolving Packets from Counters: Enabling Multi-scale Network Traffic Super Resolution via Composable Large Traffic Model
+Xizheng Wang, Tsinghua University and Zhongguancun Laboratory; Libin Liu and Li Chen, Zhongguancun Laboratory; Dan Li, Tsinghua University; Yukai Miao and Yu Bai, Zhongguancun Laboratory
+
+Available Media
+Show details  ▸  
+BFTBrain: Adaptive BFT Consensus with Reinforcement Learning
+Chenyuan Wu and Haoyun Qin, University of Pennsylvania; Mohammad Javad Amiri, Stony Brook University; Boon Thau Loo, University of Pennsylvania; Dahlia Malkhi, UC Santa Barbara; Ryan Marcus, University of Pennsylvania
+
+Available Media
+Show details  ▸  
+Attend
+Registration Information
+Registration Discounts
+Grant Opportunities
+Venue, Hotel, and Travel
+Schedule
+Technical Sessions
+Activities
+Poster Session and Reception
+Participate
+Call for Papers
+Call for Posters
+Instructions for Presenters
+Mentorship Program
+Sponsors
+Exhibitor Services
+About
+Past Symposia
+Symposium Organizers
+Conference Policies
+Code of Conduct
+Questions
+LinkedIn
+Facebook
+Youtube
+Twitter
+Mastodon
+Privacy Policy Contact Us
+© USENIX 2026
+EIN 13-3055038

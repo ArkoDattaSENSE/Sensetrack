@@ -1,0 +1,250 @@
+		Jie Liu, Yuanchao Shu, Jiming Chen, Yuan He, Rui Tan:
+Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems, SenSys 2024, Hangzhou, China, November 4-7, 2024. ACM 2024, ISBN 979-8-4007-0697-4
+		Xiao Fu, Yue Hu, Prashanth Sutrave, Peter A. Beerel, Barath Raghavan:
+FireLoc: Low-latency Multi-modal Wildfire Geolocation. 1-14
+		Puhan Luo, Jiahui Hou, Mu Yuan, Guangyu Wu, Yunhao Yao, Xiang-Yang Li:
+F2Zip: Finetuning-Free Model Compression for Scenario-Adaptive Embedded Vision. 15-27
+		Guanyu Cai, Jiliang Wang:
+Locating Your Smart Devices with a Single Speaker. 28-40
+		Zhaohui Li, Wei Luo, Yongmin Zhang, Jianxi Chen, Yuanchao Shu, Yaoxue Zhang:
+ASLiquid: Non-Intrusive Liquid Counterfeit Identification with Your Earphones. 41-53
+		Ruizhi Cheng, Yuetong Wu, Ashish Kundu, Hugo Latapie, Myungjin Lee, Songqing Chen, Bo Han:
+MetaFL: Privacy-preserving User Authentication in Virtual Reality with Federated Learning. 54-67
+		Chi Xu, Rongsheng Qian, Hao Fang, Xiaoqiang Ma, William I. Atlas, Jiangchuan Liu, Mark A. Spoljaric:
+SALINA: Towards Sustainable Live Sonar Analytics in Wild Ecosystems. 68-81
+		Bo Chen, Hongpeng Guo, Mingyuan Wu, Zhe Yang, Zhisheng Yan, Klara Nahrstedt:
+ImmerScope: Multi-view Video Aggregation at Edge towards Immersive Content Services. 82-96
+		Denizhan Kara, Tomoyoshi Kimura, Yatong Chen, Jinyang Li, Ruijie Wang, Yizhuo Chen, Tianshi Wang, Shengzhong Liu, Tarek F. Abdelzaher:
+PhyMask: An Adaptive Masking Paradigm for Efficient Self-Supervised Learning in IoT. 97-111
+		Yujin Shin, Kichang Lee, Sungmin Lee, You Rim Choi, Hyung-Sin Kim, JeongGil Ko:
+Effective Heterogeneous Federated Learning via Efficient Hypernetwork-based Weight Generation. 112-125
+		Wangsong Yin, Daliang Xu, Gang Huang, Ying Zhang, Shiyun Wei, Mengwei Xu, Xuanzhe Liu:
+PieBridge: Fast and Parameter-Efficient On-Device Training via Proxy Networks. 126-140
+		Ruiyang Zhu, Xiao Zhu, Anlan Zhang, Xumiao Zhang, Jiachen Sun, Feng Qian, Hang Qiu, Z. Morley Mao, Myungjin Lee:
+Boosting Collaborative Vehicular Perception on the Edge with Vehicle-to-Vehicle Communication. 141-154
+		John Nolan, Baicheng Chen, Xinyu Zhang:
+MetaLink: Extending Air-to-Water Wireless Communications Using Passive Bianisotropic Metasurfaces. 155-168
+		Chenxu Jiang, Sihan Yu, Jingjing Fu, ChunChih Lin, Huadi Zhu, Xiaolong Ma, Ming Li, Linke Guo:
+Behaviors Speak More: Achieving User Authentication Leveraging Facial Activities via mmWave Sensing. 169-183
+		Qiming Cao, Hongfei Xue, Tianci Liu, Xingchen Wang, Haoyu Wang, Xincheng Zhang, Lu Su:
+mmCLIP: Boosting mmWave-based Zero-shot HAR via Signal-Text Alignment. 184-197
+		Kai Geissdoerfer, Marco Zimmerling:
+Riotee: An Open-source Hardware and Software Platform for the Battery-free Internet of Things. 198-210
+		Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu:
+Processor-Sharing Internet of Things Architecture for Large-scale Deployment. 211-224
+		Baicheng Chen, John Nolan, Xinyu Zhang, Wan Du:
+MetaSoil: Passive mmWave Metamaterial Multi-layer Soil Moisture Sensing. 225-238
+		Leonardo Lucio Custode, Pietro Farina, Eren Yildiz, Renan Beran Kilic, Kasim Sinan Yildirim, Giovanni Iacca:
+Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge. 239-252
+		Xuanzhi Wang, Junzhe Wang, Kai Niu, Jie Xiong, Fusang Zhang, Enze Yi, Anlan Yu, Zhiyun Yao, Daqing Zhang:
+Wi2DMeasure: WiFi-based 2D Object Size Measurement. 253-266
+		Suryansh Sharma, Robert Lica, R. Venkatesha Prasad, Luca Mottola, Leszek Ambroziak:
+Acoustic Side-Channel Communications for Aerial Drones with HUM. 267-280
+		Shiming Yu, Xianjin Xia, Ziyue Zhang, Ningning Hou, Yuanqing Zheng:
+FDLoRa: Tackling Downlink-Uplink Asymmetry with Full-duplex LoRa Gateways. 281-294
+		Cheng Fang, Sicong Liu, Zimu Zhou, Bin Guo, Jiaqi Tang, Ke Ma, Zhiwen Yu:
+AdaShadow: Responsive Test-time Model Adaptation in Non-stationary Mobile Environments. 295-308
+		Ruofeng Liu, Tianshun Yao, Ruili Shi, Luoyu Mei, Shuai Wang, Zhimeng Yin, Wenchao Jiang:
+Mission: mmWave Radar Person Identification with RGB Cameras. 309-321
+		Tianyi Hu, Tim Scargill, Fan Yang, Ying Chen, Guohao Lan, Maria Gorlatova:
+SEESys: Online Pose Error Estimation System for Visual SLAM. 322-335
+		Nagarjun Bhat, Agrim Gupta, Ishan Bansal, Harine Govindarajan, Dinesh Bharadia:
+ZenseTag: An RFID assisted Twin-Tag Single Antenna COTS Sensor Interface. 336-350
+		Ziwei Liu, Feng Lin, Teshi Meng, Benaouda Chouaib Baha-eddine, Li Lu, Qiang Xue, Kui Ren:
+EMTrig: Physical Adversarial Examples Triggered by Electromagnetic Injection towards LiDAR Perception. 351-364
+		Ruizhi Cheng, Nan Wu, Vu Le, Eugene Chai, Matteo Varvello, Bo Han:
+MagicStream: Bandwidth-conserving Immersive Telepresence via Semantic Communication. 365-379
+		Yan Zhang, Zihao Liu, Chongliu Jia, Yi Zhu, Chenglin Miao:
+An Online Defense against Object-based LiDAR Attacks in Autonomous Driving. 380-393
+		Kahou Tam, Chunlin Tian, Li Li, Haikai Zhao, Chengzhong Xu:
+FedHybrid: Breaking the Memory Wall of Federated Learning via Hybrid Tensor Management. 394-408
+		Weining Song, Stefanos Kaxiras, Thiemo Voigt, Yuan Yao, Luca Mottola:
+TaDA: Task Decoupling Architecture for the Battery-less Internet of Things. 409-421
+		Renyuan Liu, Yuyang Leng, Shilei Tian, Shaohan Hu, Chun-Fu (Richard) Chen, Shuochao Yao:
+DynaSpa: Exploiting Spatial Sparsity for Efficient Dynamic DNN Inference on Devices. 422-435
+		Yuxuan Weng, Guoquan Wu, Tianyue Zheng, Yanbing Yang, Jun Luo:
+Large Model for Small Data: Foundation Model for Cross-Modal RF Human Activity Recognition. 436-449
+		Changyul Lee, Deokjin Kim, Giyeol Kim, Sangwook Lee, Taegyu Kim:
+LTA: Control-Driven UAV Testing and Bug Localization with Flight Record Decomposition. 450-463
+		Xingyu Chen, Zihao Feng, Ke Sun, Kun Qian, Xinyu Zhang:
+RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements. 464-477
+		Mingyue Tang, Pranshu Teckchandani, Jizheng He, Hanbo Guo, Elahe Soltanaghai:
+BSENSE: In-vehicle Child Detection and Vital Sign Monitoring with a Single mmWave Radar and Synthetic Reflectors. 478-492
+		Shubham Rohal, Dong Yoon Lee, Carlos Ruiz, Joshua Zhang, Jonathon Fagert, Jun Han, Shijia Pan:
+Don't Crosstalk to Me: Origami Structure-Augmented Sensing for Scalable Surface Pressure Monitoring. 493-506
+		Kanav Sabharwal, Soundarya Ramesh, Jingxian Wang, Dinil Mon Divakaran, Mun Choon Chan:
+Enhancing LoRa Reception with Generative Models: Channel-Aware Denoising of LoRaPHY Signals. 507-520
+		Yan Zhuang, Zhenzhe Zheng, Fan Wu, Guihai Chen:
+LiteMoE: Customizing On-device LLM Serving via Proxy Submodel Tuning. 521-534
+		Nakul Garg, Aritrik Ghosh, Nirupam Roy:
+LiTEfoot: Ultra-low-power Localization using Ambient Cellular Signals. 535-548
+		Jacopo Pegoraro, Jesus Omar Lacruz, Michele Rossi, Joerg Widmer:
+HiSAC: High-Resolution Sensing with Multiband Communication Signals. 549-563
+		Gen Li, Huaili Zeng, Hanqing Guo, Yidong Ren, Aiden Dixon, Zhichao Cao, Tianxing Li:
+PiezoBud: A Piezo-Aided Secure Earbud with Practical Speaker Authentication. 564-577
+		Zijian Wang, Xingzhou Zhang, Yifan Wang, Xiaohui Peng, Zhiwei Xu:
+Hawk: An Efficient NALM System for Accurate Low-Power Appliance Recognition. 578-591
+		Xingchen Wang, Haoyu Wang, Feijie Wu, Tianci Liu, Qiming Cao, Lu Su:
+Towards Efficient Heterogeneous Multi-Modal Federated Learning with Hierarchical Knowledge Disentanglement. 592-605
+		Fengmin Wu, Sicong Liu, Kehao Zhu, Xiaochen Li, Bin Guo, Zhiwen Yu, Hongkai Wen, Xiangrui Xu, Lehao Wang, Xiangyu Liu:
+AdaFlow: Opportunistic Inference on Asynchronous Mobile Data with Generalized Affinity Control. 606-618
+		Yeming Li, Jiamei Lv, Hailong Lin, Yi Gao, Wei Dong:
+Combating BLE Weak Links with Adaptive Symbol Extension and DNN-based Demodulation. 619-632
+		Ish Kumar Jain, Suriyaa M. M., Dinesh Bharadia:
+CommRad: Context-Aware Sensing-Driven Millimeter-Wave Networks. 633-646
+		Rei Barjami, Antonio Miele, Luca Mottola:
+Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9x Throughput Speedup. 647-660
+		Hui Ji, Pengfei Zhou:
+Advancing PPG-Based Continuous Blood Pressure Monitoring from a Generative Perspective. 661-674
+		Ming Gao, Xin Tong, Jiatong Chen, Yike Chen, Fu Xiao, Jinsong Han:
+Eternity in a Second: Quick-pass Continuous Authentication Using Out-ear Microphones. 675-688
+		Raghav Rathi, Zhenghao Zhang:
+StarAngle: User Orientation Sensing with Beacon Phase Measurements of Multiple Starlink Satellites. 689-703
+		Yanxiang Wang, Yiran Shen, Kenuo Xu, Mahbub Hassan, Guangrong Zhao, Chenren Xu, Wen Hu:
+Towards High-Speed Passive Visible Light Communication with Event Cameras and Digital Micro-Mirrors. 704-717
+		Hiroaki Murakami, Takuya Sasatani, Masanori Sugimoto, Issey Sukeda, Yukiya Mita, Yoshihiro Kawahara:
+SyncEcho: Echo-Based Single Speaker Time Offset Estimation for Time-of-Flight Localization. 718-729
+		Zixin Zheng, Yumeng Liang, Rui Lyu, Junjie Bao, Yiwen Huang, Anfu Zhou, Huadong Ma, Jingjia Wang, Xiangbin Meng, Chunli Shao, Yida Tang, Qian Zhang:
+BP3: Improving Cuff-less Blood Pressure Monitoring Performance by Fusing mmWave Pulse Wave Sensing and Physiological Factors: BP3: Cuff-less BP Monitoring by Fusing mmWave Pulse Wave Sensing and Physiological Factors. 730-743
+		Yu Lu, Dian Ding, Hao Pan, Yongjian Fu, Liyun Zhang, Feitong Tan, Ran Wang, Yi-Chao Chen, Guangtao Xue, Ju Ren:
+M3Cam: Extreme Super-resolution via Multi-Modal Optical Flow for Mobile Cameras. 744-756
+		Maximilian Schuh, Michael Baddeley, Kay Römer, Carlo Alberto Boano:
+Understanding Concurrent Transmissions over Ultra-Wideband Complex Channels. 757-770
+		Seyed Keyarash Ghiasi, Marco Zuniga:
+Exploiting Polarization and Color to Enable MIMO Backscattering with Light. 771-783
+		Tanmay Srivastava, Prerna Khanna, Shijia Pan, Phuc Nguyen, Shubham Jain:
+Unvoiced: Designing an LLM-assisted Unvoiced User Interface using Earables. 784-798
+		Mengyao Chen, Hao Chen, Siying Niu:
+UrineSpec: A Lightweight Near-Infrared Spectroscopy System for Metabolite Detection in Urine. 799-810
+		Nakul Garg, Aritrik Ghosh, Nirupam Roy:
+Poster: Wideband Cellular Sensing for Real-time, Sustainable Geo-localization Tags. 811-813
+		Yongfu Wang, Tiffany Ya Tang, Pinata Winoto, Jacklyn Cui:
+Poster: Multi-Sensory Based Immersive Improvisational Music Intervention Space for Addressing Depression among Sino-Foreign University Students: A Preliminary Study. 814-815
+		Barbara Stefaniak, Dariusz Wójcik, Tomasz Rymarczyk:
+Poster abstract: Detecting lung diseases with electrical impedance tomography. 816-817
+		Dongxu Tang, Shih-Ying-Lei, Yitian Shao:
+Demo Abstract: A Foot-Wearable Acoustic Sensing System for Capturing Ground Information. 818-819
+		Zhenguo Shi, Yihe Yan, Yanxiang Wang, Wen Hu, Chun Tung Chou:
+Poster: Single-tag NLoS mmWave Backscatter Localization. 820-821
+		Minarul Islam, Xueyang Hu, Tao Shu:
+Poster: Vi-Detect: Fine-Grained Vibration-Based Component Looseness Detection Using Smartphones. 822-823
+		Jiahua Bao, Zhipeng Wang, Ziqian Li, Jiaxing Du, Jialiang Yan, Jie Liu:
+Poster: Module Lightweighting and Path Transferring in Vision-Language Models for Efficient Edge Deployment. 824-825
+		Yuan Xue, Fan Jin, Xiangyou Bei:
+Poster: Practical Privacy-Preserving Decision Tree Evaluation for Resource-Constrained Devices. 826-827
+		Xifan Zhang, Zhenyu Yan, Guoliang Xing:
+Poster Abstract: FedMod: Towards Cross-modal Training for Heterogeneous Federated Learning Systems. 828-829
+		Monika Kulisz, Tomasz Rymarczyk, Grzegorz Klosowski, Konrad Niderla, Michal Oleszek:
+Poster: The Use of Machine Learning in Electrical Impedance Tomography - A Variable Frequency Approach. 830-831
+		Hsuan-Ying Liu, Polly Huang:
+Poster: Empowering Wearable Resistive Sensor by Near-Field WPT. 832-833
+		Yuke Ma, Shihan Lin, Yang Chen, Jun Wu:
+Demo: CTSim: A Scalable and Flexible Cybertwin Network Simulator for Internet of Things Scenarios. 834-835
+		Xiaofan Yu, Lanxiang Hu, Benjamin Z. Reichman, Rushil Chandrupatla, Dylan Chu, Xiyuan Zhang, Larry Heck, Tajana Rosing:
+Demo: A Real Time Question Answering System for Multimodal Sensors using LLMs. 836-837
+		Yuting He, Xinyan Wang, Mu Yuan, Di Duan, Doris Sau-Fung Yu, Guoliang Xing, Hongkai Chen:
+Demo: Myotrainer: Muscle-Aware Motion Analysis and Feedback System for In-Home Resistance Training. 838-839
+		Jingru Wang, Chen Lu, Yitian Shao:
+Demo Abstract: RemoteHap: Enabling Haptic Exploration of Distant 3D Objects. 840-841
+		Junho Jeong, Chang Kyung Kim, SuKyoung Lee:
+Poster: Delay and Energy-Efficient Client Selection for Federated Learning in Vehicular Networks. 842-843
+		Josh Millar, Sarab Sethi, Hamed Haddadi, Anil Madhavapeddy:
+Poster: Towards Low-Power Comprehensive Biodiversity Monitoring. 844-846
+		Dongfang Guo, Yuting Wu, Yimin Dai, Pengfei Zhou, Xin Lou, Rui Tan:
+Demo: Invisible Adversarial Stripes against Traffic Sign Recognition in Autonomous Driving. 847-848
+		Yihe Yan, Zhenguo Shi, Yanxiang Wang, Chun Tung Chou, Wen Hu:
+Poster: Indoor NLoS Localization Using mmWave IRS with Commodity 24 GHz Radar. 849-850
+		Zhaohui Li, Wenyu Qi, Jianxi Chen, Yongmin Zhang:
+Poster Abstract: Liquid Identification via Container Acoustic Resonance. 851-852
+		Boyi Liu, Jingwen Tong, Jun Zhang:
+Poster Abstract: LLM-Slice: Dedicated Wireless Network Slicing for Large Language Models. 853-854
+		Jihyun Park, Anna Cho, Shinyoung Cho, SuKyoung Lee:
+Poster: Vehicle-Edge Server Collaborative Task Offloading for UAVs: A Game Theoretic Approach. 855-856
+		Tomasz Rymarczyk, Mariusz Mazurek, Marcin Dziadosz, Dariusz Wójcik, Oleksii Hyka, Krzysztof Król:
+Poster Abstract: Acoustic Analysis System for Monitoring Respiratory Disease Symptoms. 857-858
+		Marcin Dziadosz, Mariusz Mazurek, Tomasz Rymarczyk, Dariusz Wójcik, Pawel Olszewski:
+Poster Abstract: A Computer Vision System for Human Motion Monitoring on a Bicycle Trainer. 859-860
+		Mengying Zhou, Zhiyang Sun, Xin Wang, Yang Chen:
+Demo: Enhancing the Networking Performance of IPv6 IoT Devices Using Machine Learning and IVI. 861-862
+		Chanmin Lee, Shinyoung Cho, Taeyoung Kim, Sukyoung Lee:
+Poster: Hierarchical Clustered Federated Learning Framework for IoT in Remote Areas. 863-864
+		Anguo Jiang, Huan Zhou, Rui Chen, Hengtao Wang, Shouzhi Xu:
+Poster: Secure Federated Learning Network Based on Client Selection. 865-866
+		Xu Weng, Yuhui Jin, Keck Voon Ling:
+Poster Abstract: GnssQuest: Questing for Suitable GNSS Satellites through Augmented Reality. 867-868
+		Yingjian Song, Zaid Farooq Pitafi, Zixuan Zeng, Jiayu Chen, Yida Zhang, Bradley G. Phillips, Benjamin M. Brainard, WenZhan Song:
+Poster: A Contactless Health Monitoring System for Humans and Animals. 869-870
+		Tanmay Srivastava, Prerna Khanna, Shijia Pan, Phuc Nguyen, Shubham Jain:
+Poster Unvoiced: Designing an Unvoiced User Interface using Earables and LLMs. 871-872
+		Grzegorz Klosowski, Tomasz Rymarczyk, Manuchehr Soleimani, Konrad Niderla:
+Poster: The Concept of an Ultrasensitive Industrial Ultrasound Scanner Using Hilbert and Wavelet Transforms in a Machine Learning Model. 873-874
+		Yujing Zhang, Bing Li, Yanxi Peng, Jiao Li, Tao Sun, Jin Zhang:
+Poster: FlexibleBP: Blood Pressure Monitoring Using Wrist-worn Flexible Sensor. 875-876
+		Jiaxin Xiong, Huan Zhou, Kai Jiang, Liang Zhao, Victor C. M. Leung:
+Poster: Stackelberg Game-based Model Partition and Resource Allocation in Split Federated Learning. 877-878
+		Hui Ji, Pengfei Zhou:
+Demo Abstract: Advancing PPG-Based Continuous Blood Pressure Monitoring from a Generative Perspective. 879-881
+		Dongjin Seo, Jonghyuk Yun, Seongjin Wang, Jaewoo Son, Jun Han:
+Poster: Towards Privacy Preserving Patient State Classification in Psychiatric Seclusion Room using mmWave Radar. 881-882
+		Kai Geissdoerfer, Marco Zimmerling:
+Demo: Battery-free TinyML Made Easy with Riotee. 883-884
+		Michal Golabek, Dariusz Majerek, Grzegorz Klosowski, Tomasz Rymarczyk:
+Poster: Development of a Beamforming Defectoscope for Advanced Non-Destructive Evaluation Techniques. 885-886
+		Vivek Chandel, Avik Ghose, Aniruddha Sinha:
+Demo: Smartwatch-Driven Gaming for Stroke Rehabilitation. 887-888
+		Boyan Zhang, Chenshuhao Qin, Bing Luo:
+Demo Abstract: Privacy-Preserving Room Occupancy Estimation Using Federated Analytics of BLE Packets. 889-890
+		Michal Maj, Tomasz Rymarczyk, Lukasz Maciura, Dariusz Wójcik, Tomasz Cieplak, Damian Pliszczuk:
+Poster: Fusing radio tomography and RGB camera data for enhanced multi-person detection and tracking. 891-892
+		Jeehee Nam, Anna Cho, Jihyun Park, Chang Kyung Kim, SuKyoung Lee:
+Poster: Optimizing ABS Deployment via LSTM-based Mobility and Data Traffic Demand Prediction. 893-894
+		Alice James, Endrowednes Kuantama, Avishkar Seth, Richard Han, Subhas Mukhopadhyay:
+Poster Cooperative UAV Sensor Fusion for Precision Localization and Navigation in Load Transport. 895-896
+		Haozheng Hou, Bowen Zheng, Peiheng Wu, Guoliang Xing, Zhenyu Yan:
+Poster: AquaGuard: A Sonar-based Pool Monitoring System. 897-898
+		Run Wang, Shirley Bian, Xiaofan Yu, Quanling Zhao, Le Zhang, Tajana Rosing:
+Poster: Resource-Efficient Environmental Sound Classification Using Hyperdimensional Computing. 899-900
+		Kaiwei Liu, Bufang Yang, Lilin Xu, Yunqi Guo, Neiwen Ling, Zhihe Zhao, Guoliang Xing, Xian Shuai, Xiaozhe Ren, Xin Jiang, Zhenyu Yan:
+Poster Abstract: Tasking Heterogeneous Sensor Systems with LLMs. 901-902
+		Kaijie Gong, Wei Dong, Yingqi Peng, Hao Wang, Yi Gao:
+Poster: Enabling IoT Application Programming in Natural Language with IoTPilot. 903-904
+		Jialiang Yan, Jiahua Bao, Ziqian Li, Zhipeng Wang, Jiaxing Du, Jie Liu:
+Poster: TapID: Wearable Sensing Technology for Identity Identification via Tap Vibration Sensing. 905-906
+		Josh Millar:
+Ph.D Forum: Towards Low-Power Comprehensive Biodiversity Monitoring. 907-909
+		Jiale Chen:
+Ph.D. Forum Abstract: Adapting Deep Learning-Based Sensing Systems to Cyber-Physical Dynamics. 910-911
+		Jan Schlichter:
+Ph.D. Forum: Leveraging Industrial Wireless Sensor Networks for Energy-Efficient HVAC System Operations. 912-913
+		Yu Sheng:
+Ph.D. Forum: Intelligent Home Energy Management: Developing AI-Driven Systems for Sustainable Living. 914-915
+		Wenhao Huang:
+Ph.D. Forum: A Study on Real-time Crowdedness Sensing and Pedestrian Tracking in Multi-environment. 916-917
+		Jiawei Hu:
+Ph.D. Forum: Toward Adaptive Visible Light Positioning. 918-919
+		Fei Shang:
+Ph.D. Forum: Field Sensing Model, A New Foundation for RF Sensing. 920-922
+		Elsa López Pérez:
+Ph.D. Forum: Enhancing EDHOC Protocol with Pre-Shared Key Authentication. 923-925
+		Lehao Wang:
+Empowering Resource-efficient MoE Co-Adaptation for Multi-Task Vision Systems. 926-927
+		Fengmin Wu:
+Non-blocking Inference on Asynchronous Mobile Sensor Data with Affinity Control. 928-929
+		Cheng Fang:
+Ph.D. Forum: Responsive On-Device DNN Adaptation for Non-Stationary Mobile Environments. 930-931
+
+w3c valid html last updated on 2026-03-31 23:20 CEST by the dblp team
+
+cc zero all metadata released as open data under CC0 1.0 license
+
+see also: Terms of Use | Privacy Policy | Imprint
+
+dblp was originally created in 1993 at:
+
+University of Trier  
+since 2018, dblp has been operated and maintained by:
+
+Schloss Dagstuhl - Leibniz Center for Informatics  
+the dblp computer science bibliography is funded and supported by:
+
+BMFTR   RLP   SL   Leibniz   DFG   NFDI  

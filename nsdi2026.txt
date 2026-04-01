@@ -1,0 +1,278 @@
+Hide details  ▾
+
+From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely
+Jing Wang, Xiao Kong, Yunzhe Ni, Nian Wen, Jiaxing Zhang, Congcong Miao, and Honghao Liu, Tencent Inc.
+
+Available Media
+Show details  ▸  
+Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization
+Yixin Shen, Tsinghua University, Bytedance Inc., and Zhongguancun Laboratory; Ruihua Chen, Tsinghua University; Bo Wang, Tsinghua University and Zhongguancun Laboratory; Jing Chen, Haochen Zhang, and Minhu Wang, Tsinghua University; Yan Liu, Bytedance Inc.; Mingwei Xu, Tsinghua University and Zhongguancun Laboratory; Zili Meng, Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+HEDGE: Traffic Engineering with Probabilistic Link Capacities
+Arjun Devraj, Cornell University; Bill Owens, NYSERNet; Umesh Krishnaswamy, Microsoft; Ying Zhang, Meta; Rachee Singh, Cornell University
+
+Available Media
+Show details  ▸  
+In Link We Trust: BFT at the Speed of CFT using Switches
+Lior Zeno, Naama Ben-David, and Mark Silberstein, Technion – Israel Institute of Technology
+
+Available Media
+Show details  ▸  
+HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds
+Chiheng Lou, Sheng Qi, and Chao Jin, School of Computer Science, Peking University; Dapeng Nie, Haoran Yang, and Yu Ding, Alibaba Group; Xuanzhe Liu and Xin Jin, School of Computer Science, Peking University
+
+Available Media
+Show details  ▸  
+FRCC: Towards Provably Fair and Robust Congestion Control
+Anup Agarwal, Carnegie Mellon University; Venkat Arun, University of Texas at Austin; Srinivasan Seshan, Carnegie Mellon University
+
+Available Media
+Show details  ▸  
+CCEval: Accurately and Confidently Evaluating Performance Metrics of Congestion Control Algorithms for Datacenter Networks
+Tianfeng Liu, Kaihui Gao, and Li Chen, Zhongguancun Laboratory; Dan Li, Tsinghua University; Jin Guang and Xinyun Chen, The Chinese University of Hong Kong, Shenzhen; Vincent Liu, University of Pennsylvania; Zhiyong Chen and Yiwei Zhang, Tsinghua University; Ni Jin, Zhongguancun Laboratory and Beijing University of Posts and Telecommunications; Ran Zhang, Zhongguancun Laboratory
+
+Available Media
+Show details  ▸  
+Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era
+Yan Cai, Meta; Jialong Li, Max Planck Institute for Informatics; Kutalmis Akpinar, Tianxiang Li, Hany Morsy, Jason Wilson, and Sunil Khaunte, Meta; Yiting Xia, Max Planck Institute for Informatics; Ying Zhang, Meta
+
+Available Media
+Show details  ▸  
+R-TCP: A Framework to Optimize TCP Performance Over Rate-Limiting Networks
+Shengtong Zhu, The Chinese University of Hong Kong; Yan Liu and Lingfeng Guo, Independent Researcher; Jack Yiu Bun Lee, The Chinese University of Hong Kong
+
+Available Media
+Show details  ▸  
+Learning to Tune Optical WANs: A Field Deployment of Noise Models in Optical Networks
+Bhaskar Kataria and Howard Hua, Cornell University; Andrea D Amico, NEC Labs; Bill Owens, NYSERNet; Rachee Singh, Cornell University
+
+Available Media
+Show details  ▸  
+FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline
+Jingwei Xu, Shanghai Jiao Tong University and Huawei Technologies; Junbin Kang, Huawei Technologies; Mingkai Dong, Shanghai Jiao Tong University; Mingyu Liu, Lu Zhang, Shaohong Guo, and Ziyan Qiu, Huawei Technologies; Mingzhen You and Ziyi Tian, Shanghai Jiao Tong University; Anqi Yu, Tianhong Ding, and Xinwei Hu, Huawei Technologies; Haibo Chen, Shanghai Jiao Tong University and Huawei Technologies
+
+Available Media
+Show details  ▸  
+MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN
+Congcong Miao, Tencent; Yuejie Wang, Peking University; Jianming Wang, Xuefeng Ji, Guozhi Shan, Sirui Li, Pan Fang, and Yanke Zhang, Tencent; Jialin Li, National University of Singapore; Xianneng Zou, Tencent; Guyue Liu, Peking University
+
+Operational Systems Paper
+Available Media
+Show details  ▸  
+CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns
+Runwei Lu, Yanran Deng, Ruixuan Li, and Jinting Liu, New York University Shanghai; Yuejie Wang, Peking University; Xinyu Li, Carnegie Mellon University; Deming Xu, New York University Shanghai; Han Tian, University of Science and Technology of China; Kai Chen, Hong Kong University of Science and Technology; Guyue Liu, Peking University
+
+Available Media
+Show details  ▸  
+FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches
+Xiangyu Gao, Tsinghua University; Tong Li, Renmin University of China; Yinchao Zhang, Tsinghua University; Ziqiang Wang, Southeast University and Tsinghua University; Xiangsheng Zeng, Huazhong University of Science and Technology; Su Yao, Tsinghua University and BNRist; Ke Xu, Tsinghua University and Zhongguancun Laboratory
+
+Available Media
+Show details  ▸  
+Bridging Storage and Execution: A Semantic Virtual Bus for On-Demand Application Streaming
+Jun Lu, Central South University; Jialin Li, National University of Singapore; Yaoxue Zhang and Ju Ren, Tsinghua University
+
+Available Media
+Show details  ▸  
+FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference
+Bingyang Wu, Yinmin Zhong, Zili Zhang, Shengyu Liu, Fangyue Liu, Yuanhang Sun, Gang Huang, Xuanzhe Liu, and Xin Jin, School of Computer Science, Peking University
+
+Available Media
+Show details  ▸  
+Managing Congestion Control Heterogeneity on the Internet with Approximate Performance Isolation
+Ayush Mishra, ETH Zurich; Archit Bhatnagar, University of Michigan; Yixuan Zhang, Tsinghua University; Ben Leong, National University of Singapore; Ya Gao, Wuxi Institute of Technology; Raj Joshi, Harvard University
+
+Available Media
+Show details  ▸  
+Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication
+Ankit Bhardwaj, Tufts University; Weiyang Wang, Jeremy Carin, and Adam Belay, MIT CSAIL; Manya Ghobadi, MIT
+
+Available Media
+Show details  ▸  
+Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation
+Rulan Yang, Gao Han, Hanyang Shao, Xiaoqiang Zheng, Xing Fang, Ziyi Wang, and Lizhao You, Xiamen University; Ruiting Zhou, Southeast University; Linghe Kong, Shanghai Jiao Tong University; Ennan Zhai, Alibaba Cloud; Qiao Xiang and Jiwu Shu, Xiamen University
+
+Available Media
+Show details  ▸  
+QCON: Seamless QoE-Aware 5G Streaming via Multi-Connectivity
+Goodsol Lee, Seoul National University; Junhong Min, University of Colorado Boulder; Seyeon Kim, Korea University; Juheon Yi, Seoul National University; Kwang Taik Kim and Mung Chiang, Purdue University; Sangtae Ha, University of Colorado Boulder; Kyunghan Lee and Saewoong Bahk, Seoul National University
+
+Available Media
+Show details  ▸  
+Queue-Mem: Energy-Efficient Hardware Storage for Advanced Network Function Acceleration
+Mariano Scazzariello, RISE Research Institutes of Sweden; Tommaso Caiazzi, Roma Tre University; Hamid Ghasemirahni, Dejan Kostić, and Marco Chiesa, KTH Royal Institute of Technology
+
+Available Media
+Show details  ▸  
+Decoding RSSI Compression in RFID: Dynamic RCS Modeling and Tag-Intrinsic Power Metrics for Reliable Backscatter Networks
+Jia Liu, Yifei Ma, Xingyu Chen, and Haipeng Dai, Nanjing University; He Huang, Soochow University; Zihao Lin and Wei Zheng, Nanjing University; Junzhao Du, Xidian University; Guihai Chen, Nanjing University
+
+Available Media
+Show details  ▸  
+FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees
+Gabriele Oliaro, Carnegie Mellon University; Xupeng Miao, Purdue University; Xinhao Cheng, Carnegie Mellon University; Vineeth Kada, Anthropic PBC; Mengdi Wu, Ruohan Gao, and Yingyi Huang, Carnegie Mellon University; Remi Delacourt, Mistral AI; April Yang, Carnegie Mellon University; Yingcheng Wang, Purdue University; Colin Unger, Stanford University; Zhihao Jia, Carnegie Mellon University and Amazon Web Services
+
+Available Media
+Show details  ▸  
+Who Watches the Watchers? On the Reliability of Softwarizing Cloud Application Management
+Jiawei Tyler Gu, Zhen Tang, Yiming Su, Bogdan Alexandru Stoica, Xudong Sun, and William X. Zheng, University of Illinois Urbana-Champaign; Yue Zhang and Akond Rahman, Auburn University; Chen Wang, IBM Research; Tianyin Xu, University of Illinois Urbana-Champaign
+
+Available Media
+Show details  ▸  
+Feedback-guided Adaptive Testing of Distributed Systems Designs
+Ao Li, Carnegie Mellon University; Ankush Desai, Amazon Web Services; Rohan Padhye, Carnegie Mellon University
+
+Available Media
+Show details  ▸  
+Observability Is Eating Your Cores: Fine-Grained Analysis of Microservice Metrics with IPU-Hosted Sketches
+Alessandro Cornacchia, King Abdullah University of Science and Technology; Theophilus A. Benson, Carnegie Mellon University; Muhammad Bilal and Marco Canini, King Abdullah University of Science and Technology
+
+Available Media
+Show details  ▸  
+Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training
+Tianyuan Wu, Lunxi Cao, Hanfeng Lu, and Xiaoxiao Jiang, Hong Kong University of Science and Technology; Yinghao Yu, Siran Yang, Guodong Yang, Jiamang Wang, Lin Qu, and Liping Zhang, Alibaba Group; Wei Wang, Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+Law: Towards Consistent Low Latency in 802.11 Home Networks
+Yibin Shen and Zili Meng, Hong Kong University of Science and Technology
+
+Available Media
+Show details  ▸  
+eXpressSFU: Toward Super-Scalable Video Conferencing with SmartNICs
+Tuan Tran and S. M. H. Hosseini, University of Colorado Boulder; Seyeon Kim, Korea University; Kyunghan Lee, Seoul National University; Nam Bui, University of Colorado Denver; Dirk Grunwald and Sangtae Ha, University of Colorado Boulder
+
+Available Media
+Show details  ▸  
+AVA: Towards Agentic Video Analytics with Vision Language Models
+Yuxuan Yan, Zhejiang University; Shiqi Jiang, Microsoft Research; Ting Cao, Tsinghua University; Yifan Yang, Microsoft Research; Qianqian Yang and Yuanchao Shu, Zhejiang University; Yuqing Yang and Lili Qiu, Microsoft Research
+
+Available Media
+Show details  ▸  
+SLATE: Service Layer Traffic Engineering
+Gangmuk Lim, University of Illinois Urbana–Champaign; Aditya Prerepa, University of Illinois Urbana–Champaign and xAI; Brighten Godfrey and Radhika Mittal, University of Illinois Urbana–Champaign
+
+Available Media
+Show details  ▸  
+Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift
+Harsha Sharma, Massachusetts Institute of Technology and Amazon; Pouya Hamadanian and Arash Nasr-Esfahany, Massachusetts Institute of Technology; Zahaib Akhtar, Amazon and North Carolina State University; Mohammad Alizadeh, Massachusetts Institute of Technology
+
+Available Media
+Show details  ▸  
+OneSidedMW: Managing Disaggregated Memory Efficiently, Flexibly, and Securely with RNIC Offloading
+Zixuan Wang, Jinyu Gu, Xingda Wei, and Yubin Xia, Shanghai Jiao Tong University
+
+Available Media
+Show details  ▸  
+Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs
+Murali Ramanujam, Yinwei Dai, Kyle Jamieson, and Ravi Netravali, Princeton University
+
+Available Media
+Show details  ▸  
+A Fast Solver-Free Algorithm for Traffic Engineering in Large-Scale Data Center Network
+Yingming Mao, Xi'an Jiaotong University and Shanghai Innovation Institute; Qiaozhu Zhai, Xi'an Jiaotong University; Ximeng Liu, Shanghai Jiao Tong University; Zhen Yao and Xia Zhu, Huawei; Yuzhou Zhou, Xi'an Jiaotong University
+
+Available Media
+Show details  ▸  
+Net-P4ct: Enhanced WAN Bandwidth Fair Sharing Using P4 Programmable Switches
+Haoran Chen and Mingwei Cui, Bytedance; Yihan Zou, Yihang Miao, Suhan Jiang, Damu Ding, Lirong Lai, Ming Gao, Rui Jiang, Shengyuan He, Anjian Chen, Jiaming Shi, Junjie Wan, Yandong Duan, Ruomin Fang, Hongyu Wu, and Yongping Tang, ByteDance; Qiao Kang, unaffiliated; Guangrui Wu and Xiyun Xu, ByteDance
+
+Available Media
+Show details  ▸  
+SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling
+Athinagoras Skiadopoulos, Stanford University; Mark Zhao, University of Colorado Boulder; Swapnil Gandhi, Stanford University and NVIDIA; Thomas Norrie, OpenAI; Shrijeet Mukherjee, NVIDIA; Christos Kozyrakis, Stanford University and NVIDIA
+
+Available Media
+Show details  ▸  
+BBC: Enabling BLE to Support Bluetooth Classic
+Hsun-Wei Cho and Kang G. Shin, University of Michigan
+
+Available Media
+Show details  ▸  
+Fractal: Fault-Tolerant Shell-Script Distribution
+Zhicheng Huang, Ramiz Dundar, and Yizheng Xie, Brown University; Konstantinos Kallas, University of California, Los Angeles; Nikos Vasilakis, Brown University
+
+Available Media
+Show details  ▸  
+HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming
+Dehui Wei, National University of Singapore; Jiao Zhang, Beijing University of Posts and Telecommunications, and Purple Mountain Laboratories; Haozhe Li, Rui Han, Zhichen Xue, Yajie Peng, Xiaofei Pang, and Yan Ma, ByteDance; Jialin Li, National University of Singapore
+
+Available Media
+Show details  ▸  
+Over-Threshold Multiparty Private Set Intersection for Collaborative Network Intrusion Detection
+Onur Eren Arpaci, Raouf Boutaba, and Florian Kerschbaum, University of Waterloo
+
+Available Media
+Show details  ▸  
+Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming
+Jia Pan, The University of Texas at Austin; Anup Agarwal, Carnegie Mellon University; Işıl Dillig and Venkat Arun, The University of Texas at Austin
+
+Available Media
+Show details  ▸  
+Wallet: Confidential Serverless Computing
+Patrick Sabanic, Masanori Misono, Teofil Bodea, Julian Pritzi, Michael Hackl, Dimitrios Stavrakakis, and Pramod Bhatotia, Technical University of Munich
+
+Available Media
+Show details  ▸  
+DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants
+Yuhan Liu, Yuyang Huang, Jiayi Yao, Shaoting Feng, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu, Madan Musuvathi, and Esha Choukse, Microsoft
+
+Available Media
+Show details  ▸  
+Controlling Arbitrary Internet Queues with Titrate
+Anchengcheng Zhou and Joshua Lau, Princeton University; P. Brighten Godfrey, University of Illinois Urbana–Champaign and Broadcom; Maria Apostolaki, Princeton University
+
+Available Media
+Show details  ▸  
+Slowpoke: End-to-end Throughput Optimization Modeling for Microservice Applications
+Yizheng Xie, Di Jin, and Oğuzhan Çölkesen, Brown University; Vasiliki Kalavri and John Liagouris, Boston University; Nikos Vasilakis, Brown University
+
+Available Media
+Show details  ▸  
+Co-Designing Traffic Control with NVMe-oF for Disaggregated Storage: A Comparative Study of Switched and Switchless SAN Architectures
+Chendong Wang, Joontaek Oh, and Ming Liu, University of Wisconsin–Madison
+
+Available Media
+Show details  ▸  
+Agentix: An Efficient Serving Engine for LLM Agents as General Programs
+Michael Luo, University of California, Berkeley, and Google DeepMind; Xiaoxiang Shi, Shanghai Jiao Tong University; Colin Cai, Tianjun Zhang, Justin Wong, and Yichuan Wang, University of California, Berkeley; Chi Wang, Yanping Huang, and Zhifeng Chen, Google DeepMind; Joseph E. Gonzalez and Ion Stoica, University of California, Berkeley
+
+Available Media
+Show details  ▸  
+ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression
+Zirui Wang, Tingfeng Lan, and Zhaoyuan Su, University of Virginia; Juncheng Yang, Harvard University; Yue Cheng, University of Virginia
+
+Available Media
+Show details  ▸  
+Harvesting Spare CPU Resources in Container Systems
+Adam Hall and Anirudh Sarma, Georgia Institute of Technology; Esha Choukse, Microsoft Azure Research; Umakishore Ramachandran, Georgia Institute of Technology; Sameh Elnikety, Microsoft Research
+
+Available Media
+Show details  ▸  
+Attend
+Registration Information
+Registration Discounts
+Grant Opportunities
+Venue, Hotel, and Travel
+Program
+Technical Sessions
+Spring Accepted Papers
+Participate
+Call for Papers
+Call for Artifacts
+Call for Posters
+Instructions for Presenters
+Mentorship Program
+Sponsorship
+Exhibitor Resources
+About
+Past Symposia
+Symposium Organizers
+Conference Policies
+Code of Conduct
+Questions
+Privacy Policy Contact Us
+© USENIX 2026
+EIN 13-3055038

@@ -1,0 +1,702 @@
+[
+  [
+    "Tsinghua University",
+    31
+  ],
+  [
+    "Shanghai Jiao Tong University",
+    27
+  ],
+  [
+    "Michigan State University",
+    16
+  ],
+  [
+    "University of Science and Technology of China",
+    14
+  ],
+  [
+    "University of Massachusetts Amherst",
+    12
+  ],
+  [
+    "Yonsei University",
+    12
+  ],
+  [
+    "George Mason University",
+    11
+  ],
+  [
+    "University of Pittsburgh",
+    11
+  ],
+  [
+    "Seoul National University",
+    11
+  ],
+  [
+    "City University of Hong Kong",
+    11
+  ],
+  [
+    "The Hong Kong Polytechnic University",
+    11
+  ],
+  [
+    "Northwest University",
+    10
+  ],
+  [
+    "Rutgers University",
+    9
+  ],
+  [
+    "Microsoft Research",
+    9
+  ],
+  [
+    "Purdue University",
+    9
+  ],
+  [
+    "KAIST",
+    9
+  ],
+  [
+    "University of California San Diego",
+    9
+  ],
+  [
+    "Nanyang Technological University",
+    9
+  ],
+  [
+    "Zhejiang University",
+    8
+  ],
+  [
+    "Tianjin University",
+    7
+  ],
+  [
+    "Clemson University",
+    7
+  ],
+  [
+    "Columbia University",
+    7
+  ],
+  [
+    "University of California, Los Angeles",
+    7
+  ],
+  [
+    "Peking University",
+    6
+  ],
+  [
+    "The Chinese University of Hong Kong",
+    5
+  ],
+  [
+    "IMDEA Networks Institute",
+    5
+  ],
+  [
+    "Temple University",
+    4
+  ],
+  [
+    "Institute for AI Industry Research (AIR), Tsinghua University",
+    4
+  ],
+  [
+    "Macquarie University",
+    4
+  ],
+  [
+    "University at Buffalo",
+    4
+  ],
+  [
+    "University of Washington",
+    4
+  ],
+  [
+    "Kiel University",
+    4
+  ],
+  [
+    "National University of Singapore",
+    4
+  ],
+  [
+    "University of Illinois Urbana-Champaign",
+    4
+  ],
+  [
+    "University of Virginia",
+    4
+  ],
+  [
+    "Central South University",
+    3
+  ],
+  [
+    "University of Illinois at Urbana-Champaign",
+    3
+  ],
+  [
+    "POSTECH",
+    3
+  ],
+  [
+    "Georgia Institute of Technology",
+    3
+  ],
+  [
+    "Rochester Institute of Technology",
+    3
+  ],
+  [
+    "UCSD",
+    3
+  ],
+  [
+    "Shenzhen University",
+    3
+  ],
+  [
+    "TU Darmstadt",
+    3
+  ],
+  [
+    "State Key Laboratory of Networking and Switching Technology, Beijing, China",
+    2
+  ],
+  [
+    "Virginia Tech",
+    2
+  ],
+  [
+    "EPFL",
+    2
+  ],
+  [
+    "University of Houston",
+    2
+  ],
+  [
+    "Beijing University of Posts and Telecommunications",
+    2
+  ],
+  [
+    "Texas A&M University",
+    2
+  ],
+  [
+    "Korea Institute of Science and Technology",
+    2
+  ],
+  [
+    "Texas A&M University, College Station",
+    2
+  ],
+  [
+    "Chinese Academy of Sciences",
+    2
+  ],
+  [
+    "Beijing Institute of Technology",
+    2
+  ],
+  [
+    "Delft University of Technology",
+    2
+  ],
+  [
+    "UT Austin, MSR Asia Shanghai",
+    2
+  ],
+  [
+    "UT Austin",
+    2
+  ],
+  [
+    "Ohio State University",
+    2
+  ],
+  [
+    "The University of Texas at Arlington",
+    2
+  ],
+  [
+    "University of California, Merced",
+    2
+  ],
+  [
+    "Tsinghua-Berkeley Shenzhen Institute, Tsinghua University",
+    2
+  ],
+  [
+    "Ant Group",
+    2
+  ],
+  [
+    "UMass Amherst",
+    2
+  ],
+  [
+    "University of Virginia, Co-lead author",
+    2
+  ],
+  [
+    "Geogre Mason University",
+    2
+  ],
+  [
+    "UESTC",
+    2
+  ],
+  [
+    "Fudan University",
+    2
+  ],
+  [
+    "University of Vienna",
+    2
+  ],
+  [
+    "Uppsala University",
+    2
+  ],
+  [
+    "University of Wisconsin",
+    2
+  ],
+  [
+    "University of Colorado Boulder",
+    2
+  ],
+  [
+    "University of Texas at Arlington",
+    2
+  ],
+  [
+    "University of Colorado Denver",
+    2
+  ],
+  [
+    "Northwestern Polytechnical University",
+    2
+  ],
+  [
+    "The Hong Kong University of Science and Technology (Guangzhou)",
+    2
+  ],
+  [
+    "NEC Laboratories Europe",
+    2
+  ],
+  [
+    "University of Maryland",
+    1
+  ],
+  [
+    "Montclair State University",
+    1
+  ],
+  [
+    "UIUC",
+    1
+  ],
+  [
+    "Nanjing University",
+    1
+  ],
+  [
+    "SIAT, CAS",
+    1
+  ],
+  [
+    "Shandong University",
+    1
+  ],
+  [
+    "Kennesaw State University",
+    1
+  ],
+  [
+    "King Abdullah University of Science and Technology",
+    1
+  ],
+  [
+    "Xidian University) and Dingyi Fang (Northwest University",
+    1
+  ],
+  [
+    "The Chinese University of Hong Kong, Shenzhen, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+    1
+  ],
+  [
+    "Arizona State University",
+    1
+  ],
+  [
+    "University of Florida",
+    1
+  ],
+  [
+    "University of California, Irvine",
+    1
+  ],
+  [
+    "Soongsil University",
+    1
+  ],
+  [
+    "Sungkyunkwan University",
+    1
+  ],
+  [
+    "University of Michigan, Ann Arbor",
+    1
+  ],
+  [
+    "University of Science and Technology of China, Microsoft Research",
+    1
+  ],
+  [
+    "Institute for AI Industry Research (AIR), Tsinghua University, Shanghai Artificial Intelligence Laboratory",
+    1
+  ],
+  [
+    "Shanxi University",
+    1
+  ],
+  [
+    "New Jersey Institute of Technology",
+    1
+  ],
+  [
+    "IMDEA Networks Institute, Universidad Carlos III de Madrid",
+    1
+  ],
+  [
+    "IMDEA Networks",
+    1
+  ],
+  [
+    "University of Maryland, College Park",
+    1
+  ],
+  [
+    "UNC Chapel Hill",
+    1
+  ],
+  [
+    "University of North Carolina at Chapel Hill) and Shahriar Nirjon (UNC Chapel Hill",
+    1
+  ],
+  [
+    "Capital Normal University",
+    1
+  ],
+  [
+    "Seattle Children's Hospital and Research Institute",
+    1
+  ],
+  [
+    "University of Washington and Google",
+    1
+  ],
+  [
+    "Shanghai Jiao Tong Univeristy",
+    1
+  ],
+  [
+    "Microsoft Research Asia and University of Massachusetts Amherst",
+    1
+  ],
+  [
+    "Colorado University Boulder",
+    1
+  ],
+  [
+    "Central South University; Microsoft Research",
+    1
+  ],
+  [
+    "University of Southern California; Microsoft Research",
+    1
+  ],
+  [
+    "Google",
+    1
+  ],
+  [
+    "University of California Riverside",
+    1
+  ],
+  [
+    "Alibaba Group) Songfan Li (The Hong Kong University of Science and Technology",
+    1
+  ],
+  [
+    "The Hong Kong University of Science and Technology and Nanyang Technological University",
+    1
+  ],
+  [
+    "School of Cyber Science and Technology, Zhejiang University",
+    1
+  ],
+  [
+    "Florida State University",
+    1
+  ],
+  [
+    "University of California Merced",
+    1
+  ],
+  [
+    "Nanyang Technological University, Singapore",
+    1
+  ],
+  [
+    "Singapore Institute of Technology",
+    1
+  ],
+  [
+    "FriendliAI and Seoul National University",
+    1
+  ],
+  [
+    "Shenzhen International Graduate School, Tsinghua University",
+    1
+  ],
+  [
+    "Tsinghua University, China",
+    1
+  ],
+  [
+    "Tsinghua-Berkeley Shenzhen Institute, Shenzhen International Graduate School, Tsinghua University",
+    1
+  ],
+  [
+    "Nanjing University of Information Science and Technology",
+    1
+  ],
+  [
+    "Jonghyuk Yun",
+    1
+  ],
+  [
+    "KAIST/Yonsei University",
+    1
+  ],
+  [
+    "Shanghai Jiao Tong University, China",
+    1
+  ],
+  [
+    "University of California, Los Angeles & Amazon AWS AI Labs",
+    1
+  ],
+  [
+    "Xidian University",
+    1
+  ],
+  [
+    "University of Buffalo",
+    1
+  ],
+  [
+    "SBA Research",
+    1
+  ],
+  [
+    "Stevens Institue of Technology",
+    1
+  ],
+  [
+    "West Lafayette Jr./Sr. High School",
+    1
+  ],
+  [
+    "NVIDIA",
+    1
+  ],
+  [
+    "Institute of Information Engineering, Chinese Academy of Sciences",
+    1
+  ],
+  [
+    "Beijing Information Science & Technology University",
+    1
+  ],
+  [
+    "Institute for AI Industry Research, Tsinghua University",
+    1
+  ],
+  [
+    "JPMorganChase",
+    1
+  ],
+  [
+    "JPMorgan Chase",
+    1
+  ],
+  [
+    "University of Kansas",
+    1
+  ],
+  [
+    "Peking University, Key Laboratory of High Confidence Software Technologies, Ministry of Education (PKU)",
+    1
+  ],
+  [
+    "Korea University",
+    1
+  ],
+  [
+    "Singapore University of Technology and Design",
+    1
+  ],
+  [
+    "Wayne State University",
+    1
+  ],
+  [
+    "SUNY at Buffalo",
+    1
+  ],
+  [
+    "University of Maryland College Park",
+    1
+  ],
+  [
+    "Guangdong University of Technology",
+    1
+  ],
+  [
+    "University of Nebraska Lincoln",
+    1
+  ],
+  [
+    "TU Darmstadt, Germany",
+    1
+  ],
+  [
+    "The Hong Kong University of Science and Technology",
+    1
+  ],
+  [
+    "Microsoft Research Asia",
+    1
+  ],
+  [
+    "Microsoft Research, UT Austin",
+    1
+  ],
+  [
+    "Hong Kong University of Science and Technology, China",
+    1
+  ],
+  [
+    "Yale University",
+    1
+  ],
+  [
+    "University of Electronic Science and Technology of China; Southwest Petroleum University; Sichuan Artifcial Intelligence Research Institute, Yibin, China",
+    1
+  ],
+  [
+    "University of Electronic Science and Technology of China",
+    1
+  ],
+  [
+    "Massachusetts Institute of Technology",
+    1
+  ],
+  [
+    "Massachusetts Institute of Technology & Cartesian",
+    1
+  ],
+  [
+    "Shenzhen University, The Hong Kong University of Science and Technology (Guangzhou)",
+    1
+  ],
+  [
+    "Sarit Mukherjee",
+    1
+  ],
+  [
+    "Nokia Bell Labs",
+    1
+  ],
+  [
+    "Vincenzo Sciancalepore",
+    1
+  ],
+  [
+    "IMDEA Networks Institute and UC3M",
+    1
+  ],
+  [
+    "i2CAT, NEC Labs Europe, and ICREA",
+    1
+  ],
+  [
+    "Nessie Circuits",
+    1
+  ],
+  [
+    "TU Dresden",
+    1
+  ],
+  [
+    "TU Delft",
+    1
+  ],
+  [
+    "Carnegie Mellon University",
+    1
+  ],
+  [
+    "Sun Yat-sen University",
+    1
+  ],
+  [
+    "The University of Texas at Austin",
+    1
+  ],
+  [
+    "University of Pennsylvania",
+    1
+  ],
+  [
+    "Meta",
+    1
+  ],
+  [
+    "The Chinese University of Hong Kong, Hong Kong SAR, China",
+    1
+  ],
+  [
+    "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center",
+    1
+  ],
+  [
+    "Sooriya Patabandige Pramuka Medaranga",
+    1
+  ],
+  [
+    "University of California, Berkeley",
+    1
+  ],
+  [
+    "unaffiliated",
+    1
+  ]
+]

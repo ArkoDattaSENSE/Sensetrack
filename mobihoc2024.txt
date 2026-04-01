@@ -1,0 +1,112 @@
+Accepted Papers
+A Deadline-Aware Scheduler for Smart Factory using WiFi 6
+Mohit Jain, Anis Mishra (IIIT Delhi); Andreas Wiese (Technical University of Munich); Syamantak Das, Arani Bhattacharya, Mukulika Maity (IIIT-Delhi)
+
+Active Learning for WBAN-based Health Monitoring
+Cho-Chun Chiu, Tuan Nguyen, Ting He (Penn State University); Shiqiang Wang (IBM Research); Beom-Su Kim, KI IL KIM (Chungnam National University)
+
+Age of Information in Mobile Networks: Fundamental Limits and Tradeoffs
+Meng Zhang, Howard H. Yang (Zhejiang University); Ahmed Arafa (University of North Carolina at Charlotte); H. Vincent Poor (Princeton University)
+
+Age of Information Optimization and State Error Analysis for Correlated Multi-Process Multi-Sensor Systems
+Egemen Erbayat (George Washington University); Ali Maatouk (Yale University); Peng Zou, Suresh Subramaniam (George Washington University)
+
+BeamCount: Indoor Crowd Counting Using Wi-Fi Beamforming Feedback Information
+Siyu Chen, Hongbo Jiang (Hunan University); Jie Xiong (University of Massachusetts Amherst); Hu Jingyang (Hunan University); Penghao Wang, Chao Liu (Ocean University of China); Zhu Xiao (Hunan University); Bo Li (Hong Kong University of Science and Technology)
+
+BleHe: Indoor Positioning of a Single Bluetooth Station Based on Height Estimation
+Hanying ZOU, Xiaolong Zheng, Liang Liu, Huadong Ma (Beijing University of Posts and Telecommunications)
+
+Can We Theoretically Quantify the Impacts of Local Updates on the Generalization Performance of Federated Learning?
+Peizhong Ju (The Ohio State University); Haibo Yang (Rochester Institute of Technology); Jia Liu, Yingbin Liang, Ness Shroff (The Ohio State University)
+
+Data Processing Efficiency Aware User Association and Resource Allocation in Blockchain Enabled Metaverse over Wireless Communications
+Liangxin Qian, Jun Zhao (Nanyang Technological University)
+
+Deep Index Policy for Multi-Resource Restless Matching Bandit and Its Application in Multi-Channel Scheduling
+Nida Zamir, I-Hong Hou (Texas A&M University)
+
+Distributed No-Regret Learning for Multi-Stage Systems with End-to-End Bandit Feedback
+I-Hong Hou (Texas A&M University)
+
+Efficient Multi-Dimensional Compression for Network-Edge Classification
+Chengzhang Li, Peizhong Ju, Atilla Eryilmaz, Ness Shroff (The Ohio State University)
+
+Federating from History in Streaming Federated Learning
+Ruirui Zhang, Yifei Zou, Zhenzhen Xie, Xiao Zhang (Shandong University); Peng Li (the University of Aizu); Zhipeng Cai (Georgia State University); Xiuzhen Cheng, Dongxiao Yu (Shandong University)
+
+FreeGait: Liberalizing Wireless-Based Gait Recognition to Mitigate Non-Gait Human Behaviors
+Dawei Yan (University of Science and Technology of China); Panlong Yang (Nanjing University of Information Science and Technology); Fei Shang, Feiyu Han, Yubo Yan, Xiang-Yang Li (University of Science and Technology of China)
+
+Hermes: Boosting the Performance of Machine-Learning-Based Intrusion Detection System through Geometric Feature Learning
+Chaoyu Zhang, Shanghao Shi (Virginia Tech); Ning Wang (University of South Florida); Xiangxiang Xu (Massachusetts Institute of Technology); Shaoyu Li (Virginia Tech); Lizhong Zheng (Massachusetts Institute of Technology); Randy Marchany, Mark Gardner, Y. Thomas Hou, Wenjing Lou (Virginia Tech)
+
+In-Sensor Machine Learning: Radio Frequency Neural Networks for Wireless Sensing
+Jingyu Tong, Zhenlin An, Xiaopeng Zhao, Sicong Liao, Lei Yang (The Hong Kong Polytechnic University)
+
+Intervention-Assisted Online Deep Reinforcement Learning for Stochastic Queuing Network Optimization
+Jerrod Wigmore (MIT); Brooke Shrader (MIT Lincoln Lab); Eytan Modiano (MIT)
+
+Multi-Task-Oriented UAV Crowd Sensing with Charging Budget Constraint
+Jiahui Sun, Guiyun Fan, Haiming Jin (Shanghai Jiao Tong University); Yiwen Song (Carnegie Mellon University); Tianyuan Liu, Chenhao Ying, Yuan Luo, Jie Li (Shanghai Jiao Tong University)
+
+On Optimal Server Allocation for Moldable Jobs with Concave Speed-Up
+Samira Ghanbarian (University of Waterloo, Canada); Arpan Mukhopadhyay (University of Warwick); Ravi R. Mazumdar (University of Waterloo, Canada); Fabrice M. Guillemin (Orange Labs, Lannion, France)
+
+On The Active-Time Condition for Partial Indexability and Application to Heterogeneous-Channel AoI Minimization
+Sixiang Zhou (Purdue University, West Lafayette); Xiaojun Lin (The Chinese University of Hong Kong and Purdue University (on leave))
+
+On the Analysis of Two-Stage Stochastic Bandit
+Yumou Liu (The Chinese University of Hong Kong, Shenzhen); Haoming Li, Zhenzhe Zheng, Fan Wu, Guihai Chen (Shanghai Jiao Tong University)
+
+Online Learning in Blockchain-Based Energy Trading Systems
+Yunshu Liu (Singapore University of Technology and Design); Man Hon Cheung (City University of Hong Kong); Jianwei Huang (The Chinese University of Hong Kong, Shenzhen)
+
+Optimal Slicing and Scheduling with Service Guarantees in Multi-Hop Wireless Networks
+Nicholas Jones, Eytan Modiano (MIT)
+
+Optimistic Joint Flow Control and Link Scheduling with Unknown Utility Functions
+Xin Liu (ShanghaiTech University); Honghao Wei (Washington State University); Lei Ying (University of Michigan, Ann Arbor)
+
+Overlay-Based Decentralized Federated Learning in Bandwidth-Limited Networks
+Yudi Huang, Tingyang Sun, Ting He (Pennsylvania State University)
+
+Regret Bounds for Online Learning for Hierarchical Inference
+Ghina Al Atat (IMDEA Networks Institute); Puranjay Datta, Sharayu Moharir (IIT Bombay); Jaya Prakash Champati (IMDEA Networks Institute)
+
+REHSense: Towards Battery-Free Wireless Sensing via Radio Frequency Energy Harvesting
+Tao Ni, Zehua Sun (City University of Hong Kong); Mingda Han (Shandong University); Yaxiong Xie (University at Buffalo, SUNY); Guohao Lan (TU Delft); Zhenjiang Li (City University of Hong Kong); Tao Gu (Macquarie University); Weitao Xu (City University of Hong Kong)
+
+Resource Allocation and Secure Wireless Communication in the Large Model-Based Mobile Edge Computing System
+Zefan Wang, Yitong Wang, Jun Zhao (Nanyang Technological University)
+
+Resource Allocation for Stable LLM Training in Mobile Edge Computing
+Chang Liu, Jun Zhao (Nanyang Technological University)
+
+Risk-Aware Multi-Agent Multi-Armed Bandits
+Qi Shao (The Chinese University of Hong Kong); Jiancheng Ye (The University of Hong Kong); John C.S. Lui (The Chinese University of Hong Kong)
+
+Scheduling Multi-Server Jobs is Not Easy
+Rahul Vaze (TIFR-Mumbai)
+
+SkySCALE: A Radio Tomographic Approach Towards Scaling UAV Network Deployments
+Subrata Das, Ayon Chakraborty (IIT Madras)
+
+Social Welfare Maximization for Federated Learning with Network Effects
+Xiang Li, Yuan Luo (Shenzhen Institute of Artificial Intelligence and Robotics for Society, The Chinese University of Hong Kong, Shenzhen); Bing Luo (Duke Kunshan University); Jianwei Huang (Shenzhen Institute of Artificial Intelligence and Robotics for Society, The Chinese University of Hong Kong, Shenzhen)
+
+SONDAR: Size and Shape Measurements Using Acoustic Imaging
+Xiaoxuan Liang, Zhaolong Wei, Dong Li, Jie Xiong, Jeremy Gummeson (University of Massachusetts Amherst)
+
+Structured Reinforcement Learning for Media Streaming at the Wireless Edge
+Archana Bura (University of California, San Diego); Sarat Chandra Bobbili (Texas A&M University); Shreyas Rameshkumar (Bloomberg LP); Desik Rengarajan (Hewlett Packard Labs); Dileep Kalathil, Srinivas Shakkottai (Texas A&M University)
+
+Sustainable Provision of URLLC Services for V2N: Analysis and Optimal Configuration
+Livia Elena Chatzieleftheriou (IMDEA Networks); Jesús Pérez-Valero (Universidad Carlos III de Madrid); Jorge Martín-Pérez (Universidad Politécnica de Madrid); Pablo Serrano (Universidad Carlos III de Madrid)
+
+TADAR: Thermal Array-Based Detection and Ranging for Privacy-Preserving Human Sensing
+Xie Zhang, Chenshu Wu (The University of Hong Kong)
+
+Towards Ubiquitous IoT through Long Range Wireless Energy Harvesting
+Mohamed Ibrahim (Hewlett Packard Labs/Carnegie Mellon University); Atul Bansal, Kuang Yuan, Junbo Zhang, Swarun Kumar (Carnegie Mellon University)
+

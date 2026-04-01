@@ -1,0 +1,249 @@
+Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems, SenSys 2025, UC Irvine Student Center, Irvine, CA, USA, May 6-9, 2025. ACM 2025, ISBN 979-8-4007-1479-5
+		Di Duan, Shengzhe Lyu, Mu Yuan, Hongfei Xue, Tianxing Li, Weitao Xu, Kaishun Wu, Guoliang Xing:
+Argus: Multi-View Egocentric Human Mesh Reconstruction Based on Stripped-Down Wearable mmWave Add-on. 1-14
+		Haoyang Wang, Jingao Xu, Xinyu Luo, Xuecheng Chen, Ting Zhang, Ruiyang Duan, Yunhao Liu, Xinlei Chen:
+Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing. 15-29
+		Ruichun Ma, Yasuo Morimoto, John S. Ho, Sam Shiu, Jiang Zhu:
+mmET: mmWave Radar-Based Eye Tracking on Smart Glasses. 30-42
+		Yimeng Liu, Maolin Gan, Huaili Zeng, Yidong Ren, Gen Li, Jingkai Lin, Younsuk Dong, Xiaobo Tan, Zhichao Cao:
+Proteus: Enhanced mmWave Leaf Wetness Detection with Cross-Modality Knowledge Transfer. 43-57
+		Isura Nirmal, Wen Hu, Mahbub Hassan, Abdelwahed Khamis, Elias Aboutanios:
+Improving mmWave based Hand Hygiene Monitoring through Beam Steering and Combining Techniques. 58-70
+		Abdur-Rahman Ibrahim Sayyid-Ali, Abdul Rafay, Muhammad Abdullah Soomro, Muhammad Hamad Alizai, Naveed Anwar Bhatti:
+CheckMate: LLM-Powered Approximate Intermittent Computing. 71-87
+		Pavel Frolikov, Youngil Kim, Renascence Tarafder Prapty, Gene Tsudik:
+TOCTOU Resilient Attestation for IoT Networks. 88-101
+		Lingyu Du, Yupei Liu, Jinyuan Jia, Guohao Lan:
+SecureGaze: Defending Gaze Estimation Against Backdoor Attacks. 102-115
+		Shuai Wang, Yunze Zeng, Vivek Jain, Parth H. Pathak:
+UMusic: In-car Occupancy Sensing via High-resolution UWB Power Delay Profile. 116-129
+		Shiyang Wang, Henglin Pu, Qiming Cao, Wenjun Jiang, Xingchen Wang, Tianci Liu, Zhengxin Jiang, Hongfei Xue, Lu Su:
+RAM-Hand: Robust Acoustic Multi-Hand Pose Reconstruction Using a Microphone Array. 130-143
+		Yongjie Yang, Tao Chen, Zhenlin An, Shirui Cao, Xiaoran Fan, Longfei Shangguan:
+LeakyFeeder: In-Air Gesture Control Through Leaky Acoustic Waves. 144-157
+		Jiawei Hu, Hong Jia, Mahbub Hassan, Lina Yao, Brano Kusy, Wen Hu:
+LightLLM: A Versatile Large Language Model for Predictive Light Sensing. 158-171
+		Vahid Yazdnian, Ruiyi Shen, Yasaman Ghasempour:
+RoboTera: Non-Contact Friction Sensing for Robotic Grasping via Wireless Sub-Terahertz Perception. 172-185
+		Fengxu Yang, Zaizhou Yang, Jiaqi Zhou, Zhice Yang:
+LiDARMarker: Machine-friendly Road Markers for Smart Driving Systems. 186-198
+		Leming Shen, Qiang Yang, Xinyu Huang, Zijing Ma, Yuanqing Zheng:
+GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development. 199-212
+		Kaiwei Liu, Bufang Yang, Lilin Xu, Yunqi Guo, Guoliang Xing, Xian Shuai, Xiaozhe Ren, Xin Jiang, Zhenyu Yan:
+TaskSense: A Translation-like Approach for Tasking Heterogeneous Sensor Systems with LLMs. 213-225
+		Hyungjun Yoon, Jae Hyun Kwak, Biniyam Aschalew Tolera, Gaole Dai, Mo Li, Taesik Gong, Kimin Lee, Sung-Ju Lee:
+SelfReplay: Adapting Self-Supervised Sensory Models via Adaptive Meta-Task Replay. 226-239
+		Shenghong Dai, Shiqi Jiang, Yifan Yang, Ting Cao, Mo Li, Suman Banerjee, Lili Qiu:
+Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment. 240-253
+		Zhiwei Ren, Junbo Li, Minjia Zhang, Di Wang, Xiaoran Fan, Longfei Shangguan:
+Toward Sensor-In-the-Loop LLM Agent: Benchmarks and Implications. 254-267
+		Tianya Zhao, Ningning Wang, Xuyu Wang:
+Membership Inference Against Self-supervised IMU Sensing Applications. 268-281
+		Benjamin Z. Reichman, Xiaofan Yu, Lanxiang Hu, Jack Truxal, Atishay Jain, Rushil Chandrupatla, Tajana Rosing, Larry Heck:
+SensorQA: A Question Answering Benchmark for Daily-Life Monitoring. 282-289
+		Heming Fu, Hongkai Chen, Shan Lin, Guoliang Xing:
+SHADE-AD: An LLM-Based Framework for Synthesizing Activity Data of Alzheimer's Patients. 290-296
+		Jingping Nie, Yuang Fan, Minghui Zhao, Runxi Wan, Ziyi Xuan, Matthias Preindl, Xiaofan Jiang:
+Multi-Modal Dataset Across Exertion Levels: Capturing Post-Exercise Speech, Breathing, and Phonocardiogram. 297-304
+		Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu:
+SEE-V2X: C-V2X Direct Communication Dataset: An Application-Centric Approach. 305-311
+		Alex Cabral, Deeksha Punachithaya, Jim Waldo, Josiah D. Hester:
+Eclipse Dataset: Advancing Urban Sensing Research with Hyperlocal Environmental Data from Chicago. 312-316
+		Maozhe Zhao, Shengzhong Liu, Fan Wu, Guihai Chen:
+Responsive DNN Adaptation for Video Analytics against Environment Shift via Hierarchical Mobile-Cloud Collaborations. 317-331
+		Kazuhiro Mikami, Wenhao Huang, Yin Chen, Jin Nakazawa:
+JumpQ: Stochastic Scheduling to Accelerating Object-detection-driven Mobile Sensing on Object-sparse Video Data. 332-344
+		Yimin Dai, Li-Lian Wang, Rui Tan:
+Stochastic Differential Equation Networks for Time Series at Edge. 345-356
+		Mingyuan Xiang, Pouya Mahdi Gholami, Henry Hoffmann:
+Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices. 357-370
+		Zhengguan Wu, Jingwei Liao, Anh Nguyen, Feng Lin, Zhisheng Yan:
+Orbis: Redesigning Neural-enhanced Video Streaming for Live Immersive Viewing. 371-384
+		Changyao Lin, Zhenming Chen, Ziyang Zhang, Jie Liu:
+E3: Early Exiting with Explainable AI for Real-Time and Accurate DNN Inference in Edge-Cloud Systems. 385-397
+		Geneva Ecola, Bill Yen, Ana Banzer Morgado, Bodhi Priyantha, Ranveer Chandra, Zerina Kapetanovic:
+SARLink: Satellite Backscatter Connectivity using Synthetic Aperture Radar. 398-410
+		Guangyu Feng, Tess Despres, Paul de La Sayette, Prabal Dutta:
+I4C... Improving I2C's Dynamism and Efficiency. 411-423
+		Ningning Hou, Yifeng Wang, Xianjin Xia, Shiming Yu, Yuanqing Zheng, Tao Gu:
+MoLoRa: Intelligent Mobile Antenna System for Enhanced LoRa Reception in Urban Environments. 424-436
+		Le Zhang, Quanling Zhao, Run Wang, Shirley Bian, Onat Güngör, Flavio Ponzina, Tajana Rosing:
+Offload Rethinking by Cloud Assistance for Efficient Environmental Sound Recognition on LPWANs. 437-448
+		Yin Li, Rajalakshmi Nandakumar:
+WixUp: A Generic Data Augmentation Framework for Wireless Human Tracking. 449-462
+		Minghui Zhao, Junxi Xia, Kaiyuan Hou, Yanchen Liu, Stephen Xia, Xiaofan Jiang:
+FlexiFly: Interfacing the Physical World with Foundation Models Empowered by Reconfigurable Drone Systems. 463-476
+		Yichen Luo, Junzhou Chen, Xinyu Chen, Sidi Lu:
+Mitigating In-Transit Vision Noise for Enhanced Vehicle Safety. 477-490
+		Xiaomin Ouyang, Jason Wu, Tomoyoshi Kimura, Yihan Lin, Gunjan Verma, Tarek F. Abdelzaher, Mani Srivastava:
+MMBind: Unleashing the Potential of Distributed and Heterogeneous Data for Multimodal Learning in IoT. 491-503
+		Adiba Orzikulova, Diana A. Vasile, Chi Ian Tang, Fahim Kawsar, Sung-Ju Lee, Chulhong Min:
+BioQ: Towards Context-Aware Multi-Device Collaboration with Bio-cues. 504-517
+		Nan Wu, Ruizhi Cheng, Songqing Chen, Bo Han:
+PIPE: Privacy-preserving 6DoF Pose Estimation for Immersive Applications. 518-532
+		Fangqiang Ding, Yunzhou Zhu, Xiangyu Wen, Gaowen Liu, Chris Xiaoxuan Lu:
+ThermoHands: A Benchmark for 3D Hand Pose Estimation from Egocentric Thermal Images. 533-546
+		Zhuo Cheng, Brandon Lucia:
+Geoduck: Nanosatellite Constellation Scheduling for Low Latency Event Detection. 547-559
+		Xiaojing Zhu, Man Zhou, Xiaoxiao Qiao, Zijian Ling, Qin Liu, Houzhen Wang, Xiaojing Ma, Zhengxiong Li:
+CaphandAuth: Robust and Anti-spoofing Hand Authentication via COTS Capacitive Touchscreens. 560-573
+		Shuheng Li, Jiayun Zhang, Xiaohan Fu, Xiyuan Zhang, Jingbo Shang, Rajesh K. Gupta:
+Matching Skeleton-based Activity Representations with Heterogeneous Signals for HAR. 574-587
+		Kenuo Xu, Bo Liang, Jingyu Li, Chenren Xu:
+RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Perception of Embodied AI. 588-589
+		Yen-Cheng Chang, Jesse R. Codling, Yiwen Dong, Jiale Zhang, Jiasi Chen, Hae Young Noh, Pei Zhang:
+Poster Abstract: Leveraging General-Purpose Audio Datasets for Vibration-based Crowd Monitoring in Stadiums. 590-591
+		Xinmin Fang, Zhengxiong Li:
+Poster Abstract: Understanding IoT Security Awareness Disparities Between CS and Non-CS Students. 592-593
+		Tran Ngoc Bao Huynh, Ting Xu, Yinxin Wan, Jun Dai, Xiaoyan Sun:
+Optimizing IoT Cross-rule Vulnerability Detection through Reinforcement Learning-Based Fuzzing. 594-595
+		Yihong Hang, Hao Li, Huangxun Chen, Fengxu Yang, Zhice Yang:
+Poster Abstract: LLM-Piloted Visual Privacy Agent on Mobile Systems. 596-597
+		Ruoshen Mo, Bo Wu, Zhaowei Tan, Hang Qiu:
+Poster Abstract: SEE-V2X: Empirical Evaluation of C-V2X Direct Communication in Real-World Scenarios. 598-599
+		Sahil Kumar, Asad Alam, Shiva Koshta, Jagpreet Singh:
+A Sustainable Scalable Self-configurable Sensor-based IoT Network. 600-601
+		Monika Kulisz, Grzegorz Klosowski, Tomasz Rymarczyk, Konrad Niderla, Pawel Olszewski, Dariusz Wójcik:
+Poster: Application of differential architecture in neural networks to improve reconstruction quality in ultrasound tomography. 602-603
+		Anuradha Ravi, Eric Meza, Snehalraj Chugh, Andre V. Harrison, Timothy Gregory, Jade L. Freeman, Nirmalya Roy:
+Poster Abstract: Terrain Navigability Assessment of Autonomous Ground Robots Using mmWave Radar. 604-605
+		Petr Ivanov, Alexander Kozhevnikov, Maria Shtark, Ilya Makarov:
+Poster Abstract: Exploring the Autoencoder Sequence Pooling. 606-607
+		Ye Tian, Onat Güngör, Xiaofan Yu, Tajana Rosing:
+Poster Abstract: Fine-grained Contextualized Activity Logs Generation based on Multi-Modal Sensor Data and LLM. 608-609
+		Wenba Li, Zhanpeng Jin, Yuqin Yang:
+Poster Abstract: R2R-LPCD: A Real-to-real Lidar Point Cloud Denoising Dataset. 610-611
+		Dariusz Wójcik, Dariusz Majerek, Tomasz Rymarczyk, Tomasz Lobodiuk, Michal Oleszek, Krzysztof Król:
+Poster: Beyond the Labels - Transforming Classification Outputs into Continuous Conductivity Maps in Electrical Impedance Tomography. 612-613
+		Xianrong Yao, Chengzhang Yu, Lingde Hu, Yincheng Jin, Yang Gao, Zhanpeng Jin:
+IMUFace: Real-Time, Low-Power, Continuous 3D Facial Reconstruction Through Earphones. 614-615
+		Agata Kolakowska, Bogdan Wiszniewski, Jerzy Dembski:
+Hierarchical Alignment of Multiple Time Series With Missing Timestamps. 616-617
+		Minhajul Alam Rahat, Vijay Banerjee, Gedare Bloom, Yanyan Zhuang:
+Poster Abstract: Operational Similarity in IoT Malware Development Life Cycle. 618-619
+		Iris Nguyen, Liying Han, Burke Dambly, Alireza Kazemi, Marina Kogan, Cory S. Inman, Mani Srivastava, Luis Garcia:
+Detecting Context Shifts in the Human Experience Using Multimodal Foundation Models. 620-621
+		Vahid Yazdnian, Ruiyi Shen, Yasaman Ghasempour:
+Poster Abstract: Contactless Friction Sensing in Robotic Systems via Fusing Sub-Terahertz Wireless Signals and Vision. 622-623
+		Mohammadali Khodabandehlou, Jared Coleman, Bhaskar Krishnamachari:
+Poster Abstract: Scheduling Dynamic IoT Task Graphs. 624-625
+		Muhammad Abdullah Soomro, Adeel Nasrullah, Fatima M. Anwar:
+Poster Abstract: Time Attacks using Kernel Vulnerabilities. 626-627
+		Dipu Ram Roy, Jieqiong Zhao, Shijia Pan, Shiwei Fang:
+Poster Abstract: PrivacyVis: Interactive Visualization Tool for Privacy Risks of Internet of Things Sensors. 628-629
+		Momin Ahmad Khan, Yasra Chandio, Eugene Bagdasarian, Fatima M. Anwar:
+Poster Abstract: Compromising Federated Medical AI-Backdoor Risks in Prompt Learning. 630-631
+		Julia Gersey, Jatin Aggarwal, Jiale Zhang, Jesse R. Codling, Pei Zhang:
+Poster Abstract: Sniffing Out the City - Vehicular Multimodal Sensing for Environmental and Infrastructure Analysis. 632-633
+		Barbara Stefaniak, Michal Golabek, Dariusz Wójcik, Tomasz Rymarczyk:
+Poster: Three-dimensional Beamforming Defectoscope in industrial applications. 634-635
+		Mahesh Chowdhary, Swapnil Sayan Saha, Mridupawan Das, Jana Scukova, Miroslav Batek, Lisa Trollo, Davide Sergi, Davide Aliprandi, Alberto Villa, Andrea Palmieri, Mohammed Maher Jouini, Daniele Alfonso, Diego Melpignano:
+Poster Abstract: ST AIoT Craft - A No-Code / Low-Code Cloud Solution for Edge AI Management in Smart Sensors. 636-637
+		Ali Shafiee Sarvestani, Sepehr Tabrizchi, Nader Sehatbakhsh, Arman Roohi:
+Poster Abstract: RL-SEP: RL -Based S mart E xit Point Selection for Enhancing Energy Harvested System Longevity. 638-639
+		Jiale Zhang, Yuyan Wu, Jesse R. Codling, Julia Gersey, Adeola Bannis, Carlos Ruiz Dominguez, Ke Sun, Pei Zhang:
+Poster Abstract: On-Shelf Weight Difference Estimation Through Active Vibration Sensing. 640-641
+		Stephen Taylor, Pat Pannuto:
+Poster Abstract: HERMES - Heavy Element Real-time Monitoring for Environmental Safety. 642-643
+		Avia Anwar, Umut Mete Saka, Gabe Fierro:
+Poster Abstract: Graph Learning on Cyber-Physical Knowledge Graphs. 644-645
+		Yuto Shibata, Matthew Ishige, Hiroaki Murakami, Yoshihiro Kawahara:
+Occlusion-Resilient UWB Localization Via Ceiling Reflection With Floor Anchor Installation. 646-647
+		Tan Chen, Dawei Liu:
+Machine Learning and Big Data on Raspberry Pi: A Performance Evaluation. 648-649
+		Jesse R. Codling, Jeffrey D. Shulkin, Abhipol Vibhatasilpin, Vedant Adhana, Gary A. Rohrer, Jeremy Miles, Sudhendu R. Sharma, Tami M. Brown-Brandl, Hae Young Noh, Pei Zhang:
+Poster Abstract: Multiscale Vibration Sensing for Activity and Vital Signs Monitoring in Pig Pens. 650-651
+		Zimo Ma, Xiangzhong Luo, Qun Song, Rui Tan:
+Poster Abstract: Mobile Vision Dynamic Layer Dropping against Adversarial Attacks. 652-653
+		Demin Gao, Wenchao Jiang, Ruofeng Liu, Yunhuai Liu, Tian He, Shuai Wang, Youbing Wang:
+Poster Abstract: Neural Network-based OFDM/QAM Modulation for Wi-Fi-to-X Communication. 654-655
+		Michal Maj, Tomasz Rymarczyk, Michal Styla, Tomasz Cieplak, Damian Pliszczuk, Jakub Pizon:
+Poster: Optimizing Radio Tomography with Edge Computing: A Low-Latency Approach for Human Detection. 656-657
+		Grzegorz Klosowski, Tomasz Rymarczyk, Monika Kulisz, Michal Oleszek, Konrad Niderla:
+Poster: Application of LSTM Network with Multi-frequency Measurement Sequences in Electrical Tomography for Moisture Detection in Buildings. 658-659
+		Chandranshu Gupta, Gaurav Kumar, Manish Kumar Gupta, Satyadev Ahlawat, Gaurav Varshney:
+Poster Abstract: SRAM PUF-Based Logic Locking for Secure Authentication and IP Protection. 660-661
+		Sakila S. Jayaweera, Muhammed Zahid Ozturk, Beibei Wang, K. J. Ray Liu:
+Poster Abstract: Robust Deep Learning Based Residential Occupancy Detection With WiFi. 662-663
+		Cheng Jiang, Yihe Yan, Yanxiang Wang, Chun Tung Chou, Wen Hu:
+Poster Abstract: CARTS: Cooperative and Adaptive Resource Triggering for 5G ISAC. 664-665
+		Maria Shtark, Alexander Kozhevnikov, Petr Ivanov, Ilya Makarov:
+Poster Abstract: Minimizing Labeling Efforts for Fault Detection and Diagnosis. 666-667
+		Liming Zhang, Yanling Bu, Yanni Yang:
+Poster Abstract: Real-Time Active Identification and Tracking of UAVs Using Millimeter-Wave Radar. 668-669
+		Aleksandr Kovalenko, Aleksey Evdakov, Galina Filatova, Andrey Yablokov, Aleksandr Bulashov, Ilya Makarov:
+Poster Abstract: Autonomous AI-Driven Grid Protection: Sub-Cycle Fault Response via NPU-Optimized Neural Networks. 670-671
+		Mainak Chakraborty, Bodhibrata Mukhopadhyay, Subrat Kar:
+Poster Abstract : A Structural Vibration-based Gait Abnormality Detection system. 672-673
+		Changyao Lin, Ziyang Zhang, Jie Liu:
+Exploiting Operator-Level Concurrency Control to Guide Deployment for Real-Time Tasks in Edge AI Cluster. 674-675
+		Hetvi Shastri, Walid A. Hanafy, Li Wu, David Irwin, Mani Srivastava, Prashant J. Shenoy:
+Poster Abstract: Rethinking Collaboration Among Mobile Devices in IoT Environments. 676-677
+		Sahil Kumar, Jagpreet Singh, Amit Kumar Dhar, Vishal Krishna Singh:
+OpenIoT-Lab1: an Open Source cost-efficient sensor based Fog-IoT Testbed: An initial prototype. 678-679
+		Kang Yang, Wan Du, Mani Srivastava:
+Poster Abstract: Scalable 3D Gaussian Splatting-Based RF Signal Spatial Propagation Modeling. 680-681
+		Ying Hao, Shuyu Luo, Jiali Deng, Yincheng Jin, Yang Gao, Zhanpeng Jin:
+Poster Abstract: Wear2Rec: An IoT-Driven Context-Aware Music Recommendation. 682-683
+		Bhawana Chhaglani, Jeremy Gummeson, Prashant J. Shenoy:
+Poster Abstract: LiveDetector: Towards Privacy-Preserving Voice Liveness Detection. 684-685
+		Rui Li, Haozheng Li, Yihe Yan, Wen Hu, Mahbub Hassan:
+Poster: Exploring Disruption by Intelligent Reflective Surfaces in mmWave Radar Object Classification. 686-687
+		Saibing Han, Yanling Bu, Yanchao Zhao, Lei Xie:
+Poster Abstract: IMU-assisted Image Stitching for Scenes with Obstructions Based on Camera Motion Sensing. 688-689
+		Abdulrahman Bukhari, Bullo Mamo, Shamima Hossain, Ziliang Zhang, Mohsen Karimi, Daniel Enright, Patricia Manosalva, Hyoseung Kim:
+Poster Abstract: Low-Cost Soil Sensing and Two-Level Classification for Early Stress Detection in Avocado Plants. 690-691
+		Sijie Ji, Xinzhe Zheng, Wei Gao, Mani Srivastava:
+Transforming Mental Health Care with Autonomous LLM Agents at the Edge. 692-693
+		Shaoying Wang, Hansong Zhou, Yukun Yuan, Xiaonan Zhang:
+Non-Intrusive Speaker Diarization via mmWave Sensing. 694-695
+		Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, Dinesh Bharadia:
+Demo Abstract - SIGAR: Sensor Integration Gateway using Augmented Reality. 696-697
+		Said Elhadi, Tao Wang, Yang Zhao:
+Demo Abstract: Underground Root Tuber Sensing via a Wi-Fi Mesh Network. 698-699
+		Sruti Srinidhi, Edward Lu, Akul Singh, Saisha Kartik, Audi Lin, Tarana Laroia, Anthony Rowe:
+An XR Platform that Integrates Large Language Models with the Physical World. 700-701
+		Yang Liu, Alessandro Montanari, Ashok Thangarajan, Khaldoon Al-Naimi, Andrea Ferlini, Ananta Narayanan Balaji, Fahim Kawsar:
+Demo Abstract: Multimodal Bio-Sensing and On-Device Machine Learning: Advancing Health Perception with OmniBuds. 702-703
+		Ziyi Xuan, Yiwen Wu, Yu Yang:
+Demo Abstract: GIDEA: Generative AI-Powered Interactive Design and Evaluation Platform for Assistant Agent Research. 704-705
+		Alec Levy, John Madden, Mirella Pessoa de Melo, Colleen Josephson:
+Demo: Hardware to unleash novel energy sources for outdoor sensor networks. 706-707
+		Zaizhou Yang, Yihui Yan, Fengxu Yang, Zhice Yang:
+Demo Abstract: Using Fingerprint Scanner for On-Body Messaging. 708-709
+		Yuting Wu, Dongfang Guo, Xiangzhong Luo, Qun Song, Rui Tan:
+Demo Abstract: Parameterized Stochastic Ensemble Defense for Object Detection. 710-711
+		Bo Wu, Jerry Li, Ruoshen Mo, Justin Yue, Dinesh Bharadia, Hang Qiu:
+Demo Abstract: Cooperative Multi-modal Sensing. 712-713
+		Allen-Jasmin Farcas, Radu Marculescu:
+Demo Abstract: Lightweight Training and Inference for Self-Supervised Depth Estimation on Edge Devices. 714-715
+		Guangyu Feng, Tess Despres, Paul de La Sayette, Prabal Dutta:
+Demo Abstract: I4C. . . Improving I2C's Dynamism and Efficiency. 716-717
+		George S. Harris, Aidan Lok, Shahriar Nirjon:
+Demo Abstract: Human Strategy Meets AI Execution: An LLM-Driven Gaming Agent. 718-719
+		Liyu Zhang, Yizhen Wang, Wenjie Du, Kwun Ho Liu, Xiaomin Ouyang:
+Demo Abstract: An LLM-Powered Multimodal Mobile Sensing System for Personalized and Interactive Health Behavior Analysis. 720-721
+		Yuanlin Yang, Yuning Chen, Kang Yang, Sikai Yang, Wan Du:
+Demo Abstract: Comprehensive Wireless Soil Component Sensing via VNIR and LoRa. 722-723
+		Siyuan Zhou, Duc Van Le, Rui Tan:
+Demo Abstract: Edge-Cloud Switched Image Segmentation for Autonomous Vehicles. 724-725
+		Pushkal Mishra, Satyam Srivastava, Jerry Li, Kshitiz Bansal, Dinesh Bharadia:
+Demo Abstract: C-Shenron: A Realistic Radar Simulation Framework for CARLA. 726-727
+		Rohith Reddy Vennam, Luke Wilson, Ish Kumar Jain, Dinesh Bharadia:
+Demo abstract: Millimeter-Wave Sub-Arrays for Joint Communications and Interference Suppression. 728-729
+
+w3c valid html last updated on 2026-03-31 23:20 CEST by the dblp team
+
+cc zero all metadata released as open data under CC0 1.0 license
+
+see also: Terms of Use | Privacy Policy | Imprint
+
+dblp was originally created in 1993 at:
+
+University of Trier  
+since 2018, dblp has been operated and maintained by:
+
+Schloss Dagstuhl - Leibniz Center for Informatics  
+the dblp computer science bibliography is funded and supported by:
+
+BMFTR   RLP   SL   Leibniz   DFG   NFDI  

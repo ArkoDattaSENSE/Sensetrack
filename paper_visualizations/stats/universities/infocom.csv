@@ -1,0 +1,903 @@
+university,count
+"Tsinghua University, China",135
+"Shanghai Jiao Tong University, China",68
+"University of Science and Technology of China, China",59
+"Zhejiang University, China",51
+"Nanjing University, China",49
+"Beijing University of Posts and Telecommunications, China",48
+"Beijing Institute of Technology, China",36
+"The Hong Kong Polytechnic University, Hong Kong",30
+"Huazhong University of Science and Technology, China",29
+"City University of Hong Kong, Hong Kong",27
+"Beihang University, China",26
+"Southeast University, China",24
+"Hong Kong University of Science and Technology, Hong Kong",23
+"Nanyang Technological University, Singapore",23
+"Fudan University, China",23
+"Shandong University, China",23
+"University of Electronic Science and Technology of China, China",22
+"The Chinese University of Hong Kong, Hong Kong",22
+"Tianjin University, China",22
+"Sun Yat-sen University, China",21
+"IMDEA Networks Institute, Spain",20
+"Xi'an Jiaotong University, China",19
+"Northeastern University, USA",19
+"Shenzhen University, China",19
+"Xidian University, China",19
+"Jilin University, China",18
+"Zhongguancun Laboratory, China",17
+"Peking University, China",17
+"Massachusetts Institute of Technology, USA",16
+"The Hong Kong University of Science and Technology, Hong Kong",15
+"Hunan University, China",15
+"Singapore University of Technology and Design, Singapore",15
+"The Hong Kong Polytechnic University, China",14
+"Carnegie Mellon University, USA",14
+"Purdue University, USA",14
+"Seoul National University, Korea (South)",14
+"The Ohio State University, USA",13
+"Macquarie University, Australia",13
+"University of Toronto, Canada",13
+"The Pennsylvania State University, USA",13
+"Virginia Tech, USA",12
+"Temple University, USA",12
+"Simon Fraser University, Canada",12
+"Central South University, China",11
+"Wuhan University, China",11
+"Dalian University of Technology, China",11
+"National University of Singapore, Singapore",11
+"Northeastern University, China",11
+"Jinan University, China",11
+"Alibaba Group, China",10
+"Sichuan Normal University, China",10
+"Michigan State University, USA",10
+"Hong Kong Baptist University, Hong Kong",9
+"National University of Defense Technology, China",9
+"Zhejiang University & School of Cyber Science and Technology, China",8
+"Southern University of Science and Technology, China",8
+"Fuzhou University, China",8
+"Delft University of Technology, The Netherlands",8
+"Arizona State University, USA",8
+"China University of Geosciences, China",8
+"Soochow University, China",8
+"TU Berlin, Germany",8
+"The University of Hong Kong, Hong Kong",8
+"University of Victoria, Canada",8
+"Nokia Bell Labs, USA",8
+"China Telecom, China",8
+"Guangzhou University, China",7
+"University of Nebraska-Lincoln, USA",7
+"University of Southern California, USA",7
+"Chinese Academy of Sciences, China",7
+"Georgia Institute of Technology, USA",7
+"Chongqing University, China",7
+"Renmin University of China, China",7
+"Florida State University, USA",7
+"IMDEA Networks, Spain",6
+"Yale University, USA",6
+"Sichuan University, China",6
+"University of Waterloo, Canada",6
+"The University of Sydney, Australia",6
+"University of Vienna, Austria",6
+"Texas A&M University, USA",6
+"North Carolina State University, USA",6
+"Florida International University, USA",6
+"University of British Columbia, Canada",6
+"Budapest University of Technology and Economics, Hungary",6
+"University of Padova, Italy",6
+"George Mason University, USA",6
+"Sun Yat-Sen University, China",6
+"Beijing Jiaotong University, China",6
+"Politecnico di Milano, Italy",6
+"Rice University, USA",6
+"Bell Labs, Nokia, USA",6
+"National Institute of Informatics, Japan",5
+"University of Goettingen, Germany",5
+"Stony Brook University, USA",5
+"University at Buffalo, USA",5
+"Tsinghua University & The Hong Kong University of Science and Technology, China",5
+"Harbin Institute of Technology, Shenzhen, China",5
+"Loughborough University, United Kingdom (Great Britain)",5
+"Rutgers University, USA",5
+"Institute of Computing Technology, Chinese Academy of Sciences, China",5
+"University of California San Diego, USA",5
+"Huawei, China",5
+"Hong Kong Polytechnic University, Hong Kong",5
+"University of Michigan, USA",5
+"Auburn University, USA",5
+"Anhui University of Technology, China",5
+"Northwestern Polytechnical University, China",5
+"University at Albany, SUNY, USA",5
+"Donghua University, China",5
+"NEC Labs Europe, Germany",5
+"ICREA and i2cat & NEC Laboratories Europe, Spain",5
+"Hefei University of Technology, China",5
+"Old Dominion University, USA",5
+"Zhengzhou University, China",5
+"University of Massachusetts at Amherst, USA",4
+"Guangdong University of Technology, China",4
+"Shanghai Jiaotong University, China",4
+"Johns Hopkins University, USA",4
+"Hong Kong University of Science and Technology, China",4
+"Queen's University, Canada",4
+"Imperial College London, United Kingdom (Great Britain)",4
+"University of Nebraska Lincoln, USA",4
+"Nanjing University of Posts and Telecommunications, China",4
+"Peng Cheng Laboratory, China",4
+"Institute of Information Engineering, Chinese Academy of Sciences, China",4
+"The Chinese University of Hong Kong, Shenzhen, China",4
+"Ontario Tech University, Canada",4
+"University of Exeter, United Kingdom (Great Britain)",4
+"Princeton University, USA",4
+"Capital Normal University, China",4
+"Columbia University, USA",4
+"University of California, San Diego, USA",4
+"Ocean University of China, China",4
+"Xiamen University, China",4
+"Yanshan University, China",4
+"TianJin University, China",4
+"Chinese University of Hong Kong, Hong Kong",4
+"Chung-Ang University, Korea (South)",4
+"NEC Laboratories Europe, Germany",4
+"Politecnico di Torino & CNIT, IEIIT-CNR, Italy",4
+"Technical University of Munich, Germany",4
+"Hohai University, China",4
+"Kanazawa University, Japan",4
+"Information Engineering University, China",4
+"Harbin Institute of Technology, China",4
+"Fuzhou University & Quan Cheng Laboratory, China",4
+"Nanjing University of Science and Technology, China",4
+"Clemson University, USA",4
+"National University of Defence Technology, China",4
+"University of Edinburgh, United Kingdom (Great Britain)",4
+"East China Normal University, China",4
+"Microsoft Research Asia, China",4
+"Nanjing University of Aeronautics and Astronautics, China",4
+"University of Texas at Austin, USA",4
+"University of Kentucky, USA",3
+"University of Houston, USA",3
+"HKUST, Hong Kong",3
+"Yonsei University, Korea (South)",3
+"Rochester Institute of Technology, USA",3
+"Indian Institute of Technology Kharagpur, India",3
+"Futurewei Technologies, USA",3
+"IMDEA Networks Institute, Spain & Universidad Carlos III de Madrid, Spain",3
+"Tencent, China",3
+"Shanghai Tree-Graph Blockchain Research Institute, China",3
+"ShanghaiTech University, China",3
+"Ericsson, Canada",3
+"The University of Texas at Austin, USA",3
+"Xiangtan University, China",3
+"University of Delaware, USA",3
+"TU Darmstadt, Germany",3
+"Virginia Tech & Kryptowire, USA",3
+"Northeast Normal University, China",3
+"Wuhan University of Technology, China",3
+"University of Pittsburgh, USA",3
+"South Asian University, India",3
+"Kyoto University, Japan",3
+"Tianjin Key Laboratory of Advanced Networking, Tianjin University, China",3
+"Shanghai Zhuichu Networking Technologies Co., Ltd., China",3
+"University of Massachusetts Lowell, USA",3
+"Sharif University of Technology, Iran",3
+"University of South Florida, USA",3
+"Lingnan University, Hong Kong",3
+"Eötvös Loránd University, Hungary",3
+"University of Colorado Boulder, USA",3
+"Institute of Software Chinese Academy of Sciences, China",3
+Sun Yat-sen University,3
+"The Hong Kong University of Science and Technology (Guangzhou) & The Hong Kong University of Science and Technology, Hong Kong",3
+"NEC Laboratories Europe GmbH, Germany",3
+"Universidad Carlos III de Madrid & IMDEA Networks Institute, Spain",3
+"Hangzhou Dianzi University, China",3
+"Georgia Tech, USA",3
+"University of California, Irvine, USA",3
+"Colorado School of Mines, USA",3
+"The University of Aizu, Japan",3
+"Fudan University & AIWiSe Company, China",3
+"Beihang University & Key Laboratory of Aerospace Network Security Ministry of Industry and Information Technology, China",3
+"Nokia & Bell Labs, USA",3
+"Brown University, USA",3
+"Hong Kong University of Science and Technology (Guangzhou), China",3
+"University of Amsterdam, The Netherlands",3
+"Ant Group, China",3
+Francesco Restuccia,3
+"Incheon National University, Korea (South)",3
+"Air Force Research Laboratory, USA",3
+"Tsinghua Shenzhen International Graduate School, China",3
+China,3
+"Indian Institute of Science, India",3
+"University of Minnesota, USA",3
+"China Telecom Cloud Computing Research Institute, USA & Temple University, USA",3
+"The Hong Kong University of Science and Technology, China",3
+"University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, China",3
+"Armasuisse, Switzerland",2
+"Universitat Politècnica de Catalunya, Spain",2
+"Georg-August-University of Göttingen, Germany",2
+"Nanjing University & State Key Laboratory for Novel Software Technology, China",2
+"Duke University, USA",2
+"Huawei Chengdu Research Center, China",2
+"University of Macau, Macao",2
+"Beijing Kuaishou Technology Co., Ltd, China",2
+"HUAWEI, China",2
+"Huawei, Hong Kong",2
+"Noah's Ark Lab, Huawei, Hong Kong",2
+"Harvard University, USA",2
+"China Mobile Software Technology, China",2
+"KU Leuven, Belgium",2
+"UAlbany SUNY, USA",2
+"East China Jiaotong University, China",2
+"China University of Petroleum, China",2
+"Vidyasirimedhi Institute of Science and Technology, Thailand",2
+"University of Oregon, USA",2
+"IBM T. J. Watson Research Center, USA",2
+"US Army Research Lab, USA",2
+"DEVCOM Army Research Laboratory, USA",2
+"Intel, China",2
+"China-Singapore International Joint Research Institute, China",2
+"China University of Geosciences, Wuhan, China",2
+"University of Colorado Denver, USA",2
+"National Taiwan University of Science and Technology, Taiwan",2
+"Yangzhou University & Southeast University, China",2
+"College of Computer Science, Zhejiang University, China",2
+"Hong Kong Polytechnical University, Hong Kong",2
+"University of Chinese Academy of Sciences, China",2
+"Beijing University of Posts & Telecommunications, China",2
+"CNIC Chinese Academy of Sciences & University of Chinese Academy of Sciences, China",2
+"The University of Electro-Communications, Japan",2
+"Hunan Normal University, China",2
+"Stevens Institute of Technology, USA",2
+"Kryptowire LLC, USA",2
+"Beijing Institute of Techology, China",2
+"New York Institute of Technology, USA",2
+"University of Surrey, United Kingdom (Great Britain)",2
+"RWTH Aachen University, Germany",2
+"Fondazione Bruno Kessler, Italy",2
+"IBM Research -- Haifa, Israel",2
+"IBM Research - Haifa, Israel",2
+Huawei Huang,2
+"Zhejiang University, China & University of Illinois at Urbana Champaign (UIUC), USA",2
+"Institute of Computing Technology Chinese Academy of Sciences, China",2
+"Illinois Institute of Technology, USA",2
+"Nanjing University, China & State Key Laboratory for Novel Software Technology, China",2
+"Taiyuan University of Technology, China",2
+"Beijing Normal University (Zhuhai) and UIC, China",2
+"Xi'an Jiaotong University & Tsinghua University, China",2
+"University of Massachusetts Amherst & California Institute of Technology, USA",2
+"Beijing University of Posts and Telecommunication, China",2
+"Tel-Aviv University, Israel",2
+"HeFei University of Technology, China",2
+"University of Massachusetts Amherst, USA",2
+"The Hong Kong University of Science and Technology & Queen Mary University of London, Hong Kong",2
+"The Hong Kong University of Science and Technology (HKUST), Hong Kong",2
+"National Yang Ming Chiao Tung University, Taiwan",2
+"National Chung Cheng University, Taiwan",2
+"Huawei Technologies Co., Ltd., China",2
+"University of Louisiana at Lafayette, USA",2
+"Vienna University of Technology, Austria",2
+"Dublin City University, Ireland",2
+"Northwestern University, USA",2
+"ELTE Eötvös Loránd University, Hungary",2
+"Aalborg University, Denmark",2
+"Nanjing Normal University, China",2
+"Università della Svizzera Italiana, Switzerland",2
+"Fixstars, Japan",2
+"NTT, Japan",2
+"University of Warwick, United Kingdom (Great Britain)",2
+"BeiHang University, China",2
+"Institute of Computing Technology, Chinese Academy of Sciences & Nanjing Institute of InforSuperBahn, China",2
+"University of Virginia, USA",2
+"University of Tehran, Iran",2
+Younsuk Dong and Zhichao Cao,2
+"Telefonica Research, Spain",2
+"Telefónica Research, Spain",2
+"University of Washington, USA",2
+"Los Alamos National Lab, USA",2
+"Los Alamos National Laboratory, USA",2
+"Sandia National Laboratories, USA",2
+"Sangmyung University, Korea (South)",2
+"The Chinese University of Hong Kong, China",2
+"NEC Laboratories Europe, Spain",2
+Francesca Meneghello,2
+"Sun Yat-sen University, USA",2
+"Microsoft Research, China",2
+"China Mobile, China",2
+"George Washington University, USA",2
+"University of Tsinghua, China",2
+"Shanghai Enflame Technology Company Limited, China",2
+"Cisco Research, USA",2
+"Pengcheng Laboratory, China",2
+Yukun Yuan,2
+"University of Tennessee at Chattanooga, USA",2
+"University at Albany, USA",2
+"Case Western Reserve University, USA",2
+"Zhejiang Gongshang University, China",2
+"Zhejiang Lab, China",2
+"Ericsson Canada, Canada",2
+"University of Minnesota - Twin Cities, USA",2
+"KAIST, Korea (South)",2
+"Institute of Information Engineering, Chinese Academy of Sciences & School of Cyber Security, University of Chinese Academy of Sciences, China",2
+"Institute of Information Engineering, Chinese Academy of Sciences & School of Cyber Security, UCAS, China",2
+"NanJing University, China",2
+"REASONS Lab, Institute for Network Sciences and Cyberspace, Tsinghua University, China",2
+"Zhongnan Hospital of Wuhan University, China",2
+"University of Cambridge, United Kingdom (Great Britain)",2
+"NC State University, USA",2
+"China Mobile (Suzhou) Software Technology Co., Ltd, China",2
+"Shanghai University of Finance and Economics, China",2
+"Université Gustave Eiffel, France",2
+"University of Science and Technology Beijing, China",2
+"University of Jinan, China",2
+"University of Palermo, Italy",2
+"The University of Osaka, Japan",2
+"Huawei Cloud Computing Technologies Co., Ltd., China",2
+"China Telecom Cloud Computing Research Institute, China",2
+"Hanyang University, Seoul, South Korea, Korea (South)",2
+"China University of Petroleum (East China), China",2
+"China University of Petroleum (East China) & College of Computer Science and Technology, China",2
+"Computer Network Information Center, Chinese Academy of Sciences & University of Chinese Academy of Sciences, China",2
+"Singapore Management University, Singapore",2
+"The University of Edinburgh, United Kingdom (Great Britain)",2
+"University of Neuchatel, Switzerland",2
+"The University of Texas at Dallas, USA",2
+"Korea Institute of Energy Technology, Korea (South)",2
+"the Ohio State University, USA",1
+"Washington University in St. Louis, USA",1
+"Universidad Rey Juan Carlos, Spain",1
+"University of Massachusetts Amherst MA, USA",1
+"School of CSE, Huazhong University of Science and Technology, China",1
+Kensuke Fukuda,1
+"Nanjing University & University of Goettingen, China",1
+"University of Science and Technology of China & School of Computer Science and Technology, China",1
+"University of California at Santa Cruz, USA",1
+"University of South Carolina, USA",1
+"Universidad Carlos III de Madrid, Spain",1
+Xi'an jiaotong University,1
+"Chinaso, China",1
+"Southern University of Science and Technology & Peng Cheng Laboratory, China",1
+"University of Massachusetts, Amherst, USA",1
+"Southern University of Science and Technology, USA",1
+Fudan University,1
+"Stanford University, USA",1
+"Sirris, Belgium",1
+"NTT Network Innovation Labs., Japan",1
+"Yonsei University, S. Korea, Korea (South)",1
+"East China Jiaotong University, China & University of South China, China",1
+"Max Planck Institute for Informatics, Germany",1
+"ARM Research, USA",1
+"Khon Kaen University, Thailand",1
+"The Australian National University, Australia",1
+"Institute for Developemnt and Research in Banking Technologies, India",1
+"Ben Gurion University, Israel",1
+"Ben-Gurion University of the Negev, Israel",1
+"National Institute of Standards and Technology, USA",1
+"University of California, Berkeley, China",1
+"University of Nebraska, USA",1
+"China Coal Research Institute, China",1
+"State University of New York at Binghamton, USA",1
+"Shenzhen University, unknown",1
+"NEXCEPTA INC, USA",1
+"University of Electronic Science and Technology of China (UESTC), China",1
+"University of Utah, USA",1
+"US Army Research Laboratory, USA",1
+"Tencent Technology Co. Ltd, China",1
+"University of Chicago, USA",1
+"Imdea Networks, Spain",1
+"Beijing University of Technology, China",1
+"Tsinghua University, China & Zhongguancun Laboratory, China",1
+"New York University, USA",1
+"Fortinet, Inc., USA",1
+"NYU Tandon School of Engineering, USA",1
+"Communication University of China, China",1
+"Huazhong University of Science and Technology & HUST, China",1
+"Beijing University of Aeronautics and Astronautics, China",1
+"University of Geosciences, China",1
+"Microsoft Cloud&AI, USA",1
+"Xiamen University, USA",1
+"Alibaba Cloud & Shanghai Jiao Tong University, China",1
+"Alibaba Group & Zhejiang University, China",1
+"WINLAB, Rutgers University, USA",1
+"IMO Ventures, China",1
+"University of Wisconsin Madison, USA",1
+"WISC, France",1
+"University of California Los Angeles, USA",1
+"SUSTech, China",1
+"& Peng Cheng Laboratory, China",1
+"The National Computer Network Emergency Response Technical Team Coordination Center of China, China",1
+"Ozyegin University, Turkey",1
+"Alibaba, China",1
+"Douglas College, Canada",1
+"Institute of Information Engineering, University of Chinese Academy of Sciences, China",1
+"The Hang Seng University of Hong Kong, Hong Kong",1
+"Universitat Rovira i Virgili, Spain",1
+"China University of Geosciences (wuhan) & China University of Geosciences, China",1
+"Durham University, UK",1
+"IMDEA Networks Institute, Spain & Information Technology University, Pakistan",1
+Vincenzo Mancuso and Marco G Ajmone Marsan,1
+"HES SO Valais, Switzerland & Universita' di Foggia, Italy",1
+"University of Murcia & University Carlos III, Spain",1
+"University of California at Merced, USA",1
+"Universidade Federal de Minas Gerais, Brazil",1
+"UFMG, Brazil",1
+"University of Illinois at Chicago, USA",1
+"Technion, Israel",1
+"Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, China",1
+"Northeastern University, Boston, MA, US, USA",1
+"CNIC & Chinese Academy of Sciences, China",1
+"CNIC Chinese Academy of Sciences, China",1
+"Budapest University of Technology and Economics (BME), Hungary",1
+"UC Riverside, USA",1
+"University of California, Riverside, USA",1
+"Ibaraki University, Japan",1
+"University of Texas at Dallas, USA",1
+"University of Padua, Italy",1
+"Technische Universität Darmstadt & Secure Mobile Networking Lab, Germany",1
+"Virginia Polytechnic Institute and State University, USA",1
+"Technical University of Berlin, Germany",1
+"The University of Hong Kong & The Hong Kong Polytechnic University, Hong Kong",1
+"Beijing University of Posts And Telecommunications, China",1
+"Indiana University-Purdue University Indianapolis, USA",1
+"IUPUI, USA",1
+"Stanford University & Massachusetts Institute of Technology, USA",1
+"RWTH Aachen University, Germany & Aalto University, Finland",1
+"Sungkyunkwan University, Korea (South)",1
+"Huawei Noah's Ark Lab, China",1
+"Northeastern University & No Company, China",1
+"Technion - Israel Institute of Technology & Google, Israel",1
+Xinchen Zhang and Running Zhao,1
+"The University of Hong Kong, China",1
+"The University of Hong Kong & Uppsala University, Hong Kong",1
+"Nokia Bell Labs, Germany",1
+"Mei Tuan, China",1
+"Institute of Computing Technology, China",1
+"University of Wisconsin - Madison, USA",1
+"Boston University, USA",1
+"Colgate University, USA",1
+Anouk S. Goossens,1
+"University of Groningen, The Netherlands",1
+"TU Ilmenau, Germany",1
+"TU Dortmund, Germany",1
+"School of Data and Computer Science, Sun Yat-sen University, China",1
+"Chinamobile Cloud Centre, China",1
+"MS at Northeastern University, USA",1
+"The University of Texas Arlington, USA",1
+"The University of Adelaide, Australia",1
+"University of Adelaide, Australia",1
+"Alibaba Cloud & Zhejiang University, China",1
+"Tsinghua University and Alibaba Group, China",1
+"City University of Hong Kong, China",1
+"Institute for Network Sciences and Cyberspace, Tsinghua University, China",1
+"Huawei Theory Lab, Hong Kong",1
+"Sun Yat-Sen University, China & Peng Cheng Laboratory, China",1
+"Shenzhen University, China & The University of British Columbia, Canada",1
+"Xi an Jiaotong University, China",1
+"Drexel University, USA",1
+"Texas A and M University, USA",1
+Christoph F Mecklenbräuker,1
+"UCSD, USA",1
+"TU Wien, Austria",1
+"Microsoft, United Kingdom (Great Britain)",1
+Francesco Restuccia and Tommaso Melodia,1
+"University of Oklahoma, USA",1
+"University of Miami, USA",1
+"ELTE, Eötvös Loránd University, Hungary",1
+"Macau University of Science and Technology, Macao",1
+"University of Liverpool, United Kingdom (Great Britain)",1
+"Reichman University, Israel",1
+"Tel Aviv University, Israel",1
+"Hong Kong University of Science and Technology (Guangzhou) & Sun Yat-Sen University, China",1
+"Tsinghua University & Shanghai Artificial Intelligence Laboratory, China",1
+"Graduate School at Shenzhen, Tsinghua University, China",1
+"BestPay Co.，Ltd，China Telecom, China",1
+"Bestpay Co., Ltd, China Telecom, China",1
+"Indian Institute of Technology Bombay, India",1
+"Innopolis University, Russia",1
+Sarit Mukherjee and Limin Wang,1
+"University of Göttingen, Germany & Protocol Labs Inc., USA",1
+"Hong Kong University of Science & Technology (GZ), China",1
+"Protocol Labs & University College London, United Kingdom (Great Britain)",1
+"FIZ-Karlsruhe, Germany",1
+"Queen Mary University of London, United Kingdom (Great Britain)",1
+"University of Göttingen, Germany",1
+"Guangxi Normal University, China",1
+"Hangzhou Innovation Institute, Beihang University & Beihang University, China",1
+"National Taiwan University, Taiwan",1
+"Georgia State University, USA",1
+Vallabh Ramakanth,1
+"Sejong University, Korea (South)",1
+"National Yang-Ming Chiao-Tung University, Taiwan",1
+"Xiamen, China",1
+"Telecom Paris, Institute Polytechnique de Paris, France",1
+"Nokia Bell Labs, France",1
+"Telecom Paris, France",1
+"Shanghai JiaoTong University, China",1
+Vincenzo Sciancalepore,1
+"University of Granada, Spain",1
+"Politecnico di Torino, Italy",1
+"Siemens AG, Germany",1
+"Shenzhen Institute of Computing Sciences, China",1
+"Unaffiliated, China",1
+"University of Electronic Science and Technology, China",1
+"ByteDance, China",1
+"Bytedance Ltd., China",1
+"Bytedance, China",1
+"Non, China",1
+"Bytedance Inc., China",1
+"Tsinghua Shenzhen Internation Graduate School, China",1
+"Tencent Quantum Laboratory, Hong Kong",1
+"Tencent Quantum Laboratory, China",1
+Francesco Malandrino,1
+"University of California Irvine, USA",1
+"CNR-IEIIT, Italy",1
+"Beijing University of Posts & Telecommunications, TU Wien, China",1
+"Huawei Technologies Co., Ltd, China",1
+"Zhejiang University & Singapore University of Technology and Design, China",1
+"Indian Institute of Technology Hyderabad, India",1
+"IIT Hyderabad, India",1
+"Expatiate Communications, USA",1
+"ByteDance Technology Co., Ltd., China",1
+"ByteDance Inc., China",1
+"Lancaster University, United Kingdom (Great Britain)",1
+"University of Plymouth, United Kingdom (Great Britain)",1
+Tommaso Melodia and Francesco Restuccia,1
+"CISS, Denmark",1
+"University of Minnesota at Duluth, USA",1
+"TsingHua University, China",1
+"University of Nanjing, China",1
+"University of Luxembourg & SnTInterdisciplinary Centre for Security, Reliability and Trust (SnT), Luxembourg",1
+"University of Luxembourg, Luxembourg",1
+"Bordeaux-INP, France",1
+"SAP SE & TU Darmstadt, Germany",1
+"Vivenu & TU Darmstadt, Germany",1
+"Huawei Technologies, Germany",1
+"Università della Svizzera Italiana (USI), Switzerland & Purdue University, TU Darmstadt, SensorHound Inc., USA",1
+"Paderborn University, Germany & Vrije Universiteit Amsterdam, The Netherlands",1
+Takashi Uchida and Yuki Matsuda,1
+Yuki Arikawa,1
+"NTT Device Technology Labs, NTT Corporation, Japan",1
+"University of Duisburg-Essen, Germany",1
+"McMaster University, Canada",1
+"École de Technologie Supérieure, Canada",1
+"Ecole de Technologie Superieure, Canada",1
+"Korea Institute of Science and Technology (KIST), Korea (South)",1
+"Stratifyd Inc., USA",1
+"University College Dublin and VistaMilk SFI, Ireland",1
+"University College Dublin, Ireland",1
+Hyunseok Chang and Sarit Mukherjee,1
+"Intel Asia-Pacific Research & Development Ltd., China",1
+"University of Michigan, Ann Arbor, USA",1
+"Atheraxon, USA",1
+"Chinatelecom Research Institute, China",1
+"Shandong Future Network Research Institute, China",1
+"Institute of Information Technology, Alpen-Adria Universität Klagenfurt, Austria",1
+"University of Klagenfurt, Austria",1
+"Alpen-Adria-Universität Klagenfurt & Bitmovin, Austria",1
+"Klagenfurt University, Austria",1
+"Clemson & Clemson University, USA",1
+"China United Network Telecommunications Corporation Limited, China",1
+"ZJU-UIUC Institute, Zhejiang University, China",1
+"Linköping University, Sweden",1
+"DGIST, Korea (South)",1
+"Zhejiang Lab, Hangzhou, Zhejiang, China",1
+"Central University of Finance and Economics, China",1
+"Zhejiang Sci-Tech University, China",1
+"Nankai University, China & Simon Fraser University, Canada",1
+"University of Mississippi, USA",1
+"National Institute of Information and Communications Technology & Osaka University, Japan",1
+"Kyoto Sangyo University, Japan",1
+"Osaka Metropolitan University, Japan",1
+Vitalii Demianiuk,1
+"Università Della Svizzera Italiana (USI), Switzerland & TurbaAI, Germany",1
+"TurbaAI, Germany",1
+"Harbour Space University, Spain",1
+"Università Della Svizzera Italiana (USI), Switzerland",1
+"Northwest A&F University, China",1
+"Institute 706The Second Academy of China Aerospace Science & Industry Corp., China",1
+"Hamburg University of Applied Sciences, Germany",1
+"Technische Universität Dresden, Germany",1
+"University of Science and Technology of China & Nanjing University, China",1
+"University of Essex, United Kingdom (Great Britain)",1
+"New Jersey Institute of Technology & The Ohio State University, USA",1
+"Huawei Technologies Co. Ltd., China",1
+"The State Radio Monitoring Center, China",1
+"Beihang University, China & Zhongguancun Laboratory, China",1
+"Nankai University, China",1
+"Beijing Academy of Blockchain and Edge Computing, China",1
+"The Institute of Artificial Intelligence, Beihang University, China",1
+"Tsinghua University & Institute of Software, Chinese Academy of Sciences, China",1
+"Central South University & Jiangxi University of Science and Technology, China",1
+"Jiangxi University of Science and Technology, China",1
+"IMDEA Networks Institute & Universidad Carlos III de Madrid, Spain",1
+"Cnam, France & Ericsson France, France",1
+"Ericsson, France",1
+"Expert, Sweden",1
+"Conservatoire National des Arts et Métiers, France",1
+"Cnam, France",1
+"South China University of Technology, China",1
+Md Ashikul Haque and Abusayeed Saifullah,1
+"Wayne State University, USA",1
+"Universtiy of Otago, New Zealand",1
+"Sapienza University of Rome, Italy",1
+"Innovation Academy for Microsatellites, Chinese Academy of Sciences, China",1
+"German Aerospace Center (DLR), Germany",1
+"Università degli Studi di Padova, Italy",1
+Hichem Guerboukha,1
+"University of Missouri-Kansas City, USA",1
+"Huawei Technologies, China & The George Washington University, USA",1
+"China University of Mining and Technology, China",1
+"Changsha University of Science and Technology & Hong Kong University of Science and Technology, China",1
+"Heriot-Watt University, United Kingdom (Great Britain)",1
+"University of Amsterdam & QuSoft, Germany",1
+"The Chinese University of Hong Kong, ShenZhen, China",1
+"NingboTech University, China",1
+Usama Ejaz,1
+"The Islamia University of Bahawalpur, Pakistan",1
+"The Chinese University of Hong Kong, Hong Kong & Purdue University, West Lafayette (on Leave), USA",1
+"Universitas Mercatorum, Italy",1
+"University of Bologna, Italy",1
+"University of North Carolina at Chapel Hill, USA",1
+"University of British Columbia, France",1
+"Institute of Information Engineering，Chinese Academy of Sciences, China",1
+"CNCERT/CC, China",1
+"University of Chinese Academy of Sciences, China & Institute of Information Engineering, Chinese Academy of Sciences, China",1
+"Teesside University, UK",1
+"The University of Akron, USA",1
+"Ohio State University, USA",1
+"Google Research, USA",1
+"Renming University of China, China",1
+"Renmin University of CChina, China",1
+"University of Glasgow, United Kingdom (Great Britain)",1
+"State Key Lab of ASIC and System, Fudan University, China",1
+"University of Illinois Urbana-Champaign, USA",1
+"University of Bern, Switzerland",1
+"Swiss Federal Institute of Technology Lausanne (EPFL), Switzerland",1
+"University of Wisconsin-Madison, USA",1
+Francesco Gringoli,1
+"CNIT/University of Brescia, Italy",1
+"Beijing University of Post and Telecommunications, China",1
+"Huawei Beijing Research Institute HI-SILICON Laboratory, China",1
+"University of California, Berkeley, USA",1
+"Hunan University, China & NA, China",1
+"Chinese Academy of Science & Institute of Computing Technology, China",1
+"Hunan University of Science and Technology, China",1
+Jian Zheng and Huawei Huang,1
+"University of Illinois, Urbana-Champaign, USA",1
+"University of Illinois, Urbana Champaign, USA",1
+"University of Massachusetts - Amherst, USA",1
+"Shanghai Institute of Satellite Engineering, China",1
+"University of Umass Amherst, China",1
+Liming Luke Chen,1
+"Microsoft Research Asia & University of Massachusetts Amherst, USA",1
+"Ulster University, United Kingdom (Great Britain)",1
+"Federal University of Pernambuco (UFPE), Brazil",1
+"University of Minnesota & Nanjing Forestry University, China",1
+"Bose, USA",1
+"Nanjing Forestry University, China",1
+"Peking University & Chinese Academy of Sciences, China",1
+"Beijing Jiao Tong University, China",1
+"Microsoft Research Asia, Hong Kong",1
+"NVIDIA, China",1
+"NVIDIA, USA",1
+"Microsoft Research, USA",1
+"Nanjing University, Vietnam",1
+Fusang Zhang,1
+"Institute of Software, Chinese Academy of Sciences and Univerisity of Chinese Academy of Sciences",1
+"Chinese Academy of Sciences & University of Chinese Academy of Sciences, China",1
+"Institute of Software Chinese Academy of Science & University of Chinese Academy of Sciences, China",1
+"Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences, China",1
+"US Army Research Laboratory & Massachusetts Institute of Technology, USA",1
+"The Hong Kong University of Science and Technology (Guangzhou), China",1
+"Hong Kong University of Science and Technology (Guangzhou) & Shanghai Reserach Center for Wireless Communications, China",1
+"Beijing Institute of Technology & Jinan University, China",1
+"Shanxi University, China",1
+"Xi‘an Jiaotong University, China",1
+"Shanghai Jiaotong University, Hong Kong",1
+"National University off Singapore, Singapore",1
+"Pennsylvania State University, USA",1
+"Beihang University & Shanghai Enflame Technology Company Limited, China",1
+"Shanghai Enflame Technology Company Limited & Chinese Academy of Sciences, China",1
+"University Paris Dauphine, France",1
+"Orange Innovation, France",1
+"Université Paris-Dauphine & Orange Innovation, France",1
+"University of Maryland, USA",1
+"Northeastern University & Institute for the Wireless Internet of Things, USA",1
+"JINAN University, China",1
+"The Hong Kong Polytechnic University, Afghanistan",1
+"UNC Greensboro, USA",1
+"Tianjin University of Finance and Economics, China",1
+"SMBU, China & The University of British Columbia, Canada",1
+"Tsinghua Shenzhen International Graduate School, China; Pengcheng Laboratory, China",1
+"University at Albany -- SUNY, USA",1
+"Hamilton College, USA",1
+"University at Albany-SUNY, USA",1
+"RMassachusetts Institute of Technology University, Australia",1
+"University of Florida, USA",1
+"Universidad Carlos III de Madrid & IMDEA Networks, Spain",1
+"Microsoft Asia-Pacific Technology Co., Ltd., China",1
+"Technion - Israel Institute of Technology, Israel",1
+"INRIA, France",1
+"Singapore University of Technology and Design (SUTD), Singapore",1
+"Goerge Mason University, USA",1
+"University of Alabama, Huntsville, USA",1
+"Southwest Jiaotong University, China",1
+"The Hong Kong University of Science and Technology (HKUST), China & University of Houston, USA",1
+"China Telecom Research Institute, China",1
+"Sichuan University & University of Minnesota, China",1
+"State Grid Liaoning Electric Power Co., Ltd. Information & Communication Branch, China",1
+"Beijing University of Posts and Telecommunications & State Key Laboratory of Networking & Switching Technology, China",1
+"Beijing University of Posts and Telecommunications (BUPT), China",1
+Tsinghua University,1
+Beijing University of Posts and Telecommunications,1
+"University of Texas at El Paso, USA",1
+"Iowa State University, USA",1
+"The University of Arizona, USA",1
+"Old Dominion University & School of Cybersecurity, USA",1
+"Samsung Electronics, Korea (South)",1
+Xinchi Han,1
+"Xi'an Jiaotong University, China & Shanghai Innovation Institute, China",1
+"Shanghai Jiao Tong University & Zhongguancun Academy, China",1
+"National Institute of Information and Communications Technology (NICT), Japan",1
+China Unicom Co.Ltd,1
+"CAS, China",1
+"Research Institute, Runjian Co., Ltd., China",1
+"NARI Group Corporation, State Grid Electric Power Research Institute, China",1
+"Yeshiva University, USA",1
+"Institute of Information Engineering, Chinese Academy of Sciences, China & School of Cyber Security, University of Chinese Academy of Sciences, China",1
+"Budapest University of Technology and Economics, Hungary & Babes Bolyai University, Cluj Napoca, Romania",1
+"School of Cyberspace Security, Beijing University of Posts and Telecommunications, China",1
+Khandaker Foysal Haque and Francesca Meneghello,1
+"United States Air Force, USA",1
+"AFRL, USA",1
+"Florida Atlantic University, USA",1
+"Information Support Force Engineering University, China",1
+"School of Software and Microelectronics. Peking University Beijing, China",1
+"Nanchang University, China",1
+"Nanchang University, Hong Kong",1
+Jincheng Ding,1
+"East China Normal University & Shanghai Innovation Institute, China",1
+"East China Normal University, China & Shanghai Innovation Institute, China",1
+"JiLin University, China",1
+"Institute of Information Engineering, CAS, China & School of Cyber Security, University of Chinese Academy of Sciences, China",1
+"Institute of Information Engineering, CAS, China",1
+"National Computer Network Emergency Response Technical Team Coordination Center, China",1
+"School of Cyber Security, University of Chinese Academy of Sciences, China",1
+"Institute of Information Engineering, China Academy of Science, Beijing, China",1
+"Aalto University, Finland",1
+"National Institute of Informatics, Japan & Graduate University for Advanced Studies, Japan",1
+"Hainan University, China",1
+"Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, China",1
+"Microsoft, China",1
+"Shanghai Maritime University, China",1
+"CNAM, France",1
+"Innovation Academy for Microsatellites of Chinese Academy of Sciences, China",1
+"University of Shanghai for Science and Technology, China",1
+"USTC, China",1
+"InterDigital Inc., Canada",1
+"InterDigital, Canada",1
+"InterDigital Communications, USA",1
+"InterDigital Communications Corp., USA",1
+"InterDigital, USA",1
+"Intel Labs, India",1
+"Intel Labs, USA",1
+Shandong University,1
+"Aarhus University, Denmark",1
+"Macao Polytechnic University, Macao",1
+"Noah's Ark Lab, Huawei Technologies, China",1
+"China Mobile (Suzhou) Software Technology, JiangSu, China",1
+"Hangzhou Yugu Technology, China & Zhejiang Lab, China",1
+"Towson University, USA",1
+"Army Research Laboratory, USA",1
+"Kunming University of Science and Technology, China",1
+"Zhejiang University of Technology, China",1
+"University of Bordeaux, CNRS, Bordeaux-INP, LaBRI, France",1
+"Université Gustave Eiffel, France & USTTB, Mali",1
+"CY Cergy Paris University, France",1
+"Université de Poitiers, France",1
+"University of Oslo, Norway",1
+"COSYS, Université Gustave Eiffel, IFSTTAR, Univ Lille & Railenium, France",1
+"Université de Bordeaux, France",1
+"Nanjing University of Chinese Medicine, China",1
+"Beijing University of Science and Technology, China",1
+"University of South Carolina - Upstate, USA",1
+"Université Paris Cité, France",1
+"Kyung Hee University, Korea (South)",1
+Yanhong Xu and Linchuan Tan,1
+"Zhengzhou University of Light Industry, China",1
+"Tokyo City University, Japan",1
+"Shandong Technology and Business University, China & 山东工商学院, China",1
+"Shandong Technology and Business University, China",1
+"Beijing Normal University, China",1
+"Institute of Computing Technology, Chinese Academy of Sciences",1
+"ICT, CAS",1
+"UCAS, China",1
+"University of Bristol, United Kingdom (Great Britain)",1
+"Università degli Studi di Palermo, Italy",1
+"University of Palermo, Italy & CNIT Italian National Consortium for Telecommunications, Italy",1
+Yuki Koizumi,1
+"Shimane University, Japan",1
+"Nokia Bell Labs, Belgium",1
+"ShangHai Jiao Tong University, China",1
+"National Key Lab for Novel Software Technology, Nanjing University, China",1
+"Institute of China Electronic System Engineering, China",1
+"School of Communications and Information Engineering, Nanjing University of Post, China",1
+"Zhejiang University, China & Hefei University of Technology, China",1
+"Yangzhou University, China",1
+"General Motors, USA",1
+"General Motors Global R&D & Michigan State University, USA",1
+"Telefónica Scientific Research, Barcelona, Spain",1
+Anna Prado and Susanne Stoeckeler,1
+"Technische Universität München, Germany",1
+"University of Oxford, United Kingdom (Great Britain)",1
+"Penn State University, USA",1
+"Jiangxing Intelligence, Hong Kong",1
+"University of Niš, Serbia",1
+"Samsung Electronics Co. Ltd, Korea (South)",1
+"Whuhan University, China",1
+"Osnabrück University, Germany",1
+"University of Osnabrück, Germany",1
+Azuka J. Chiejina,1
+"NextG Wireless Lab, USA",1
+"Mississippi State University, USA",1
+"University of Melbourne, Australia",1
+"University of Manouba, Tunisia",1
+"Naval Research Laboratory, USA",1
+"Bytedance Inc., USA",1
+Rudrapatna Vallabh Ramakanth and Eytan Modiano,1
+"Korea University, Korea (South)",1
+"The University of Arizona (USA) & University of Technology Sydney (UTS), Australia",1
+"University of Arizona, USA",1
+"University of Technology Sydney, Australia",1
+"University of Technology Sydney (UTS), Australia",1
+"ShanDong University, China",1
+"XIDIAN University, China",1
+"Hanyang University, Korea (South)",1
+"Hanyang University, Korea (South) & Other, Korea (South)",1
+"Anhui University, China",1
+"University of Seoul, Korea (South)",1
+"ETRI, Korea (South)",1
+"Dankook University, Korea (South)",1
+"Shandong Universiy, China",1
+"The Chinese University of Hong Kong, Shenzhen & Shenzhen Research Institute of Big Data, China",1
+"Shenzhen Research Institute of Big Data, China",1
+"University of Haifa, Israel",1
+"The Hebrew University of Jerusalem, Israel",1
+"Oberlin College, USA",1
+"Beijing Institute of Technology, China & The University of Auckland, New Zealand",1
+"The University of Auckland, New Zealand",1
+"Beijing Institute of Technology, Beijing, China",1
+"Beijing University of posts & Telecommunications, China",1
+"China University of Petroleum & College of Computer and Communication Engineering, China",1
+"China University of Petroleum East China - Qingdao Campus, China",1
+Beihang University. China,1
+"Southern Methodist University, USA",1
+"Politecnico di Torino and CNIT, Italy",1
+"China University of Petroleum (East China) & College of Oceanography and Space Informatics, China",1
+"Northeastern University China, China",1
+Luke Wilson,1
+"Rensselaer Polytechnic Institute, USA",1
+"QiAnXin Technology Group Co., Ltd., China",1
+"A2 Labs LLC, USA",1
+"New Jersey Institute of Technology, USA",1
+"Singapore-Massachusetts Institute of Technology Alliance for Research and Technology, Singapore",1
+"University of Illinois, Urbana Champaign, USA & University of Illinois, USA",1
+"University of Texas at Arlington, USA",1
+"The University of Michigan-Dearborn, USA",1
+Qinchen Guan,1
+"LIRIS INSA Lyon, France",1
+"Centre National de Recherche Scientifique (LIRIS CNRS), France",1
+"UCLouvain, Belgium",1
+"iExec Blockchain Tech, France",1
+"California Institute of Technology, USA",1
+"University of Science & Technology of China, China",1
+"EURECOM, France",1
+"University of Sharjah, United Arab Emirates & University of Bourgogne, France",1
+"Eurecom, France",1
+"China Telecom Co., China",1
+"China Telecom Cloud Technology Co Ltd, China",1
+"Shenzhen Smart City Communications Co., Ltd., China",1
+"Shanghai Easun Technology Co., Ltd., China",1
+"University of Southern California, USA & USC, USA",1
+"University of Southern California, USA & Escuela Superior Politecnica del Litoral, Ecuador",1
+"The Hong Kong Polytechnic University, Hong Kong & Southeast University, China",1
+Vincent W.S. Wong,1
+"Inria Lyon, France",1

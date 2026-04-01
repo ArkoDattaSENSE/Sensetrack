@@ -1,0 +1,341 @@
+university,count
+Tsinghua University,56
+Alibaba Cloud,39
+Peking University,29
+Meta,21
+Microsoft,20
+Massachusetts Institute of Technology,20
+Tencent,19
+Hong Kong University of Science and Technology,17
+Google,16
+Microsoft Research,14
+New York University,13
+"University of California, Berkeley",12
+University of Southern California,12
+University of Washington,12
+Zhongguancun Laboratory,11
+Cornell University,11
+University of Illinois Urbana-Champaign,11
+ByteDance,11
+ETH Zurich,9
+Zhejiang University,9
+Purdue University,9
+National University of Singapore,9
+Nanjing University,9
+Shanghai Jiao Tong University,8
+Northwestern University,8
+Fudan University,7
+Carnegie Mellon University,7
+Harvard University,7
+Princeton University,7
+Zhejiang University and Alibaba Cloud,7
+Stanford University,6
+Beijing University of Posts and Telecommunications,6
+KAIST,6
+University of Minnesota Twin Cities,6
+Max Planck Institute for Informatics,6
+StepFun,6
+Rice University,5
+"University of California, Santa Barbara",5
+University of Wisconsin-Madison,5
+Beihang University,5
+Columbia University,5
+NVIDIA,5
+Tsinghua University and Alibaba Cloud,5
+University of Chicago,5
+University of Massachusetts Amherst,5
+ByteDance Inc.,5
+Virginia Tech,5
+"School of Computer Science, Peking University",5
+Princeton,5
+University of Virginia,4
+University of Pennsylvania,4
+The University of Texas at Austin,4
+University of California Santa Barbara,4
+UC San Diego,4
+University College London,4
+The Chinese University of Hong Kong,4
+EPFL,4
+University of Maryland,4
+"Douyin Vision Co., Ltd.",4
+"ICSI AND University of California, Berkeley",4
+University of Minnesota - Twin Cities,4
+Google LLC,4
+Lightelligence Pte. Ltd.,4
+Renmin University of China,4
+"University of California, Los Angeles",3
+Alibaba Group,3
+Seoul National University,3
+Georgia Tech,3
+Cloudflare Inc.,3
+"Meta Platforms, Inc",3
+Intel,3
+Johns Hopkins University,3
+Tsinghua university,3
+"Tsinghua University, China",3
+Duke University,3
+ETH Zürich,3
+Huawei,3
+"The Chinese University of Hong Kong, Shenzhen",3
+Xi'an Jiaotong University,3
+Xinchen Wan,3
+University of Michigan,3
+California Institute of Technology,3
+Hangzhou Feitian Cloud and Alibaba Cloud,3
+Mysten Labs,3
+ByteDance Ltd,3
+"State Key Laboratory of ASIC and System, Fudan University",2
+Xiamen University,2
+Yale University,2
+IBM Research,2
+Yinchao Zhang,2
+Futurewei Technologies,2
+New York University Shanghai,2
+University of Toronto,2
+University of Colorado Boulder,2
+UIUC,2
+Vincent Liu,2
+University of California Berkeley,2
+Corelight and University of California Berkeley,2
+University of Wisconsin-Madison/Beihang University,2
+"School of Computing, National university of Singapore",2
+Nokia Bell Labs,2
+"School of Computing, National University of Singapore",2
+VMware,2
+Yunshan Networks,2
+University of Science and Technology of China,2
+Microsoft Research India,2
+KAUST,2
+Peking University and Alibaba Cloud,2
+University of Kassel,2
+Rukshani Athapathu,2
+"Google / University of California, Berkeley",2
+Cornell,2
+VMware Research,2
+Fuzhou University,2
+Technion,2
+University of Illinois Urbana Champaign,2
+"Shenzhen International Graduate School, Tsinghua University",2
+Purple Mountain Laboratories,2
+Tianjin University,2
+Hebrew University of Jerusalem,2
+"University of California, Irvine",2
+ByteDance China,2
+The University of Edinburgh,2
+Independent Researcher,2
+Northwest University,2
+Nandita Dukkipati,2
+USC & Google LLC,2
+TU Dresden,2
+CAIDA/UC San Diego,2
+Tenzin Samten Ukyab,2
+The University of Science and Technology of China,2
+The Hong Kong University of Science and Technology,2
+"Computer Network Information Center, CAS; University of Chinese Academy of Sciences",2
+Rutgers University,2
+Beijing Institute of Technology,2
+Northeastern University,2
+Broadcom,2
+OVGU Magdeburg,2
+UVA,2
+KISTI,2
+Korea University,2
+CityUHK,2
+Korea Advanced Institute of Science and Technology,2
+Lukas Heimes,1
+LUMS,1
+Zhejiang University and Alibaba Group,1
+"Fudan University, Peng Cheng Laboratory",1
+Fraunhofer SIT,1
+"Fraunhofer SIT, TU Darmstadt",1
+Goethe-University Frankfurt and Fraunhofer SIT,1
+Fraunhofer SIT and TU Darmstadt,1
+Boston University,1
+University of Texas at Austin,1
+Alibaba Cloud & Peking University,1
+Uber Technology,1
+"Huawei Technologies Co., Ltd.",1
+"CNIC CAS; UCAS, China",1
+and Vincent Liu,1
+University of Toronto and Microsoft,1
+"Microsoft, UIUC",1
+"Microsoft, University of Washington",1
+China Mobile Research Institute,1
+UMass Amherst & Akamai Tech,1
+Amazon,1
+University of California at San Diego,1
+Queen Mary University of London,1
+Politecnico di Milano,1
+Petr Lapukhov,1
+UMass Amherst/Meta,1
+Massachusetts Institute of Technology / University of Michigan,1
+City University of Hong Kong,1
+Samyukta Yagati,1
+Anyscale,1
+Yousuk Seung,1
+University of North Carolina at Chapel Hill,1
+Corelight,1
+Nick Sullivan and Luke Valenta,1
+"University of Michigan, Cloudflare Inc.",1
+Google/University of Washington,1
+"Institute for Network Sciences and Cyberspace, Tsinghua University",1
+bytedance,1
+Meta AI,1
+Intentionet,1
+"Intentionet, University of Washington",1
+"Intentionet, University of California, Los Angeles",1
+Mukarram Tariq and Amin Vahdat,1
+Google/UC San Diego,1
+National Univeristy of Singapore,1
+University of Illinois Urbana - Champaign,1
+VMWare Research,1
+UIUC and VMware,1
+Huawei Technologies,1
+Akita Software,1
+Litsoft,1
+Old Dominion University,1
+Duke,1
+The University of Texas at Austin and Microsoft,1
+Netflix,1
+Microsoft and Cornell University,1
+Communication University of China,1
+Google and University of Warsaw,1
+Brandenburg University of Technology,1
+BENOCS,1
+"Peking University, School of Computer Science",1
+"Huawei Cloud Computing Technologies Co., Ltd",1
+inFocus Networks,1
+"University of California, San Diego",1
+"UC Irvine, VMware Research",1
+LBL,1
+ESNet,1
+Mount Holyoke College,1
+Carnegie Mellon Unversity,1
+The University of Chicago,1
+"Meta, University of Chicago",1
+Peking University; New York University Shanghai,1
+Cisco Research,1
+Southeast University,1
+Yangzhou University and Southeast University,1
+ZTE Corporation,1
+Colgate University,1
+"Institute of Computing Technology, Chinese Academy of Sciences",1
+Luke Jacobs,1
+"Indian Institute of Technology, Kanpur",1
+"Huawei Technologies Co., Ltd",1
+"Tianjin University & Huaxiahaorui Technology (Tianjin) Co., Ltd.",1
+BreezeML,1
+Brown University,1
+"ICSI and University of California, Berkeley",1
+University of California San Diego,1
+HKUST,1
+Guangdong Communications & Networks Institute,1
+Institute of Future Networks in Southern University of Science and Technology,1
+Zachary Kincaid,1
+Luke Marshall,1
+OpenAI,1
+Amazon Prime Video / NCSU,1
+Amazon Prime Video,1
+"School of Computing, University of Otago, New Zealand",1
+"School of Innovation, Design and Engineering, Mälardalen University, Sweden",1
+Universidad de Buenos Aires,1
+Ookla Inc.,1
+University of Strasbourg,1
+UC San Diego / CAIDA,1
+UCLouvain,1
+Moloco,1
+University of Illinois Urbana-Champaign and Broadcom,1
+The University of British Columbia,1
+École Polytechnique Fédérale de Lausanne,1
+IMDEA NETWORKS,1
+Federal University of Pará,1
+IMDEA Networks,1
+"Paul G. Allen School, University of Washington",1
+Bytedance,1
+"NIO, Tsinghua University",1
+NIO,1
+VMware Research by Broadcom,1
+Politecnico di Milano and Queen Mary University of London,1
+University of Electronic Science and Technology of China,1
+Inspur,1
+Censys Inc.,1
+UMass,1
+Southeast University; Jiangsu Future Networks Innovation Institute,1
+"Southeast University; State Key Laboratory of Networking and Switching Technology, BUPT, China; Purple Mountain Laboratories",1
+"State Key Laboratory of Networking and Switching Technology, BUPT, China; Purple Mountain Laboratories",1
+"Jiangsu Zhiwang Technology Co., Ltd.",1
+"China Mobile Communications Group Shandong Co., Ltd.",1
+"China Telecom Co., Ltd.",1
+China United Network Communications Corporation Jiangsu Branch,1
+University at Buffalo SUNY,1
+Nvidia,1
+Harnets.AI,1
+Hunan University of Technology and Business,1
+Shenzhen University,1
+Infrawaves,1
+Peking University & StepFun & Lightelligence Pte. Ltd.,1
+Unaffiliated,1
+Johns Hopkins University & Meta,1
+Stony Brook University,1
+Anapaya Systems AG,1
+"Instituto de Telecomunicações, Instituto Superior Técnico",1
+UBS AG,1
+Australian National University,1
+NETSCOUT,1
+HAW Hamburg,1
+Lisa Suzuki,1
+Waseda University,1
+"ITSC, The Hong Kong University of Science and Technology",1
+EmbedWay,1
+Massachusetts Institute of Technology & Cartesian,1
+Microsoft Azure,1
+University of Chinese Academy of Sciences,1
+"Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences",1
+LISTIC; Université Savoie Mont Blanc,1
+"Clockwork Systems, Inc",1
+Technical University of Munich,1
+"School of Computing Technologies, RMassachusetts Institute of Technology University",1
+Hangzhou Feitian Cloud and Alibaba Group,1
+UCSB,1
+Xenofon Foukas,1
+"Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",1
+Hong Kong University of Science and Technology and Huawei,1
+NorthWest University,1
+Sean) Kao (ByteDance,1
+"Department of Computer Science, National University of Singapore",1
+Anapaya Systems,1
+SWITCH,1
+UFMS,1
+SingAREN,1
+WACREN,1
+GMU / Sobieski Systems & Services,1
+GÉANT,1
+Tsinghua University/Microsoft Reaearch,1
+Akamai Technologies,1
+UMass Amherst & Akamai Technologies,1
+Politecnico di Torino,1
+Nanjing University and Alibaba Cloud,1
+New York University Shanghai and Alibaba Cloud,1
+The Hong Kong Polytechnic University,1
+Kuaishou,1
+Simon Fraser University,1
+Sangfor Technologies Inc,1
+China telecom,1
+University of Edinburgh,1
+Tsinghua Shenzhen International Graduate School,1
+"China Telecom Cybersecurity Technology Co., Ltd.",1
+University of Seoul,1
+Dankook University,1
+ETRI,1
+Chonnam National University,1
+University of Wisconsin Madison,1
+"University of Minnesota, Twin Cities",1
+George Mason University,1
+University of Kentucky,1
+"University of California, Riverside",1
+Hewlett Packard Labs,1
+Roman Beltiukov,1
+Open University of Israel,1
+"NIKSUN, Inc.",1
+University of Oregon,1
+Renmin Univerity of China,1

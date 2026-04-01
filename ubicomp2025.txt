@@ -1,0 +1,765 @@
+Presented Papers
+Each presentation will  have 10 min for talk and 2 min for Q&A.
+If you notice any mistakes in titles or authors of the presented papers, please contact the Web Chairs via web-2025@ubicomp.org.
+A1 Smart Homes & Textiles (Tuesday)
+Chair: Qi Wang, College of Design and Innovation, Tongji University
+
+Harnessing Home IoT for Self-Tracking Emotional Wellbeing: Behavioral Patterns, Self-Reflection, and Privacy Concerns
+Youngji Koh; Chanhee Lee; Eunki Joung; Hyunsoo Lee; Uichin Lee
+10.1145/3749485
+More Than Words: The Impact of Voice Assistant Personality Traits on Failure Mitigation
+Shakyani Jayasiriwardene; Benjamin Tag; Anusha Withana; Zhanna Sarsenbayeva
+10.1145/3749518
+My Pillow Knows My Sleep: Sleep Monitoring with Computational Fabrics in the Pillowcase
+Qijia Shao; Junxiao Chen; Ho Man Colman Leung; Meiqi Zhao; Ruoyu Xu; Jiting Liu; Lisa Maria Disalvo García; Xiaofan Jiang; Marie-Pierre St-Onge; Xia Zhou
+10.1145/3749550
+Laytex: A Data-Driven Tool for Automated and Customized Textile Sensor Layout Design in Motion Capture
+Nianchong Qu, Jiaqi Mo, Yueyao Zhang, Leheng Chen, Yan Zhang, Guanyun Wang, Ye Tao, Yanan Wang, Qi Wang, Teng Han
+10.1145/3749493
+Video: https://www.youtube.com/watch?v=2jPY_vbZDcU
+An Equivalent Circuit Model for 2D Embroidery Using Conductive Threads
+Kazuhiro Shinoda; Sylvain Malacria; Fabrice Matulic; Koji Yatani
+SSC: Simultaneous Signal Separation and Classification for Concurrent Activities
+Rahul Sidramappa Hoskeri; Shan Lin; Hua Huang
+The Homework Wars: Exploring Emotions, Behaviours, and Conflicts in Parent-Child Homework Interactions
+Nan Gao; Yibin Liu; Xin Tang; Yanyan Liu; Chun Yu; Yun Huang; Yuntao Wang; Flora D. Salim; Xuhai Orson Xu; Jun Wei; Yuanchun Shi
+10.1145/3749517
+A2 mmWave Technology (Tuesday)
+Chair: Chenshu Wu, The University of Hong Kong
+
+SPECal: Spatial Calibration Based on Self-Pose-Estimation Between mmWave Radar and Camera
+Yi Li; Lei Xie; Yu He; Jingyi Ning; Sanglu Lu
+10.1145/3749456
+MotionLeaf: Fine-grained Multi-Leaf Damped Vibration Monitoring for Plant Water Stress using Low-Cost mmWave Sensors
+Mark Cardamis; Chun Tung Chou; Wen Hu
+10.1145/3749547
+Video: https://www.youtube.com/watch?v=7108GyJTwsE
+3D Bounding Box Estimation Based on COTS mmWave Radar via Moving Scanning
+Yiwen Feng; Jiayang Zhao; Chuyu Wang; Lei Xie; Sanglu Lu
+10.1145/3699758
+Facial Landmark Detection Based on High Precision Spatial Sampling via Millimeter-wave Radar
+Yi Li; Chuyu Wang; Jingyi Ning; Yu He; Qiancheng Jin; Lei Xie; Sanglu Lu
+10.1145/3699739
+From Spatial Domain to Temporal Domain: Unleashing the Capability of CFAR for mmWave Point Cloud Generation
+Hongliu Yang; Duo Zhang; Xusheng Zhang; Jie Xiong; Zizhou Fan; Wanru Ning; Weiyan Chen; Fusang Zhang; Zijun Han; Daqing Zhang
+10.1145/3729465
+Uranus:Empowering Generalized Gesture Recognition with Mobility through Generating Large-scale mmWave Radar Data
+Yue Ling, Dong Zhao, Kaikai Deng, Kangwen Yin, Wenxin Zheng, and Huadong Ma
+10.1145/3699754
+MiNav: Autonomous Drone Navigation Indoors Using Millimeter-Waves
+Maisy Lam, Joshua Herrera, Sayed Saad Afzal, Kaichen Zhou, and Fadel Adib
+10.1145/3749464
+A3 Mental Health (Tuesday)
+Chair: Xuhai “Orson” Xu, Columbia University
+
+Beyond Detection: Towards Actionable Sensing Research in Clinical Mental Healthcare
+Daniel A. Adler; Yuewen Yang; Thalia Viranda; Xuhai Xu; David C. Mohr; Anna R. van Meter; Julia C. Tartaglia; Nicholas C. Jacobson; Fei Wang; Deborah Estrin; Tanzeem Choudhury
+10.1145/3699755
+Ask Less, Learn More: Adapting Ecological Momentary Assessment Survey Length by Modeling Question-Answer Information Gain
+Jixin Li; Aditya Ponnada; Wei-Lin Wang; Genevieve F. Dunton; Stephen S. Intille
+10.1145/3699735
+Video: https://www.youtube.com/watch?v=4tPEXA_KL5I
+BreathePulse: Peripheral Guided Breathing via Implicit Airflow Cues for Information Work
+Tan Gemicioglu; Thalia Viranda; Yiran Zhao; Olzhas Yessenbayev; Jatin Arora; Jane Wang; Pedro Lopes; Alexander T. Adams; Tanzeem Choudhury
+10.1145/3702211
+Systematic Evaluation of Personalized Deep Learning Models for Affect Recognition
+Yunjo Han; Panyu Zhang; Minseo Park; Uichin Lee
+10.1145/369972
+AnnoSense: A Framework for Physiological Emotion Data Collection in Everyday Settings for AI
+Pragya Singh; Ankush Gupta; Mohan Kumar; Pushpendra Singh
+10.1145/3749519
+Video: https://www.youtube.com/watch?v=GE9tUhybs6E
+From awareness to action: Ambient display and customizable attention signals for self-regulated smartphone usage
+Jian Zheng; Subin Seo; Eun Kyoung Choe
+10.1145/3749507
+Video: https://www.youtube.com/watch?v=P6dx7mlgSms
+Human Heterogeneity Invariant Stress Sensing
+Yi Xiao; Harshit Sharma; Sawinder Kaur; Dessa Bergen-Cico; Asif Salekin
+10.1145/3749465
+Video: https://www.youtube.com/watch?v=sEeZSKSlTYY
+A4 Augmented and Virtual Reality (Tuesday)
+Chair: Tobias Roeddiger, Karlsruhe Institute of Technology
+
+ARive: Assisting Drivers with In-Car Augmented Reality for Risk Zone Detection
+Chao Wang; Derck Chu; Marieke Martens
+10.1145/3712270
+mmSpyVR: Exploiting mmWave Radar for Penetrating Obstacles to Uncover Privacy Vulnerability of Virtual Reality
+Luoyu Mei; Ruofeng Liu; Zhimeng Yin; Qingchuan Zhao; Wenchao Jiang; Shuai Wang; Shuai Wang; Kangjie Lu; Tian He
+10.1145/3699772
+Gesture Builder: Flexible Gesture Customization and Efficient Recognition on VR Devices
+Yang Zou, Yanguang Wan, Yonghao Zhang, Xiao Zhou, Jian Cheng, Cuixia Ma, Chun Yu, Xiaoming Deng, Hongan Wang
+10.1145/3729484
+Video: https://www.youtube.com/watch?v=6DoYi6X3uqs
+MetaTwin: A Collaborative XR Platform for Seamless Physical-Virtual Synchronization
+Ayush Bhardwaj; Ashish Pratap; Edilberto F. Carrizales; Dongbeom Ko; Sungjoo Kang; Jin Ryong Kim
+10.1145/3749533
+Video: https://www.youtube.com/watch?v=TIQOWsBt7Zg
+MIMIC: AI and AR-enhanced Multi-Modal, Immersive, Relative Instruction Comprehension
+Dhanuja Wanniarachchi; Archan Misra
+10.1145/3712268
+AudioCast: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags
+Rajashekar Reddy Chinthalapani; Dhairya Jigar Shah; Nobel Ang; Ambuj Varshney
+10.1145/3729471
+Video: https://www.youtube.com/watch?v=wrSF1-O23z0
+RemVerse: Supporting Reminiscence Activities for Older Adults through AI-Assisted Virtual Reality
+Ruohao Li, Jiawei Li, Jia Sun, Zhiqing Wu, Zisu Li, Ziyan Wang, Ge Lin, Mingming Fan
+10.1145/3749505
+B1 Acoustic Sensing (Tuesday)
+Chair: Lei Wang, Soochow University
+
+SonicID: User Identification on Smart Glasses with Acoustic Sensing
+Ke Li; Devansh Agarwal; Ruidong Zhang; Vipin Gunda; Tianjun Mo; Saif Mahmud; Boao Chen; François Guimbretière; Cheng Zhang
+10.1145/3699734
+Ring-a-Pose: A Ring for Continuous Hand Pose Tracking
+Tianhong Catherine Yu; Guilin Hu; Ruidong Zhang; Hyunchul Lim; Saif Mahmud; Chi-Jung Lee; Ke Li; Devansh Agarwal; Shuyang Nie; Jinseok Oh; François Guimbretière; Cheng Zhang
+10.1145/3699741
+Video: https://www.youtube.com/watch?v=gKtRXsYq2Qw
+WindDancer: Understanding Acoustic Sensing under Ambient Airflow
+Kuang Yuan; Dong Li; Hao Zhou; Zhehao Li; Lili Qiu; Swarun Kumar; Jie Xiong
+10.1145/3729469
+WearSE: Enabling Streaming Speech Enhancement on Eyewear Using Acoustic Sensing
+Qian Zhang; Kaiyi Guo; Yifei Yang; Dong Wang
+10.1145/3712288
+EchoTouch: Low-power Face-touching Behavior Recognition Using Active Acoustic Sensing on Glasses
+Kaiyi Guo; Tianyu Wu; Yang Gao; Qian Zhang; Dong Wang
+10.1145/3729481
+USpeech: Ultrasound-Enhanced Speech with Minimal Human Effort via Cross-Modal Synthesis
+Luca Jiang-Tao Yu; Running Zhao; Sijie Ji; Edith C. H. Ngai; Chenshu Wu
+10.1145/3729462
+Video: https://www.youtube.com/watch?v=xClk89YghIQ
+ASE: Practical Acoustic Speed Estimation Beyond Doppler via Sound Diffusion Field
+Sheng Lyu; Chenshu Wu
+10.1145/3749475
+B2 Eyes & Ears (Tuesday)
+Chair: Jamie Ward, Goldsmiths, University of London
+
+LR-Auth: Towards Practical Implementation of Implicit User Authentication on Earbuds
+Changshuo Hu; Xiao Ma; Xinger Huang; Yiran Shen; Dong MaChangshuo Hu; Xiao Ma; Xinger Huang; Yiran Shen; Dong Ma
+10.1145/3699793
+OpenEarable 2.0: Open-Source Earphone Platform for Physiological Ear Sensing
+Tobias Röddiger; Michael Küttner; Philipp Lepold; Tobias King; Dennis Moschina; Oliver Bagge; Joseph Paradiso; Christopher Clarke; Michael Beigl
+10.1145/371206
+Video: https://www.youtube.com/watch?v=ZlV7XPtPMEQ
+CalibRead: Unobtrusive Eye Tracking Calibration from Natural Reading Behavior
+Change Liu; Chun Yu; Xiangyang Wang; Jianxiao Jiang; Tiaoao Yang; Bingda Tang; Yingtian Shi; Chen Liang; Yuanchun Shi
+10.1145/3699737
+mmHSE: Enhanced Eavesdropping Attack on Headsets Leveraging COTS mmWave Radar
+Liang Wang; Aoyang Chang; Boqun Liu; Zhiwen Yu; Pengfei Hu; Jia Liu; Yao Zhang; Bin Guo
+10.1145/3729475
+EyeTrAES: Fine-grained, Low-Latency Eye Tracking via Adaptive Event Slicing
+Argha Sen; Nuwan Sriyantha Bandara; Ila Gokarn; Thivya Kandappu; Archan Misra
+10.1145/3699745
+Reconstructing Ear Canal Channels for Fine-Grained Detection of Tympanic Membrane Changes
+Yongzhi Huang; Jiayi Zhao; Kaishun Wu
+10.1145/3749516
+From Neck to Head: Bio-Impedance Sensing for Head Pose Estimation
+Mengxi Liu; Lala Shakti Swarup Ray; Sizhen Bian; Ko Watanabe; Ankur Bhatt; Joanna Sorysz; Russel Torah; Bo Zhou; Paul Lukowicz
+Video: https://www.youtube.com/watch?v=7Ls3zabwkFo
+B3 Assistive Sensing Technologies (Tuesday)
+Chair: Tahera Hossain, Nagoya University
+
+Design and Evaluation of a Power Wheelchair-based Self-tracking System to Prevent Pressure Ulcers
+Tamanna Motahar; Brandon Rivera-Melo; Ross Imburgia; YeonJae Kim; James Gardner; Jeffrey Rosenbluth; Jason Wiese
+10.1145/3712273
+CoughViT: A Self-Supervised Vision Transformer for Cough Audio Representation Learning
+Justin Luong; Hao Xue; Flora D. Salim
+Investigating the Generalizability of ECG Noise Detection Across Diverse Data Sources
+Sharmad Kalpande; Nilesh Kumar Sahu; Haroon R Lone
+Video: https://www.youtube.com/watch?v=BENC6hINRRs
+Playlogue: Dataset and Benchmarks for Analyzing Adult-Child Conversations During Play
+Manasa Kalanadhabhatta, Mohammad Mehdi Rastikerdar, Tauhidur Rahman, Adam S. Grabell, Deepak Ganesan
+10.1145/3699775
+T-Oil: A Contactless Edible Oil Adulteration Perception using Terahertz Signals
+Denghui Song; Anfu Zhou; Huadong Ma; Jie Xiong
+10.1145/3729468
+TRAMBA: A Hybrid Transformer and Mamba Architecture for Practical Audio and Bone Conduction Speech Super Resolution and Enhancement on Mobile and Wearable Platforms
+Yueyuan Sui; Minghui Zhao; Junxi Xia; Xiaofan Jiang; Stephen Xia
+10.1145/3699757
+Video: https://www.youtube.com/watch?v=Beq47XidZZI
+Are VCSELs better than LEDs for wearable reflective PPG?
+Maximilian Reiser; Oliver Amft; Andreas Breidenassel
+B4 Localization (Tuesday)
+Chair: Wentao Xie, The Hong Kong University of Science and Technology
+
+MC-LoRa: Multi-node Concurrent Localization for LoRaWAN Indoors and Outdoors
+Han Hao; Wei Xi; Andreas Kuster; Amalinda Gamage; Xianjin Xia
+10.1145/3712279
+WULoc: Achieving Extremely Long-range High-precision Localization via Wi-Fi-UWB Connection
+Kai Sun; Shuai Wang; Renjie Zhao; Ruofeng Liu; Weiwei Chen; Zhimeng Yin; Wei Gong; Shuai Wang
+10.1145/3712282
+Video: https://www.youtube.com/watch?v=BZMpAAz8-P8
+Large-Scale Indoor Localization via Outdoor Crowdsourcing Trajectories on Ride-Hailing Platform
+Shuli Zhu; Lingkun Li; Xuyu Wang; Qiang Ni; Yuqin Jiang; Hui Gao; Zhaobing Han; Ruipeng Gao
+10.1145/3729498
+Video: https://www.youtube.com/watch?v=oEYggirgQ3E
+SynthCAT: Synthesizing Cellular Association Traces with Fusion of Model-Based and Data-Driven Approaches
+Feng Lyu; Jie Zhang; Huali Lu; Huaqing Wu; Fan Wu; Yongmin Zhang; Yaoxue Zhang
+10.1145/3699730
+Combating Chirp Interference for Multi-target LoRa Localization
+Qiling Xu; Binbin Xie; Xianjin Xia; Shuai Wang; Lu Wang; Zhimeng Yin
+10.1145/372941
+Acoustic-assisted Indoor Pedestrian Dead Reckoning
+Yang Wang; Zhou Heng; Takuya Maekawa
+Smartwatch-Based Walking Metrics Estimation
+Amir B Farjadian; Shun Liao; Alicia Kokoszka; Kyle Deholton; Jonathan Hsu; Jonathan Wang; Lawrence Cai; Mark Malhotra; Shwetak Patel; Anupam Pathak; Ming-Zher Poh
+C1 Human Activity Recognition (Tuesday)
+Chair: Kristof Van Laerhoven, University of Siegen
+
+MobHAR: Source-free Knowledge Transfer for Human Activity Recognition on Mobile Devices
+Meng Xue, Yinan Zhu, Wentao Xie, Zhixian Wang, Yanjiao Chen, Kui Jiang, Qian Zhang
+10.1145/3712620
+TinierHAR: Towards Ultra-Lightweight Deep Learning Models for Efficient Human Activity Recognition on Edge Devices
+Sizhen Bian, Mengxi Liu, Vitor Fortes Rey, Daniel Geißler, Paul Lukowicz
+Video: https://www.youtube.com/watch?v=wh_LF6paVLE
+Temporal Action Localization for Inertial-based Human Activity Recognition
+Marius Bock; Michael Moeller; Kristof Van Laerhoven
+10.1145/3699770
+Video: https://www.youtube.com/watch?v=ffpeRwLZFXI
+Impact of Time Discrepancies on Machine Learning Performance for Multi-Wearable Human Activity Recognition
+Florian Wolling; David Kostolani; Patrick Trollmann; Florian Michahelles
+Video: https://www.youtube.com/watch?v=WIaOxCXGK3k
+SImpHAR: Advancing impedance-based human activity recognition using 3D simulation and text-to-motion models
+Lala Shakti Swarup Ray; Mengxi Liu; Deepika Gurung; Bo Zhou; Sungho Suh; Paul Lukowicz
+OpenMAE: Efficient Masked Autoencoder for Vibration Sensing with Open-Domain Data Enrichment
+Changsheng Hu; Yuyang Chen; Dong Chen; Hua Kang; Tarek F. Abdelzaher
+10.1145/3729485
+rTsfNet: A DNN Model with Multi-head 3D Rotation and Time Series Feature Extraction for IMU-based Human Activity Recognition
+Yu Enokibori
+10.1145/3699733
+C2 Smart Sensing in Health (Tuesday)
+Chair: Alexander Adams, Georgia Institute of technology
+
+DEDector: Smartphone-Based Noninvasive Screening of Dry Eye Disease
+Vaibhav Ganatra; Soumyasis Gun; Pallavi Joshi; Anand Balasubramaniam; Kaushik Murali; Nipun Kwatra; Mohit Jain
+10.1145/3699742
+DermaGlow: Objective Quantification of Melanin, Erythema and Skin-tone Using Wearable Optical Spectroscopy
+Tarek Hamid; Patricia Flores; Jane Byun; Elizabeth C. Courtney; Kyle C. Quinn; Amanda Watson
+10.1145/37294
+CRoP: Context-wise Robust Static Human-Sensing Personalization
+Sawinder Kaur; Avery Gump; Jingyu Xin; Yi Xiao; Harshit Sharma; Nina R. Benway; Jonathan L. Preston; Asif Salekin
+10.1145/3729483
+Video: https://www.youtube.com/watch?v=QDjNXcy50-E
+A-UVI: GNSS-Assisted EO-based UV Index Estimation Method for Individual-level Precise UV Exposure Assessment
+Yuuki Nishiyama; Subaru Atsumi; Kota Tsubouchi; Kaoru Sezaki
+10.1145/3729463
+Video: https://www.youtube.com/watch?v=U7YmqDttSZ8
+H2OPulse: Smartphone-assisted Vein Evaluation for Early Recognition of Dehydration
+Towhidul Islam; Md. Mahedi Hasan Rigan; Md Olid Hasan Bhuiyan; Tanzima Hashem; Md. Mahbubur Rahman
+10.1145/3729490
+Video: https://www.youtube.com/watch?v=xQZeDNwJJb8
+Densor: An Intraoral Battery-Free Sensing Platform
+Vivian Dsouza; Jeffrey Pronk; Christian Peppelman; Víctor Ignacio Madariaga; Tatiana Pereira-Cenci; Bas Loomans; Przemysław Pawełczak
+10.1145/3699746
+Video: https://www.youtube.com/watch?v=XBBFT1llY6Y
+Respiration Rate Estimation via Smartwatch-based Photoplethysmography and Accelerometer Data: A Transfer Learning Approach
+Kianoosh Kazemi; Iman Azimi; Pasi Liljeberg; Amir M. Rahmani
+10.1145/3712280
+Video: https://www.youtube.com/watch?v=NnTZ_xv-yEs
+C3 Large Language Models in Everyday Sensing Making (Tuesday)
+Chair: Paula Lago, Concordia University
+
+DrHouse: An LLM-empowered Diagnostic Reasoning System through Harnessing Outcomes from Sensor Data and Expert Knowledge
+Bufang Yang; Siyang Jiang; Lilin Xu; Kaiwei Liu; Hai Li; Guoliang Xing; Hongkai Chen; Xiaofan Jiang; Zhenyu Yan
+10.1145/3699765
+SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions
+Xiaofan Yu; Lanxiang Hu; Benjamin Reichman; Dylan Chu; Rushil Chandrupatla; Xiyuan Zhang; Larry Heck; Tajana Šimunić Rosing
+10.1145/3749496
+Video: https://www.youtube.com/watch?v=wqII0_W2k7s
+GLOSS: Group of LLMs for Open-ended Sensemaking of Passive Sensing Data for Health and Wellbeing
+Akshat Choube; Ha Le; Jiachen Li; Kaixin Ji; Vedant Swain; Varun Mishra
+10.1145/3749474
+Video: https://www.youtube.com/watch?v=dN7efKs3ROE
+Vital Insight: Assisting Experts’ Context-Driven Sensemaking of Multi-modal Personal Tracking Data Using Visualization and Human-In-The-Loop LLM
+Jiachen Li; Justin Steinberg; Xiwen Li; Akshat Choube; Bingsheng Yao; Xuhai Xu; Dakuo Wang; Elizabeth Mynatt; Varun Mishra
+10.1145/3749508
+SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions
+Bufang Yang; Yunqi Guo; Lilin Xu; Zhenyu Yan; Hongkai Chen; Guoliang Xing; Xiaofan Jiang
+10.1145/3712286
+Living Sustainability: In-Context Interactive Environmental Impact Communication
+Zhihan Zhang; Puvarin Thavikulwat; Alexander Le Metzger; Yuxuan Mei; Felix Hähnlein; Zachary Englhardt; Gregory D. Abowd; Shwetak Patel; Adriana Schulz; Tingyu Cheng; Vikram Iyer
+10.1145/3749488
+CataractBot: An LLM-powered Expert-in-the-Loop Chatbot for Cataract Patients
+Pragnya Ramjee, Bhuvan Sachdeva, Satvik Golechha, Shreyas Kulkarni, Geeta Fulari, Kaushik Murali, Mohit Jain
+10.1145/3729479
+Video: https://www.youtube.com/watch?v=ra5GYzk8K5E
+C4 Interaction Techniques I (Tuesday)
+Chair: Manasa Kalanadhabhatta, Meta Reality Labs
+
+MagDesk: Interactive Tabletop Workspace Based on Passive Magnetic Tracking
+Kunpeng Huang; Yasha Iravantchi; Dongyao Chen; Alanson P. Sample
+10.1145/3699756
+Video: https://www.youtube.com/watch?v=hrEhvF4TBaQ
+Are We in the Zone? Exploring the Features and Method of Detecting Simultaneous Flow Experiences Based on EEG Signals
+Baiqiao Zhang; Xiangxian Li; Yunfan Zhou; Juan Liu; Weiying Liu; Chao Zhou; Yulong Bian
+10.1145/3699774
+Modeling Attentive Interaction Behavior for Web Content Identification in Exploratory Information Seeking
+Rongrong Zhu; Chi Cheng; Yunpeng Song; Zhongmin Cai
+10.1145/3699750
+How We Type with Word Suggestions: Understanding Visual Attention and Checking Behavior during Mobile Text Input
+Yang Li; Anna Maria Feit
+10.1145/3749520
+Video: https://www.youtube.com/watch?v=2oI1TzIIfNM
+TAPOR: 3D Hand Pose Reconstruction with Fully Passive Thermal Sensing for Around-Device Interactions
+Xie Zhang; Chengxiao Li; Chenshu Wu
+10.1145/3729499
+Video: https://www.youtube.com/watch?v=1EwgA1ReaqY
+Map as a By-product: Collective Landmark Mapping from IMU Data and User-provided Texts in Situated Tasks
+Ryo Yonetani; Kotaro Hara
+10.1145/3749455
+Video: https://www.youtube.com/watch?v=dchAeYB-B4U
+AccCall: Enhancing Real-Time Phone Call Quality with Smartphone’s Built-in Accelerometer
+Lei Wang; Xingwei Wang; Xi Zhang; Xiaolei Ma; Fusang Zhang; Yu Zhang; Tao Gu; Haipeng Dai
+10.1145/3749463
+D1 Learning (Wednesday)
+Chair: Soumyajit Chatterjee, Nokia Bell Labs UK
+
+PrISM-Q&A: Step-Aware Voice Assistant on a Smartwatch Enabled by Multimodal Procedure Tracking and Large Language Models
+Riku Arakawa; Jill Fain Lehman; Mayank Goel
+10.1145/3699759
+Video: https://www.youtube.com/watch?v=VG4-uZxLFPI
+ChatCam: Embracing LLMs for Contextual Chatting-to-Camera with Interest-Oriented Video Summarization
+Kaijie Xiao; Yi Gao; Fu Li; Weifeng Xu; Pengzhi Chen; Wei Dong
+10.1145/3699731
+Moss: Proxy Model-based Full-Weight Aggregation in Federated Learning with Heterogeneous Models
+Yifeng Cai; Ziqi Zhang; Ding Li; Yao Guo; Xiangqun Chen
+10.1145/3712274
+Cross-Modal Federated Learning Among Unimodal Devices
+Yongheng Deng, Ningxin He, Xinyi Li, Fan Wu, Yaoxue Zhang, Ju Ren
+10.1145/3749467
+SELA: Smart Edge LLM Agent to Optimize Response Trade-offs of AI Assistants
+Shreshth Tuli; Giuliano Casale; Manuel Roveri
+10.1145/3749483
+DynaGraph: Towards Dynamic Graph Learning for Multi-Scale Traffic Generation with Spatial-Temporal Agent Framework
+Jinhui Ouyang; Yijie Zhu; Hanhui Deng; Jialyu He; Di Wu
+10.1145/3749542
+Governing Open Vocabulary Data Leaks Using an Edge LLM through Programming by Example
+Qiyu Li; Jinhe Wen; Haojian Jin
+10.1145/3699760
+Video: https://www.youtube.com/watch?v=CHxKRgCI2t8
+D2 mmWave in Health (Wednesday)
+Chair: Mayank Goel, CMU
+
+MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars
+Zhaoxin Chang; Fusang Zhang; Xujun Ma; Pei Wang; Weiyan Chen; Duo Zhang; Badii Jouaber; Daqing Zhang
+10.1145/3699766
+GR-Fall: A Fall Detection System with Gait Recognition for Indoor Environments Using SISO mmWave Radar
+Chengzhen Meng, Chenming He, Dequan Wang, Yuxuan Xiao, Lingyu Wang, Xiaoran Fan, Lu Zhang, Yanyong Zhang
+10.1145/3749471
+Contactless Fine-grained Cardiac Events Detection and Segmentation with Radio Frequency Signals
+Zehan Guo, Binbin Zhang, Jinbo Chen, Yang Hu, Yan Chen
+10.1145/3749457
+Breaking the Resolution Barriers of mmWave Arrays via Null Steering for Sleep Monitoring in Multi-Person Scenarios
+Duo Zhang; Weiyan Chen; Yuxin Yang; Binghao Li; Hao Lu; Longbiao Chen; Xin Wang; Leye Wang; Zhimeng Yin
+10.1145/3749466
+Wearable Non-Invasive Arterial Pulse Detection with a Millimeter-wave Radar
+Nima Bahmani; Dariush Salami; Hüseyin Yiğitler; Juhapekka Hietala; Tuukka Panula; Stephan Sigg
+Video: https://www.youtube.com/watch?v=Jx-3S5J6zS8
+mmHolmes: Amodal Millimeter-wave Sensing by Understanding Human Kinetics
+Kun Liang, Yaxuan Li, He Hao, Hongli Zeng, Anfu Zhou, Huadong Ma, Chenshu Wu, Huaizhen Jia, Jianbo Zuo, Jianjun Fan
+10.1145/3749500
+PracticalBP: Continuous Cuffless Blood Pressure Monitoring with Only One Record for Calibration
+Chenggao Li, Junyao Peng, Qingyong Hu, Lin Chen, Yandao Huang, Shun Wu, Weibin Cheng, Qian Zhang
+10.1145/3749486
+D3 Human Activity Recognition – Datasets & Surveys (Wednesday)
+Chair: Sungho Suh, Korea University
+
+DiversityOne: A multi-country smartphone sensor dataset for everyday life behavior modeling
+Matteo Busso; Andrea Bontempelli; Leonardo Javier Malcotti; Lakmal Meegahapola; Peter Kun; Shyam Diwakar; Chaitanya Nutakki; Marcelo Dario Rodas Britez; Hao Xu; Donglei Song; Salvador Ruiz Correa; Andrea-Rebeca Mendoza-Lara; George Gaskell; Sally Stares; Miriam Bidoglia; Amarsanaa Ganbold; Altangerel Chagnaa; Luca Cernuzzi; Alethia Hume; Ronald Chenú Abente; Roy Alia Asiku; Ivan Kayongo; Daniel Gatica-Perez; Amalia de Götzen; Ivano Bison; Fausto Giunchiglia
+10.1145/3712289
+Video: https://www.youtube.com/watch?v=xURRxFyj_X8
+WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition
+Marius Bock; Hilde Kuehne; Kristof Van Laerhoven; Michael Moeller
+10.1145/3699776
+Video: https://www.youtube.com/watch?v=yAu2F_RApS8
+SenseSeek Dataset: Multimodal Sensing to Study Information Seeking Behaviors
+Kaixin Ji; Danula Hettiachchi; Falk Scholer; Flora D. Salim; Damiano Spina
+10.1145/3749501
+XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses
+Bo Lan; Pei Li; Jiaxi Yin; Yunpeng Song; Ge Wang; Han Ding; Jinsong Han; Fei Wang
+10.1145/3749521
+Past, Present, and Future of Sensor-based Human Activity Recognition using Wearables: A Surveying Tutorial on a Still Challenging Task
+Harish Haresamudram; Chi Ian Tang; Sungho Suh; Paul Lukowicz; Thomas Plötz
+10.1145/3729467
+VibRun: Real-time Unobtrusive Gait Analysis for Treadmill Running via Footstep Vibrations
+Tianhao Wu, Yi Wu, Bibek Poudel, Syed Irfan Ali Meerza, Rajasi Gore Athawale, Weizi Li, Zan Gao, Çağdas KarataŞ, Jian Liu
+10.1145/3749539
+D4 Smart Devices (Wednesday)
+Chair: Florian Wolling, TU Wien
+
+FruitPhone: Detecting Sugar Content in Fruits Using Unmodified Smartphones with Spectral Imaging
+Haiyan Hu; Yinan Zhu; Shanwen Chen; Qianyi Huang; Qian Zhang
+10.1145/3749470
+Computing with Smart Rings: A Systematic Literature Review
+Zeyu Wang; Ruotong Yu; Xiangyang Wang; Jiexin Ding; Jiankai Tang; Jun Fang; Zhe He; Zhuojun Li; Tobias Röddiger; Weiye Xu; Xiyuxing Zhang; Huan-ang Gao; Nan Gao; Chun Yu; Yuanchun Shi; Yuntao Wang
+10.1145/3749480
+Estimating the Position of a Wearable Device Using Pulse Wave Peak Time Differences with a Smartwatch
+Ryuta Kotera; Kazuya Murao
+EverRing: Powering Highly-Capable Ring Devices with Headset RF Energy
+Nathan DeVrio; Chris Harrison
+In a Flap: Experiences with a Bioinspired Flying Robot
+Ziming Wang; Meagan B. Loerakker; Yiqian Wu; Shiwei Yang; Arion Pons; Yuwei Chuai; David Sirkin; Morten Fjeld
+10.1145/3749495
+Heatables: Effects of Infrared-LED-Induced Ear Heating on Thermal Perception, Comfort, and Cognitive Performance
+Valeria Zitz; Michael Küttner; Jonas Hummel; Michael Thomas Knierim; Michael Beigl; Tobias Röddiger
+Video: https://www.youtube.com/watch?v=eAmND5SPiqo
+RadioGami: Batteryless, Long-Range Wireless Paper Sensors Using Tunnel Diodes
+Imran Fahad, Danny Scott, Azizul Zahid, Matthew Bringle, Srinayana Patil, Ella Bevins, Carmen Palileo, Sai Swaminathan
+10.1145/3729487
+Video: https://www.youtube.com/watch?v=pMu7PjbFGOY
+E1 Human Activity Recognition – Methods (Wednesday)
+Chair: Zhanpeng Jin, South China University of Technology
+
+ContrastSense: Domain-invariant Contrastive Learning for In-the-Wild Wearable Sensing
+Gaole Dai; Huatao Xu; Hyungjun Yoon; Mo Li; Rui Tan; Sung-Ju Lee
+10.1145/3699744
+Label Leakage in Federated Inertial-based Human Activity Recognition
+Marius Bock, Maximilian Hopp, Kristof Van Laerhoven, Michael Moeller
+Video: https://www.youtube.com/watch?v=WR2nscDYuiU
+SEGALL: A Unified Active Learning Framework for Wireless Sensing Data Segmentation
+Naiyu Zheng; Ruofeng Liu; Xiaoyi Fan; Cong Zhang; Lei Zhang; Zhimeng Yin
+10.1145/3749492
+Towards Customizable Foundation Models for Human Activity Recognition with Wearable Devices
+Minghui Qiu, Cekai Weng, Mingming Fan, Kaishun Wu
+10.1145/3749479
+MASTER: A Multi-modal Foundation Model For Human Activity Recognition
+Guanzhou Zhu; Dong Zhao; Chunliang Li; Mingyue Zhao; Zhengyuan Zhang; Hefeng Quan; Huadong Ma
+10.1145/3749511
+One Model to Fit Them All: Universal IMU-based Human Activity Recognition with LLM-assisted Cross-dataset Representation
+Qingxin Wei; Jiaming Huang; Yi Gao; Wei Dong
+10.1145/3749509
+Inertial Sensor-Based Hierarchical Contrastive Multi-View Learning for Human Activity Recognition
+Francisco Calatrava; Vitor Fortes Rey; Paul Lukowicz; Oscar Mozos
+E2 Health (Wednesday)
+Chair: Amanda Watson, University of Virginia
+
+Identifying Design Opportunities for Behavior Displacement for Intervening Sedentary Time Among Older Adults
+Mengying Li; Eun Kyoung Choe
+10.1145/3749476
+SputumLocator: Enhancing Airway Clearance with Auscultation-based Sputum Localization
+Yanbin Gong; Wentao Xie; Chi Xu; Qian Zhang; Shifang Yang
+10.1145/3729472
+SpiroSense: Transforming Smartphones into Pulmonary Metrics Monitors with Ultrasonic Technology
+Long Fan; Lei Xie; Shiyuan Ma; Yanling Bu; Chuyu Wang; Weibang Pan; Lu Ke; Sanglu Lu
+10.1145/3749489
+Haptic Biofeedback for Wakeful Rest: Does Stimulation Location Make a Difference?
+Jueun Lee, Martin Flipe, Philipp Lepold, Tobias Röddiger, Michael Beigl
+Video: https://www.youtube.com/watch?v=36hj0q_9J3g
+Frailty Assessment Using a Floor Panel-Type Device by Measuring Center of Pressure
+Ryota Ozaki; Yoshio Shinzaki; Kana Kodama; Kodai Ito; Mai Kamihori; Toshihiro Takeda; Yuichi Itoh
+10.1145/3699783
+Video: https://www.youtube.com/watch?v=8ehjocsHQRo
+KneeGuard: A Calibration-free Wearable Monitoring System for Knee Osteoarthritis Gait Re-training via Effortless Wearing
+Baichen Yang; Xinyi Zhang; Jiaxi Zhang; Zirui Huang; Qiqi Lu; Jin Zhang; Hai Hu; Qian Zhang
+10.1145/3699768
+Quantifying Work-Stress in Surgical Intensive Care Unit Nurses: A Multimodal Activity-aware Physiological Analysis
+Tahera Hossain; Mohammad Saiedur Rahaman; Keiko Yamashita; Kono Aoi; Ma Guowei; Oyama Shintaro; Takuro Yonezawa
+Video: https://www.youtube.com/watch?v=Pxi9KgUXr_E
+E3 Human-Vehicle Interaction (Wednesday)
+Chair: Mohit Jain, Microsoft Research
+
+Wind of Change: Investigating Information Visualizations for Passengers and Residents’ Perception of Automated Urban Air Mobility
+Luca-Maxim Meinhardt, Mark Colley, Marjana Tahmid, Max Rädler, Enrico Rukzio
+10.1145/3699753
+Watch Out! E-scooter Coming Through!: Multimodal Sensing of Mixed Traffic Use and Conflicts Through Riders’ Ego-centric Views
+Hiruni Nuwanthika Kegalle; Danula Hettiachchi; Jeffrey Chan; Mark Sanderson; Flora D. Salim
+10.1145/3712284
+Extending EV Battery Lifetime: Digital Phenotyping Approach for Departure Time Prediction
+Yonggeon Lee; Woojin Song; Juhyun Song; Youngtae Noh
+10.1145/3699725
+Pioneering Cooperative Air-Ground Instant Delivery using UAVs and Crowdsourced Couriers
+Yan Pan; Junhui Gao; Jiashun Duan; Juan Shi; Bin Guo; Yunji Liang; Yujiao Hu
+10.1145/3699722
+RouteLLM: A Large Language Model with Native Route Context Understanding to Enable Context-Aware Reasoning
+Philipp Hallgarten; Verena Jasmin Hallitschke; Enkelejda Kasneci; Michael Beigl; Tobias Grosse-Puppendahl
+10.1145/3749552
+You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios
+Yumin Kang, Jeongju Park, Seokhyun Hwang, Minwoo Seong, Gwangbin Kim, SeungJun Kim
+10.1145/3749473
+Video: https://www.youtube.com/watch?v=H-urKdsOpMY
+UVX-ray: Urban Village Safety Risk Diagnosis Leveraging Multi-Source Urban Data
+Guofeng Luo, Junxiang Ji, Yongyi Wu, Ruixiang Luo, Jiaru Wang, Lijuan Weng, Zhuohan Ye, Chenhui Lu, Dingqi Yang, Cheng Wang, Longbiao Chen
+10.1145/3729477
+E4 ISWC Briefs (Wednesday)
+Chair: Paul Lukowicz, DFKI Kaiserslautern
+
+InvisiBow – Finger-Held Device for Bimanual Haptic Illusions during Virtual Archery
+Hyung Il Yi; Kun-Woo Song; Nihar Sabnis; Andrea Bianchi; Sang Ho Yoon
+VitalWear: Probing Opportunities for Sweat-Powered Wearable Interactions Through Textile-Based Biofuel Cells
+Jingwen Zhu; Pin-Sung Ku; Kaitlyn Beiler; Ruth Zhao; Lily Winagle; Cindy Hsin-Liu Kao
+WigglyEyes – Inferring Eye Movements from Keypress Data
+Yujun Zhu; Danqing Shi; Hee-Seung Moon; Antti Oulasvirta
+Cross-Modal Translation and Alignment of Sensor Events for Layout-Aware Activity Modeling
+Weihang You; Zishuai Liu; Fei Dou
+From Street to Simulator – Assessing Cyclist Movement Consistency Between Virtual and Real-World Environments
+Jonas Pöhler; Antonia Vitt; Florian Wolling; Florian Michahelles; Kristof Van Laerhoven
+Video: https://www.youtube.com/watch?v=qtKPLv3O8M8
+Wireless Haptic Glove using Nitinol as a Force Feedback Actuator
+Michael Efraimidis; Katerina Mania
+Video: https://www.youtube.com/watch?v=eA9MXFcmvmI
+Exploring Wearable-Based Detection of Compulsive Handwashing in a Non-Controlled Setting: A Case Study
+Kristina Kirsten; Robin Burchard; Amatya Mackintosh; Marcel Miché; Dorothée Bentz; Klaus Bader; Jannis Behr; Roselind Lieb; Kristof Van Laerhoven; Bert Arnrich; Karina Wahl
+F1 WiFi/RF/Magnetic Fields (Thursday)
+Chair: Chenshu Wu, The University of Hong Kong
+
+DEWS: A Distributed Measurement Scheme for Efficient Wireless Sensing
+Mingzhi Pang; Kaiying Li; Xun Wang; Wei Wang; Wen Cheng; Dongxu Liu; Yuqing Yin; Pengpeng Chen
+10.1145/3699728
+MagKey: Empowering Wearables with Ballistocardiography-based Key Generation through Magnetic Field Vibration Sensing
+Junying Huang; Xiu-Zhen Guo; Chaojie Gu; Yuchen Miao; Shibo He; Yuanchao Shu; Jiming Chen
+10.1145/3712272
+Size Matters: Characterizing the Effect of Target Size on Wi-Fi Sensing Based on the Fresnel Zone Model
+Zhu Wang; Chendi Geng; Zhuo Sun; Zhen Chen; Sicong Liu; Bin Guo; Zhiwen Yu
+10.1145/3699726
+Graph-based Fingerprint Update Using Unlabelled WiFi Signals
+Ka Ho Chiu; Handi Yin; Weipeng Zhuo; Chul-Ho Lee; S.-H. Gary Chan
+10.1145/3712277
+Video: https://www.youtube.com/watch?v=pa17bPQD_zk
+SenLoRa: Integrated Sensing and Communication with Ambient LoRa
+Lu Wang; Hao Wang; Boliang Guo; Xiaoshen Li; Yongzhi Huang; Junmei Yao; Kaishun Wu
+10.1145/3749522
+AdaptTrack: A Robust Tracking System for Complex Environments Based on WiFi Device Selection Strategy
+Dongliang Ma, Zhuo Sun, Zhiqiang Wei, Yifan Guo, Yangqian Lei, Zhu Wang, Zhiwen Yu, Bin Guo
+10.1145/3749506
+SLIM-SENSE: A Resource Efficient WiFi Sensing Framework for Conserving Spectrum Resources
+Vijay Kumar Singh, Aryan Walecha, Ashutosh Gera, Rishabh Jay, Arani Bhattacharya, Mukulika Maity
+10.1145/3712271
+F2 Smart Homes & IoT (Thursday)
+Chair: Zhenyu Yan, The Chinese University of Hong Kong
+
+The House That Saves Me? Assessing the Role of Smart Home Automation in Warning Scenarios
+Markus Henkel; Steffen Haesler; Hiba Al-Najmi; Frank Hessel; Christian Reuter
+10.1145/3712269
+ESATED: Leveraging Extra-weak Supervision with Auxiliary Task for Enhanced Non-intrusiveness in Energy Disaggregation
+Peng Xia, Hao Zhou, Tianjian Yang, Wangqiu Zhou, Zhi Liu, Xiaoyan Wang, Xiang-Yang Li
+10.1145/3699729
+Layout-agnostic human activity recognition in smart homes through textual descriptions of sensor triggers (TDOST)
+Megha Thukral, Sourish Gunesh Dhekane, Shruthi K. Hiremath, Harish Haresamudram, Thomas Ploetz
+10.1145/3712278
+SemiCMT: Contrastive Cross-Modal Knowledge Transfer for IoT Sensing with Semi-Paired Multi-Modal Signals
+Yatong Chen; Chenzhi Hu; Tomoyoshi Kimura; Qinya Li; Shengzhong Liu; Fan Wu; Guihai Chen
+10.1145/3699779
+LEGO: Synthesizing IoT Device Components Based on Static Analysis and Large Language Models
+Liwei Liu; Tao Wang; Wei Chen; Jun Wei; Wei Wang; Guoquan Wu
+10.1145/3729482
+LGL-BCI: A Motor-Imagery-Based Brain-Computer Interface with Geometric Learning
+Jianchao Lu; Yuzhe Tian; Yang Zhang; Quan Z. Sheng; Xi Zheng
+10.1145/3699732
+Moat: Adaptive Inside/Outside Detection System for Smart Homes
+Chixiang Wang, Weijia He, Timothy J. Pierson, David Kotz
+10.1145/3699751
+F3 Sleep and Heart (Thursday)
+Chair: Jiankai Tang, Tsinghua University
+
+Semi-supervised Contrastive Learning for Reliable Sleep Staging with Small Labeled Photoplethysmography Data
+Qi Wang, Zhengyuan Zhang, Guanzhou Zhu, Yuxing Yao, Zilong Wang, Yiyang Wang, Yuxuan Fu, Yixuan Song, Dong Zhao, Huadong Ma
+10.1145/3749978
+Unobtrusive Perceived Sleep Quality Monitoring In The Wild
+Alvise Dei Rossi; Davide Marzorati; Tiziano Gerosa; Radoslava Švihrová; Silvia Santini; Francesca Faraci
+10.1145/3749502
+RF-AE: Single-site Arterial Elasticity Estimation Using UWB Signals
+Zhi Wang; Beihong Jin; Yuhui Chen; Fusang Zhang; Siheng Li; Junqi Ma; Tao Gong; Yu Fu
+10.1145/3729460
+RingBP: Towards Continuous, Comfortable, and Generalized Blood Pressure Monitoring Using a Smart Ring
+Guanzhou Zhu, Dong Zhao, Yixuan Song, Zilong Wang, Anfu Zhou, Huadong Ma, Xiangbin Meng, Jingjia Wang, Chunli Shao, Yida Tang
+10.1145/3731600
+Contactless Arterial Blood Pressure Waveform Monitoring with mmWave Radar
+Qingyong Hu; Qian Zhang; Hao Lu; Shun Wu; Yuxuan Zhou; Qianyi Huang; Huangxun Chen; Ying-Cong Chen; Ni Zhao
+10.1145/3699781
+Video: https://www.youtube.com/watch?v=n4MhjgDV7fA
+Pulse-PPG: An Open-Source Field-Trained PPG Foundation Model for Wearable Applications Across Lab and Field Settings
+Mithun Saha; Maxwell A. Xu; Wanting Mao; Sameer Neupane; James M. Rehg; Santosh Kumar
+10.1145/3749494
+PASS: A Novel PPG-based Aortic Stenosis Screening System
+Le Kang; Ruotong Yang; Yihui Liu; Anfu Zhou; Huadong Ma; Hao Cui
+10.1145/3749548
+G1 Human Activity Recognition in the Wild (Thursday)
+Chair: Claudio Bettini, Università degli studi di Milano
+
+SAHARA: Self-supervised Approach for Human Activity Recognition based on Audio Events
+Mohammad Kianpisheh; Alex Mariakakis; Khai N. Truong
+ActSonic: Recognizing Everyday Activities from Inaudible Acoustic Wave Around the Body
+Saif Mahmud; Vineet Parikh; Qikang Liang; Ke Li; Ruidong Zhang; Ashwin Ajit; Vipin Gunda; Devansh Agarwal; François Guimbretière; Cheng Zhang
+10.1145/3699752
+From Verbal Reports to Personalized Activity Trackers: Understanding the Challenges of Ground Truth Data Collection with Older Adults in the Wild
+Hossein Khayami; Lining Wang; Young-Ho Kim; Bongshin Lee; David E. Conroy; Amanda Lazar; Eun Kyoung Choe; Hernisa Kacorri
+10.1145/3731749
+Video: https://www.youtube.com/watch?v=CympY6tJRlQ
+Multi-granularity Supervised Contrastive Learning with Online Adaptation for Contactless In-bed Posture Classification
+Yingjian Song; Haotian Xiang; Zixuan Zeng; Jiayu Chen; Yida Zhang; Zaid Farooq Pitafi; He Yang; Qin Lu; Xiang Zhang; Bradley G. Phillips; Fei Dou; WenZhan Song
+10.1145/3729464
+FoRM: Foot-driven Reconstruction of Human Motion Using Dual-Modal Plantar Pressure and Inertial Sensing
+Qijun Ying, Zehua Cao, Ziyu Wu, Wenwu Deng, Yuchen Zhong, Yukun Diao, XiaoHui Cai
+10.1145/3749551
+Wearable Detection of Gait Changes in Walking Activities via Time Series Similarity Measures
+Tania Brusadin; Michele Pellegrini; Francesco Franco; Francesco Poggi; Luca Bedogni
+TxP: Reciprocal Generation of Ground Pressure Dynamics and Activity Descriptions for Improving Human Activity Recognition
+Lala Shakti Swarup Ray; Lars Krupp; Vitor Fortes Rey; Bo Zhou; Sungho Suh; Paul Lukowicz
+10.1145/3732001
+G2 Education & Students (Thursday)
+Chair: Nan Gao, Nankai University
+
+EMooly: Supporting Autistic Children in Collaborative Social-Emotional Learning with Caregiver Participation through Interactive AI-infused and AR Activities
+Yue Lyu; Di Liu; Pengcheng An; Xin Tong; Huan Zhang; Keiko Katsuragawa; Jian Zhao
+10.1145/3699738
+TIEboard: A Digital Educational Tool for Kids Geometric Learning
+Arooj Zaidi; Giulia Barbareschi; Kai Steven Kunze; Yun Suen Pai; Junichi Yamaoka
+10.1145/3729478
+Video: https://www.youtube.com/watch?v=90jtQjAiCoU
+Presentation quality assessment through audience 3D facial and head direction using conventional cameras
+Goshi Imamura; Atsushi Nakazawa
+10.1145/3749540
+Masterpiece Creation: An AI-Powered Robotic Calligraphy Creation System
+Shuming Hu, Na Wang, Kaixing Zhao, Yao Jing, Ying Zhang, Zhu Wang, Bin Guo, Zhiwen Yu
+10.1145/3749957
+Animating the Crowd Mirage: A WiFi-Positioning-Based Crowd Mobility Digital Twin for Smart Campuses
+Chunhua Chen, Yuxin Yang, Hao Yuan, Longbiao Chen, Leye Wang, Bingqing Qu, Dingqi Yang
+10.1145/3699792
+Video: https://www.youtube.com/watch?v=kgV2yk_0bv0
+TravelTales: Reflecting on Meaningful Travel through Digital Scrapbooking and Journaling
+Michael Yin; Robert Xiao
+10.1145/3749512
+Video: https://www.youtube.com/watch?v=Npr79df6PsQ
+MM-RunAssist: mmWave-based Respiratory and Running Rhythm Analysis during Treadmill Workouts
+Chandler Jackson Bauder, Tianhao Wu, Syed Irfan Ali Meerza, Aly Fathy, Jian Liu
+10.1145/3749458
+G3 Mobile Health (Thursday)
+Chair: Ananta Narayanan Balaji, Nokia Bell Labs
+
+Incorporating Uncertainty in Predictive Models Using Mobile Sensing and Clinical Data: A Case Study on Persistent Post-surgical Pain
+Ziqi Xu; Jingwen Zhang; Simon Haroutounian; Hanyang Liu; Zihan Cao; Gabrielle Rose Messner; Harutyun B. Alaverdyan; Saivee Ahuja; Rahul Koshy; Joel Hanns; Madelyn Frumkin; Thomas L. Rodebaugh; Chenyang Lu
+10.1145/3729488
+HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications
+Glenn J. Fernandes; Jiayi Zheng; Mahdi Pedram; Christopher Romano; Farzad Shahabi; Blaine Rothrock; Thomas Cohen; Helen Zhu; Tanmeet S. Butani; Josiah Hester; Aggelos K. Katsaggelos; Nabil Alshurafa
+10.1145/3678591
+Video: https://www.youtube.com/watch?v=nutnRCZkPNg
+GoalTrack: Supporting Personalized Goal-Setting in Stroke Rehabilitation with Multimodal Activity Journaling
+Jong Ho Lee; Sunghoon Ivan Lee; Eun Kyoung Choe
+10.1145/3699723
+Engagements with Generative AI and Personal Health Informatics: Opportunities for Planning, Tracking, Reflecting, and Acting around Personal Health Data
+Shaan Chopra; Katherine Juarez; James Fogarty; Sean A. Munson
+10.1145/3749503
+Longitudinal user engagement with microinteraction ecological momentary assessment (μEMA)
+Aditya Ponnada; Shirlene D. Wang; Jixin Li; Wei-Lin Wang; Genevieve F. Dunton; Donald Hedeker; Stephen S. Intille
+10.1145/3749541
+Video: https://www.youtube.com/watch?v=XMv6_xpzw6o
+Ethical Disengagement in Mobile Games: The Effects of Loading Delay and Grayscale on User Engagement
+Yugo Nakamura; Ryota Takao; Shogo Fukushima; Yutaka Arakawa
+10.1145/3712281
+Video: https://www.youtube.com/watch?v=b5nBx5AgTb8
+TherAIssist: Assisting Art Therapy Homework and Client-Practitioner Collaboration through Human-AI Interaction
+Di Liu; Jingwen Bai; Zhuoyi Zhang; Yilin Zhang; Zhenhao Zhang; Jian Zhao; Pengcheng An
+10.1145/3749497
+G4 Last Minute Papers (Thursday)
+Chair: Daniel Epstein, University of California, Irvine
+
+CleAR: Robust Context-Guided Generative Lighting Estimation for Mobile Augmented Reality
+Yiqin Zhao, Mallesham Dasari, Tian Guo
+10.1145/3749535
+Mindfulness Meditation and Respiration: Accelerometer-based Respiration Rate and Mindfulness Progress Estimation to Enhance App Engagement and Mindfulness Skills
+Mohammad Nur Hossain Khan, David Creswell, Jordan Albert, Patrick O’Connell, Shawn Fallon, Mathew Polowitz, Xuhai Orson Xu, Bashima Islam
+10.1145/3749498
+Certified Robustness against Sensor Heterogeneity in Acoustic Sensing
+Phuc Duc Nguyen, Yimin Dai, Xiao-Li Li, Rui Tan
+10.1145/3749481
+Manipulation of Acoustic Focusing for Multi-target Sensing with Distributed Microphones in Smart Car Cabin
+Yuqi Su, Fusang Zhang, Beihong Jin, Daqing Zhang
+10.1145/3729470
+H1 Interaction Techniques II (Thursday)
+Chair: Dan Adler, Cornell University
+
+Digital Olfaction System Driven by Terahertz Sensing
+Rui Lyu, Hang Lei, Langcheng Zhao, Anfu Zhou, Huadong Ma
+10.1145/3749532
+AdsDP: A Video Dataset for Recognizing and Examining Dark Patterns in iOS In-App Advertisements
+Yuxuan Shang; Guanxiao Wang; Mengxia Ren; Haomin Zhang; Xingming Chen; Haitao Xu; Chuan Yue; Shuai Hao; Bo Zhou; Wenrui Ma; Fan Zhang; Zhao Li
+10.1145/3749515
+Grab-n-Go: On-the-Go Microgesture Recognition with Objects in Hand
+Chi-Jung Lee; Jiaxin Li; Tianhong Catherine Yu; Ruidong Zhang; Vipin Gunda; François Guimbretière; Cheng Zhang
+10.1145/3749469
+Video: https://www.youtube.com/watch?v=VkHmQk3Qm5s
+W2W: A Simulated Exploration of IMU Placement Across the Human Body for Designing Smarter Wearable
+Lala Shakti Swarup Ray; Bo Zhou; Paul Lukowicz
+Video: https://www.youtube.com/watch?v=yrBNx9rmHYw
+DCSNN: An Efficient and High-speed sEMG-based Transient-state Micro-gesture Recognition Method on Wearable Devices
+Youfang Han; Wei Zhao; Ge Gao; Xiangjin Chen; Jiliang Yin; Lin Wang; Xin Meng; Yang Yu; Tengxiang Zhang
+10.1145/3729494
+Video: https://www.youtube.com/watch?v=4WhOlUbH8Xo
+mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model
+Yifan Guo; Zhu Wang; Qian Qin; Yangqian Lei; Qiwen Gan; Zhuo Sun; Chao Chen; Bin Guo; Zhiwen Yu
+10.1145/3749504
+AudioMiXR: Spatial Audio Object Manipulation with 6DoF for Sound Design in Augmented Reality
+Brandon Woodard, Margarita Geleta, Joseph J. LaViola Jr., Andrea Fanelli, Rhonda Wilson
+10.1145/3749478
+H2 Haptics and Touch (Thursday)
+Chair: Jin Ryong Kim, University of Texas at Dallas
+
+Passive Haptic Rehearsal for Augmented Piano Learning in the Wild
+Tan Gemicioglu; Elijah Hopper; Brahmi Dwivedi; Richa Kulkarni; Asha Bhandarkar; Priyanka Rajan; Nathan Eng; Adithya Ramanujam; Charles Ramey; Scott M. Gilliland; Celeste Mason; Caitlyn Seim; Thad Starner
+10.1145/3699748
+UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs
+Changhyeon Park; Yubin Lee; Sang Ho Yoon
+10.1145/3731413
+EchoForce: Continuous Grip Force Estimation from Skin Deformation Using Active Acoustic Sensing on a Wristband
+Kian Mahmoodi; Yudong Xie; Tan Gemicioglu; Chi-Jung Lee; Jiwan Kim; Cheng Zhang
+Comparative Analysis of Knitting Patterns for Wearable Resistive Strain Sensors in Joint Motion Measurements
+Alina Schepers; Yao Zhang; Yu Xiao
+Video: https://www.youtube.com/watch?v=nb_U-lKM7mc
+Beyond Symbols: Motion Perception Cues Enhance Dual-Task Performance with Wearable Directional Guidance
+Qing Zhang; Junyu Chen; Yifei Huang; Jing Huang; Thad Starner; Kai Kunze; Jun Rekimoto
+Video: https://www.youtube.com/watch?v=VW8qacZYNbU
+Hapt-Aids: Self-Powered, On-Body Haptics for Activity Monitoring
+Vivian Shen; Xiaoying Yang; Chris Harrison; Yang Zhang
+10.1145/3749468
+Video: https://www.youtube.com/watch?v=l5KHW2YVzWw
+HandSAW: Wearable Hand-based Event Recognition via On-Body Surface Acoustic Waves
+Kaylee Yaxuan Li, Yasha Iravantchi, Yichen Zhu, Hyunmin Park, Alanson P. Sample
+10.1145/3712276
+H3 Fitness and Sports (Thursday)
+Chair: Sizhen Bian, DFKI (German Research Center for Artificial Intelligence)
+
+Investigating Perspectives of and Experiences with Low Cost Commercial Fitness Wearables
+Whitney-Jocelyn Kouaho; Daniel A. Epstein
+10.1145/3699740
+SeamFit: Towards Practical Smart Clothing for Automatic Exercise Logging
+Tianhong Catherine Yu; Manru Mary Zhang; Luis Miguel Malenab; Chi-Jung Lee; Jacky Hao Jiang; Ruidong Zhang; François Guimbretière; Cheng Zhang
+10.1145/3712287
+PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose Estimation in Activities
+Yang Gao; Wenbo Zhang; Junbin Ren; Ruihao Zheng; Yingcheng Jin; Di Wu; Lin Shu; Xiangmin Xu; Zhanpeng Jin
+10.1145/3699773
+SoundTrack: A Contactless Mobile Solution for Real-time Running Metric Estimation for Treadmill Running in the Wild
+Jingping Nie; Yuang Fan; Ziyi Xuan; Minghui Zhao; Runxi Wan; Matthias Preindl; Xiaofan Jiang
+10.1145/3729486
+Motion2Press: Cross Model Learning from IMU to Plantar Pressure for Gait Analysis
+Junbin Ren; Ruihao Zheng; Wenbo Zhang; D. She; Y. Bai; Z.-P. Jin; Y. Gao
+10.1145/3749499
+KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics
+Wenbo Zhang; Chenxu Zhang; Yang Gao; Zhanpeng Jin
+10.1145/3749462
+Closed-Loop Rhythmic Haptic Biofeedback via Smartwatch for Relaxation and Sleep Onset
+Jueun Lee, Dennis Moschina, Supraja Ramesh, Tobias Röddiger, Kai Kunze, Michael Beigl
+Video: https://www.youtube.com/watch?v=_Y6d3J03fiA
+H4 Privacy & Security (Thursday)
+Chair: Yuezhong Wu, Fuzhou University
+
+A Large-Scale Survey of Password Entry Practices on Non-Desktop Devices
+John Sadik; Scott Ruoti
+10.1145/3749491
+HCR-Auth: Reliable Bone Conduction Earphone Authentication with Head Contact Response
+Zhixiang He, Jing Chen, Cong Wu, Kun He, Ruiying Du, Ju Jia, Yangyang Gu, Xiping Sun
+10.1145/3699780
+Transient Authentication from First-Person-View Video
+Le Ngu Nguyen, Rainhard Dieter Findling, Maija Poikela, Si Zuo, Stephan Sigg
+10.1145/3712266
+KeyPrint: Practical Black-box Keystroke Inference Attacks to Mobile Devices
+Yunpeng Feng, Daibo Liu, Wenqiang Jin, Liangyi Gong
+10.1145/3729493
+“I would still use it but I wouldn’t trust it”: Evaluating Mechanisms for Transparency and Control for Smart-Home Sensors
+Ben Weinshel, Yuvraj Agarwal, Lujo Bauer
+10.1145/3729480
+HandID: Towards Unobtrusive Gesture-independent User Authentication on Smartphones Using Vibration-based Hand Biometrics
+Yuezhong Wu, Wei Song, Chun Tung Chou, Jiankun Hu, Wen Hu
+10.1145/3729489
+The Manipulative Power of Voice Characteristics: Investigating Deceptive Patterns in Mandarin Chinese Female Synthetic Speech
+Shuning Zhang, Han Chen, Yabo Wang, Yiqun Xu, Jiaqi Bai, Yuanyuan Wu, Shixuan Li, Xin Yi, Chunhui Wang, Hewu Li
+10.1145/3749510
+Video: https://www.youtube.com/watch?v=6IDis0GjQkU

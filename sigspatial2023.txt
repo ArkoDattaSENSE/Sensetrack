@@ -1,0 +1,226 @@
+Full Papers
+Learning Dynamic Graphs from All Contextual Information for Accurate Point-of-Interest Visit Forecasting
+Arash Hajisafi (University of Southern California), Haowen Lin (University of Southern California), Sina Shaham (University of Southern California), Haoji Hu (University of Minnesota), Maria Despoina Siampou (University of Southern California), Yao-Yi Chiang (University of Minnesota), Cyrus Shahabi (University of Southern California)
+Empowering Spatial Knowledge Graph for Mobile Traffic Prediction
+Jiahui Gong (Tsinghua University), Yu Liu (Tsinghua University), Tong Li (Tsinghua University), Haoye Chai (Tsinghua University), Xing Wang (China Mobile Research Institute), Junlan Feng (China Mobile Research Institute), Chao Deng (China Mobile Research Institute), Depeng Jin (Tsinghua University), Yong Li (Tsinghua University)
+Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
+Linhan Wang (Virginia Tech), Shuo Lei (Virginia Tech), Jianfeng He (Virginia Tech), Shengkun Wang (Virginia Tech), Min Zhang (Virginia Tech), Chang-Tien Lu (Virginia Tech)
+Indirect Cooperation in Distributed Stationary-Resource Searching with Predefined Destinations
+Fandel Lin (USC Information Sciences Institute), Craig Knoblock (USC Information Sciences Institute)
+Cross-attention Spatio-temporal Context Transformer for Semantic Segmentation of Historical Maps
+Sidi Wu (ETH Zurich), Yizi Chen (ETH Zurich), Konrad Schindler (ETH Zurich), Lorenz Hurni (ETH Zurich)
+Collision Risk Assessment and Forecasting on Maritime Data (Industrial Paper)
+Andreas Tritsarolis (University of Piraeus), Brian Murray (SINTEF Ocean), Nikos Pelekis (University of Piraeus), Yannis Theodoridis (University of Piraeus)
+High-Fidelity Deep Approximation of Ecosystem Simulation over Long-Term at Large Scale
+Zhihao Wang (University of Maryland), Yiqun Xie (University of Maryland), Xiaowei Jia (University of Pittsburgh), Lei Ma (University of Maryland), George Hurtt (University of Maryland)
+SIMD-ified R-tree Query Processing and Optimization
+Yeasir Rayhan (Purdue University, Computer Science), Walid Aref (Purdue University, Computer Science)
+A Unified Representation Framework for Rideshare Marketplace Equilibrium and Efficiency
+Alex Chin (Lyft), Zhiwei Qin (Lyft)
+FedGeo: Privacy-Preserving User Next Location Prediction with Federated Learning
+Chung Park (SK Telecom / KAIST), Taekyoon Choi (Naver), Taesan Kim (SK Telelcom), Mincheol Cho (SK Telelcom), Junui Hong (SK Telelcom / KAIST), Minsung Choi (SK Telelcom), Jaegul Choo (Korea Advanced Institute of Science and Technology)
+Supervised Scheduling for Geospatial Interlinking
+Maria Despoina Siampou (University of Southern California), George Papadakis (National Technical University of Athens), Nikos Mamoulis (University of Ioannina), Manolis Koubarakis (National and Kapodistrian University of Athens)
+Enhancing Spatial Spread Prediction of Infectious Diseases through Integrating Multi-scale Human Mobility Dynamics
+Yinzhou Tang (Tsinghua University), Huandong Wang (Tsinghua University), Yong Li (Tsinghua University)
+Summarizing Trajectories Using Semantically Enriched Geographical Context
+Chiara Pugliese (ISTI - CNR), Francesco Lettich (ISTI - CNR), Fabio Pinelli (IMT Lucca), Chiara Renso (ISTI - CNR)
+Equity-Aware Cross-Graph Reinforcement Learning for Bike Station Network Expansion
+Xi Yang (The University of Connecticut), Suining He (The University of Connecticut), Mahan Tabatabaie (The University of Connecticut)
+Spatial Knowledge-Infused Hierarchical Learning: An Application in Flood Mapping on Earth Imagery (Best paper candidate)
+Zelin Xu (University of Florida), Tingsong Xiao (University of Florida), Wenchong He (University of Florida), Yu Wang (University of Florida), Zhe Jiang (University of Florida)
+Periodic Shift and Event-aware Spatio-Temporal Graph Convolutional Network for Traffic Congestion Prediction (Industrial Paper)
+Fuxian Li (Tsinghua University), Huan Yan (Tsinghua University), Hongjie Sui (Tsinghua University), Deng Wang (Alibaba Group), Fan Zuo (Alibaba Group), Yue Liu (Alibaba Group), Yong Li (Tsinghua University), Depeng Jin (Department of Electronic Engineering, Tsinghua University)
+Rethink Geographical Generalizability with Unsupervised Self-Attention Model Assemble: A Case Study of OpenStreetMap Missing Building Detection in Africa
+Hao Li (Techinical Universtiy of Munich), Jiapan Wang (Techinical Universtiy of Munich), Johann Maximilian Zollner (Techinical Universtiy of Munich), Gengchen Mai (University of Georgia), Ni Lao (Mosaix.ai), Martin Werner (Techinical Universtiy of Munich)
+Which Traffic Light Should You Look at? Automatically Associating Traffic Lights with Roads in High-Definition Map (Industrial Paper)
+Zhicheng Liu (Alibaba Group and Tsinghua University), Yitian Liao (AutoNavi, Alibaba Group), Zan Sun (AutoNavi, Alibaba Group), Huankang Guan (City University of Hong Kong), Danning Jiang (AutoNavi, Alibaba Group), Yong Li (Tsinghua University)
+DiffSTG: Probabilistic Spatio-Temporal Graph Forecasting with Denoising Diffusion Models
+Haomin Wen (Beijing Jiaotong University, China;), Youfang Lin (Beijing Jiaotong University, Beijing, China), Yutong Xia (School of Computing, National University of Singapore, Singapore), Huaiyu Wan (Beijing Jiaotong University, China;), Qingsong Wen (DAMO Academy, Alibaba Group), Zimmermann Roger (School of Computing, National University of Singapore, Singapore), Yuxuan Liang (Hong Kong University of Science and Technology (Guangzhou))
+Selecting Landmarks for Wayfinding Assistance Based on Advance Visibility
+Sven Gedicke (University of Bonn), Martin Tomko (University of Melbourne), Stephan Winter (University of Melbourne), Jan-Henrik Haunert (University of Bonn)
+Statistical Inference for Spatial Regionalization
+Hussah Alrashid (University of California Riverside), Amr Magdy (University of California Riverside), Sergio Rey (San Diego State University)
+GTI: Graph-based Trajectory Imputation
+Keivin Isufaj (Qatar Computing Research Institute - Hamad Bin Khalifa University), Mohamed Elshrif (Qatar Computer Research Institute - Hamad Bin Khalifa University), Sofiane Abbar (Qatar Computing Research Institute - Hamad Bin Khalifa University), Mohamed Mokbel (University of Minnesota)
+PathletRL: Trajectory Pathlet Dictionary Construction using Reinforcement Learning (Best paper candidate)
+Gian Alix (York University), Manos Papagelis (York University)
+Modeling Multi-Grained User Preference in Location Visitation
+Yingrong Qin (Tsinghua University), Chen Gao (Tsinghua University), Zhen Tu (Tencent), Hongsheng Wu (Tencent), Shuangqing Wei (Louisiana State University), Yue Wang (Tsinghua University), Lin Zhang (Tsinghua Shenzhen International Graduate School), Yong Li (Tsinghua University)
+SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction
+Yannick Wölker (Christian-Albrechts-Universität zu Kiel), Christian Beth (Christian-Albrechts-Universität zu Kiel), Matthias Renz (Christian-Albrechts-Universität zu Kiel), Arne Biastoch (GEOMAR Helmholtz Centre for Ocean Research Kiel)
+UniCellular: An Accurate and Ubiquitous Floor Identification System using Single Cell Tower Information (Best paper candidate)
+Sherif Mostafa (The American University in Cairo), Khaled A. Harras (Carnegie Mellon University), Moustafa Youssef (The American University in Cairo)
+One-Shot Traffic Assignment with Forward-Looking Penalization
+Giuliano Cornacchia (University of Pisa, Pisa, Italy), Mirco Nanni (KDD-Lab ISTI-CNR Pisa), Luca Pappalardo (KDD-Lab ISTI-CNR Pisa)
+Saliency Driven Imagery Preprocessing for Efficient Compression - Industrial Paper
+Justin Downes (AWS), Sam Saltwick (AWS), Anthony Chen (AWS)
+Contagion Process Guided Cross-scale Spatio-Temporal Graph Neural Network for Traffic Congestion Prediction
+Mudan Wang (Tsinghua University), Huan Yan (Tsinghua University), Huandong Wang (Tsinghua University), Yong Li (Tsinghua University), Depeng Jin (Tsinghua University)
+KnowSite: Leveraging Urban Knowledge Graph for Site Selection
+Yu Liu (Tsinghua University), Jingtao Ding (Tsinghua University, Beijing, P.R.China), Yong Li (Tsinghua University)
+Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion
+Zhilun Zhou (Tsinghua University), Jingtao Ding (Tsinghua University), Yu Liu (Tsinghua University), Depeng Jin (Tsinghua University), Yong Li (Tsinghua University)
+Reconsidering utility: unveiling the limitations of synthetic mobility data generation algorithms in real-life scenarios
+Alexandra Kapp (Hochschule für Technik und Wirtschaft Berlin (HTW Berlin), University of Applied Sciences), Helena Mihaljević (Hochschule für Technik und Wirtschaft Berlin (HTW Berlin), University of Applied Sciences)
+Revisiting Mobility Modeling with Graph: A Graph Transformer Model for Next Point-of-Interest Recommendation
+Xiaohang Xu (The University of Tokyo), Toyotaro Suzumura (The University of Tokyo), Jiawei Yong (Toyota Motor Corporation), Masatoshi Hanai (The University of Tokyo), Chuang Yang (The University of Tokyo), Hiroki Kanezashi (The University of Tokyo), Renhe Jiang (The University of Tokyo), Shintaro Fukushima (Toyota Motor Corporation)
+Scalable Evaluation of Local K-Function for Radius-Accurate Hotspot Detection in Spatial Networks (Best paper candidate)
+Yongyi Liu (University of California, Riverside), Yunfan Kang (University of California, Riverside), Amr Magdy (University of California, Riverside), Ahmed Mahmood (Google LLC.)
+Reachability Queries on Dynamic Temporal Bipartite Graphs
+Lohan Meunier (Tsinghua University), Ying Zhao (Tsinghua University)
+Modeling Spatially Varying Physical Dynamics for Spatiotemporal Predictive Learning
+Yijun Lin (University of Minnesota, Twin Cities), Yao-Yi Chiang (University of Minnesota, Twin Cities)
+Hide Your Distance: Privacy Risks and Protection in Spatial Accessibility Analysis
+Liyue Fan (UNC Charlotte), Luca Bonomi (Vanderbilt University)
+Exploiting Polygon Metadata to Understand Raster Maps - Accurate Polygonal Feature Extraction
+Fandel Lin (USC Information Sciences Institute), Craig Knoblock (USC Information Sciences Institute), Basel Shbita (USC Information Sciences Institute), Binh Vu (USC Information Sciences Institute), Zekun Li (University of Minnesota), Yao-Yi Chiang (University of Minnesota)
+Vision Papers
+Towards Open-Source Maps Metadata
+Mohamed Mokbel (University of Minnesota), Areeg Mostafa (University of Minnesota)
+Building Privacy-Preserving and Secure Geospatial Artificial Intelligence Foundation Models (Vision Paper)
+Jinmeng Rao (University of Wisconsin-Madison), Song Gao (University of Wisconsin-Madison), Gengchen Mai (University of Georgia), Krzysztof Janowicz (University of California, Santa Barbara)
+The Geospatial Generalization Problem: When Mobility Isn't Mobile (Vision Paper)
+Mark Tenzer (Novateur Research Solutions), Zeeshan Rasheed (Novateur Research Solutions), Khurram Shafique (Novateur Research Solutions)
+MaaSDB: Spatial Databases in the Era of Large Language Models (Vision Paper)
+Jianzhong Qi (The University of Melbourne), Zuqing Li (The University of Melbourne), Egemen Tanin (The University of Melbourne)
+"Geo"-Foundation Models: Reality, Gaps and Opportunities (Vision Paper)
+Yiqun Xie (University of Maryland), Zhaonan Wang (University of Illinois Urbana-Champaign), Gengchen Mai (University of Georgia), Yanhua Li (Worcester Polytechnic Institute), Xiaowei Jia (University of Pittsburgh), Song Gao (University of Wisconsin-Madison), Shaowen Wang (University of Illinois Urbana-Champaign)
+Spatial Data Management for Green Mobility
+Christophe Claramunt (Naval Academy Research Institute), Christine Bassem (Wellesley College), Demetrios Zeinalipour-Yazti (University of Cyprus), Baihua Zheng (bhzheng@smu.edu.sg), Goce Trajcevski (Iowa State University), Kristian Torp (Denmark)
+Artificial General Intelligence for Human Mobility (Vision Paper)}
+Hao Xue (University of New South Wales), Flora D. Salim (University of New South Wales)
+Demo Papers
+D01 VesselVision: Fleet Safety Awareness over Streaming Vessel Trajectories (Demo Paper)
+Andreas Tritsarolis (University of Piraeus), Nikos Pelekis (University of Piraeus), Yannis Theodoridis (University of Piraeus)
+D02 Integrating Automated Annotation of Magnetic Prospection Data into GIS Workflows in Archaeology (Demo Paper)
+Steffen Strohm (Kiel University), Finn Witzany (Kiel University), Christian Beth (Kiel University), Matthias Renz (Kiel University)
+D03 Reproducible Extraction of Building Footprints from Airborne LiDAR Data: A Demo Paper
+Mertcan Erdem (Hacettepe University), Berk Anbaroglu (Hacettepe University)
+D04 Fire Risk Management using Data Cubes, Machine Learning and OBDA systems
+Dimitris Bilidas (National and Kapodistrian University of Athens), Anastasios Mantas (National and Kapodistrian University of Athens), Filippos Yfantis (National and Kapodistrian University of Athens), George Stamoulis (National and Kapodistrian University of Athens), Manolis Koubarakis (National and Kapodistrian University of Athens), Spyros Kondylatos (National Observatory of Athens), Ioannis Prapas (National Observatory of Athens), Ioannis Papoutsis (National Observatory of Athens)
+D05 The mapKurator System: A Complete Pipeline for Extracting and Linking Text from Historical Maps (Demo Paper)
+Jina Kim (University of Minnesota), Zekun Li (University of Minnesota), Yijun Lin (University of Minnesota), Min Namgung (University of Minnesota), Leeje Jang (University of Minnesota), Yao-Yi Chiang (University of Minnesota)
+D06 Efficient Interactive Visualization of Large Geospatial Query Results
+Hannah Bast (University of Freiburg), Patrick Brosi (University of Freiburg), Johannes Kalmbach (University of Freiburg), Axel Lehmann (University of Freiburg)
+D07 Map GPT Playground: Smart Locations and Routes with GPT
+Chiqun Zhang (Microsoft), Antonios Karatzoglou (Microsoft), Helen Craig (Microsoft), Dragomir Yankov (Microsoft)
+D08 RapidEarth: A Search Engine for Large-Scale Geospatial Imagery (Demo Paper)
+Christian Lülf (University of Münster), Denis Mayr Lima Martins (University of Münster), Marcos Antonio Vaz Salles (Independent Researcher), Yongluan Zhou (University of Copenhagen), Fabian Gieseke (University of Münster)
+D09 E-TRI: E-Vehicle Testbed Routing Infrastructure (Demo Paper)
+Nojus Makulavičius (Vilnius University), Agnė Brilingaitė (Vilnius University), Linas Bukauskas (Vilnius University), Alminas Čivilis (Vilnius University), Virgilijus Krinickij (Vilnius University), Simonas Šaltenis (Vilnius University)
+D10 Roaming Navigation for Pedestrians (Demo Paper)
+Keisuke Otaki (Toyota Central R&D Labs., Inc.), Ai Nakada (Toyota Central R&D Labs., Inc.), Tomosuke Maeda (Toyota Central R&D Labs., Inc.), Takayoshi Yoshimura (Toyota Central R&D Labs., Inc.), Hiroyuki Sakai (Toyota Central R&D Labs., Inc.)
+D11 Geospatial Knowledge Hypercube (Demo Paper)
+Zhaonan Wang (University of Illinois Urbana-Champaign), Bowen Jin (University of Illinois Urbana-Champaign), Wei Hu (University of Illinois Urbana-Champaign), Minhao Jiang (University of Illinois Urbana-Champaign), Seungyeon Kang (University of Illinois Urbana-Champaign), Zhiyuan Li (University of Illinois Urbana-Champaign), Jiawei Han (University of Illinois Urbana-Champaign), Shaowen Wang (University of Illinois Urbana-Champaign)
+D12 Spatial Temporal Graph Neural Networks for Decentralized Control of Robot Swarms (Demo Paper)
+Siji Chen (Virginia Tech), Yanshen Sun (Virginia Tech), Peihan Li (Drexel University), Lifeng Zhou (Drexel University), Chang-Tien Lu (Virginia Tech)
+D13 A Demonstration of GTI: A Scalable Graph-based Trajectory Imputation
+Keivin Isufaj (Qatar Computer Research Institute - Hamad Bin Khalifa University), Jade Choghari (University of Waterloo), Mohamed Elshrif (Qatar Computer Research Institute - Hamad Bin Khalifa University)
+D14 Web-Based Traffic-Sign Detection
+Kasper Pedersen (Aalborg University), Kristian Torp (Aalborg University)
+Data & Resources Paper
+R1 Unleashing Realistic Air Quality Forecasting: Introducing the Ready-to-Use PurpleAirSF Dataset (Data and Resources Paper)
+Jingwei Zuo (Technology Innovation Institute), Wenbin Li (Technology Innovation Institute), Michele Baldo (Technology Innovation Institute), Hakim Hacid (Technology Innovation Institute)
+R2 Converting and Enriching Geo-annotated Event Data: Integrating Ukraine Resilience Information [Data and Resources Paper]
+Manar Attar (Vrije University Amsterdam), Shuai Wang (Vrije University Amsterdam), Ronald Siebes (Vrije University Amsterdam), Eirik Kultorp (Unaffiliated)
+R3 Massive Trajectory Data Generation using a Patterns of Life Simulation
+Hossein Amiri (Emory University), Shiyang Ruan (George Mason University), Joon-Seok Kim (Oak Ridge National Laboratory), Hyunjee Jin (Siemens), Hamdi Kavak (George Mason University), Andrew Crooks (University at Buffalo), Dieter Pfoser (George Mason University), Carola Wenk (Tulane University), Andreas Züfle (Emory University)
+R4 Point2Hex: Higher-order Mobility Flow Data and Resources
+Ali Faraji (York University), Jing Li (York University), Gian Alix (York University), Mahmoud Alsaeed (York University), Nina Yanin (York University), Amirhossein Nadiri (York University), Manos Papagelis (York University)
+R5 CICMoD - A Climate Index Collection Benchmark (Data and Resources Paper)
+Marco Landt-Hayen (GEOMAR Helmholtz Centre for Ocean Research), Willi Rath (GEOMAR Helmholtz Centre for Ocean Research), Sebastian Wahl (GEOMAR Helmholtz Centre for Ocean Research), Martin Claus (Christian-Albrechts-Universität zu Kiel)
+R6 Brussels Mobility Observatory
+Mahmoud Sakr (ULB), Gaspard Merten (ULB)
+R7 A Multimodal Geo Dataset for High-resolution Precipitation Forecasting
+Chen Jiang (Auburn University), Wenlu Wang (Texas A&M University-Corpus Christi), Naiqing Pan (Auburn University), Wei-Shinn Ku (Auburn University)
+R8 Data and Resources Paper: A Multi-granularity Decade-Long Geo-Tagged Twitter Dataset for Spatial Computing
+Yunhe Feng (University of North Texas), Zexuan Meng (University of North Texas), Colton Clemmer (University of North Texas), Heng Fan (University of North Texas), Yan Huang (University of North Texas)
+R9 Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper)
+Martin Werner (Professorship Big Geospatial Data Management, Technical University of Munich), Hao Li (Professorship Big Geospatial Data Management, Technical University of Munich), Johann Maximilian Zollner (Professorship Big Geospatial Data Management, Technical University of Munich), Balthasar Teuscher (Professorship Big Geospatial Data Management, Technical University of Munich), Fabian Deuser (Institute for Distributed Intelligent Systems, University of the Bundeswehr Munich)
+Poster Papers
+P01 On the Use of Abundant Road Speed Data for Travel Demand Calibration of Urban Traffic Simulators
+Suyash Vishnoi (Google Research), Carolina Osorio (Google Research), Akhil Shetty (University of California Berkeley), Iveel Tsogsuren (Google Research), Neha Arora (Google Research)
+P02 Efficient Nearest Neighbor Queries on Non-point Data
+Achilleas Michalopoulos (University of Ioannina), Dimitrios Tsitsigkos (Information Management Systems Institute Athena RC, Athens, Greece), Panagiotis Bouros (Johannes Gutenberg University Mainz), Nikos Mamoulis (University of Ioannina), Manolis Terrovitis (Institute for the Management of Information Systems, RC Athena)
+P03 GeoAI-Powered Lane Matching for Bike Routes in GLOSA Apps
+Philipp Matthes (TU Dresden), Daniel Jeschor (TU Dresden), Thomas Springer (TU Dresden)
+P04 A Novel Approach for Company Real Workplace Identification via E-commercial Data (Industrial Paper)
+Huimin Ren (Worcester Polytechnic Institute), Sijie Ruan (Beijing Institute of Technology), Ye Yuan (JD Intelligent Cities Research), Yanhua Li (Worcester Polytechnic Institute), Jie Bao (JD Intelligent Cities Research), Tianfu He (JD Intelligent Cities Research), Huajun He (Southwest Jiaotong University), Chuishi Meng (JD Intelligent Cities Research), Yu Zheng (JD Intelligent Cities Research)
+P05 Epidemic Amplifier Detection: Finding High-Risk Locations in COVID-19 Cases’ Location Sequences via Multi-task Learning
+Yue Hu (Xidian University), Xiaoli Wang (Beijing Center for Disease Prevention and Control), Huimin Ren (JD iCity, JD Technology), Tianfu He (JD iCity, JD Technology), Tan Tang (Zhejiang University), Huajun He (Southwest Jiaotong University), Chuishi Meng (JD iCity, JD Technology), Boyang Han (JD iCity, JD Technology), Jie Bao (JD iCity, JD Technology), Ying Sun (Beijing Center for Disease Prevention and Control), Gang Li (Beijing Center for Disease Prevention and Control), Quanyi Wang (Beijing Center for Disease Prevention and Control), Peng Yang (Beijing Center for Disease Prevention and Control), Yu Zheng (JD iCity, JD Technology)
+P06 Traffic Accident Hotspot Prediction Using Temporal Convolutional Networks: A Spatio-Temporal Approach
+Sai Deepthi Yeddula (Auburn University), Chen Jiang (Auburn University), Bo Hui (University of Tulsa), Wei-Shinn Ku (Auburn University)
+P07 NALSpatial: An Effective Natural Language Transformation Framework for Queries over Spatial Data
+Mengyi Liu (Nanjing University of Aeronautics and Astronautics), Xieyang Wang (Nanjing University of Aeronautics and Astronautics), Jianqiu Xu (Nanjing University of Aeronautics and Astronautics), Hua Lu (Roskilde University)
+P08 SeMAnD: Self-Supervised Anomaly Detection in Multimodal Geospatial Datasets
+Daria Reshetova (Stanford University), Swetava Ganguli (Apple), C. V. Krishnakumar Iyer (Apple), Vipul Pandey (Apple)
+P09 Explainable Trajectory Representation Based on Dictionary Learning
+Yuanbo Tang (Tsinghua university), Yang Li (Tsinghua university), Zhiyuan Peng (Tsinghua university)
+P10 Are Large Language Models Geospatially Knowledgeable?
+Prabin Bhandari (George Mason University), Antonios Anastasopoulos (George Mason University), Dieter Pfoser (George Mason University)
+P11 A Post-routing ETA Model Providing Confidence Feedback (Industrial Paper)
+Chiqun Zhang (Microsoft), Dragomir Yankov (Microsoft), Antonios Karatzoglou (Microsoft), Michael Evans (Microsoft), Florin Sabau (Microsoft), Oussama Dhifallah (Microsoft)
+P12 GPT Applications in Relevance Model Training in Map Search (Industrial Paper)
+Renzhong Wang (Microsoft), Maryam Najafabadi (Microsoft), Chiqun Zhang (Microsoft), Long-Qi Chen (Microsoft), Tanya Olenina (Microsoft), Dragomir Yankov (Microsoft)
+P13 TrajParquet: A Trajectory-Oriented Column File Format for Mobility Data Lakes
+Nikolaos Koutroumanis (University Of Piraeus), Christos Doulkeridis (University of Piraeus), Chiara Renso (National Research Council of Italy), Mirco Nanni (National Research Council of Italy), Raffaele Perego (National Research Council of Italy)
+P14 The Trajectory Interval Forest Classifier for Trajectory Classification
+Cristiano Landi (University of Pisa), Riccardo Guidotti (University of Pisa), Mirco Nanni (ISTI-CNR), Anna Monreale (University of Pisa)
+P15 Devil in the Landscapes: Inferring Epidemic Exposure Risks from Geo-Tagged Imagery
+Zhenyu Han (Tsinghua University), Yanxin Xi (University of Helsinki), Tong Xia (University of Cambridge), Yu Liu (Tsinghua University), Yong Li (Tsinghua University)
+P16 Predicting Fine-grained Dengue Fever Risk Using Multi-View Graph Fusion RNNs with Approximation for Sensor-less Locations
+Pei-Xuan Li (National Cheng Kung University), Hsun-Ping Hsieh (National Cheng Kung University)
+P17 SolarVision: A Remote Sensing System to Detect, Query, and Visualize Spatio-temporal Distribution of Solar Panels (Systems Paper)
+Abdulrahman Salama (University of Washington), Abdeltawab Hendawi (University of Rhode Island), Mohamed Ali (University of Washington), Eyhab Al-Masri (University of Washington), Richard Franklin (University of Washington), Anish Deshpande (University of Washington)
+P18 A Heterogeneous Attention Network Model for Longitudinal Analysis of Socioeconomic and Racial Inequalities in Urban Regions: Evidence from Chicago, IL
+Namwoo Kim (Korea Advanced Institute of Science and Technology), Hyeyeong Lee (Korea Advanced Institute of Science and Technology), Yoonjin Yoon (Korea Advanced Institute of Science and Technology)
+P19 One Model Fits All: Cross-Region Taxi-Demand Forecasting
+Ren Ozeki (Osaka University), Haruki Yonekura (Osaka University), Aidana Baimbetova (Osaka University), Hamada Rizk (Osaka University), Hirozumi Yamaguchi (Osaka University)
+P20 SCANNER: A Spatio-temporal Correlation and Neighborhood-based Feature Enrichment for Traffic Prediction
+Steve Ludovic Gounoue Guiffo (University of Bonn), Ran Yu (University of Bonn), Elena Demidova (University of Bonn)
+P21 TAP: A Comprehensive Data Repository for Traffic Accident Prediction in Road Networks
+Baixiang Huang (Illinois Institute of Technology), Bryan Hooi (National University of Singapore), Kai Shu (Illinois Institute of Technology)
+P22 Generating Realistic and Representative Trajectories with Mobility Behavior Clustering
+Haowen Lin (University of Southern California), Sina Shaham (University of Southern California), Yao-Yi Chiang (University of Minnesota), Cyrus Shahabi (University of Southern California)
+GIS Cup Finalists Ranking
+(1) Diving into Supraglacial Lakes Detection: a Deep Semantic Segmentation Approach (submission by Simon Walther)
+Simon Walther (University of Applied Sciences Western Switzerland)
+Leonard Cseres (University of Applied Sciences Western Switzerland)
+Rémy Marquis (University of Applied Sciences Western Switzerland)
+Bertil Chapuis (University of Applied Sciences Western Switzerland)
+Andres Perez-Uribe (University of Applied Sciences Western Switzerland)
+
+(2) Exploring GeoAI Methods for Supraglacial Lake Mapping on Greenland Ice Sheet
+Xuanshu Luo (Technical University of Munich, Germany)
+Paul Walther (Technical University of Munich, Germany)
+Wejdene Mansour (Technical University of Munich, Germany)
+Balthasar Teuscher (Technical University of Munich, Germany)
+Johann Maximilian Zollner (Technical University of Munich, Germany)
+Hao Li (Technical University of Munich, Germany)
+Martin Werner (Technical University of Munich, Germany)
+
+(3) Enhanced Mapping of Supraglacial Lakes Through Dual-attention Deep Neural Network
+Haoran Wang (National University of Singapore, Singapore)
+Jiawei Wei (Chinese Academy of Sciences, China)
+Xiaoyong Gao (National University of Singapore, Singapore)
+Dexuan Sha (Coleberry Inc., USA)
+Yiyun Luo (Aix-Marseille Universite, France)
+Junliu Yang (Cirad-UMR AMAP lab, France)
+
+(4) Diving into Supraglacial Lakes Detection: a Deep Semantic Segmentation Approach (submission by Leonard Cseres)
+Leonard Cseres (University of Applied Sciences Western Switzerland)
+Rémy Marquis (University of Applied Sciences Western Switzerland)
+Simon Walther (University of Applied Sciences Western Switzerland)
+Bertil Chapuis (University of Applied Sciences Western Switzerland)
+Andres Perez-Uribe (University of Applied Sciences Western Switzerland)
+
+(5) A novel application of DUCK-Net for extracting supraglacial lakes in Greenland
+Adam Booth (Newcastle University, United Kingdom)
+Richard Burke (Newcastle University, United Kingdom)
+
+(6) Geo-knowledge-informed Deep Learning for Auto-identification of Supraglacial Lakes on the Greenland Ice Sheet from Satellite Imagery
+Chen Wei (Zhejiang University, China)
+Song Gao (University of Wisconsin-Madison, USA)
+Feng Zhang (Zhejiang University, China)
+

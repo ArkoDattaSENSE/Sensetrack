@@ -1,0 +1,299 @@
+
+8:00 - 9:00	Registration
+9:00 - 10:30	S1: Opening and Keynote I
+Fletcher Theatre
+Session Chairs: Mohamed Hefeeda and Shervin Shirmohammadi
+
+Welcome and Opening
+Keynote: Professor Klara Nahrstedt, UIUC
+End-to-End Perspective on Distributed Multi-View Video Systems
+10:30 - 11:00	Coffee Break
+11:00 - 12:30	S2: Streaming
+Fletcher Theatre
+Session Chair: Ketan Mayer-Patel
+
+Latency Target based Analysis of the DASH.js Player 
+Piers O'Hanlon (BBC R&D), Adil Aslam (BBC R&D)
+A First Look at Adaptive Video Streaming over Multipath QUIC with Shared Bottleneck Detection 
+Thomas P. W. Paiva (Federal University of Sao Paulo), Simone Ferlin (Red Hat and Karlstad University), Anna Brunstrom (Karlstad University), Ozgu Alay (University of Oslo), Bruno Y. L. Kimura (Federal University of Sao Paulo)
+Cross-layer Network Bandwidth Estimation for Low-latency Live ABR Streaming 
+Chinmaey Shende (University of Connecticut), Cheonjin Park (University of Connecticut), Subhabrata Sen (AT&T Labs - Research), Bing Wang (University of Connecticut)
+TASQ: Temporal Adaptive Streaming over QUIC 
+Akram Ansari (University of Calgary), Yang Liu (University of Calgary), Mea Wang (University of Calgary), Emir Halepovic (AT&T Labs -- Research)
+12:30 - 2:00	Lunch
+2:00 - 3:30	S3: Advanced Video I
+Fletcher Theatre
+Session Chair: Silvia Rossi
+
+An Asynchronous Intensity Representation for Framed and Event Video Sources 
+Andrew C. Freeman (University of North Carolina), Montek Singh (University of North Carolina), Ketan Mayer-Patel (University of North Carolina)
+Deep Feature Compression with Rate-Distortion Optimization for Networked Camera Systems 
+Ademola Ikusan (University of Cincinnati), Rui Dai (University of Cincinnati)
+RABBIT: Live Transcoding of V-PCC Point Cloud Streams 
+Michael Rudolph (University of Duisburg-Essen), Stefan Schneegass (University of Duisburg Essen), Amr Rizk (University of Duisburg-Essen)
+QUTY: Towards Better Understanding and Optimization of Short Video Quality 
+Haodan Zhang (Peking University), Yixuan Ban (Peking University), Zongming Guo (Peking University), Zhimin Xu (ByteDance), Qian Ma (ByteDance), Yue Wang (ByteDance), Xinggong Zhang (Peking University)
+3:30 - 4:00	Coffee Break
+4:00 - 5:30	S4: Advanced Video II
+Fletcher Theatre
+Session Chair: Roger Zimmermann
+
+EVASR: Edge-Based Video Delivery with Salience-Aware Super-Resolution 
+Na Li (Rutgers University), Yao Liu (Rutgers University)
+Enabling Low Bit-Rate MPEG V-PCC-encoded Volumetric Video Streaming with 3D Sub-sampling 
+Yuang Shi (National University of Singapore), Pranav Venkatram (National University of Singapore), Yifan Ding (National University of Singapore), Wei Tsang Ooi (National University of Singapore)
+patchVVC: A Real-time Compression Framework for Streaming Volumetric Videos 
+Ruopeng Chen (Shandong University), Mengbai Xiao (Shandong University), Dongxiao Yu (Shandong University), Guanghui Zhang (Shandong University), Yao Liu (Rutgers University)
+FBDT: Forward and Backward Data Transmission Across RATs for High Quality Mobile 360-Degree Video VR Streaming 
+Suresh Srinivasan (Portland State University), Sam Shippey (Portland State University), Ehsan Aryafar (Portland State University), Jacob Chakareski (New Jersey Institute of Technology)
+7:00 - 8:30	Reception: Vancouver Lookout Tower 
+...
+Thursday, 8 June 2023
+8:00 - 9:00	Registration
+8:30 - 10:00	S5: AR/VR/XR
+Fletcher Theatre
+Session Chair: Shervin Shirmohammadi
+
+FleXR: A System Enabling Flexibly Distributed Extended Reality 
+Jin Heo (Georgia Tech), Ketan Bhardwaj (Georgia Tech), Ada Gavrilovska (Georgia Tech)
+The World is Too Big to Download: 3D Model Retrieval for World-Scale Augmented Reality 
+Yi-Zhen Tsai (University of California, Riverside), James Luo (University of California, Riverside), Yunshu Wang (University of California, Riverside), Jiasi Chen (University of California, Riverside)
+Learning to Predict Head Pose in Remotely-Rendered Virtual Reality 
+Gazi Karam Illahi (Nokia Technologies), Ashutosh Vaishnav (Aalto University), Teemu Kämäräinen (University of Helsinki), Matti Siekkinen (Aalto University), Mario Di Francesco (Aalto University)
+Extending 3-DoF Metrics to Model User Behaviour Similarity in 6-DoF Immersive Applications 
+Silvia Rossi (CWI), Irene Viola (CWI), Laura Toni (UCL), Pablo Cesar (CWI)
+10:00 - 10:30	Coffee Break
+10:30 - 11:25	S6: Keynote Speech 2
+Fletcher Theatre
+Session Chair: Mohamed Hefeeda
+
+Keynote: Dr. Ihab Amer, AMD Fellow
+AI for Compression and Compression for AI
+11:30 - 12:30	S7: EDI Keynote Speech and Discussion
+Fletcher Theatre
+Session Chair: Ouldooz Baghban Karim
+
+Keynote: Professor Yvette Wohn, NJIT
+Moderating the Metaverse
+Followed by Discussion & Challenge during EDI Luncheon
+12:30 - 2:00	EDI Luncheon: Lunch, Discussion, and Challenge
+2:00 - 3:00	S8a: Grand Challenge
+Fletcher Theatre
+Session Chair: Cheng-Hsin Hsu
+
+Multi-site Parallel Downloading Challenge
+Shu Shi (ByteDance)
+The Design of a Performance-oriented Congestion Control
+Zhengtang Li (Bigo)
+Semi-Coupled Congestion Control for Multi-Site Parallel Downloading
+Chenfei Tian, Shaorui Ren, Yixuan Zhang, and Mingwei Xu (Tsinghua University)
+Modified CUBIC Congestion Avoidance for Multi-site Parallel Downloading over Lossy Networks
+Yu-Yen Chung (UT Dallas)
+S8b: Doctoral Symposium
+Segal Centre
+Session Chair: Mahmoud Reza Hashemi
+
+A Holistic Approach to Understand HTTP Adaptive Streaming 
+Mike Vandersanden (Hasselt University – tUL – EDM)
+Factors Influencing Video Quality of Experience in Ecologically Valid Experiments: Measurements and a Theoretical Mode 
+Kamil Koniuch (AGH University of Krakow, Institute of Communication Technologies)
+The AD△ER Framework: Tools for Event Video Representations 
+Andrew C. Freeman (University of North Carolina)
+QoE- and Energy-aware Content Consumption For HTTP Adaptive Streaming 
+Daniele Lorenzi (Alpen-Adria Universität Klagenfurt)
+3:00 - 3:30	Coffee Break	Set up posters and demos
+3:30 - 5:00	S9a: Production and Games
+Fletcher Theatre
+Session Chair: Chun-Ying Huang
+
+Color-aware Deep Temporal Backdrop Duplex Matting System 
+Hendrik Hachmann (Leibniz University Hannover), Bodo Rosenhahn (Leibniz University Hannover)
+Video-based Contrastive Learning on Decision Trees: from Action Recognition to Autism Diagnosis 
+Mindi Ruan (West Virginia University), Xiangxu Yu (Washington University at Saint Louis), Na Zhang (West Virginia University), Chuanbo Hu (West Virginia University), Shuo Wang (Washington University at Saint Louis), Xin Li (West Virginia University)
+Style-based film grain analysis and synthesis 
+Zoubida Ameur (InterDigital, France), Claire-Hèlène Demarty (InterDigital, France), Olivier Le Meur (InterDigital, France), Daniel Mènard (INSA Rennes, France), Edouard François (InterDigital, France)
+The Impact of Latency on Target Selection in First-Person Shooter Games 
+Shengmei Liu (Worcester Polytechnic Institute), Mark Claypool (Worcester Polytechnic Institute, USA)
+S9b: Poster and Demo Session
+Segal Centre
+
+Doctoral Symposium
+Grand Challenge
+6:00 - 9:30	Banquet: Grouse Mountain 
+...
+Friday, 9 June 2023
+8:00 - 9:00	Registration
+8:30 - 10:00	S10: Multiple Modalities
+Fletcher Theatre
+Session Chair: Sheng Wei
+
+Self-Supervised Contrastive Learning for Robust Audio-Sheet Music Retrieval Systems 
+Luis Carvalho (Johannes Kepler University), Tobias Washüttl (Johannes Kepler University), Gerhard Widmer (Johannes Kepler University)
+Semi-automatic mulsemedia authoring analysis from the user's perspective 
+Raphael Abreu (UFF), Douglas Mattos (UFF), Joel Santos (CEFET), George Guinea (Brunel), Débora C. Muchaluat-Saade (Fluminense Federal University)
+Performance and User Experience Studies of HILLES: Home-based Immersive Lower Limb Exergame System 
+Yu-Yen Chung (The University of Texas at Dallas), Thiru M. Annaswamy (Penn State Health Rehabilitation Hospital), Balakrishnan Prabhakaran (The University of Texas at Dallas)
+Multimodal Cascaded Framework with Metric Learning Robust to Missing Modalities for Person Classification 
+Vijay John (RIKEN), Yasutomo Kawanishi (RIKEN)
+10:00 - 10:30	Coffee Break
+10:30 - 12:30	S11: Open Datasets and Software, Technical Demos
+Fletcher Theatre
+Session Chair: Mea Wang
+
+Short presentations: 3 min each. 18 papers for ODS and 6 papers for Demos
+Open Datasets and Software:
+Everybody Compose: Deep Beats To Music 
+VOLVQAD: An MPEG V-PCC Volumetric Video Quality Assessment Dataset 
+Modeling Illumination Data with Flying Light Specks 
+TotalDefMeme: A Multi-Attribute Meme dataset on Total Defence in Singapore 
+A Dynamic 3D Point Cloud Dataset for Immersive Applications 
+SMART360: Simulating Motion prediction and Adaptive bitRate sTrategies for 360° video streaming 
+360 Video DASH Dataset 
+Web3DP: A Crowdsourcing Platform for 3D Models Based on Web3 Infrastructure 
+Vegvisir: A testing framework for HTTP/3 media streaming 
+FSVVD: A Dataset of Full Scene Volumetric Video 
+A Dataset of Food Intake Activities Using Sensors with Heterogeneous Privacy Sensitivity Levels 
+VAST: A Decentralized Open-Source Publish/Subscribe Architecture 
+Adaptive streaming of 3D content for web-based virtual reality: an open-source prototype including several metrics and strategies 
+A Dataset for User Visual Behaviour with Multi-View Video Content 
+A 6DoF VR Dataset of 3D virtualWorld for Privacy-Preserving Approach and Utility-Privacy Tradeoff 
+IDCIA: Immunocytochemistry Dataset for Cellular Image Analysis 
+Perceptual annotation of local distortions in videos: tools and datasets 
+SEPE Dataset: 8K Video Sequences and Images for Analysis and Development 
+Technical Demonstrations
+"You AR' right in front of me": RGBD-based capture and rendering for remote training 
+Media over QUIC: Initial Testing, Findings and Results 
+Open-Source Toolkit for Live End-to-End 4K VVC Intra Coding 
+Remote Expert Assistance System for Mixed-HMD Clients over 5G Infrastructure 
+Video Decoding Performance and Requirements for XR Applications 
+Machine-learning based VMAF prediction for HDR video content 
+12:30 - 2:00	Lunch
+2:00 - 3:00	S12: Special Session – In Memoriam of Kuan-Ta Chen
+Fletcher Theatre
+Session Chairs: Wei Tsang Ooi and Cheng-Hsin Hsu
+
+Presentation 1
+Presentation 2
+Presentation 3
+3:00 - 3:30	Coffee Break	Set up posters and demos
+3:30 - 5:00	S13a: Advanced Video III
+Fletcher Theatre
+Session Chair: Khaled Diab
+
+Security-Preserving Live 3D Video Surveillance 
+Zhongze Tang (Rutgers University), Huy Phan (Rutgers University), Xianglong Feng (Miami University), Bo Yuan (Rutgers University), Yao Liu (Rutgers University), Sheng Wei (Rutgers University)
+MOSAIC: Spatially-Multiplexed Edge AI Optimization over Multiple Concurrent Video Sensing Streams 
+Ila Gokarn (Singapore Management University), Hemanth Sabbella (Singapore Management University), Yigong Hu (University of Illinois Urbana-Champaign), Tarek Abdelzaher (UIUC), Archan Misra (Singapore Management University)
+SketchBuddy: Context-Aware Sketch Enrichment and Enhancement 
+Aishwarya Agarwal (Adobe Research, Bangalore), Anuj Srivastava (Indian Institute of Science, Bangalore), Inderjeet Nair (Adobe Research, Bangalore), Swasti Shreya Mishra (Adobe Research, Bangalore), Vineeth Dorna (Knowdis DataScience, Delhi), Sharmila Nangi (Stanford University), Balaji Vasan Srinivasan (Adobe Research, Bangalore)
+S13b: Poster and Demo Session
+Segal Centre
+
+Open Datasets
+Open Software
+Technical Demos
+5:15 - 5:45	S14: MMSys Closing and Awards
+Fletcher Theatre
+Session Chair: Shervin Shirmohammadi and Mohamed Hefeeda
+
+Awards
+MMSys 2024
+Closing
+7:00 - 8:30	MMSys Organizing Committee Dinner (By Invitation)
+...
+Saturday, 10 June 2023: Workshops
+8:30 - 10:00	WS1: Opening and Keynote
+Fletcher Theatre
+
+Welcome and Overview of Workshops
+Keynote: Professor Jiangchuan Liu, SFU
+Networked Immersive Media: For Human and For Machine
+10:00 - 10:30	Coffee Break
+10:30 - 12:00	WS2a: NOSSDAV 1
+Fletcher Theatre
+Session Chairs: Wei Cai and Yao Liu
+
+RepCaM: Re-parameterization Content-aware Modulation for Neural Video Delivery 
+Rongyu Zhang (The Chinese University of Hong Kong, Shenzhen); Lixuan Du (Beijing University of Posts and Telecommunications); Jiaming Liu, Congcong Song (Peking University); Fangxin Wang (The Chinese University of Hong Kong, Shenzhen); Xiaoqi Li, Ming Lu (Peking University); Yandong Guo (AI2Robotics); Shanghang Zhang (Peking University)
+Latency-Aware 360-Degree Video Analytics Framework for First Responders Situational Awareness 
+Jiaxi Li (University of Illinois Urbana-Champaign); Jingwei Liao (George Mason University); Bo Chen (University of Illinois at Urbana-Champaign); Anh Nguyen (George Mason University); Aditi Tiwari, Qian Zhou (University of Illinois Urbana-Champaign); Zhisheng Yan (George Mason University); Klara Nahrstedt (University of Illinois Urbana-Champaign)
+DMGC:Deep Triangle Mesh Geometry Compression via Connectivity Prediction 
+Xudong Zhao, Xinyao Zeng, Linyao Gao, Yiling Xu, Yanfeng Wang (Shanghai Jiao Tong University)
+A Low Cost Cross-Platform Video/Image Process Framework Empowers Heterogeneous Edge Application 
+Danyang Song (Simon Fraser University); Cong Zhang (University of Science and Technology of China); Yifei Zhu (Shanghai Jiao Tong University); Jiangchuan Liu (Simon Fraser University)
+WS2b: MMVE 1
+Segal Centre
+Session Chairs: Jesús Gutiérrez & Mylène C.Q. Farias
+
+Experiencing Rotation and Curvature Gain for Redirected Walking in Virtual Reality 
+Emil M. Kjenstad, Halvor Kristian Ringsby, Rahel Jamal Gaeb, Çagri Erdem, Konstantinos Kousias, Ozgu Alay, Carsten Griwodz (University of Oslo)
+Real-Time Layered View Synthesis for Free-Viewpoint Video from Unreliable Depth Information 
+Teresa Hernando, Daniel Berjón, Francisco Morán, Javier Usón, Cesar Díaz, Julián Cabrera, Narciso García (Universidad Politécnica de Madrid)
+Adaptive Streaming of Visual Volumetric Video-based Coding Media 
+Srinivas Gudumasu (InterDigital Canada Ltée); Gireg Maury, Ariel Glasroth (unaffiliated); Ahmed Hamza (InterDigital Canada Ltée)
+Design and Implementation of a Web-based Multi-user Virtual Reality System for Virtual Tour of Remote Places 
+Aizawa Shuta, Sakurai Shouta, Duc Nguyen (Tohoku Institute of Technology)
+12:00 - 1:30	Lunch
+1:30 - 3:00	WS3a: NOSSDAV 2
+Fletcher Theatre
+Session Chairs: Wei Cai and Yao Liu
+
+Will Dynamic Foveation Boost Cloud VR Gaming Experience? 
+Jia-Wei Fang, Kuan-Yu Lee (National Tsing Hua University); Teemu Kämäräinen (University of Helsinki); Matti Siekkinen (Aalto University and University of Helsinki); Cheng-Hsin Hsu (National Tsing Hua University)
+Implementing Partial Atlas Selector for Viewport-dependent MPEG Immersive Video Streaming 
+Soonbin Lee (Fraunhofer HHI); Jong-Beom Jeong, Eun-Seok Ryu (Sungkyunkwan University (SKKU))
+Realtime Multimedia Services over Starlink: A Reality Check 
+Haoyuan Zhao, Hao Fang (Simon Fraser University); Feng Wang (The University of Mississippi); Jiangchuan Liu (Simon Fraser University)
+WS3b: MMVE 2
+Segal Centre
+Session Chairs: Jesús Gutiérrez & Mylène C.Q. Farias
+
+Evaluation of interaction methods in an Extended Reality training environment 
+Carlos Cortés (Universidad Politécnica de Madrid); María Rubio (Nokia TECSS); Jesús Gutiérrez (Universidad Politécnica de Madrid); Beatriz Sánchez (Nokia); Pablo Pérez (Nokia XR Lab); Narciso García (Universidad Politécnica de Madrid)
+360EAVP: A 360-degree Edition-Aware Video Player 
+Gabriel de Castro Araújo, Henrique Domingues Garcia (University of Brasília); Mylène C.Q. Farias (Texas State University); Ravi Prakash (University of Texas at Dallas); Marcelo Carvalho (University of Brasília)
+Modeling Gamer Quality-of-Experience Using a Real Cloud VR Gaming Testbed 
+Kuan-Yu Lee, Jia-Wei Fang, Yuan-Chun Sun, Cheng-Hsin Hsu (National Tsing Hua University)
+3:00 - 3:30	Coffee Break
+3:30 - 5:30	WS4a: NOSSDAV 3
+Fletcher Theatre
+Session Chairs: Wei Cai and Yao Liu
+
+Cross that boundary: Investigating the feasibility of cross-layer information sharing for enhancing ABR decision logic over QUIC 
+Joris Herbots (Hasselt University - tUL - EDM); Arno Verstraete, Maarten Wijnants, Peter Quax (Hasselt University - tUL - Flanders Make - EDM); Wim Lamotte (Hasselt University - tUL - EDM)
+Improving ABR Performance for Short Video Streaming Using Multi-Agent Reinforcement Learning with Expert Guidance 
+Yueheng Li, Qianyuan Zheng, Zicheng Zhang, Hao Chen, Zhan Ma (Nanjing University)
+iStream Player: A Versatile Video Player Framework 
+Akram Ansari, Mea Wang (University of Calgary)
+WS4b: GMSys
+Segal Centre
+Session Chair: Samira Afzal
+
+VE-Match: Video Encoding Matching-based Model for Cloud and Edge Computing Instances 
+Samira Afzal, Narges Mehran (Alpen-Adria-Universität Klagenfurt, Austria); Sandro Linder (Bitmovin, Klagenfurt, Austria); Christian Timmerer, Radu Prodan (Alpen-Adria-Universität Klagenfurt, Austria)
+Studying Green Video Distribution as a Whole 
+Burak Kara, Gwendal Simon (Synamedia); Bruno Tuffin (Inria); Jerome Vieron (Synamedia); Ali C. Begen (Ozyegin University)
+End-to-end Optimizations for Green Streaming 
+Robert Seeliger, Stefan Pham, Stefan Arbanowski (Fraunhofer FOKUS)
+Audience Aware Streaming: New Dynamics in OTT distribution 
+Jan Outters, Mickael Raulet (Ateme S.A.)
+Green video complexity analysis for efficient encoding in Adaptive Video Streaming 
+Vignesh V Menon (Alpen-Adria-Universität Klagenfurt); Christian Feldmann (Bitmovin); Klaus Schoeffmann (Alpen-Adria-Universität Klagenfurt); Mohammed Ghanbari (University of Essex); Christian Timmerer (Alpen-Adria Universität Klagenfurt)
+Energy Efficiency Improvements in Software-Based Video Encoding 
+Jan De Cock (Synamedia)
+Video Decoding Energy Reduction Using Temporal-Domain Filtering 
+Christian Herglotz, Matthias Kränzler, Robert Ludwig, André Kaup (Friedrich-Alexander-Universität Erlangen-Nürnberg)
+The analysis of DASH manifest optimizations 
+Yongjun Wu (Amazon)
+
+Tweets by ACM MMSys 
+Sponsors
+ACM logo
+SIGMM logo
+Platinum supporters
+AMD logo
+Adobe logo
+Silver supporters
+Huawei logo
+DASHif logo
+© 2023 ACM Multimedia Systems Conference |

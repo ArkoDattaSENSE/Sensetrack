@@ -1,0 +1,231 @@
+short-paper
+Input Interface with Touch and Non-touch Interactions using Atmospheric Pressure for Hearable Devices
+Author PictureKoki Iguma,Author PictureKazuya Murao,Author PictureHiroki Watanabe
+Pages 1–5https://doi.org/10.1145/3594738.3611354
+A hearable device is a wearable computer that is worn on the ear. In addition to offering conventional music listening functions when utilized as earphones, a hearable device can be linked to smartphones and various onboard sensors to recognize user ...
+
+
+
+
+short-paper
+C-Auth: Exploring the Feasibility of Using Egocentric View of Face Contour for User Authentication on Glasses
+Author PictureHyunchul Lim,Author PictureGuilin Hu,Author PictureRichard Jin,Author PictureHao Chen,Author PictureRyan Mao,Author PictureRuidong Zhang,+ 1
+Pages 6–10https://doi.org/10.1145/3594738.3611355
+C-Auth is a novel authentication method for smart glasses that explores the feasibility of authenticating users using the facial contour lines from the nose and cheeks captured by a down-facing camera in the middle of the glasses. To evaluate the system,...
+
+
+
+
+short-paper
+"\"Hello I am here\": Proximal Nonverbal Cues Role in Initiating Social Interactions in VR"
+Author PictureAmal Yassien,Author PictureSlim Abdennadher
+Pages 11–16https://doi.org/10.1145/3594738.3611356
+Virtual Reality (VR) has revolutionized social interactions, but limited field of view (FoV) remains a significant obstacle. Users often fail to notice others within the virtual environment, hindering social engagement. To facilitate initiating social ...
+
+
+
+
+short-paper
+User Authentication Method for Wearable Ring Devices using Active Acoustic Sensing
+Author PictureShunsuke Iwakiri,Author PictureKazuya Murao
+Pages 17–21https://doi.org/10.1145/3594738.3611357
+The ring-type devices currently on the market are not typically equipped with authentication. This paper proposes an automatic and continuous user authentication method using active acoustic sensing with a speaker and microphone mounted on the ring ...
+
+
+
+
+short-paper
+EchoNose: Sensing Mouth, Breathing and Tongue Gestures inside Oral Cavity using a Non-contact Nose Interface
+Author PictureRujia Sun,Author PictureXiaohe Zhou,Author PictureBenjamin Steeper,Author PictureRuidong Zhang,Author PictureSicheng Yin,+ 5
+Pages 22–26https://doi.org/10.1145/3594738.3611358
+Sensing movements and gestures inside the oral cavity has been a long-standing challenge for the wearable research community. This paper introduces EchoNose, a novel nose interface that explores a unique sensing approach to recognize gestures related to ...
+
+
+
+
+short-paper
+Selecting the Motion Ground Truth for Loose-fitting Wearables: Benchmarking Optical MoCap Methods
+Author PictureLala Shakti Swarup Ray,Author PictureBo Zhou,Author PictureSungho Suh,Author PicturePaul Lukowicz
+Pages 27–32https://doi.org/10.1145/3594738.3611359
+To aid smart wearable researchers in selecting optimal ground truth methods for motion capture (MoCap) across all loose garment types, we introduce a benchmark: DrapeMoCapBench (DMCB). This benchmark is tailored to assess optical marker-based and marker-...
+
+
+
+
+short-paper
+Challenges in Using Skin Conductance Responses for Assessments of Information Worker Productivity
+Author PictureAnam Ahmad,Author PictureThomas Ploetz
+Pages 33–38https://doi.org/10.1145/3594738.3611360
+Breaks as discretionary self-interruptions can have beneficial effects on information worker productivity and well-being. This has design implications for potential productivity tools that can assess opportune moments to suggest these breaks. ...
+
+
+
+
+short-paper
+Generating Virtual On-body Accelerometer Data from Virtual Textual Descriptions for Human Activity Recognition
+Author PictureZikang Leng,Author PictureHyeokhyen Kwon,Author PictureThomas Ploetz
+Pages 39–43https://doi.org/10.1145/3594738.3611361
+The development of robust, generalized models for human activity recognition (HAR) has been hindered by the scarcity of large-scale, labeled data sets. Recent work has shown that virtual IMU data extracted from videos using computer vision techniques ...
+
+
+
+
+short-paper
+Acoustic+Pose: Adding Input Modality to Smartphones with Near-Surface Hand-Pose Recognition using Acoustic Surface
+Author PictureKunihiro Kato,Author PictureKaori Ikematsu
+Pages 44–49https://doi.org/10.1145/3594738.3611362
+To achieve mid-air interactions for smartphones, acoustic-sensing, a technique using the built-in speaker and microphone of smartphones, is promising. However, detecting hand poses on the near-surface of touchscreens remains challenging due to the ...
+
+
+
+
+short-paper
+Towards a Haptic Taxonomy of Emotions: Exploring Vibrotactile Stimulation in the Dorsal Region
+Author PictureSteeven Villa,Author PictureThuy Duong Nguyen,Author PictureBenjamin Tag,Author PictureTonja-Katrin Machulla,+ 2
+Pages 50–54https://doi.org/10.1145/3594738.3611363
+The implicit communication of emotional states between persons is a key use case for novel assistive and augmentation technologies. It can serve to expand individuals’ perceptual capabilities and assist neurodivergent individuals. Notably, vibrotactile ...
+
+
+
+
+short-paper
+On the Utility of Virtual On-body Acceleration Data for Fine-grained Human Activity Recognition
+Author PictureZikang Leng,Author PictureYash Jain,Author PictureHyeokhyen Kwon,Author PictureThomas Ploetz
+Pages 55–59https://doi.org/10.1145/3594738.3611364
+Previous work has demonstrated that virtual accelerometry data, extracted from videos using cross-modality transfer approaches like IMUTube, is beneficial for training complex and effective human activity recognition (HAR) models. Systems like IMUTube ...
+
+
+
+
+short-paper
+HPSpeech: Silent Speech Interface for Commodity Headphones
+Author PictureRuidong Zhang,Author PictureHao Chen,Author PictureDevansh Agarwal,Author PictureRichard Jin,Author PictureKe Li,+ 2
+Pages 60–65https://doi.org/10.1145/3594738.3611365
+We present HPSpeech, a silent speech interface for commodity headphones. HPSpeech utilizes the existing speakers of the headphones to emit inaudible acoustic signals. The movements of the temporomandibular joint (TMJ) during speech modify the reflection ...
+
+
+
+
+short-paper
+How Much Unlabeled Data is Really Needed for Effective Self-Supervised Human Activity Recognition?
+Author PictureSourish Gunesh Dhekane,Author PictureHarish Haresamudram,Author PictureMegha Thukral,Author PictureThomas Plötz
+Pages 66–70https://doi.org/10.1145/3594738.3611366
+The prospect of learning effective representations from unlabeled data alone has led to a boost in developing self-supervised learning (SSL) methods for sensor-based Human Activity Recognition (HAR). Typically, (large-scale) unlabeled data are used for ...
+
+
+
+
+short-paper
+WeightMorphy: A Dynamic Weight-Shifting Method to Enhance the Virtual Experience with Body Deformation
+Author PictureNaoki Okamoto,Author PictureMasaharu Hirose,Author PictureSohei Wakisaka,Author PictureHiroto Saito,+ 2
+Pages 71–75https://doi.org/10.1145/3594738.3611367
+We propose WeightMorphy, a hand-mounted system designed to improve teleoperation manipulation’s operability and immersive experience by changing the moment of inertia. This system reduces the discrepancy between the shape of the virtual hand and its ...
+
+
+
+
+short-paper
+Modeling and Evaluation of Soft Force Sensors using Recurrent and Feed-Forward Neural Networks and Exponential Methods to Compensate for Force Measurement Error in Curved Conditions
+Author PictureAlireza Golgouneh,Author PictureHeidi Woelfle,Author PictureBrad Holschuh,Author PictureLucy E. Dunne
+Pages 76–81https://doi.org/10.1145/3594738.3611368
+A wide variety of applications of wearable technology require information about forces and pressures exerted on the body, either by a device (e.g. to sense active wearing periods or to provide feedback to a force-sensitive therapy like compression) or by ...
+
+
+
+
+short-paper
+Evaluating Spiking Neural Network on Neuromorphic Platform For Human Activity Recognition
+Author PictureSizhen Bian,Author PictureMichele Magno
+Pages 82–86https://doi.org/10.1145/3594738.3611369
+Energy efficiency and low latency are crucial requirements for designing wearable AI-empowered human activity recognition systems, due to the hard constraints of battery operations and closed-loop feedback. While neural network models have been ...
+
+
+
+
+short-paper
+Estimating Attention Allocation by Electrodermal Activity
+Author PictureArinobu Niijima
+Pages 87–91https://doi.org/10.1145/3594738.3611370
+Electrodermal activity (EDA) represents changes in the electrical activity of the palmar skin and serves as an indicator of sympathetic nervous system activity. This paper presents a novel method for estimating attention allocation under divided ...
+
+
+
+
+short-paper
+TouchLog: Finger Micro Gesture Recognition Using Photo-Reflective Sensors
+Author PictureRiku Kitamura,Author PictureTakumi Yamamoto,Author PictureYuta Sugiura
+Pages 92–97https://doi.org/10.1145/3594738.3611371
+Fingertip input allows for interactions that are natural, easy to perform, and socially acceptable. It also has advantages in terms of low physical demand, confidentiality, and haptic feedback. In this study, we propose TouchLog, a fingernail-type device ...
+
+
+
+
+short-paper
+Exploring Recognition Accuracy of Vibrotactile Stimuli in Sternoclavicular Area
+Author PictureMikołaj P. Woźniak,Author PictureAnna Walczak,Author PictureAdam Jan Sałata,Author PictureMagdalena Wróbel-Lachowska,+ 4
+Pages 98–103https://doi.org/10.1145/3594738.3611372
+Growing popularity of wearable haptic devices encouraged researchers to implement on-body interfaces that appropriate different form factors and interaction techniques. Among vibrotactile wearable interfaces, neck-worn devices gathered limited attention ...
+
+
+
+
+short-paper
+Learning Effects and Retention of Electrical Muscle Stimulation in Piano Playing
+Author PictureArinobu Niijima
+Pages 104–108https://doi.org/10.1145/3594738.3611373
+Electrical muscle stimulation (EMS)-based systems have been proposed to assist in the learning of motor skills for piano playing. However, learning effects and retention have not been thoroughly evaluated. To address this, we conducted two user studies ...
+
+
+
+
+short-paper
+Robo-Coverstitch: Coverstitched Auxetic Shape Memory Actuators For Soft Wearable Devices
+Author PictureRobert Pettys-Baker,Author PictureHeidi Woelfle,Author PictureBrad Holschuh
+Pages 109–113https://doi.org/10.1145/3594738.3611374
+As wearable technologies proliferate there is a growing need for compact, easy-to-produce textile-based mechanical actuators. This paper presents a novel coverstitched auxetic actuator using shape memory alloys (SMAs) – which we call the Robo-coverstitch ...
+
+
+
+
+short-paper
+Going Blank Comfortably: Positioning Monocular Head-Worn Displays When They are Inactive
+Author PictureYukun Song,Author PictureParth Arora,Author PictureRajandeep Singh,Author PictureSrikanth T. Varadharajan,+ 2
+Pages 114–118https://doi.org/10.1145/3594738.3611375
+Head-worn displays like Tooz and North’s Focals are designed to be worn all day as smart eyeglasses. When the display is not lit (often to save battery life), the optical combiners may remain visible to the user as an out-of-focus seam or discoloration ...
+
+
+
+
+short-paper
+User Authentication Method for Hearables Using Sound Leakage Signals
+Author PictureTakashi Amesaka,Author PictureHiroki Watanabe,Author PictureMasanori Sugimoto,Author PictureYuta Sugiura,Author PictureBuntarou Shizuki
+Pages 119–123https://doi.org/10.1145/3594738.3611376
+We propose a novel biometric authentication method that leverages sound leakage signals from hearables that are captured by an external microphone. A sweep signal is played from hearables, and sound leakage is recorded using an external microphone. This ...
+
+
+
+
+short-paper
+Wireless Sensor Collar for Automatic Recognition of Canine Agility Activities
+Author PictureCharles Ramey,Author PictureArianna Mastali,Author PictureAdithya Muralikrishna,Author PictureThad Starner,+ 1
+Pages 124–128https://doi.org/10.1145/3594738.3611377
+Canine agility is a rapidly growing sport where dogs and their handlers navigate obstacle courses. Recent studies show that over 40% of all agility dogs suffer an injury while training or competing. By collecting and analyzing sensor measurements from a ...
+
+
+
+SESSION: Briefs
+
+short-paper
+Detecting Thumb-Posture for One-handed Interactions with Smartphone using Acoustic Sensing
+Author PictureKunihiro Kato,Author PictureKaori Ikematsu
+Pages 129–131https://doi.org/10.1145/3594738.3611378
+This paper presents a novel approach for expanding one-handed interactions using the thumb positioned above the smartphone screen. Our approach is based on acoustic sensing, a technique for leveraging the built-in speaker and microphone of the ...
+
+
+
+
+short-paper
+UltrasonicWhisper: Ultrasound Can Generate Audible Sound in Your Hearable
+Author PictureHiroki Watanabe,Author PictureTsutomu Terada
+Pages 132–134https://doi.org/10.1145/3594738.3611379
+Recent studies have shown that ultrasound can be used for voice input to microphones such as smart speakers by taking advantage of the nonlinearity of the microphones. A similar attack on the hearing of a user wearing a hearable with an outside ...

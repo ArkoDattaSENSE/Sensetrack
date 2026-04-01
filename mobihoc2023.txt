@@ -1,0 +1,91 @@
+Accepted Papers
+2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation
+Yiwen Song (Carnegie Mellon University), Changhan Ge (The University of Texas at Austin), Lili Qiu (University of Texas at Austin), Yin Zhang
+
+Wave-for-Safe: Multisensor-based Mutual Authentication for Unmanned Delivery Vehicle Services
+Huanqi Yang (City University of Hong Kong), Mingda Han (City University of Hong Kong), Shuyao Shi (The Chinese University of Hong Kong), Zhenyu Yan (The Chinese University of Hong Kong), Guoliang Xing (The Chinese University of Hong Kong), Jianping Wang (City University of Hong Kong), Weitao Xu (City University of Hong Kong), Shuyao Shi (The Chinese University of Hong Kong)
+
+SRLoRa: Neural-enhanced LoRa Weak Signal Decoding with Multi-gateway Super Resolution
+Jialuo Du (Tsinghua University), Yidong Ren (Michigan State University), Zhui Zhu (Tsinghua University), Chenning Li (Michigan State University), Zhichao Cao (Michigan State University), Qiang Ma (Tsinghua University), Yunhao Liu (Tsinghua University)
+
+Distributional-Utility Actor-Critic for Network Slice Performance Guarantee
+Jingdi Chen (George Washington University), Tian Lan (George Washington University), Nakjung Choi (Nokia Bell Labs)
+
+mReader: Concurrent UHF RFID Tag Reading
+Hossein Pirayesh (Michigan State University), Shichen Zhang (Michigan State University), Huacheng Zeng (Michigan State University)
+
+Differentially Private Distributed Online Convex Optimization Towards Low Regret and Communication Cost
+Jiandong Liu (University of Science and Technology of China), Lan Zhang (University of Science and Technology of China), Xiaojing Yu (University of Science and Technology of China), Xiang-Yang Li (University of Science and Technology of China)
+
+Learning to Schedule in Non-Stationary Wireless Networks With Unknown Statistics
+Quang Minh Nguyen (Massachusetts Institute of Technology), Eytan Modiano (Massachusetts Institute of Technology)
+
+The Power of Two Choices with Load Comparison Errors
+Sanidhay Bhambay (University of Warwick), Arpan Mukhopadhyay (University of Warwick), Thirupathaiah Vasantam (Durham University)
+
+Network Utility Maximization with Unknown Utility Functions: A Distributed, Data-Driven Bilevel Optimization Approach
+Kaiyi Ji (University at Buffalo), Lei Ying (University of Michigan)
+
+Age of Information Diffusion on Social Networks: Optimizing Multi-Stage Seeding Strategies
+Songhua Li (Singapore University of Technology and Design), Lingjie Duan (Singapore University of Technology and Design)
+
+LeakageScatter: Backscattering LiFi-leaked RF Signals
+Muhammad Sarmad Mir (Universidad Carlos III de Madrid), Minhao Cui (University of Massachusetts Amherst), Borja Genoves Guzman (IMDEA Networks Institute), Qing Wang (Delft University of Technology), Jie Xiong (University of Massachusetts Amherst), Domenico Giustiniano (IMDEA Networks Institute)
+
+A Whittle Index Policy for the Remote Estimation of Multiple Continuous Gauss-Markov Processes over Parallel Channels
+Tasmeen Zaman Ornee (Dept. of ECE, Auburn University, Auburn, AL), Yin Sun (Dept. of ECE, Auburn University)
+
+Cache-Enabled Federated Learning Systems
+Yuezhou Liu (Northeastern University), Lili Su (Northeastern University), Carlee Joe-Wong (Carnegie Mellon University), Stratis Ioannidis (Northeastern University), Edmund Yeh (Northeastern University), Marie Siew (Carnegie Mellon University)
+
+kaNSaaS: Combining Deep Learning and Optimization for Practical Overbooking of Network Slices
+Sergi Alcalá-Marín (IMDEA Networks and University Carlos III of Madrid), Antonio Bazco-Nogueras (IMDEA Networks Institute), Albert Banchs (IMDEA Networks and University Carlos III of Madrid), Marco Fiore (IMDEA Networks Institute)
+
+Age Minimization with Energy and Distortion Constraints
+Guidan Yao (The Ohio State University), Chih-Chun Wang (Purdue University), Ness Shroff (The Ohio State University)
+
+PRECISION: Decentralized Constrained Min-Max Learning with Low Communication and Sample Complexities
+Zhuqing Liu (The Ohio State University), Xin Zhang (Iowa State University), Songtao Lu (IBM Thomas J. Watson Research Center), Jia Liu (The Ohio State University)
+
+Communication Resources Limited Decentralized Learning with Privacy Guarantee through Over-the-Air Computation
+Jing Qiao (Shandong University), Shikun Shen (Shandong University), Shuzhen Chen (Shandong University), Xiao Zhang (Shandong University), Tian Lan (George Washington University), Xiuzhen Cheng (Shandong University), Dongxiao Yu (Shandong University)
+
+Incentive Mechanism Design for Federated Learning and Unlearning
+Ningning Ding (Northwestern University), Zhenyu Sun (Northwestern University), Ermin Wei (Northwestern University), Randall Berry (Northwestern University)
+
+EarCase: Sound Source Localization Leveraging Mini Acoustic Structure Equipped Phone Cases for Hearing-challenged People
+Xin Li (Rutgers University), Yilin Yang (Rutgers University), Zhengkun Ye (Temple University), Yan Wang (Temple University), Yingying Chen (Rutgers University)
+
+Optimizing Utility-Energy Efficiency for the Metaverse over Wireless Networks under Physical Layer Security
+Jun Zhao (Nanyang Technological University), Xinyu Zhou (Nanyang Technological University), Yang Li (Nanyang Technological University), Liangxin Qian (Nanyang Technological University)
+
+Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm
+Panagiotis Promponas (Yale University), Tingjun Chen (Duke University), Leandros Tassiulas (Yale University)
+
+Anarchic Federated learning with Delayed Gradient Averaging
+Dongsheng Li (Auburn University), Xiaowen Gong (Auburn University)
+
+Overlay Routing Over an Uncooperative Underlay
+Yudi Huang (Penn State University), Ting He (Penn State University)
+
+On a Continuous-Time Martingale and Two Applications
+Sima Mehri (University of Warwick), Florin Ciucu (University of Warwick)
+
+A New Paradigm of Communication-Aware Collaborative Positioning for FutureG Wireless Systems
+Yu-Tai Lin (Georgia Institute of Technology), Karthikeyan Sundaresan (Georgia Institute of Technology)
+
+Waste Not, Want Not: Service Migration-Assisted Federated Intelligence for Multi-Modality Mobile Edge Computing
+Hansong Zhou (Florida State University), Shaoying Wang (Florida State University), Chutian Jiang (Florida State University), Xiaonan Zhang (Florida State University), Linke Guo (Clemson University), Yukun Yuan (University of Tennessee at Chattanooga)
+
+Connectivity-Aware Semi-Decentralized Federated Learning over Time-Varying D2D Networks
+Rohit Parasnis (Purdue University), Seyyedali Hosseinalipour (University at Buffalo (SUNY)), Yun-Wei Chu (Purdue University), Mung Chiang (Princeton University/Purdue University), Christopher G. Brinton (Purdue University)
+
+Swirls: Sniffing Wi-Fi Using Radios with Low Sampling Rates
+Zhihui Gao (Duke University), Yiran Chen (Duke University), Tingjun Chen (Duke University)
+
+Scalable Multi-Modal Learning for Cross-Link Channel Prediction in Massive IoT Networks
+Kun Woo Cho (Princeton University), Marco Cominelli (University of Brescia/CNIT), Francesco Gringoli (University of Brescia/CNIT), Joerg Widmer (IMDEA Networks), Kyle Jamieson (Princeton University)
+
+AirFC: Designing Fully Connected Layers for Neural Networks with Wireless Signals
+Guillem Reus-Muns (Northeastern University), Kubra Alemdar (Northeastern University), Sara Garcia Sanchez (Northeastern University), Debashri Roy (Northeastern University), Kaushik R. Chowdhury (Northeastern University)
+

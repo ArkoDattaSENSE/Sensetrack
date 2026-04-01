@@ -1,0 +1,129 @@
+Accepted Papers
+Adaptive Metasurface-Based Acoustic Imaging using Joint Optimization
+Authors: Yongjian Fu (Central South University), Yongzhao Zhang (Shanghai Jiao Tong University), Yu Lu (Shanghai Jiao Tong University), Lili Qiu (UT Austin, MSR Asia Shanghai), Yi-Chao Chen (Shanghai Jiao Tong University), Yezhou Wang (Shanghai Jiao Tong University), Mei Wang (UT Austin), Yijie Li (Shanghai Jiao Tong University), Ju Ren (Tsinghua University), Yaoxue Zhang (Tsinghua University)
+
+ARISE: High-Capacity AR Offloading Inference Serving via Proactive Scheduling
+Authors: Z. Jonny Kong (Purdue University), Qiang Xu (Purdue University), Y. Charlie Hu (Purdue University)
+
+Automated Detection of Cryptographic Inconsistencies in Android’s Keymaster Implementations
+Authors: Abdullah Imran (Purdue University), Antonio Bianchi (Purdue University)
+
+CACTUS: Dynamically Switchable Context-aware micro-Classifiers for Efficient IoT Inference
+Authors: Mohammad Mehdi Rastikerdar (University of Massachusetts Amherst), Jin Huang (University of Massachusetts Amherst), Shiwei Fang (University of Massachusetts Amherst), Hui Guan (University of Massachusetts Amherst), Deepak Ganesan (University of Massachusetts Amherst)
+
+ChirpTransformer: Versatile LoRa Encoding for Low-power Wide-area IoT
+Authors: Chenning Li (Michigan State University), Yidong Ren (Michigan State University), Shuai Tong (Tsinghua University), Shakhrul Iman Siam (Ohio State University), Mi Zhang (Ohio State University), Jiliang Wang (Tsinghua University), Yunhao Liu (Tsinghua University), Zhichao Cao (Michigan State University)
+
+CoActo: CoActive Neural Network Inference Offloading with Fine-grained and Concurrent Execution
+Authors: Kyungmin Bin (Seoul National University), Jongseok Park (Seoul National University), Chanjeong Park (Seoul National University), Seyeon Kim (Colorado University Boulder), Kyunghan Lee (Seoul National University)
+
+CW-AcousLen: A Configurable and Wideband Acoustic Metasurface
+Authors: Juan He (Northwest University), Jie Xiong (Microsoft Research Asia and University of Massachusetts Amherst), Weihang Hu (Northwest University), Chao Feng (Northwest University), Enjie Yao (Northwest University), Chen Liu (Northwest University), Xiaojing Wang (Northwest University), Xiaojiang Chen (Northwest University)
+
+Empowering In-Browser Deep Learning Inference on Edge Through Just-In-Time Kernel Optimization
+Authors: Fucheng Jia (Central South University; Microsoft Research), Shiqi Jiang (Microsoft Research), Ting Cao (Microsoft Research), Wei Cui (Microsoft Research), Tianrui Xia (University of Southern California; Microsoft Research), Xu Cao (Microsoft Research), Yuanchun Li (Institute for AI Industry Research (AIR), Tsinghua University), Qipeng Wang (Peking University), Deyu Zhang (Central South University), Ju Ren (Tsinghua University), Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University), Lili Qiu (UT Austin, MSR Asia Shanghai), Mao Yang (Microsoft Research)
+
+Enabling 6D Pose Tracking on Your Acoustic Devices
+Authors: Yuanyuan Wu (Tianjin University), Sheng Chen (Tianjin University), Xuanqi Meng (Tianjin University), XinyuTong (Tianjin University), Xiulong Liu (Tianjin University), Xin Xie (Tianjin University), Wenyu Qu (Tianjin University)
+
+Enabling Hands-Free Voice Assistant Activation on Earphones
+Authors: Tao Chen (University of Pittsburgh), Yongjie Yang (University of Pittsburgh), Chonghao Qiu (University of Pittsburgh), Xiaoran Fan (Google), Xiuzhen Guo (Zhejiang University), Longfei Shangguan (University of Pittsburgh)
+
+Radarize: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry
+Authors: Emerson Sie (University of Illinois Urbana-Champaign), Xinyu Wu (University of Illinois Urbana-Champaign), Heyu Guo (Peking University), Deepak Vasisht (University of Illinois Urbana-Champaign)
+
+Enhancing mmWave Radar Sensing Using a Phased-MIMO Architecture
+Authors: Kai Zheng (University of California San Diego), Wuqiong Zhao (University of California San Diego), Timothy Woodford (University of California San Diego), Renjie Zhao (University of California San Diego), Xinyu Zhang (University of California San Diego), Yingbo Hua (University of California Riverside), Wuqiong Zhao (University of California San Diego)
+
+F2Key: Dynamically Converting Your Face into a Private Key Based on COTS Headphones for Reliable Voice Interaction
+Authors: Di Duan (City University of Hong Kong), Zehua Sun (City University of Hong Kong), Tao Ni (City University of Hong Kong), Shuaicheng Li (City University of Hong Kong), Xiaohua Jia (City University of Hong Kong), Weitao Xu (City University of Hong Kong), Tianxing Li (Michigan State University)
+
+Best Artifact Face Recognition In Harsh Conditions: An Acoustic Based Approach
+Authors: Yanbo Zhang (Nanyang Technological University), Panrong Tong (Alibaba Group) Songfan Li (The Hong Kong University of Science and Technology), Yaxiong Xie (University at Buffalo), Mo Li (The Hong Kong University of Science and Technology and Nanyang Technological University)
+
+FedConv: Learning on Models for Heterogeneous Federated Clients
+Authors: Leming Shen (The Hong Kong Polytechnic University), Qiang Yang (The Hong Kong Polytechnic University), Kaiyan Cui (The Hong Kong Polytechnic University), Yuanqing Zheng (The Hong Kong Polytechnic University), Xiaoyong Wei (The Hong Kong Polytechnic University), Jianwei Liu (School of Cyber Science and Technology, Zhejiang University), Jinsong Han (Zhejiang University)
+
+FreeEM: Uncovering Parallel Memory EMR Covert Communication in Volatile Environments
+Authors: Sihan Yu (Clemson University), Jingjing Fu (Clemson University), Chenxu Jiang (Clemson University), ChunChih Lin (Clemson University), Zhenkai Zhang (Clemson University), Long Cheng (Clemson University), Ming Li (The University of Texas at Arlington), Xiaonan Zhang (Florida State University), Linke Guo (Clemson University)
+
+Frequency-agile OFDM Backscatter
+Authors: Bingbing Wang (Shanghai Jiao Tong University), Fengyuan Zhu (Shanghai Jiao Tong University), Wenhui Li (Shanghai Jiao Tong University), Zeming Yang (Shanghai Jiao Tong University), Meng Jin (Shanghai Jiao Tong University), Xinbing Wang (Shanghai Jiao Tong University), Chenghu Zhou (Chinese Academy of Sciences), Xiaohua Tian (Shanghai Jiao Tong University)
+
+In-Orchard Localization with a Single LoRa Gateway and Generative Model-based Efficient Fingerprinting
+Authors: Kang Yang (University of California, Merced), Yuning Chen (University of California, Merced), Wan Du (University of California Merced)
+
+Invisible Optical Adversarial Stripes on Traffic Sign against Autonomous Vehicles
+Authors: Dongfang Guo (Nanyang Technological University, Singapore), Yuting Wu (Nanyang Technological University), Yimin Dai (Nanyang Technological University), Pengfei Zhou (University of Pittsburgh), Xin Lou (Singapore Institute of Technology), Rui Tan (Nanyang Technological University)
+
+Best Paper : Joey: Supporting Kangaroo Mother Care with Computational Fabrics
+Authors: Qijia Shao (Columbia University), Jiting Liu (Columbia University), Emily Bejerano (Columbia University), Ho Man Colman (Columbia University), Jingping Nie (Columbia University), Xiaofan Jiang (Columbia University), Xia Zhou (Columbia University)
+
+LimitNet: Progressive, Content-Aware Image Offloading for Extremely Weak Devices & Networks
+Authors: Ali Hojjat (Kiel University), Janek Haberer (Kiel University), Tayyaba Zainab (Kiel University), Olaf Landsiedel (Kiel University)
+
+Maestro: The Analysis-Simulation Integrated Framework for Mixed Reality
+Authors: Jingyu Lee (Seoul National University), Hyunsoo Kim (Seoul National University), Minjae Kim (Seoul National University), Byung-Gon Chun (FriendliAI and Seoul National University), Youngki Lee (Seoul National University)
+
+MobiAir: Enable Low-cost Gas Sensors for City-scale and Fine-grained Air Quality Mobile Sensing
+Authors: Yuxuan Liu (Tsinghua-Berkeley Shenzhen Institute, Tsinghua University), Haoyang Wang (Shenzhen International Graduate School, Tsinghua University), Fanhang Man (Tsinghua-Berkeley Shenzhen Institute, Tsinghua University), Jingao Xu (Tsinghua University), Fan Dang (Tsinghua University, China), Yunhao Liu (Tsinghua University), Xiao-Ping Zhang (Tsinghua University), Xinlei Chen (Tsinghua-Berkeley Shenzhen Institute, Shenzhen International Graduate School, Tsinghua University)
+
+MultiRider: Taming In-band Interferences in OFDM Backscatter for Parallel Communication
+Authors: Shanyue Wang (University of Science and Technology of China), Yubo Yan (University of Science and Technology of China), Feiyu Han (University of Science and Technology of China), ye tian (University of Science and Technology of China), Yuxin Ding (University of Science and Technology of China), Panlong Yang (Nanjing University of Information Science and Technology), Xiang-Yang Li (University of Science and Technology of China)
+
+NeRFHub: A Context-Aware NeRF Serving Framework for Mobile Immersive Applications
+Authors: Bo Chen (University of Illinois at Urbana-Champaign), Zhisheng Yan (George Mason University), Bo Han (George Mason University), Klara Nahrstedt (University of Illinois at Urbana-Champaign)
+
+Optimizing Profitability of E-Scooter Sharing System via Battery-aware Recommendation
+Authors: Jiwon Kim (Yonsei University), Taewoong Jung (Yonsei University), Yonghun Choi (Korea Institute of Science and Technology), Daeyong Kim (Yonsei University), Hojung Cha (Yonsei University)
+
+Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs
+Authors: Lixiang Han (City University of Hong Kong), Zimu Zhou (City University of Hong Kong), Zhenjiang Li (City University of Hong Kong)
+
+Best Paper : PowDew: Detecting Counterfeit Powdered Food Products using a Commodity Smartphone
+Authors: Jonghyuk Yun (KAIST/Yonsei University), Kyoosik Lee (POSTECH), Kichang Lee (Yonsei University), Bangjie Sun (National University of Singapore), Jaeho Jeon (Yonsei University), JeongGil Ko (Yonsei University), Inseok Hwang (POSTECH), Jun Han (KAIST)
+
+Practical Optical Camera Communication Behind Unseen and Complex Backgrounds
+Authors: Rui Xiao (Zhejiang University), Leqi Zhao (Zhejiang University), Feng Qian (Ant Group), Lei Yang (Ant Group), Jinsong Han (Zhejiang University)
+
+RefreshChannels: Exploiting Dynamic Refresh Rate Switching for Mobile Device Attacks
+Authors: Gaofeng Dong (University of California, Los Angeles), Jason Wu (University of California, Los Angeles), Julian de Gortari Briseno (University of California, Los Angeles), Akash Deep Singh (University of California, Los Angeles), Justin Feng (University of California, Los Angeles), Ankur Sarker (University of California, Los Angeles), Nader Sehatbakhsh (University of California, Los Angeles), Mani Srivastava (University of California, Los Angeles & Amazon AWS AI Labs)
+
+RFSpy: Eavesdropping on Online Conversations with Out-of-Vocabulary Words by Sensing Metal Coil Vibration of Headsets Leveraging RFID
+Authors: Yunzhong Chen (Shanghai Jiao Tong University), Jiadi Yu (Shanghai Jiao Tong University), Yingying Chen (Rutgers University), Linghe Kong (Shanghai Jiao Tong University, China), Yanmin Zhu (Shanghai Jiao Tong University), Yi-Chao Chen (Shanghai Jiao Tong University)
+
+SoilCares: Towards Low-cost Soil Macronutrients and Moisture Monitoring Using RF-VNIR Sensing
+Authors: Juexing Wang (Michigan State University), Yuda Feng (UMass Amherst), Guangjing Wang (Michigan State University), Qiben Yan (Michigan State University), Qingxu Jin (Michigan State University), Robert C. Ferrier (Michigan State University), Xiong Jie (University of Massachusetts Amherst), Tianxing Li (Michigan State University)
+
+Speech Understanding on Tiny Devices with A Learning Cache
+Authors: Afsara Benazir (University of Virginia, Co-lead author), Zhiming Xu (University of Virginia, Co-lead author), Felix Xiaozhu Lin (University of Virginia)
+
+Best Paper : SuperSight: Sub-cm NLOS Localization for mmWave Backscatter
+Authors: Kang Min Bae (KAIST), Hankyeol Moon (KAIST), Song Min Kim (KAIST)
+
+Theia: Gaze-driven and Perception-aware Volumetric Content Delivery for Mixed Reality Headsets
+Authors: Nan Wu (George Mason University), Kaiyan Liu (Geogre Mason University), Ruizhi Cheng (George Mason University), Bo Han (George Mason University)
+
+TouchTone: Smartwatch Privacy Protection via Unobtrusive Finger Touch Gestures
+Authors: Yilin Yang (Rutgers University), Yan Wang (Temple University), Yingying Chen (Rutgers University), Zhengkun Ye (Temple University), Xin Li (Rutgers University), Zhiliang Xia (UESTC), Yanzhi Ren (UESTC)
+
+Understanding Localization by a Tailored GPT
+Authors: Xiaopeng Zhao (The Hong Kong Polytechnic University), Guosheng Wang (The Hong Kong Polytechnic University), Zhenlin An (The Hong Kong Polytechnic University), Qingrui Pan (The Hong Kong Polytechnic University), Lei Yang (The Hong Kong Polytechnic University)
+
+UTrack3D: 3D Tracking Using Ultra-wideband (UWB) Radios
+Authors: Yifeng Cao (Georgia Institute of Technology), Ashutosh Dhekne (Georgia Institute of Technology), Mostafa Ammar (Georgia Institute of Technology)
+
+UWB-Fi: Pushing Wi-Fi towards Ultra-wideband for Fine-Granularity Sensing
+Authors: Xin Li (Nanyang Technological University), Hongbo Wang (Nanyang Technological University), Zhe Chen (Fudan University), Zhiping Jiang (Xidian University), Jun Luo (Nanyang Technological University)
+
+VRF: Vehicle Road-side Point Cloud Fusion
+Authors: Kaleem Nawaz Khan (Rochester Institute of Technology), Ali Khalid (Rochester Institute of Technology), Yash Turkar (University at Buffalo), Karthik Dantu (University of Buffalo), Fawad Ahmad (Rochester Institute of Technology)
+
+WAIS: Leveraging WiFi for Resource-Efficient SLAM
+Authors: Aditya Arun (UCSD), Dinesh Bharadia (UCSD), Roshan Ayyalasomayajula (University at Buffalo), William Hunter (University of California San Diego), Aditya Arun (UCSD)
+
+Why E.T. Can’t Phone Home: A Global View on IP-based Geoblocking at VoWiFi
+Authors: Gabriel Karl Gegenhuber (University of Vienna), Philipp Frenzel (SBA Research), Edgar Weippl (University of Vienna)
+
+Willow: Practical WiFi Backscatter Localization with Parallel Tags
+Authors: Jinyan Jiang (Tsinghua University), Jiliang Wang (Tsinghua University), YiJie Chen (Tsinghua University), Shuai Tong (Tsinghua University), Pengjin Xie (Beijing University of Posts and Telecommunications), Yihao Liu (Tsinghua University), Yunhao Liu (Tsinghua University)

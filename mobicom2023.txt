@@ -1,0 +1,276 @@
+Summer Round
+Taking 5G RAN Analytics and Control to a New Level
+Authors: Xenofon Foukas, Bozidar Radunovic, Matthew Balkwill, Zhihua Lai (Microsoft)
+
+Wireless Actuation for Soft Electronics-free Robots
+Authors: Jingxian Wang (Microsoft Research); Yiwen Song, Mason Zadan, Yuyi Shen, Vanessa Chen, Carmel Majidi, Swarun Kumar (Carnegie Mellon University)
+
+AccessWear: Making Smartphone Applications Accessible to Blind Users
+Authors: Prerna Khanna, Shirin Feiz, Jian Xu, IV Ramakrishnan, Shubham Jain, Xiaojun Bi, Aruna Balasubramanian (Stony Brook University)
+
+Towards Spatial Selection Transmission for Low-end IoT devices with SpotSound
+Authors: Tingchao Fan, Huangwei Wu, Meng Jin (Shanghai Jiao Tong university); Tao Chen, Longfei Shangguan (University of Pittsburgh); Xinbing Wang (Shanghai Jiao Tong University); Chenghu Zhou (Chinese Academy of Sciences)
+
+QfaR: Location-Guided Scanning of Visual Codes from Long Distances
+Authors: Sizhuo Ma, Jian Wang (Snap Research); Wenzheng Chen (University of Toronto); Suman Banerjee (University of Wisconsin -- Madison); Mohit Gupta (University of Wisconsin-Madison); Shree Nayar (Snap Research)
+
+BEAVIS: Balloon Enabled Aerial Vehicle for IoT and Sensing
+Authors: Suryansh Sharma, Ashutosh Simha, Venkatesha Prasad (TU Delft, Netherlands); Luca Mottola (Politecnico di Milano and RI.SE Sweden); Shubham Deshmukh, Kavin Balaji Saravanan, Ravi Ramesh (TU Delft, Netherlands)
+
+TherapyPal: Towards a Privacy-Preserving Companion Diagnostic Tool based on Digital Symptomatic Phenotyping
+Authors: Huining Li (University at Buffalo, SUNY); Xiaoye Qian (Case Western Reserve University); Ruokai Ma (Zhejiang University); Chenhan Xu (University at Buffalo, SUNY); Zhengxiong Li (University of Colorado Denver); Dongmei Li (University of Rochester Medical Center); Feng Lin (Zhejiang University); Ming-Chun Huang (Duke Kunshan University); Wenyao Xu (University at Buffalo, SUNY)
+
+CA++: Enhancing Carrier Aggregation Beyond 5G
+Authors: Qianru Li, Zhehui Zhang (University of California, Los Angeles); Yanbing Liu (Purdue University); Zhaowei Tan (University of California, Los Angeles); Chunyi Peng (Purdue University); Songwu Lu (University of California, Los Angeles)
+
+Enc2: Privacy-Preserving Inference for Tiny IoTs via Encoding and Encryption
+Authors: Hao-Jen Chien, Hossein Khalili (UCLA); Amin Hass (Accenture); Nader Sehatbakhsh (UCLA)
+
+Cancelling Speech Signals for Speech Privacy Protection against Microphone Eavesdropping
+Authors: Ming Gao, Yike Chen, Yajie Liu (Zhejiang University); Jie Xiong (University of Massachusetts Amherst); Jinsong Han, Kui Ren (Zhejiang University)
+
+DroidPerf: Profiling Memory Objects on Android Devices
+Authors: Bolun Li, Qidong Zhao, Shuyin Jiao, Xu Liu (North Carolina State University)
+
+A Handheld Fine-Grained RFID Localization System with Complex-Controlled Polarization
+Authors: Laura Dodds, Isaac Perper, Aline Eid, Fadel Adib (Massachusetts Institute of Technology)
+
+Efficient Federated Learning for Modern NLP
+Authors: Dongqi Cai, Yaozong Wu, Shangguang Wang (Beiyou Shenzhen Institute); Felix Xiaozhu Lin (University of Virginia); Mengwei Xu (Beiyou Shenzhen Institute)
+
+Experience: A Three-Year Retrospective of Large-scale Multipath Transport Deployment for Mobile Applications
+Authors: Chengke Wang (Peking University); Hao Wang (Huawei); Feng Qian (University of Minnesota - Twin Cities); Kai Zheng, Chenglu Wang, Fangzhu Mao, Xingmin Guo (Huawei); Chenren Xu (Peking University)
+
+The Wisdom of 1,170 Teams: Lessons and Experiences from a Large Indoor Localization Competition - Best Community Contributions Award #2
+Authors: Yuming Hu (University of Minnesota - Twin Cities); Xiubin Fan, Zhimeng Yin (City University of Hong Kong); Feng Qian (University of Minnesota - Twin Cities); Zhe Ji (XYZ10); Yuanchao Shu (Zhejiang University); Yeqiang Han, Qiang Xu (XYZ10); Jie Liu (Harbin Institute of Technology (Shenzhen)); Paramvir Bahl (Microsoft)
+
+Battery-free Wideband Spectrum Mapping using Commodity RFID Tags
+Authors: Mohamed Ibrahim Ahmed, Atul Bansal, Kuang Yuan, Swarun Kumar (Carnegie Mellon University); Peter Steenkiste (CMU)
+
+GreenMO: Enabling Virtualized, Sustainable Massive MIMO with a Single RF Chain
+Authors: Agrim Gupta (University of California San Diego); Sajjad Nassirpour (University of Colorado Denver); Manideep Dunna, Eamon Patamasing (University of California San Diego); Alireza Vahid (University of Colorado Denver); Dinesh Bharadia (University of California San Diego)
+
+Fast, Fine-grained, and Robust Grouping of RFIDs
+Authors: Meng Jin, Kexin Li, Xiaohua Tian, Xinbing Wang (Shanghai Jiao Tong University); Chenghu Zhou (Chinese Academy of Sciences)
+
+GPSMirror: Expanding Accurate GPS Positioning to Shadowed and Indoor Regions with Backscatter
+Authors: Huixin Dong, Yirong Xie, Xianan Zhang, Wei Wang (Huazhong University of Science and Technology); Xinyu Zhang (University of California San Diego); Jianhua He (University of Essex)
+
+Unify: Turning BLE/FSK SoC into WiFi SoC
+Authors: Hsun-Wei Cho, Kang G. Shin (The University of Michigan)
+
+RF-SIFTER: Sifting Signals at Layer-0.5 to Mitigate Wideband Cross-Technology Interference for IoT
+Authors: Xiong Wang (Peking University); Jun Huang (City University of Hong Kong); Bizhao Shi, Zhe Ou, Guojie Luo (Peking University); Linghe Kong (Shanghai Jiao Tong University, China); Daqing Zhang, Chenren Xu (Peking University)
+
+Re-thinking computation offload for efficient inference on IoT devices with duty-cycled radios
+Authors: Jin Huang, Hui Guan, Deepak Ganesan (UMass Amherst)
+
+mmFER: Millimetre-wave Radar based Facial Expression Recognition for Multimedia IoT Applications
+Authors: Xi Zhang (RMIT University); Yu Zhang, Zhenguo Shi, Tao Gu (Macquarie University)
+
+XCopy: Boosting Weak Links for Reliable LoRa Communication
+Authors: Xianjin Xia, Qianwu Chen, Ningning Hou, Yuanqing Zheng (The Hong Kong Polytechnic University); Mo Li (Nanyang Technological University)
+
+AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving
+Authors: Tianyue Zheng (Nanyang Technological University); Ang Li (University of Maryland); Zhe Chen (Fudan University); Hongbo Wang, Jun Luo (Nanyang Technological University)
+
+SWAM: Revisiting Swap and OOMK for Improving Application Responsiveness on Mobile Devices
+Authors: Geunsik Lim (Sungkyunkwan University, Samsung Electronics); Donghyun Kang (Gachon University); MyungJoo Ham (Samsung Electronics); Young Ik Eom (Dept. of Electrical and Computer Engineering / College of Computing and Informatics, Sungkyunkwan University)
+
+A Networking Perspective on Starlink's Self-Driving LEO Mega-Constellation
+Authors: Yuanjie Li, Hewu Li, Wei Liu, Lixin Liu, Wei Zhao, Yimei Chen, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai, Han Qiu (Tsinghua University)
+
+Softly, Deftly, Scrolls Unfurl Their Splendor: Rolling Flexible Surfaces for Wideband Wireless
+Authors: Ruichun Ma, R. Ivan Zelaya, Wenjun Hu (Yale University)
+
+Transmitting, Fast and Slow: Scheduling Satellite Traffic through Space and Time
+Authors: Bill Tao (University of Illinois Urbana-Champaign); Maleeha Masood (University of Illinois Urbana- Champaign); Indranil Gupta, Deepak Vasisht (University of Illinois Urbana-Champaign)
+
+CoreKube: An Efficient, Autoscaling and Resilient Mobile Core System - Best Artifact Award
+Authors: Andrew E. Ferguson, Jon Larrea, Mahesh K. Marina (The University of Edinburgh)
+
+NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras
+Authors: Bandhav Veluri, Collin Pernu, Ali Saffari, Joshua Smith, Michael Taylor, Shyamnath Gollakota (University of Washington)
+
+A Workload-Aware DVFS Robust to Concurrent Tasks for Mobile Devices
+Authors: Chengdong Lin (City University of Hong Kong, and Alibaba DAMO Academy); Kun Wang, Zhenjiang Li (City University of Hong Kong); Yu Pu (Alibaba DAMO Academy)
+
+FarfetchFusion: Towards Fully Mobile Live 3D Telepresence Platform
+Authors: Kyungjin Lee, Juheon Yi, Youngki Lee (Seoul National University)
+
+UniScatter: a Metamaterial Backscatter Tag for Wideband Joint Communication and Radar Sensing
+Authors: Kun Qian, Lulu Yao, Kai Zheng, Xinyu Zhang, Tse Nga Ng (University of California San Diego)
+
+NeRF2: Neural Radio-Frequency Radiance Fields - Best Paper Award Runner-Up
+Authors: Xiaopeng Zhao, Zhenlin An, Qingrui Pan, Lei Yang (The Hong Kong Polytechnic University)
+
+MagCode: NFC-Enabled Barcodes for NFC-Disabled Smartphones
+Authors: Donghui Dai, Zhenlin An, Qingrui Pan, Lei Yang (The Hong Kong Polytechnic University)
+
+AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments
+Authors: Hao Wen, Yuanchun Li (Institute for AI Industry Research (AIR), Tsinghua University); Zunshuai Zhang (Shanghai University); Shiqi Jiang (Microsoft Research); Xiaozhou Ye, Ye Ouyang (AsiaInfo Technologies (China), Inc.); Yaqin Zhang, Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University)
+
+MetaStream: Live Volumetric Content Capture, Creation, Delivery, and Rendering in Real Time
+Authors: Yongjie Guan, Xueyu Hou (New Jersey Institute of Technology); Nan Wu, Bo Han (George Mason University); Tao Han (New Jersey Institute of Technology)
+
+AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality
+Authors: Z. Jonny Kong, Qiang Xu, Jiayi Meng, Y. Charlie Hu (Purdue University)
+
+BatMobility: Towards Flying Without Seeing for Autonomous Drones
+Authors: Emerson Sie, Zikun Liu, Deepak Vasisht (University of Illinois at Urbana-Champaign)
+Winter Round
+MilliMobile: An Autonomous Battery-free Wireless Microrobot
+Kyle Johnson, Zachary Englhardt, Vicente Arroyos, Dennis Yin, Shwetak Patel, Vikram Iyer (University of Washington)
+
+The Underwater Backscatter Channel: Theory, Link Budget, and Experimental Validation - Best Paper Award #2
+Waleed Akbar, Ahmed Allam, Fadel Adib (Massachusetts Institute of Technology)
+
+Magnetic Backscatter for In-body Communication and Localization
+Bill Tao, Emerson Sie, Jayanth Shenoy, Deepak Vasisht (University of Illinois Urbana-Champaign)
+
+PMSat: Optimizing Passive Metasurface for Low Earth Orbit Satellite Communication
+Hao Pan (Microsoft Research Asia), Lili Qiu (UT Austin, MSR Asia Shanghai), Bei Ouyang (Microsoft Research Asia), Shicheng Zheng (University of Science and Technology of China), Yongzhao Zhang, Yi-Chao Chen, Guangtao Xue (Shanghai Jiao Tong University)
+
+UbiPose: Towards Ubiquitous Outdoor AR Pose Tracking using Aerial Meshes
+Weiwu Pang, Chunyu Xia, Branden Leong (University of Southern California), Fawad Ahmad (Rochester Institute of Technology), Jeongyeup Paek (Chung-Ang University), Ramesh Govindan (University of Southern California)
+
+X-Plane: A High-Throughput Large-Capacity 5G UPF
+Yunzhuo Liu (Shanghai Jiao Tong University and Alibaba Group), Hao Nie (Peking University and Alibaba Group), Hui Cai (Alibaba Group), Bo Jiang (Shanghai Jiao Tong University), Pengyu Zhang, Yirui Liu, Yidong Yao, Xionglie Wei (Alibaba Group), Biao Lv (Zhejiang University and Alibaba Group), Chenren Xu (Peking University), Shunmin Zhu (Tsinghua University and Alibaba Group), Xinbing Wang (Shanghai Jiao Tong University)
+
+Enabling Resilience in Virtualized RANs with Atlas
+Jiarong Xing (Rice University), Junzhi Gong (Harvard University), Xenofon Foukas, Anuj Kalia (Microsoft), Daehyeok Kim (The University of Texas at Austin), Manikanta Kotaru (Microsoft)
+
+Sign-to-911: Enabling 911 Service for Sign Language Users on Assistive AR Glasses
+Yunqi Guo, Jinghao Zhao, Boyan Ding, Congkai Tan, Weichong Ling (UCLA Computer Science Department), Zhaowei Tan (UC Riverside), Jennifer Miyaki (UCLA Linguistics Department), Hongzhe Du, Songwu Lu (UCLA Computer Science Department)
+
+SignQuery: A Natural User Interface and Search Engine for Sign Languages with Wearable Sensors
+Hao Zhou, Taiting Lu (The Pennsylvania State University), Kristina McKinnie, Joseph Palagano, Kenneth DeHaan (Gallaudet University), Mahanth Gowda (The Pennsylvania State University)
+
+Low-Bandwidth Self-Improving Transmission of Rare Training Data
+Shilpa George, Haithem Turki, Ziqiang Feng, Deva Ramanan (Carnegie Mellon University), Padmanabhan Pillai (Intel Labs), Mahadev Satyanarayanan (Carnegie Mellon University)
+
+Enabling Concurrency for Non-orthogonal LoRa Channels
+Fu Yu, Xiaolong Zheng, Liang Liu, Huadong Ma (Beijing University of Posts and Telecommunications)
+
+Robust Real-time Multi-vehicle Collaboration on Asynchronous Sensors
+Qingzhao Zhang, Xumiao Zhang, Ruiyang Zhu (University of Michigan), Fan Bai, Mohammad Naserian (General Motors), Z. Morley Mao (University of Michigan and Google)
+
+VI-Map: Infrastructure-Assisted Real-Time HD Mapping for Autonomous Driving - Best Community Contributions Award #1
+Yuze He, Chen Bian, Jingfei Xia, Shuyao Shi, Zhenyu Yan (The Chinese University of Hong Kong), Qun Song (Delft University of Technology), Guoliang Xing (The Chinese University of Hong Kong)
+
+mmSV: mmWave Vehicular Networking using Street View Imagery in Urban Environments
+Ahmad Kamari, Yoon Chae, Parth Pathak (George Mason University)
+
+Screen Perturbation: Adversarial Attack and Defense on Under-Screen Camera
+Hanting Ye, Guohao Lan (Delft University of Technology), Jinyuan Jia (The Pennsylvania State University), Qing Wang (Delft University of Technology)
+
+MagTracer: Detecting GPU Cryptojacking Attacks via Magnetic Leakage Signals
+Rui Xiao, Tianyu Li (Zhejiang University), Soundarya Ramesh (National University of Singapore), Jun Han (Yonsei University), Jinsong Han (Zhejiang University)
+
+Exploiting Contactless Side Channels in Wireless Charging Power Banks for User Privacy Inference via Few-shot Learning
+Tao Ni (City University of Hong Kong), Jianfeng Li (Xi’an Jiaotong University), Xiaokuan Zhang (George Mason University), Chaoshun Zuo (The Ohio State University), Wubing Wang (DBAPPSecurity), Weitao Xu (City University of Hong Kong), Xiapu Luo (The Hong Kong Polytechnic University), Qingchuan Zhao (City University of Hong Kong)
+
+XPorter: A Study of the Multi-Port Charger Security on Privacy Leakage and Voice Injection
+Tao Ni, Yongliang Chen, Weitao Xu (City University of Hong Kong), Lei Xue (Sun Yat-Sen University), Qingchuan Zhao (City University of Hong Kong)
+
+Meta-Speaker: Acoustic Source Projection by Exploiting Air Nonlinearity
+Weiguo Wang, Yuan He (Tsinghua University), Meng Jin (Shanghai Jiao Tong University), Yimiao Sun, Xiuzhen Guo (Tsinghua University)
+
+MASTERKEY: Practical Backdoor Attack Against Speaker
+Hanqing Guo (Michigan State University), Xun Chen (Samsung Research America), Junfeng Guo (UT Dallas), Li Xiao, Qiben Yan (Michigan State University)
+
+AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals - Best Paper Award #1
+Sayed Saad Afzal (MIT), Atsutse Kludze, Subhajit Karmakar (Princeton University), Ranveer Chandra (Microsoft), Yasaman Ghasempour (Princeton University)
+
+eTag: An Energy-Neutral Ear Tag for Real-Time Body Temperature Monitoring of Dairy Cattle
+Hien Vu, Hanwook Chung, Christopher Choi, Younghyun Kim (University of Wisconsin-Madison)
+
+APG: Audioplethysmography for Cardiac Monitoring in Hearables
+Xiaoran Fan, David Pearl (Google), Richard Howard (Rutgers University), Longfei Shangguan (University of Pittsburgh), Trausti Thormundsson (Google)
+
+LiT: Fine-gained Toothbrushing Monitoring with Commercial LED Toothbrush
+Kaixin Chen, Lei Wang (Shenzhen University), Yongzhi Huang (HKUST(Guangzhou)), Lu Wang (Shenzhen University), Kaishun Wu (HKUST(Guangzhou))
+
+LUT-NN: Empower Efficient Neural Network Inference with Centroid Learning and Table Lookup
+Xiaohu Tang (State Key Lab of CAD&CG, Zhejiang University; Microsoft Research), Yang Wang, Ting Cao, Li Lyna Zhang, Qi Chen (Microsoft Research), Deng Cai (State Key Lab of CAD&CG, Zhejiang University), Yunxin Liu (Institute for AI Industry Research (AIR), Tsinghua University), Mao Yang (Microsoft Research)
+
+Anemoi: A Low-cost Sensorless Indoor Drone System for Automatic Mapping of 3D Airflow Fields
+Stephen Xia, Minghui Zhao (Columbia University), Charuvahan Adhivarahan (University at Buffalo, State University of New York), Kaiyuan Hou (Columbia University), Yuyang Chen (University at Buffalo, State University of New York), Jingping Nie, Eugene Wu (Columbia University), Karthik Dantu (University at Buffalo, State University of New York), Xiaofan Jiang (Columbia University)
+
+RF-Search: Searching Unconscious Victim in Smoke Scenes with RF-enabled Drone
+Bin-Bin Zhang, Dongheng Zhang, Ruiyuan Song, Binquan Wang, Yang Hu, Yan Chen (University of Science and Technology of China)
+
+MilliSign: mmWave-Based Passive Signs for Guiding UAVs in Poor Visibility Conditions
+Tatsuya Iizuka (Nippon Telegraph and Telephone Corporation), Takuya Sasatani (The University of Tokyo), Toru Nakamura, Naoko Kosaka, Masaki Hisada (Nippon Telegraph and Telephone Corporation), Yoshihiro Kawahara (The University of Tokyo)
+
+Experience: Large-scale Cellular Localization for Pickup Position Recommendation at Black-hole
+Shuli Zhu, Lingkun Li (Beijing Jiaotong University), Xuyu Wang (Florida International University), Changcheng Liu, Yuqin Jiang, Zengwei Huo, Hua Chai (DiDi), Jiqiang Liu, Dan Tao, Ruipeng Gao (Beijing Jiaotong University)
+
+I Beg to Diffract: RF Field Programming With Edges
+Anurag Pallaprolu, Winston Hurst, Sophia Paul, Yasamin Mostofi (University of California, Santa Barbara)
+
+Scattering from Rough Surfaces in 100+ GHz Wireless Mobile Networks: From Theory to Experiments
+Ruiyi Shen, Yasaman Ghasempour (Princeton University)
+
+Squint: A Framework for Dynamic Voltage Scaling of Image Sensors Towards Low Power IoT Vision
+Venkatesh Kodukula, Mason Manetta, Robert LiKamWa (Arizona State University)
+
+MobiSpectral: Hyperspectral Imaging on Mobile Devices
+Neha Sharma, Muhammad Shahzaib Waseem, Shahrzad Mirzaei, Mohamed Hefeeda (Simon Fraser University)
+
+M3A: Multipath Multicarrier Misinformation to Adversaries
+Zhecun Liu, Keerthi Priya Dasala (Rice University), Di Mu (Skylark Wireless LLC), Rahman Doost-Mohammady, Edward W. Knightly (Rice University)
+
+Crescendo: Towards Real-time, Wide-band, High-Fidelity Spectrum Sensing Systems
+Raghav Subbaraman, Kevin Mills, Aaron Schulman, Dinesh Bharadia (University of California San Diego)
+
+Chroma: Learning and Using Network Contexts to Reinforce Performance Improving Configurations
+Changhan Ge (The University of Texas at Austin), Zihui Ge, Xuan Liu, Ajay Mahimkar, Yusef Shaqalle, Yu Xiang, Shomik Pathak (AT&T)
+
+Go Beyond RFID: Rethinking the Design of RFID Sensor Tags for Versatile Applications
+Songfan Li, Qianhe Meng, YanXu Bai, Chong Zhang, Yihang Song, Shengyu Li, Li Lu (University of Electronic Science and Technology of China)
+
+Revisiting Cardinality Estimation in COTS RFID Systems
+Xingyu Chen, Jia Liu (Nanjing University), He Huang, Yu-E Sun (Soochow University), Xu Zhang, Lijun Chen (Nanjing University)
+
+Breaking Mobile Notification-based Authentication with Concurrent Attacks Outside of Mobile Devices
+Ahmed Tanvir Mahdad (Texas A&M University, College Station), Mohammed Jubur (Jazan University), Nitesh Saxena (Texas A&M University, College Station)
+
+ReMark: Privacy-preserving Fiducial Marker System via Single-pixel Imaging
+Tzu-Hsu Yu, Hsin-Mu Tsai (National Taiwan University)
+
+Quantum Wireless Sensing: Principle, Design and Implementation
+Fusang Zhang, Beihong Jin, Zitong Lan (Institute of Software, Chinese Academy of Sciences), Zhaoxin Chang (Telecom SudParis, Institut Polytechnique de Paris), Daqing Zhang (Peking University and Telecom SudParis, Institut Polytechnique de Paris), Yuechun Jiao (Shanxi University), Meng Shi (Technology and Engineering Center for Space Utilization, Chinese Academy of Sciences), Jie Xiong (University of Massachusetts Amherst)
+
+PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones
+Shirui Cao, Dong Li, Sunghoon Ivan Lee, Jie Xiong (University of Massachusetts Amherst)
+
+SenCom: Integrated Sensing and Communication with Practical WiFi
+Yinghui He, Jianwei Liu (Zhejiang University), Mo Li (The Hong Kong University of Science and Technology), Guanding Yu, Jinsong Han, Kui Ren (Zhejiang University)
+
+Bringing Millimeter Wave Technology to Any IoT Device
+Mohammad Mazaheri (UCLA), Rafael Ruiz, Domenico Giustiniano, Joerg Widmer (IMDEA Networks), Omid Abari (UCLA)
+
+Taming Event Cameras with Bio-Inspired Architecture and Algorithm: A Case for Drone Obstacle Avoidance
+Jingao Xu, Danyang Li, Zheng Yang, Yishujie Zhao, Hao Cao, Yunhao Liu (Tsinghua University), Longfei Shangguan (University of Pittsburgh)
+
+Virtual Device Farms for Mobile App Testing at Scale: A Pursuit for Fidelity, Efficiency, and Accessibility
+Hao Lin (Tsinghua University), Jiaxing Qiu, Hongyi Wang (Tsinghua University & ByteDance Inc.), Zhenhua Li (Tsinghua University), Liangyi Gong (CNIC of CAS), Di Gao, Yunhao Liu (Tsinghua University), Feng Qian (University of Southern California), Zhao Zhang, Ping Yang (ByteDance Inc.), Tianyin Xu (University of Illinois at Urbana-Champaign)
+
+Practically Adopting Human Activity Recognition
+Huatao Xu (Nanyang Technological University), Pengfei Zhou (University of Pittsburgh), Rui Tan, Mo Li (Nanyang Technological University)
+
+DancingAnt: Body-empowered Wireless Sensing Utilizing Pervasive Radiations from Powerline
+Minhao Cui, Binbin Xie (University of Massachusetts Amherst), Qing Wang (Delft University of Technology), Jie Xiong (University of Massachusetts Amherst and Microsoft Research Asia)
+
+MUSE-Fi: Contactless MUti-person SEnsing Exploiting Near-field Wi-Fi Channel Variation
+Jingzhi Hu, Tianyue Zheng (Nanyang Technological University), Zhe Chen (Fudan University), Hongbo Wang, Jun Luo (Nanyang Technological University)
+
+Towards Generalized mmWave-based Human Pose Estimation through Signal Augmentation
+Hongfei Xue (University at Buffalo, SUNY), Qiming Cao (Purdue University), Chenglin Miao (Iowa State University), Yan Ju (State University of New York at Buffalo), Haochen Hu (University at Buffalo, SUNY), Aidong Zhang (Univerisity of Virginia), Lu Su (Purdue University)
+
+Federated Few-Shot Learning for Mobile NLP
+Dongqi Cai, Shangguang Wang, Yaozong Wu (Beiyou Shenzhen Institute), Felix Lin (University of Virginia), Mengwei Xu (Beiyou Shenzhen Institute)
+
+Cost-effective On-device Continual Learning over Memory Hierarchy with Miro
+Xinyue Ma, Suyeon Jeong (UNIST), Minjia Zhang (Microsoft), Di Wang (Unaffiliated), Jonghyun Choi (Yonsei University), Myeongjae Jeon (UNIST)

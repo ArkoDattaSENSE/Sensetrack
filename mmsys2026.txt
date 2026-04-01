@@ -1,0 +1,174 @@
+
+1
+Session 1: 3D Representations and Gaussian Splatting
+
+Sunday, 5 April 2026
+11:30 – 13:00
+4 papers
+Session Chair: Mohamed Hefeeda, Qatar Computing Research Institute
+
+Day 1
+#4
+Unified Compression of Point Cloud Geometry and Attributes through Variable-Rate Conditioning
+
+Michael Rudolph, Aron Riemenschneider, and Amr Rizk
+
+#49
+CubeGS: Cube-wise Motion Residual Prediction for Gaussian Splatting Streaming
+
+Syed Ali John Naqvi, Mea Wang, and Emir Halepovic
+
+#65
+P-GSVC: Layered Progressive 2D Gaussian Splatting for Scalable Image and Video
+
+Longan Wang, Yuang Shi, and Wei Tsang Ooi
+
+#264
+LMG: Efficient Streaming of Layered Mesh–Gaussian 3D Scenes
+
+Yuan-Chun Sun, Guodong Chen, Sam Ziaie Kondori, Mallesham Dasari, and Cheng-Hsin Hsu
+
+2
+Session 2: Adaptive Streaming and Delivery Networks
+
+Sunday, 5 April 2026
+16:00 – 17:30
+4 papers
+Session Chair: Ali Begen, Ozyegin University
+
+Day 1
+#60
+Camera-Ready? Exploring Transport-Layer Performance Limits with GigE Vision
+
+Malte Wehmeier, Eric Lanfer, Kathrin Elmenhorst, and Nils Aschenbruck
+
+#91
+CADENCE: Collaborative Multi-Agent Dual-Objective Framework for Intelligent CDN Selection
+
+Jashanjot Singh Sidhu, Chidambar Joshi, and Abdelhak Bentaleb
+
+#203
+TAROT: Towards Optimization-Driven Adaptive FEC Parameter Tuning for Video Streaming
+
+Jashanjot Singh Sidhu, Aman Sahu, and Abdelhak Bentaleb
+
+#245
+NILO: Nested Iterative Optimization for Video Bitrate Ladder Construction
+
+Sagar Bharadwaj Kalasibail Seetharam, Renata Teixeira, Xiaoqing Zhu, Kyle Swanson, and Srinivasan Seshan
+
+3
+Session 3: 360° Video and Immersive Experiences
+
+Monday, 6 April 2026
+11:15 – 12:45
+4 papers
+Session Chair: Tanja Kojic, TU Berlin
+
+Day 2
+#40
+DK-MARC: Risk-Adaptive 360° Streaming via Dual-Uncertainty Quantification and Multi-Modal Fusion
+
+Arman Nik Khah and Ravi Prakash
+
+#64
+Learning-Augmented 360° Video Streaming: Robust Viewport Adaptation with Simple Predictors
+
+Tianyu Chen, Mohammad Hajiesmaili, and Ramesh K. Sitaraman
+
+#207
+Delivering Layered Object-Based Media using WebAssembly with Selective Cloud Rendering
+
+Barry Porter, Rajiv Ramdhany, and Nicholas Race
+
+#303
+HAPhy: AI-Assisted Content Creator Supporting Tools for Multi-sensory Haptic Experiences in Immersive Media
+
+Seoyong Nam, Hyunwook Jung, and Yongjae Yoo
+
+4
+Session 4: Cloud VR, AR, and Volumetric Systems
+
+Monday, 6 April 2026
+15:45 – 17:15
+4 papers
+Session Chair: Cong Zhang, Shenzhen MSU-BIT University
+
+Day 2
+#10
+SPARC: Proximity-aware Scheduling of AR Mapping and Cloud-based GenAI Upsampling for Efficient Multi-User SLAM
+
+Shneka Muthu Kumara Swamy, Mallesham Dasari, Nicholas Mastronarde, and Jacob Chakareski
+
+#20
+Trinity: Exploiting Latency Sensitivity to Improve Quality of Experience on Cloud VR Gaming
+
+Lingzhi Zhao, Yongqiang Gui, Yanyan Suo, Sandesh Dhawaskar Sathyanarayana, Ruixiao Zhang, Klara Nahrstedt, and Shu Shi
+
+#31
+iSR: Super-resolution for Immersive Cloud VR Gaming Platforms
+
+Ghazaleh Bakhtiariazad, Haseeb Ur Rehman, Shervin Shirmohammadi, Ihab Amer, and Mohamed Hefeeda
+
+#140
+Super-Resolution Meets Compression in Live VV: Light on Bits, Rich on Quality
+
+Sepehr Ganji, Amir Allahveran, Mea Wang, and Diwakar Krishnamurthy
+
+5
+Session 5: Video Quality Assessment and Vision Systems
+
+Tuesday, 7 April 2026
+11:15 – 12:45
+4 papers
+Session Chair: Moncef Gabbouj, Tampere University
+
+Day 3
+#24
+Convolutions Need Registers Too: HVS-Inspired Dynamic Attention for Video Quality Assessment
+
+Mayesha Maliha Rahman Mithila and Mylene C.Q. Farias
+
+#45
+AR as an Evaluation Playground: Bridging Metric and Visual Perception of Computer Vision Models
+
+Ashkan Ganj, Yiqin Zhao, and Tian Guo
+
+#55
+Remote Particle Trajectory Tracking using Event-Based Vision Streams
+
+Pina Kolling, Andrew Freeman, and Amr Rizk
+
+#114
+ISM: Intelligent Multi-Path Scheduler for Multi-Camera Networked Systems
+
+Alireza Mohammadhosseini, Jacob Chakareski, and Mallesham Dasari
+
+6
+Session 6: AI-Driven Video Processing and Edge Computing
+
+Tuesday, 7 April 2026
+15:45 – 17:15
+4 papers
+Session Chair: Xiaoqing Zhu, Netflix
+
+Day 3
+#48
+MARs: Multi-scale Convolution-Attention Residual Fusion for Video Summarization
+
+Joon-Seok Song, Juyeob Lee, and Eunil Park
+
+#56
+FedVSR: Towards Model-Agnostic Federated Learning in Video Super-Resolution
+
+Ali Mollaahmadi Dehaghi, Hossein KhademSohi, Reza Razavi, Steve Drew, and Mohammad Moshirpour
+
+#179
+Atom: Efficient On-Device Video-Language Pipelines Through Modular Reuse
+
+Kunjal Panchal, Saayan Mitra, Somdeb Sarkhel, Haoliang Wang, Ishita Dasgupta, Gang Wu, and Hui Guan
+
+#185
+ELLMPEG: An Edge-based Agentic LLM Video Processing Tool
+
+Zoha Azimi Ourimi, Reza Fahrani, Radu Prodan, and Christian Timmerer
