@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T23:37:57+00:00",
+  "generated_at": "2026-04-01T23:40:37+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -116,15 +116,15 @@
         2025
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-07-20",
-      "deadline_display": "July 20, 2026",
+      "deadline_iso": "2026-04-20",
+      "deadline_display": "April 20, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
       "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
       "submission_cycles": [
         {
-          "deadline_iso": "2026-07-20",
-          "deadline_display": "July 20, 2026",
+          "deadline_iso": "2026-04-20",
+          "deadline_display": "April 20, 2026",
           "deadline_label": "Paper Submission Deadline",
           "source_kind": "official",
           "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
@@ -165,26 +165,26 @@
         2026
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-09-18",
-      "deadline_display": "September 18, 2025",
-      "deadline_label": "Fall Deadline - Full Paper Submissions",
+      "deadline_iso": "2026-09-17",
+      "deadline_display": "September 17, 2026",
+      "deadline_label": "Fall deadline - Full Paper Submissions",
       "source_kind": "official",
-      "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+      "source_url": "https://www.usenix.org/conference/nsdi27/call-for-papers",
       "submission_cycles": [
         {
-          "deadline_iso": "2025-04-25",
-          "deadline_display": "April 25, 2025",
-          "deadline_label": "Spring Deadline - Full Paper Submissions",
+          "deadline_iso": "2026-04-23",
+          "deadline_display": "April 23, 2026",
+          "deadline_label": "Spring deadline - Full Paper Submissions",
           "source_kind": "official",
-          "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+          "source_url": "https://www.usenix.org/conference/nsdi27/call-for-papers",
           "edition_year": 2026
         },
         {
-          "deadline_iso": "2025-09-18",
-          "deadline_display": "September 18, 2025",
-          "deadline_label": "Fall Deadline - Full Paper Submissions",
+          "deadline_iso": "2026-09-17",
+          "deadline_display": "September 17, 2026",
+          "deadline_label": "Fall deadline - Full Paper Submissions",
           "source_kind": "official",
-          "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+          "source_url": "https://www.usenix.org/conference/nsdi27/call-for-papers",
           "edition_year": 2026
         }
       ]
@@ -401,16 +401,8 @@
       "error": "No deadline candidate found from official CFP pages for MobiCom."
     },
     {
-      "conference": "MobiHoc",
-      "error": "No deadline candidate found from official CFP pages for MobiHoc."
-    },
-    {
       "conference": "MobiSys",
       "error": "No deadline candidate found from official CFP pages for MobiSys."
-    },
-    {
-      "conference": "NSDI",
-      "error": "No deadline candidate found from official CFP pages for NSDI."
     },
     {
       "conference": "SSRR",
