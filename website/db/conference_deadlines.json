@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T23:28:19+00:00",
+  "generated_at": "2026-04-01T23:37:57+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -246,11 +246,11 @@
         2025
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-05-29",
-      "deadline_display": "May 29, 2026",
-      "deadline_label": "Paper Submission",
+      "deadline_iso": "2026-08-16",
+      "deadline_display": "August 16, 2026",
+      "deadline_label": "Submission Deadline",
       "source_kind": "official",
-      "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
+      "source_url": "https://sigspatial2026.sigspatial.org/",
       "submission_cycles": [
         {
           "deadline_iso": "2026-05-29",
@@ -258,6 +258,30 @@
           "deadline_label": "Paper Submission",
           "source_kind": "official",
           "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-06-12",
+          "deadline_display": "June 12, 2026",
+          "deadline_label": "Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sigspatial2026.sigspatial.org/",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-06-28",
+          "deadline_display": "June 28, 2026",
+          "deadline_label": "Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sigspatial2026.sigspatial.org/",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-08-16",
+          "deadline_display": "August 16, 2026",
+          "deadline_label": "Submission Deadline",
+          "source_kind": "official",
+          "source_url": "https://sigspatial2026.sigspatial.org/",
           "edition_year": 2026
         }
       ]
@@ -359,5 +383,42 @@
       ]
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "conference": "CoNEXT",
+      "error": "No deadline candidate found from official CFP pages for CoNEXT."
+    },
+    {
+      "conference": "INFOCOM",
+      "error": "No deadline candidate found from official CFP pages for INFOCOM."
+    },
+    {
+      "conference": "MMSys",
+      "error": "No deadline candidate found from official CFP pages for MMSys."
+    },
+    {
+      "conference": "MobiCom",
+      "error": "No deadline candidate found from official CFP pages for MobiCom."
+    },
+    {
+      "conference": "MobiHoc",
+      "error": "No deadline candidate found from official CFP pages for MobiHoc."
+    },
+    {
+      "conference": "MobiSys",
+      "error": "No deadline candidate found from official CFP pages for MobiSys."
+    },
+    {
+      "conference": "NSDI",
+      "error": "No deadline candidate found from official CFP pages for NSDI."
+    },
+    {
+      "conference": "SSRR",
+      "error": "No deadline candidate found from official CFP pages for SSRR."
+    },
+    {
+      "conference": "SenSys",
+      "error": "No deadline candidate found from official CFP pages for SenSys."
+    }
+  ]
 }
