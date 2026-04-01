@@ -500,6 +500,11 @@ input {
   background: rgba(15, 139, 114, 0.1);
 }
 
+.term-chip.is-selected {
+  background: rgba(15, 139, 114, 0.14);
+  box-shadow: inset 0 0 0 1px rgba(15, 139, 114, 0.22);
+}
+
 .term-chip--0 { color: #0a5f4f; }
 .term-chip--1 { color: #18687c; }
 .term-chip--2 { color: #9d6224; }
@@ -536,6 +541,18 @@ input {
   z-index: 1;
 }
 
+.stats-table__row.is-selectable {
+  cursor: pointer;
+}
+
+.stats-table__row.is-selectable:hover td {
+  background: rgba(15, 139, 114, 0.05);
+}
+
+.stats-table__row.is-selected td {
+  background: rgba(15, 139, 114, 0.09);
+}
+
 .sort-button {
   border: 0;
   background: transparent;
@@ -556,6 +573,52 @@ input {
 
 .entity-meta {
   color: var(--muted);
+}
+
+.paper-records {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.paper-records__note {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.paper-record {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.95rem 1rem;
+}
+
+.paper-record__title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.paper-record__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
+.paper-record__field {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.paper-record__label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.paper-record__value {
+  line-height: 1.45;
+  word-break: break-word;
 }
 
 .metric-cell {
@@ -680,6 +743,10 @@ input {
   box-shadow: 0 20px 38px rgba(22, 60, 52, 0.12);
 }
 
+.conference-card--refreshing {
+  box-shadow: 0 18px 36px rgba(15, 139, 114, 0.18);
+}
+
 .conference-card::after {
   content: "";
   position: absolute;
@@ -748,6 +815,20 @@ input {
   font-size: 0.92rem;
 }
 
+.conference-card__note {
+  margin: 0.85rem 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.conference-card__note--success {
+  color: var(--success);
+}
+
+.conference-card__note--error {
+  color: var(--danger);
+}
+
 .conference-card__cycles {
   display: grid;
   gap: 0.65rem;
@@ -799,6 +880,19 @@ input {
   margin-top: 1rem;
   font-size: 0.92rem;
   color: var(--muted);
+}
+
+.conference-card__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.conference-card__refresh {
+  padding: 0.55rem 0.85rem;
+  font-size: 0.88rem;
 }
 
 .status-pill {

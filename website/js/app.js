@@ -25,24 +25,28 @@ const state = {
       conferenceSort: { key: "count", direction: "desc" },
       fitSort: { key: "count", direction: "desc" },
       selectedKey: "",
+      selectedTerm: null,
     },
     titles: {
       search: "",
       conference: "",
       overallSort: { key: "count", direction: "desc" },
       conferenceSort: { key: "count", direction: "desc" },
+      selectedTerm: null,
     },
     universities: {
       search: "",
       conference: "",
       overallSort: { key: "count", direction: "desc" },
       conferenceSort: { key: "count", direction: "desc" },
+      selectedTerm: null,
     },
     authors: {
       search: "",
       conference: "",
       overallSort: { key: "count", direction: "desc" },
       conferenceSort: { key: "count", direction: "desc" },
+      selectedTerm: null,
     },
   },
   refreshingConferences: {},
@@ -1367,6 +1371,62 @@ function buildPaperAnalytics(papers) {
   };
 }
 
+const DIMENSION_EXTRACTORS = {
+  tags: extractTagsFromPaper,
+  titles: extractTitleTermsFromPaper,
+  universities: extractUniversitiesFromPaper,
+  authors: extractAuthorsFromPaper,
+};
+
+function setDashboardSelection(dimension, selection) {
+  if (!state.dashboards[dimension]) {
+    return;
+  }
+  state.dashboards[dimension].selectedTerm = selection;
+}
+
+function clearDashboardSelection(dimension) {
+  if (!state.dashboards[dimension]) {
+    return;
+  }
+  state.dashboards[dimension].selectedTerm = null;
+}
+
+function paperMatchesDimensionTerm(paper, dimension, termKey) {
+  const extractor = DIMENSION_EXTRACTORS[dimension];
+  if (!extractor) {
+    return false;
+  }
+
+  return extractor(paper).some((term) => term.key === termKey);
+}
+
+function matchingPapersForSelection(dimension, selection) {
+  if (!state.analytics || !selection || !selection.key) {
+    return [];
+  }
+
+  return state.analytics.papers
+    .filter((paper) => {
+      if (selection.conference && paper.conference !== selection.conference) {
+        return false;
+      }
+      return paperMatchesDimensionTerm(paper, dimension, selection.key);
+    })
+    .slice()
+    .sort((left, right) => {
+      const yearDelta = Number(right.year || 0) - Number(left.year || 0);
+      if (yearDelta) {
+        return yearDelta;
+      }
+      const conferenceDelta = String(left.conference || "").localeCompare(String(right.conference || ""));
+      if (conferenceDelta) {
+        return conferenceDelta;
+      }
+      return String(left.title || "").localeCompare(String(right.title || ""));
+    });
+}
+
 function getDefaultDashboardConference(analytics) {
   return analytics.conferences
     .slice()
@@ -1468,7 +1528,7 @@ function renderMetric(primary, secondary, ratio = 0) {
   `;
 }
 
-function renderStatsTable(dimension, scope, heading, rows, columns, sortState, emptyMessage) {
+function renderStatsTable(dimension, scope, heading, rows, columns, sortState, emptyMessage, rowSelection = null) {
   if (!rows.length) {
     return `
       <section class="viz-card">
@@ -1491,7 +1551,23 @@ function renderStatsTable(dimension, scope, heading, rows, columns, sortState, e
     .slice(0, 30)
     .map((row) => {
       const cells = columns.map((column) => `<td>${column.render(row)}</td>`).join("");
-      return `<tr>${cells}</tr>`;
+      const selection = rowSelection ? rowSelection(row) : null;
+      const activeSelection = state.dashboards[dimension] ? state.dashboards[dimension].selectedTerm : null;
+      const isSelected =
+        selection &&
+        activeSelection &&
+        selection.key === activeSelection.key &&
+        (selection.conference || "") === (activeSelection.conference || "");
+      const attributes =
+        selection && selection.key
+          ? ` class="stats-table__row is-selectable ${isSelected ? "is-selected" : ""}"
+              data-select-dimension="${escapeHtml(dimension)}"
+              data-select-term-key="${escapeHtml(selection.key)}"
+              data-select-term-label="${escapeHtml(selection.label || row.label || selection.key)}"
+              data-select-scope="${escapeHtml(selection.scope || scope)}"
+              ${selection.conference ? `data-select-conference="${escapeHtml(selection.conference)}"` : ""}`
+          : "";
+      return `<tr${attributes}>${cells}</tr>`;
     })
     .join("");
 
@@ -1534,11 +1610,17 @@ function renderTermCloud(dimension, rows, emptyMessage) {
         .map((row, index) => {
           const scale = 0.9 + ((row.count - minCount) / spread) * 1.9;
           const tone = index % 6;
+          const isSelected =
+            state.dashboards[dimension] &&
+            state.dashboards[dimension].selectedTerm &&
+            state.dashboards[dimension].selectedTerm.key === row.key &&
+            !state.dashboards[dimension].selectedTerm.conference;
           return `
             <button
-              class="term-chip term-chip--${tone}"
+              class="term-chip term-chip--${tone} ${isSelected ? "is-selected" : ""}"
               type="button"
               data-cloud-dimension="${dimension}"
+              data-cloud-key="${escapeHtml(row.key)}"
               data-cloud-term="${escapeHtml(row.label)}"
               title="${escapeHtml(`${row.label}: ${row.count} papers`)}"
               style="font-size:${scale.toFixed(2)}rem"
@@ -1577,6 +1659,91 @@ function renderAnalyticsError(title, message) {
         </div>
       </section>
     </div>
+  `;
+}
+
+function renderPaperRecord(paper) {
+  const fields = [
+    ["Conference", paper.conference || "—"],
+    ["Year", paper.year || "—"],
+    ["Source File", paper.source_file || "—"],
+    ["Section", paper.section || "—"],
+    ["Paper Type", paper.paper_type || "—"],
+    ["Authors", paper.authors || "—"],
+    ["Award", paper.award || "—"],
+    ["Tags", paper.tags || "—"],
+  ];
+
+  return `
+    <article class="paper-record">
+      <h4 class="paper-record__title">${escapeHtml(paper.title || "Untitled")}</h4>
+      <div class="paper-record__grid">
+        ${fields
+          .map(
+            ([label, value]) => `
+              <div class="paper-record__field">
+                <span class="paper-record__label">${escapeHtml(label)}</span>
+                <span class="paper-record__value">${escapeHtml(value)}</span>
+              </div>
+            `,
+          )
+          .join("")}
+      </div>
+    </article>
+  `;
+}
+
+function renderSelectionSummary(dimension, selection, papers) {
+  const scopeLabel = selection.conference
+    ? `${selection.label} in ${selection.conference}`
+    : selection.label;
+  const noun = papers.length === 1 ? "paper" : "papers";
+
+  return `
+    <div class="viz-card__header">
+      <div>
+        <h3>${escapeHtml(scopeLabel)}</h3>
+        <p>${escapeHtml(`${papers.length} matching ${noun} from accepted_papers.csv`)}</p>
+      </div>
+      <button
+        class="secondary-button"
+        type="button"
+        data-clear-selection="${escapeHtml(dimension)}"
+      >
+        Clear
+      </button>
+    </div>
+  `;
+}
+
+function renderPaperDrilldown(dimension) {
+  const selection = state.dashboards[dimension] && state.dashboards[dimension].selectedTerm;
+  if (!selection) {
+    return "";
+  }
+
+  const papers = matchingPapersForSelection(dimension, selection);
+  const bodyMarkup = papers.length
+    ? `
+      <div class="paper-records">
+        ${papers.slice(0, 80).map((paper) => renderPaperRecord(paper)).join("")}
+      </div>
+      ${papers.length > 80 ? `<p class="paper-records__note">Showing 80 of ${papers.length} matching papers.</p>` : ""}
+    `
+    : `
+      <div class="empty-state">
+        <h3>No papers matched.</h3>
+        <p>The current selection did not match any accepted-paper rows.</p>
+      </div>
+    `;
+
+  return `
+    <section class="explorer-panel">
+      <section class="viz-card">
+        ${renderSelectionSummary(dimension, selection, papers)}
+        ${bodyMarkup}
+      </section>
+    </section>
   `;
 }
 
@@ -1694,6 +1861,11 @@ function renderDimensionDashboard(dimension) {
             overallColumns,
             view.overallSort,
             config.cloudEmpty,
+            (row) => ({
+              key: row.key,
+              label: row.label,
+              scope: "overall",
+            }),
           )}
         </div>
       </section>
@@ -1733,9 +1905,17 @@ function renderDimensionDashboard(dimension) {
             conferenceColumns,
             view.conferenceSort,
             config.cloudEmpty,
+            (row) => ({
+              key: row.key,
+              label: row.label,
+              scope: "conference",
+              conference: view.conference,
+            }),
           )}
         </div>
       </section>
+
+      ${renderPaperDrilldown(dimension)}
     </div>
   `;
 }
@@ -1888,6 +2068,15 @@ function renderTagFitExplorer() {
           breakdownColumns,
           view.fitSort,
           "No tag selected.",
+          (row) =>
+            selectedTag
+              ? {
+                  key: selectedTag.key,
+                  label: selectedTag.label,
+                  scope: "fit",
+                  conference: row.label,
+                }
+              : null,
         )}
       </div>
     </section>
@@ -2168,6 +2357,80 @@ async function fetchConferenceInputs() {
   }
 }
 
+function recordForConference(conference) {
+  if (!state.dataset || !Array.isArray(state.dataset.conferences)) {
+    return null;
+  }
+  return state.dataset.conferences.find((record) => record.conference === conference) || null;
+}
+
+function failureForConference(conference) {
+  if (!state.dataset || !Array.isArray(state.dataset.failures)) {
+    return null;
+  }
+  return state.dataset.failures.find((failure) => failure.conference === conference) || null;
+}
+
+function updateDatasetForConference(conferenceInfo, nextRecord = null, errorMessage = "") {
+  const currentDataset = state.dataset || normalizeDataset({ conferences: [] });
+  const existingRecord =
+    currentDataset.conferences.find((record) => record.conference === conferenceInfo.conference) ||
+    {
+      conference: conferenceInfo.conference,
+      years_in_csv: Array.isArray(conferenceInfo.years_in_csv) ? conferenceInfo.years_in_csv : [],
+      latest_tracked_edition: null,
+      deadline_iso: "",
+      deadline_display: "",
+      deadline_label: "",
+      source_kind: "",
+      source_url: "",
+      submission_cycles: [],
+    };
+
+  const mergedRecord = nextRecord
+    ? {
+        ...existingRecord,
+        ...nextRecord,
+        years_in_csv:
+          Array.isArray(nextRecord.years_in_csv) && nextRecord.years_in_csv.length
+            ? nextRecord.years_in_csv
+            : Array.isArray(conferenceInfo.years_in_csv) && conferenceInfo.years_in_csv.length
+              ? conferenceInfo.years_in_csv
+              : existingRecord.years_in_csv,
+      }
+    : {
+        ...existingRecord,
+        years_in_csv:
+          Array.isArray(conferenceInfo.years_in_csv) && conferenceInfo.years_in_csv.length
+            ? conferenceInfo.years_in_csv
+            : existingRecord.years_in_csv,
+      };
+
+  const conferences = currentDataset.conferences
+    .filter((record) => record.conference !== conferenceInfo.conference)
+    .concat(mergedRecord)
+    .sort((left, right) => left.conference.localeCompare(right.conference));
+
+  const failures = (currentDataset.failures || []).filter(
+    (failure) => failure.conference !== conferenceInfo.conference,
+  );
+  if (errorMessage) {
+    failures.push({
+      conference: conferenceInfo.conference,
+      error: errorMessage,
+    });
+  }
+
+  state.dataset = normalizeDataset({
+    ...currentDataset,
+    generated_at: new Date().toISOString(),
+    source_csv: currentDataset.source_csv || CSV_PATH,
+    conferences,
+    failures,
+  });
+  persistDataset(state.dataset);
+}
+
 function buildYearsToTry(yearsInCsv) {
   const currentYear = new Date().getFullYear();
   const latestCsvYear = yearsInCsv.length ? Math.max(...yearsInCsv) : currentYear;
@@ -2192,6 +2455,7 @@ function buildUbiCompRecurringCandidates(conferenceInfo, editionYear = inferTarg
       conference: conferenceInfo.conference,
       deadlineIso: `${editionYear - 1}-11-01`,
       label: "IMWUT November Cycle - Paper Submission",
+      sourceKind: "official-pattern",
       sourceUrl,
       editionYear,
     },
@@ -2199,6 +2463,7 @@ function buildUbiCompRecurringCandidates(conferenceInfo, editionYear = inferTarg
       conference: conferenceInfo.conference,
       deadlineIso: `${editionYear}-02-01`,
       label: "IMWUT February Cycle - Paper Submission",
+      sourceKind: "official-pattern",
       sourceUrl,
       editionYear,
     },
@@ -2206,6 +2471,7 @@ function buildUbiCompRecurringCandidates(conferenceInfo, editionYear = inferTarg
       conference: conferenceInfo.conference,
       deadlineIso: `${editionYear}-05-01`,
       label: "IMWUT May Cycle - Paper Submission",
+      sourceKind: "official-pattern",
       sourceUrl,
       editionYear,
     },
@@ -2263,85 +2529,181 @@ async function refreshConference(conferenceInfo) {
   return buildConferenceRecord(conferenceInfo, candidates);
 }
 
+function updateBatchRefreshMessage() {
+  if (!state.batchRefresh) {
+    return;
+  }
+
+  const { completed, total, failed } = state.batchRefresh;
+  setRefreshMessage(`Syncing ${completed} of ${total} conferences...`, failed ? "error" : "neutral");
+}
+
+async function refreshSingleConference(conferenceInfo, options = {}) {
+  const conference = conferenceInfo.conference;
+  if (state.pendingRefreshes[conference]) {
+    return state.pendingRefreshes[conference];
+  }
+
+  state.refreshingConferences[conference] = true;
+  state.conferenceRefreshState[conference] = {
+    tone: "neutral",
+    message: options.batch ? "Queued for sync..." : "Syncing official CFP...",
+  };
+  render();
+
+  const request = (async () => {
+    let errorMessage = "";
+
+    try {
+      state.conferenceRefreshState[conference] = {
+        tone: "neutral",
+        message: "Syncing official CFP...",
+      };
+      render();
+
+      const record = await refreshConference(conferenceInfo);
+      updateDatasetForConference(conferenceInfo, record, "");
+      const cycleCount = getRecordCycles(record).length;
+      state.conferenceRefreshState[conference] = {
+        tone: "success",
+        message: `Updated ${cycleCount} submission window${cycleCount === 1 ? "" : "s"}.`,
+      };
+
+      if (!options.batch) {
+        setRefreshMessage(`${conference} synced successfully.`, "success");
+      }
+      return record;
+    } catch (error) {
+      errorMessage = error instanceof Error ? error.message : String(error);
+      updateDatasetForConference(conferenceInfo, null, errorMessage);
+      state.conferenceRefreshState[conference] = {
+        tone: "error",
+        message: errorMessage,
+      };
+
+      if (!options.batch) {
+        setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
+      }
+      throw error;
+    } finally {
+      delete state.pendingRefreshes[conference];
+      delete state.refreshingConferences[conference];
+
+      if (state.batchRefresh) {
+        state.batchRefresh.completed += 1;
+        if (errorMessage) {
+          state.batchRefresh.failed += 1;
+        }
+
+        if (state.batchRefresh.completed >= state.batchRefresh.total) {
+          const failed = state.batchRefresh.failed;
+          state.batchRefresh = null;
+          setRefreshMessage(
+            failed
+              ? `Sync complete with ${failed} conference issue${failed === 1 ? "" : "s"}.`
+              : "Sync complete. Latest deadlines are ready.",
+            failed ? "error" : "success",
+          );
+        } else {
+          updateBatchRefreshMessage();
+        }
+      }
+
+      render();
+    }
+  })();
+
+  state.pendingRefreshes[conference] = request;
+  return request;
+}
+
+async function refreshConferenceByName(conference) {
+  const conferenceInputs = await fetchConferenceInputs();
+  const conferenceInfo = conferenceInputs.find((item) => item.conference === conference);
+  if (!conferenceInfo) {
+    setRefreshMessage(`No refresh rules found for ${conference}.`, "error");
+    return;
+  }
+
+  return refreshSingleConference(conferenceInfo, { batch: false });
+}
+
 async function loadInitialData() {
   setRefreshMessage("Loading latest deadline snapshot...");
 
-  const stored = loadStoredDataset();
-  if (stored && stored.conferences && stored.conferences.length) {
-    state.dataset = normalizeDataset(stored);
-    state.dataMode = "localStorage";
-    render();
-    setRefreshMessage("Latest snapshot loaded.", "success");
+  const candidates = [];
+  loadStoredDatasets().forEach(({ key, payload }) => {
+    candidates.push({
+      payload,
+      mode: "localStorage",
+      priority: key === PRIMARY_STORAGE_KEY ? 4 : 1,
+      message: key === PRIMARY_STORAGE_KEY ? "Latest local snapshot loaded." : "Older local snapshot loaded.",
+    });
+  });
+
+  try {
+    candidates.push({
+      payload: await fetchJson(STATIC_DB_PATH, { cache: "no-store" }),
+      mode: "file",
+      priority: 3,
+      message: "Built-in snapshot loaded.",
+    });
+  } catch (error) {
+    // Fall through to embedded or local snapshots.
+  }
+
+  const embedded = readEmbeddedDataset();
+  if (embedded && embedded.conferences && embedded.conferences.length) {
+    candidates.push({
+      payload: embedded,
+      mode: "embedded",
+      priority: 2,
+      message: "Embedded snapshot loaded.",
+    });
+  }
+
+  const preferred = choosePreferredInitialDataset(candidates);
+  if (!preferred) {
+    setRefreshMessage("Deadline data could not be loaded.", "error");
     return;
   }
 
-  try {
-    state.dataset = normalizeDataset(await fetchJson(STATIC_DB_PATH, { cache: "no-store" }));
-    state.dataMode = "file";
-    render();
-    setRefreshMessage("Built-in snapshot loaded.", "success");
-    return;
-  } catch (error) {
-    const embedded = readEmbeddedDataset();
-    if (embedded && embedded.conferences && embedded.conferences.length) {
-      state.dataset = normalizeDataset(embedded);
-      state.dataMode = "embedded";
-      render();
-      setRefreshMessage("Embedded snapshot loaded.", "success");
-      return;
-    }
-    setRefreshMessage("Deadline data could not be loaded.", "error");
-  }
+  state.dataset = normalizeDataset(preferred.payload);
+  state.dataMode = preferred.mode;
+  render();
+  setRefreshMessage(preferred.message, "success");
 }
 
 async function refreshDataset() {
-  const button = document.getElementById("refreshButton");
-  button.disabled = true;
-  setRefreshMessage("Syncing official CFP pages. This can take a little while...");
+  if (state.batchRefresh) {
+    return;
+  }
 
   try {
     const conferenceInputs = await fetchConferenceInputs();
-    const results = await Promise.allSettled(
-      conferenceInputs.map(async (conferenceInfo) => refreshConference(conferenceInfo)),
-    );
+    state.batchRefresh = {
+      total: conferenceInputs.length,
+      completed: 0,
+      failed: 0,
+    };
 
-    const records = [];
-    const failures = [];
-
-    results.forEach((result, index) => {
-      const conference = conferenceInputs[index].conference;
-      if (result.status === "fulfilled") {
-        records.push(result.value);
-      } else {
-        failures.push({
-          conference,
-          error: result.reason instanceof Error ? result.reason.message : String(result.reason),
-        });
+    conferenceInputs.forEach((conferenceInfo) => {
+      if (!state.refreshingConferences[conferenceInfo.conference]) {
+        state.conferenceRefreshState[conferenceInfo.conference] = {
+          tone: "neutral",
+          message: "Queued for sync...",
+        };
       }
     });
 
-    const payload = {
-      generated_at: new Date().toISOString(),
-      source_csv: CSV_PATH,
-      conference_count: records.length,
-      conferences: records.sort((left, right) => left.conference.localeCompare(right.conference)),
-      failures,
-    };
-
-    state.dataset = normalizeDataset(payload);
-    state.dataMode = "localStorage";
-    persistDataset(state.dataset);
     render();
+    updateBatchRefreshMessage();
 
-    if (failures.length) {
-      setRefreshMessage(`Sync finished with ${failures.length} source issues. Available deadlines were still updated.`, "error");
-    } else {
-      setRefreshMessage("Sync complete. Latest deadlines are ready.", "success");
-    }
+    await Promise.allSettled(
+      conferenceInputs.map((conferenceInfo) => refreshSingleConference(conferenceInfo, { batch: true })),
+    );
   } catch (error) {
     setRefreshMessage(error.message || "Sync failed.", "error");
-  } finally {
-    button.disabled = false;
   }
 }
 
@@ -2446,6 +2808,9 @@ function renderTracker() {
       const cycles = getRecordCycles(record);
       const displayCycle = getNextUpcomingCycle(record) || getLatestCycle(record);
       const latestCycle = getLatestCycle(record);
+      const refreshState = state.conferenceRefreshState[record.conference];
+      const failure = failureForConference(record.conference);
+      const isRefreshing = Boolean(state.refreshingConferences[record.conference]);
       const status = displayCycle ? deadlineStatus(displayCycle.deadline_iso) : { tone: "closed", badge: "No Date", detail: "No current submission window found" };
       const cycleMarkup = cycles
         .map((cycle) => {
@@ -2470,8 +2835,12 @@ function renderTracker() {
           ? `<p class="conference-card__latest">Latest window tracked: ${latestCycle.deadline_label} · ${latestCycle.deadline_display}</p>`
           : "";
       const yearText = formatPaperHistory(record.years_in_csv);
+      const note = refreshState || failure;
+      const noteMarkup = note
+        ? `<p class="conference-card__note conference-card__note--${escapeHtml(note.tone || "error")}">${escapeHtml(note.message || note.error)}</p>`
+        : "";
       return `
-        <article class="conference-card conference-card--${status.tone}">
+        <article class="conference-card conference-card--${status.tone} ${isRefreshing ? "conference-card--refreshing" : ""}">
           <div class="conference-card__header">
             <div>
               <p class="conference-card__name">${record.conference}</p>
@@ -2488,8 +2857,19 @@ function renderTracker() {
           </div>
           <div class="conference-card__footer">
             <span>${record.latest_tracked_edition ? `${record.latest_tracked_edition} edition` : "Awaiting sync"}</span>
-            ${sourceMarkup}
+            <div class="conference-card__actions">
+              ${sourceMarkup}
+              <button
+                class="secondary-button conference-card__refresh"
+                type="button"
+                data-refresh-conference="${escapeHtml(record.conference)}"
+                ${isRefreshing ? "disabled" : ""}
+              >
+                ${isRefreshing ? "Syncing..." : "Refresh"}
+              </button>
+            </div>
           </div>
+          ${noteMarkup}
         </article>
       `;
     })
@@ -2553,10 +2933,27 @@ function renderCoverage() {
 }
 
 function render() {
+  renderRefreshControls();
   renderSummary();
   renderTracker();
   renderCoverage();
   renderAnalyticsDashboards();
+}
+
+function renderRefreshControls() {
+  const button = document.getElementById("refreshButton");
+  if (!button) {
+    return;
+  }
+
+  if (state.batchRefresh) {
+    button.disabled = true;
+    button.textContent = `Syncing ${state.batchRefresh.completed}/${state.batchRefresh.total}`;
+    return;
+  }
+
+  button.disabled = false;
+  button.textContent = "Sync All";
 }
 
 function setRefreshMessage(message, tone = "neutral") {
@@ -2629,6 +3026,19 @@ function handleDashboardChange(event) {
 }
 
 function handleDashboardClick(event) {
+  const clearSelection = event.target.closest("[data-clear-selection]");
+  if (clearSelection) {
+    clearDashboardSelection(clearSelection.dataset.clearSelection);
+    renderAnalyticsDashboards();
+    return;
+  }
+
+  const refreshTrigger = event.target.closest("[data-refresh-conference]");
+  if (refreshTrigger) {
+    refreshConferenceByName(refreshTrigger.dataset.refreshConference);
+    return;
+  }
+
   const sortButton = event.target.closest("[data-sort-dimension]");
   if (sortButton) {
     const dimension = sortButton.dataset.sortDimension;
@@ -2647,9 +3057,30 @@ function handleDashboardClick(event) {
   const cloudTerm = event.target.closest("[data-cloud-dimension]");
   if (cloudTerm) {
     const dimension = cloudTerm.dataset.cloudDimension;
+    const key = cloudTerm.dataset.cloudKey;
     const term = cloudTerm.dataset.cloudTerm;
     if (state.dashboards[dimension]) {
-      state.dashboards[dimension].search = term || "";
+      setDashboardSelection(dimension, {
+        key: key || "",
+        label: term || key || "",
+        scope: "overall",
+        conference: "",
+      });
+      renderAnalyticsDashboards();
+    }
+    return;
+  }
+
+  const selectedRow = event.target.closest("[data-select-term-key]");
+  if (selectedRow) {
+    const dimension = selectedRow.dataset.selectDimension;
+    if (state.dashboards[dimension]) {
+      setDashboardSelection(dimension, {
+        key: selectedRow.dataset.selectTermKey || "",
+        label: selectedRow.dataset.selectTermLabel || selectedRow.dataset.selectTermKey || "",
+        scope: selectedRow.dataset.selectScope || "overall",
+        conference: selectedRow.dataset.selectConference || "",
+      });
       renderAnalyticsDashboards();
     }
     return;
@@ -2658,8 +3089,19 @@ function handleDashboardClick(event) {
   const heatmapHeader = event.target.closest("[data-heatmap-term]");
   if (heatmapHeader) {
     state.dashboards.tags.selectedKey = heatmapHeader.dataset.heatmapTerm || state.dashboards.tags.selectedKey;
+    const selectedTag = state.analytics.dimensions.tags.overall.find(
+      (row) => row.key === state.dashboards.tags.selectedKey,
+    );
     if (heatmapHeader.dataset.heatmapConference) {
       state.dashboards.tags.conference = heatmapHeader.dataset.heatmapConference;
+    }
+    if (selectedTag) {
+      setDashboardSelection("tags", {
+        key: selectedTag.key,
+        label: selectedTag.label,
+        scope: heatmapHeader.dataset.heatmapConference ? "fit" : "overall",
+        conference: heatmapHeader.dataset.heatmapConference || "",
+      });
     }
     renderAnalyticsDashboards();
   }

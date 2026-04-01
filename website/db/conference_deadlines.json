@@ -94,18 +94,18 @@
       "conference": "MobiHoc",
       "years_in_csv": [2023, 2024, 2025],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-04-06",
-      "deadline_display": "April 06, 2026",
+      "deadline_iso": "2026-04-20",
+      "deadline_display": "April 20, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobihoc/2026/",
+      "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
       "submission_cycles": [
         {
-          "deadline_iso": "2026-04-06",
-          "deadline_display": "April 06, 2026",
+          "deadline_iso": "2026-04-20",
+          "deadline_display": "April 20, 2026",
           "deadline_label": "Paper Submission Deadline",
           "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobihoc/2026/",
+          "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
           "edition_year": 2026
         }
       ]
