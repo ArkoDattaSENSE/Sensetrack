@@ -88,25 +88,147 @@ def titlecase_conference(source_file: str) -> tuple[str, int]:
 
 
 def looks_like_author_line(line: str) -> bool:
+    lower = line.lower()
     if line.startswith("Authors:"):
         return True
     if line.endswith(":"):
         return False
-    if any(
-        marker in line
-        for marker in (
-            "Session Chair:",
-            "Proceedings of",
-            "Accepted Papers",
-            "Round",
-            "Track",
-            "Welcome Reception",
-            "Opening Remarks",
-            "Keynote",
-        )
-    ):
+    if looks_like_metadata_line(line):
         return False
-    return "," in line or ";" in line or " and " in line
+    if any(marker in line for marker in ("Session Chair:", "Proceedings of", "Accepted Papers", "Welcome Reception", "Opening Remarks", "Keynote")):
+        return False
+    if lower.startswith(("speaker:", "keynote speaker:", "video:")):
+        return False
+    if line.startswith("10.1145/"):
+        return False
+
+    title_stopwords = {
+        "a",
+        "an",
+        "and",
+        "as",
+        "at",
+        "by",
+        "for",
+        "from",
+        "in",
+        "into",
+        "of",
+        "on",
+        "or",
+        "the",
+        "to",
+        "under",
+        "using",
+        "via",
+        "with",
+    }
+    metadata_tokens = {
+        "about",
+        "accepted",
+        "activities",
+        "artifacts",
+        "attend",
+        "awards",
+        "ballroom",
+        "banquet",
+        "boardroom",
+        "break",
+        "centre",
+        "center",
+        "chair",
+        "chairs",
+        "closing",
+        "coffee",
+        "conduct",
+        "continental",
+        "demo",
+        "demonstrations",
+        "details",
+        "dinner",
+        "doctoral",
+        "foyer",
+        "grant",
+        "hall",
+        "hide",
+        "hotel",
+        "information",
+        "keynote",
+        "liberty",
+        "lunch",
+        "media",
+        "opening",
+        "opportunities",
+        "participate",
+        "poster",
+        "posters",
+        "presentation",
+        "presentations",
+        "presented",
+        "program",
+        "questions",
+        "registration",
+        "room",
+        "saturday",
+        "session",
+        "sessions",
+        "show",
+        "speaker",
+        "sponsor",
+        "sponsors",
+        "student",
+        "symposium",
+        "technical",
+        "theatre",
+        "track",
+        "tracks",
+        "travel",
+        "venue",
+        "welcome",
+        "workshop",
+        "workshops",
+    }
+    name_particles = {"al", "ben", "bin", "da", "de", "del", "der", "di", "du", "el", "la", "le", "mc", "van", "von"}
+
+    def words(value: str) -> list[str]:
+        return re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9'.-]+", value)
+
+    def is_name_token(token: str) -> bool:
+        if re.fullmatch(r"[A-Z]\.", token):
+            return True
+        if token.lower() in name_particles:
+            return True
+        if token.isupper() and token.isalpha() and len(token) <= 5:
+            return True
+        return bool(re.fullmatch(r"[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’. -]*", token))
+
+    def looks_like_plain_name_sequence(value: str) -> bool:
+        if any(char.isdigit() for char in value) or ":" in value or "http" in value.lower():
+            return False
+        tokens = words(value)
+        if len(tokens) < 2 or len(tokens) > 20:
+            return False
+        lowered = [token.lower().strip(".") for token in tokens]
+        if any(token in title_stopwords or token in metadata_tokens for token in lowered):
+            return False
+        return all(is_name_token(token) for token in tokens)
+
+    if "(" in line and ")" in line:
+        prefix = line.split("(", 1)[0].strip(" ,;")
+        if looks_like_plain_name_sequence(prefix):
+            return True
+
+    if ";" in line:
+        first_chunk = line.split(";", 1)[0].strip()
+        if looks_like_plain_name_sequence(first_chunk) or "(" in first_chunk:
+            return True
+
+    if "," in line:
+        first_chunk = line.split(",", 1)[0].strip()
+        if looks_like_plain_name_sequence(first_chunk) or "(" in first_chunk:
+            return True
+
+    return looks_like_plain_name_sequence(line)
 
 
 def looks_like_metadata_line(line: str) -> bool:
@@ -122,9 +244,34 @@ def looks_like_metadata_line(line: str) -> bool:
             "short papers:",
             "full length papers",
             "short papers",
+            "short-paper",
             "available media",
             "hide details ▾",
             "show details ▸",
+            "attend",
+            "program",
+            "activities",
+            "participate",
+            "sponsors",
+            "about",
+            "registration information",
+            "registration discounts",
+            "grant opportunities",
+            "venue, hotel, and travel",
+            "technical sessions",
+            "spring accepted papers",
+            "fall accepted papers",
+            "poster session and reception",
+            "call for papers",
+            "call for posters",
+            "call for artifacts",
+            "instructions for presenters",
+            "sponsor and exhibitor information",
+            "sponsor and exhibitor services",
+            "symposium organizers",
+            "conference policies",
+            "code of conduct",
+            "questions",
         }
         or line.startswith("Chair:")
         or line.startswith("Session Chair:")
@@ -136,6 +283,10 @@ def looks_like_metadata_line(line: str) -> bool:
         or line.startswith("Tweets by ")
         or line.startswith("PerCom ")
         or line.startswith("Previous ")
+        or line.startswith("ACM Artifacts Available")
+        or line.startswith("ACM Artifacts Evaluated")
+        or line.startswith("ACM Results Reproduced")
+        or line.startswith("Awarded Outstanding Paper")
         or lower.startswith("track ")
         or lower.startswith("session ")
         or lower.startswith("accepted papers")
@@ -144,14 +295,20 @@ def looks_like_metadata_line(line: str) -> bool:
         or lower.endswith("accepted papers")
         or lower.startswith("proceedings of")
         or lower.startswith("more than words:")
+        or lower.startswith("if you notice any mistakes")
+        or lower.startswith("each presentation will")
         or re.match(r"^\d{1,2}:\d{2}", line)
         or re.match(r"^#\d+:", line)
         or re.match(r"^#\d+$", line)
         or re.match(r"^[A-Z]\d+\b", line)
         or re.match(r"^Day \d+$", line)
         or re.match(r"^\d+\s+papers?$", lower)
+        or re.match(r"^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b", line)
         or re.match(r"^[A-Za-z]+,\s+\d{1,2}\s+[A-Za-z]+\s+\d{4}$", line)
+        or re.match(r"^\d{2,}$", line)
+        or re.match(r"^10\.1145/\d+$", line)
         or re.match(r"^\d{4}/\d+$", line)
+        or (re.search(r"\b(Ballroom|Foyer|Theatre|Center|Centre|Boardroom)\b", line) and len(line.split()) <= 6)
     )
 
 
@@ -248,6 +405,77 @@ def parse_title_then_author_pairs(text: str, source_file: str, *, default_sectio
             current_title = line
 
     return records
+
+
+def parse_adjacent_title_author_pairs(
+    text: str,
+    source_file: str,
+    *,
+    default_section: str = "",
+    section_resolver=None,
+    skip_line=None,
+    title_transform=None,
+    author_transform=None,
+    paper_type_resolver=None,
+) -> list[dict]:
+    records: list[dict] = []
+    lines = [normalize_text(raw_line) for raw_line in text.splitlines()]
+    section = default_section
+    index = 0
+
+    while index < len(lines):
+        line = lines[index]
+        if not line:
+            index += 1
+            continue
+
+        next_section = section_resolver(line) if section_resolver else None
+        if next_section is not None:
+            section = next_section
+            index += 1
+            continue
+
+        if looks_like_metadata_line(line) or (skip_line and skip_line(line)):
+            index += 1
+            continue
+
+        next_index = index + 1
+        while next_index < len(lines) and not lines[next_index]:
+            next_index += 1
+
+        if next_index >= len(lines):
+            break
+
+        next_line = lines[next_index]
+        next_section = section_resolver(next_line) if section_resolver else None
+        if next_section is not None:
+            section = next_section
+            index = next_index + 1
+            continue
+
+        if looks_like_title_line(line) and looks_like_author_line(next_line):
+            title = title_transform(line) if title_transform else line
+            authors = author_transform(next_line) if author_transform else next_line
+            paper_type = paper_type_resolver(line, next_line) if paper_type_resolver else "paper"
+            if title and authors:
+                records.append(base_record(source_file, section, title, authors, paper_type=paper_type))
+            index = next_index + 1
+            continue
+
+        index += 1
+
+    return records
+
+
+def split_inline_title_author_pair(line: str) -> tuple[str, str] | None:
+    for match in re.finditer(r"\b[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’.-]+(?: [A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’.-]+){1,4},", line):
+        title = line[: match.start()].strip(" -")
+        authors = line[match.start() :].strip()
+        if len(title.split()) < 4:
+            continue
+        if looks_like_title_line(title) and looks_like_author_line(authors):
+            return title, authors
+    return None
 
 
 def parse_author_then_title_pairs(text: str, source_file: str, *, default_section: str = "") -> list[dict]:
@@ -399,6 +627,8 @@ def parse_sensys_proceedings(text: str, source_file: str) -> list[dict]:
         if line.startswith("Proceedings of"):
             pending_authors = None
             continue
+        if line.startswith("since 2018, dblp has been operated and maintained by") or line.startswith("Schloss Dagstuhl - Leibniz Center for Informatics"):
+            break
         if line.endswith(":") and ("," in line or " and " in line):
             pending_authors = line[:-1]
             continue
@@ -582,7 +812,21 @@ def parse_percom(text: str, source_file: str) -> list[dict]:
 
 
 def parse_nsdi(text: str, source_file: str) -> list[dict]:
-    return parse_title_then_author_pairs(text, source_file)
+    def is_section(line: str) -> str | None:
+        if line.startswith("Track ") or (line.endswith("Accepted Papers") and len(line.split()) <= 4):
+            return line
+        if any(token in line for token in ("Data ", "Verification", "Cloud", "Security", "Storage", "Networking", "Diagnosis", "Memory", "Scheduling")) and len(line.split()) <= 8 and ":" not in line:
+            return line
+        return None
+
+    def is_skip(line: str) -> bool:
+        return bool(
+            line.startswith("Program Co-Chairs:")
+            or line.startswith("Session Chair:")
+            or line in {"Opening Remarks and Awards", "Continental Breakfast", "Coffee and Tea Break"}
+        )
+
+    return parse_adjacent_title_author_pairs(text, source_file, section_resolver=is_section, skip_line=is_skip)
 
 
 def parse_infocom(text: str, source_file: str) -> list[dict]:
@@ -608,16 +852,109 @@ def parse_mmsys2024(text: str, source_file: str) -> list[dict]:
     return records
 
 
+def parse_mmsys2025(text: str, source_file: str) -> list[dict]:
+    records: list[dict] = []
+    lines = [normalize_text(raw_line) for raw_line in text.splitlines()]
+    section = ""
+    index = 0
+
+    def is_section(line: str) -> str | None:
+        if line.startswith("MMVE Session ") or line.startswith("MMSys Research Track Session "):
+            return line
+        if line in {"Doctoral Symposium Posters", "Technical Demos", "Open Source and Dataset Posters"}:
+            return line
+        return None
+
+    while index < len(lines):
+        line = lines[index]
+        if not line or looks_like_metadata_line(line) or line.startswith("Session Chair:"):
+            index += 1
+            continue
+
+        next_section = is_section(line)
+        if next_section is not None:
+            section = next_section
+            index += 1
+            continue
+
+        inline_pair = split_inline_title_author_pair(line)
+        if inline_pair:
+            title, authors = inline_pair
+            records.append(base_record(source_file, section, title, authors))
+            index += 1
+            continue
+
+        next_index = index + 1
+        while next_index < len(lines) and not lines[next_index]:
+            next_index += 1
+        if next_index >= len(lines):
+            break
+
+        next_line = lines[next_index]
+        next_section = is_section(next_line)
+        if next_section is not None:
+            section = next_section
+            index = next_index + 1
+            continue
+
+        if looks_like_title_line(line) and looks_like_author_line(next_line):
+            records.append(base_record(source_file, section, line, next_line))
+            index = next_index + 1
+            continue
+
+        index += 1
+
+    return records
+
+
 def parse_mmsys(text: str, source_file: str) -> list[dict]:
     year = titlecase_conference(source_file)[1]
     if year == 2024:
         return parse_mmsys2024(text, source_file)
+    if year == 2025:
+        return parse_mmsys2025(text, source_file)
     return parse_numbered_title_author_pairs(text, source_file)
 
 
 def parse_conext(text: str, source_file: str) -> list[dict]:
-    records = parse_title_then_author_pairs(text, source_file)
+    year = titlecase_conference(source_file)[1]
+
+    def is_section(line: str) -> str | None:
+        if re.search(r"Session \d+:", line):
+            return re.sub(r"^\d{1,2}:\d{2}\s*-\s*\d{1,2}:\d{2}\s*", "", line).strip()
+        return None
+
+    def is_skip(line: str) -> bool:
+        return bool(
+            line.startswith("Session chair:")
+            or line.startswith("Speaker:")
+            or line.startswith("Keynote Speaker:")
+            or "Location:" in line
+            or line.startswith("Thursday ")
+            or line.startswith("Wednesday ")
+            or line.startswith("Tuesday ")
+            or line.startswith("Monday ")
+            or line.startswith("Friday ")
+            or line.startswith("Saturday ")
+            or line.startswith("Sunday ")
+            or line.startswith("ACM Artifacts ")
+        )
+
+    if year >= 2024:
+        records = parse_adjacent_title_author_pairs(text, source_file, section_resolver=is_section, skip_line=is_skip)
+    else:
+        records = parse_title_then_author_pairs(text, source_file)
+
     for record in records:
+        for field in ("title", "authors"):
+            for suffix in (" Short", " Long"):
+                if not record[field].endswith(suffix):
+                    continue
+                record["paper_type"] = suffix.strip().lower()
+                record[field] = record[field][: -len(suffix)].strip()
+                break
+            if record["paper_type"] != "paper":
+                break
         for suffix in (" Short", " Long"):
             if record["title"].endswith(suffix):
                 record["paper_type"] = suffix.strip().lower()
@@ -629,7 +966,71 @@ def parse_sigspatial(text: str, source_file: str) -> list[dict]:
     return parse_title_then_author_pairs(text, source_file)
 
 
+def clean_ubicomp_author_line(line: str) -> str:
+    cleaned = line.replace("Author Picture", "")
+    cleaned = re.sub(r",?\s*\+\s*\d+\s*$", "", cleaned)
+    return normalize_text(cleaned)
+
+
+def parse_ubicomp2023(text: str, source_file: str) -> list[dict]:
+    records: list[dict] = []
+    lines = [normalize_text(raw_line) for raw_line in text.splitlines()]
+    section = ""
+    index = 0
+
+    while index < len(lines):
+        line = lines[index]
+        if not line:
+            index += 1
+            continue
+        if line.startswith("SESSION:"):
+            section = line.split(":", 1)[1].strip()
+            index += 1
+            continue
+        if line != "short-paper":
+            index += 1
+            continue
+        if index + 2 >= len(lines):
+            break
+        title = lines[index + 1]
+        authors = clean_ubicomp_author_line(lines[index + 2])
+        if title and authors:
+            records.append(base_record(source_file, section, title, authors, paper_type="short"))
+        index += 3
+
+    return records
+
+
+def parse_ubicomp2024(text: str, source_file: str) -> list[dict]:
+    return parse_adjacent_title_author_pairs(
+        text,
+        source_file,
+        section_resolver=lambda line: line.split(":", 1)[1].strip() if line.startswith("SESSION:") else None,
+    )
+
+
+def parse_ubicomp2025(text: str, source_file: str) -> list[dict]:
+    def is_section(line: str) -> str | None:
+        if re.match(r"^[A-Z]\d+\s+.+\([A-Za-z]+\)$", line):
+            return line
+        return None
+
+    return parse_adjacent_title_author_pairs(
+        text,
+        source_file,
+        section_resolver=is_section,
+        skip_line=lambda line: line.startswith("Chair:") or line.startswith("Video:"),
+    )
+
+
 def parse_ubicomp(text: str, source_file: str) -> list[dict]:
+    year = titlecase_conference(source_file)[1]
+    if year == 2023:
+        return parse_ubicomp2023(text, source_file)
+    if year == 2024:
+        return parse_ubicomp2024(text, source_file)
+    if year == 2025:
+        return parse_ubicomp2025(text, source_file)
     return parse_title_then_author_pairs(text, source_file)
 
 

@@ -1,5 +1,6 @@
 const DAY_MS = 24 * 60 * 60 * 1000;
-const STORAGE_KEY = "conference-date-tracker.deadlines.v1";
+const STORAGE_KEYS = ["sensetrack.deadlines.v2", "sensetrack.deadlines.v1", "conference-date-tracker.deadlines.v1"];
+const PRIMARY_STORAGE_KEY = STORAGE_KEYS[0];
 const CSV_PATH = "cleaned/accepted_papers.csv";
 const STATIC_DB_PATH = "website/db/conference_deadlines.json";
 const CORS_PROXY_BUILDERS = [
@@ -44,37 +45,41 @@ const state = {
       conferenceSort: { key: "count", direction: "desc" },
     },
   },
+  refreshingConferences: {},
+  pendingRefreshes: {},
+  conferenceRefreshState: {},
+  batchRefresh: null,
 };
 
 const ANALYTICS_DIMENSIONS = {
   tags: {
-    title: "Tags",
+    title: "Topic Fit",
     singular: "tag",
     plural: "tags",
     tabId: "tagsDashboard",
     searchPlaceholder: "Search tags",
-    overallHeading: "Overall Tag Landscape",
-    conferenceHeading: "Tags By Conference",
+    overallHeading: "Cross-Conference Tag Cloud",
+    conferenceHeading: "Tag Profile",
     cloudEmpty: "No tags matched this filter.",
   },
   titles: {
-    title: "Title Vocabulary",
+    title: "Title Signals",
     singular: "title term",
     plural: "title terms",
     tabId: "titlesDashboard",
     searchPlaceholder: "Search title terms",
-    overallHeading: "Overall Title Word Cloud",
-    conferenceHeading: "Title Terms By Conference",
+    overallHeading: "Cross-Conference Title Cloud",
+    conferenceHeading: "Title Profile",
     cloudEmpty: "No title terms matched this filter.",
   },
   universities: {
-    title: "Universities & Institutions",
+    title: "Institutions",
     singular: "institution",
     plural: "institutions",
     tabId: "universitiesDashboard",
     searchPlaceholder: "Search universities or labs",
-    overallHeading: "Overall Institution Landscape",
-    conferenceHeading: "Institutions By Conference",
+    overallHeading: "Institution Landscape",
+    conferenceHeading: "Institution Profile",
     cloudEmpty: "No institutions matched this filter.",
   },
   authors: {
@@ -162,6 +167,55 @@ const TITLE_KEEPERS = new Set([
   "xr",
 ]);
 
+const AUTHOR_NAME_PARTICLES = new Set([
+  "al",
+  "ap",
+  "ben",
+  "bin",
+  "da",
+  "de",
+  "del",
+  "della",
+  "der",
+  "di",
+  "dos",
+  "du",
+  "el",
+  "ibn",
+  "la",
+  "le",
+  "mac",
+  "mc",
+  "san",
+  "st",
+  "van",
+  "von",
+  "zu",
+  "zur",
+]);
+
+const AUTHOR_NON_NAME_TOKENS = new Set([
+  "college",
+  "department",
+  "institute",
+  "laboratory",
+  "laboratories",
+  "lab",
+  "labs",
+  "model",
+  "models",
+  "network",
+  "networks",
+  "research",
+  "school",
+  "system",
+  "systems",
+  "technology",
+  "technologies",
+  "testbed",
+  "university",
+]);
+
 const INSTITUTION_KEYWORD_PATTERN =
   /(academy|college|center|centre|company|corporation|corp|department|foundation|gmbh|hospital|inc|institute|laborator|lab\b|labs\b|ltd|llc|research|school|technologies|technology|university|meta|google|microsoft|amazon|apple|huawei|tencent|alibaba|telefonica|nokia|samsung|anthropic|mistral|vmware|bytedance|icrea|cnrs|inria|ucl|ucla|kaist|mit|cmu|imdea|inesc|nova|bt|verizon|jd logistics)/i;
 
@@ -235,6 +289,7 @@ const CONFERENCE_HINTS = {
   },
   INFOCOM: {
     candidateUrls: [
+      "https://infocom{year}.ieee-infocom.org/call-papers",
       "https://infocom{year}.ieee-infocom.org/authors/call-papers-main-conference",
       "https://infocom{year}.ieee-infocom.org/",
     ],
@@ -288,6 +343,7 @@ const CONFERENCE_HINTS = {
   },
   SIGSPATIAL: {
     candidateUrls: [
+      "https://sigspatial{year}.sigspatial.org/research-submission.html",
       "https://sigspatial{year}.sigspatial.org/cfp/",
       "https://sigspatial{year}.sigspatial.org/",
     ],
@@ -436,18 +492,32 @@ function titleCaseWords(value) {
     .replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
+function hasCycleContext(value) {
+  const normalized = normalizeWhitespace(String(value || ""));
+  if (!normalized) {
+    return false;
+  }
+
+  return (
+    /\bcycle\s+[a-z0-9ivx]+\b/i.test(normalized) ||
+    /\bround\s+[a-z0-9ivx]+\b/i.test(normalized) ||
+    /\b(?:spring|summer|fall|winter)\b/i.test(normalized) ||
+    /\b(?:first|second|third|fourth|1st|2nd|3rd|4th|\d+(?:st|nd|rd|th))\s+(?:call|deadline|round|cycle)\b/i.test(normalized)
+  );
+}
+
 function findCycleContext(lines, index) {
-  for (let pointer = index; pointer >= Math.max(0, index - 3); pointer -= 1) {
-    const line = normalizeWhitespace(lines[pointer].replace(/[:|\-]\s*$/, ""));
+  for (let pointer = index; pointer >= Math.max(0, index - 8); pointer -= 1) {
+    const line = normalizeWhitespace(
+      lines[pointer]
+        .replace(/[:|\-]\s*$/, "")
+        .replace(/\s*\((?:expired|open|closed)\)\s*$/i, ""),
+    );
     if (!line) {
       continue;
     }
 
-    if (
-      /\bcycle\s+[a-z0-9ivx]+\b/i.test(line) ||
-      /\b(?:spring|summer|fall|winter)\s+round\b/i.test(line) ||
-      /\bround\s+[a-z0-9ivx]+\b/i.test(line)
-    ) {
+    if (hasCycleContext(line)) {
       return line;
     }
   }
@@ -548,8 +618,8 @@ function chooseBetterCycle(existingCycle, nextCycle) {
     return nextCycle;
   }
 
-  const existingHasContext = /\bcycle\b|\bround\b/i.test(existingCycle.deadline_label);
-  const nextHasContext = /\bcycle\b|\bround\b/i.test(nextCycle.deadline_label);
+  const existingHasContext = hasCycleContext(existingCycle.deadline_label);
+  const nextHasContext = hasCycleContext(nextCycle.deadline_label);
   if (existingHasContext !== nextHasContext) {
     return nextHasContext ? nextCycle : existingCycle;
   }
@@ -693,6 +763,48 @@ function normalizeDataset(payload) {
   };
 }
 
+function datasetGeneratedAtMs(payload) {
+  if (!payload || !payload.generated_at) {
+    return 0;
+  }
+
+  const parsed = Date.parse(payload.generated_at);
+  return Number.isNaN(parsed) ? 0 : parsed;
+}
+
+function datasetWindowCount(payload) {
+  try {
+    return normalizeDataset(payload).conferences.reduce((sum, record) => sum + getRecordCycles(record).length, 0);
+  } catch (error) {
+    return 0;
+  }
+}
+
+function choosePreferredInitialDataset(sources) {
+  const viable = sources.filter(
+    (source) =>
+      source &&
+      source.payload &&
+      Array.isArray(source.payload.conferences) &&
+      source.payload.conferences.length,
+  );
+
+  viable.sort((left, right) => {
+    if (left.priority !== right.priority) {
+      return right.priority - left.priority;
+    }
+
+    const timeDelta = datasetGeneratedAtMs(right.payload) - datasetGeneratedAtMs(left.payload);
+    if (timeDelta) {
+      return timeDelta;
+    }
+
+    return datasetWindowCount(right.payload) - datasetWindowCount(left.payload);
+  });
+
+  return viable[0] || null;
+}
+
 function escapeHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -727,9 +839,9 @@ function parsePaperRecords(csvText) {
   const rowsAsObjects = rows.slice(1).map((row) => {
     const entry = {};
     headers.forEach((header, index) => {
-      entry[header] = row[index] || "";
+      entry[header] = normalizeWhitespace(String(row[index] || ""));
     });
-    return entry;
+    return normalizePaperRecord(entry);
   });
 
   return rowsAsObjects.filter((row) => row.conference && row.title);
@@ -737,6 +849,147 @@ function parsePaperRecords(csvText) {
 
 function cleanDelimitedValue(value) {
   return normalizeWhitespace(String(value || "").replace(/^[,;|\s]+/, "").replace(/[,;|\s]+$/, ""));
+}
+
+function cleanAuthorGroupName(value) {
+  return cleanDelimitedValue(value)
+    .replace(/^"+|"+$/g, "")
+    .replace(/^(?:and|with)\s+/i, "")
+    .replace(/\s+(?:and|with)$/i, "")
+    .replace(/^[-:]+|[-:]+$/g, "")
+    .trim();
+}
+
+function authorNameTokens(value) {
+  return cleanAuthorGroupName(value)
+    .replace(/,/g, " ")
+    .split(/\s+/)
+    .map((token) => token.replace(/^[^\p{L}]+|[^\p{L}.'’-]+$/gu, ""))
+    .filter(Boolean);
+}
+
+function looksLikeAuthorToken(token) {
+  const normalized = token.replace(/[.'’\-]+$/g, "");
+  if (!normalized) {
+    return false;
+  }
+
+  const lowered = normalized.toLowerCase();
+  if (AUTHOR_NAME_PARTICLES.has(lowered)) {
+    return true;
+  }
+
+  return /^[\p{Lu}][\p{L}'’.-]*$/u.test(normalized);
+}
+
+function looksLikeAuthorName(name) {
+  const cleaned = cleanAuthorGroupName(name);
+  if (!cleaned || /[:!?]/.test(cleaned) || INSTITUTION_KEYWORD_PATTERN.test(cleaned)) {
+    return false;
+  }
+
+  const tokens = authorNameTokens(cleaned);
+  if (tokens.length < 2 || tokens.length > 8) {
+    return false;
+  }
+  if (tokens.some((token) => AUTHOR_NON_NAME_TOKENS.has(token.toLowerCase()))) {
+    return false;
+  }
+
+  return tokens.every((token) => looksLikeAuthorToken(token));
+}
+
+function isLikelySurnameFirstName(left, right) {
+  const leftTokens = authorNameTokens(left);
+  const rightTokens = authorNameTokens(right);
+  if (!leftTokens.length || !rightTokens.length) {
+    return false;
+  }
+  if (leftTokens.length > 3 || rightTokens.length > 4) {
+    return false;
+  }
+  if (!leftTokens.every((token) => looksLikeAuthorToken(token))) {
+    return false;
+  }
+  if (!rightTokens.every((token) => looksLikeAuthorToken(token))) {
+    return false;
+  }
+
+  return leftTokens.length === 1 || AUTHOR_NAME_PARTICLES.has(leftTokens[0].toLowerCase());
+}
+
+function normalizeAuthorName(name) {
+  const cleaned = cleanAuthorGroupName(name);
+  return looksLikeAuthorName(cleaned) ? cleaned : "";
+}
+
+function splitCommaSeparatedAuthorChunk(chunk) {
+  const parts = chunk.split(/\s*,\s*/).map(cleanAuthorGroupName).filter(Boolean);
+  if (!parts.length) {
+    return [];
+  }
+  if (parts.length === 1) {
+    return parts;
+  }
+  if (parts.length === 2 && isLikelySurnameFirstName(parts[0], parts[1])) {
+    return [`${parts[1]} ${parts[0]}`];
+  }
+  if (parts.length % 2 === 0) {
+    const pairedAuthors = [];
+    let allPairsLookSurnameFirst = true;
+    for (let index = 0; index < parts.length; index += 2) {
+      if (!isLikelySurnameFirstName(parts[index], parts[index + 1])) {
+        allPairsLookSurnameFirst = false;
+        break;
+      }
+      pairedAuthors.push(`${parts[index + 1]} ${parts[index]}`);
+    }
+    if (allPairsLookSurnameFirst) {
+      return pairedAuthors;
+    }
+  }
+
+  const standaloneAuthors = [];
+  for (const part of parts) {
+    const normalizedName = normalizeAuthorName(part);
+    if (normalizedName) {
+      standaloneAuthors.push(normalizedName);
+      continue;
+    }
+    if (looksLikeInstitutionPiece(part) || standaloneAuthors.length) {
+      break;
+    }
+  }
+
+  return standaloneAuthors.length ? standaloneAuthors : parts;
+}
+
+function extractAuthorNamesFromField(authorsField) {
+  const names = [];
+  parseAuthorGroups(authorsField).forEach((group) => {
+    splitAuthorNames(group.namesPart).forEach((name) => {
+      names.push(name);
+    });
+  });
+  return [...new Set(names)];
+}
+
+function looksLikeAuthorField(value) {
+  return extractAuthorNamesFromField(value).length > 0;
+}
+
+function normalizePaperRecord(entry) {
+  const normalized = { ...entry };
+  const titleLooksLikeAuthors = looksLikeAuthorField(normalized.title);
+  const authorsLooksLikeAuthors = looksLikeAuthorField(normalized.authors);
+
+  if (titleLooksLikeAuthors && !authorsLooksLikeAuthors && normalized.authors) {
+    const originalTitle = normalized.title;
+    normalized.title = normalizeWhitespace(normalized.authors);
+    normalized.authors = originalTitle;
+  }
+
+  return normalized;
 }
 
 function uniqueTermObjects(termObjects) {
@@ -861,32 +1114,72 @@ function splitInstitutions(affiliation) {
 }
 
 function splitAuthorNames(namesPart) {
-  const normalized = cleanDelimitedValue(namesPart).replace(/\s+\band\b\s+/gi, ", ");
+  const normalized = cleanAuthorGroupName(namesPart)
+    .replace(/\s*;\s*/g, "|")
+    .replace(/\s+\band\b\s+/gi, "|")
+    .replace(/\s*&\s*/g, "|");
   if (!normalized) {
     return [];
   }
 
-  return normalized
-    .split(/\s*,\s*/)
-    .map((name) => cleanDelimitedValue(name))
-    .filter(Boolean);
+  const authorNames = [];
+  normalized
+    .split("|")
+    .map(cleanAuthorGroupName)
+    .filter(Boolean)
+    .forEach((chunk) => {
+      splitCommaSeparatedAuthorChunk(chunk).forEach((name) => {
+        const normalizedName = looksLikeAuthorName(name) ? name : normalizeAuthorName(name);
+        if (normalizedName) {
+          authorNames.push(normalizedName);
+        }
+      });
+    });
+
+  return [...new Set(authorNames)];
 }
 
 function parseAuthorGroups(authorsField) {
   const groups = [];
-  const regex = /([^()]+?)\(([^()]*)\)/g;
-  let match;
+  const input = String(authorsField || "");
+  let namesBuffer = "";
 
-  while ((match = regex.exec(authorsField))) {
-    const namesPart = cleanDelimitedValue(match[1]);
-    const affiliation = cleanDelimitedValue(match[2]);
+  for (let index = 0; index < input.length; index += 1) {
+    const char = input[index];
+    if (char !== "(") {
+      namesBuffer += char;
+      continue;
+    }
+
+    let pointer = index + 1;
+    let depth = 1;
+    while (pointer < input.length && depth > 0) {
+      if (input[pointer] === "(") {
+        depth += 1;
+      } else if (input[pointer] === ")") {
+        depth -= 1;
+      }
+      pointer += 1;
+    }
+
+    if (depth !== 0) {
+      namesBuffer += char;
+      continue;
+    }
+
+    const namesPart = cleanAuthorGroupName(namesBuffer);
+    const affiliation = cleanDelimitedValue(input.slice(index + 1, pointer - 1));
     if (namesPart) {
       groups.push({ namesPart, affiliation });
     }
+
+    namesBuffer = "";
+    index = pointer - 1;
   }
 
-  if (!groups.length && authorsField) {
-    groups.push({ namesPart: cleanDelimitedValue(authorsField), affiliation: "" });
+  const trailingNames = cleanAuthorGroupName(namesBuffer);
+  if (trailingNames) {
+    groups.push({ namesPart: trailingNames, affiliation: "" });
   }
 
   return groups;
@@ -934,15 +1227,10 @@ function extractTitleTermsFromPaper(paper) {
 }
 
 function extractAuthorsFromPaper(paper) {
-  const authorTerms = [];
-  parseAuthorGroups(paper.authors || "").forEach((group) => {
-    splitAuthorNames(group.namesPart).forEach((name) => {
-      authorTerms.push({
-        key: name.toLowerCase(),
-        label: name,
-      });
-    });
-  });
+  const authorTerms = extractAuthorNamesFromField(paper.authors || "").map((name) => ({
+    key: name.toLowerCase(),
+    label: name,
+  }));
   return uniqueTermObjects(authorTerms);
 }
 
@@ -1211,7 +1499,7 @@ function renderStatsTable(dimension, scope, heading, rows, columns, sortState, e
     <section class="viz-card">
       <div class="viz-card__header">
         <h3>${escapeHtml(heading)}</h3>
-        <p>Click a column header to sort.</p>
+        <p>Sort any column to change the ranking.</p>
       </div>
       <div class="stats-table-wrap">
         <table class="stats-table">
@@ -1269,9 +1557,9 @@ function renderLoadingDashboard(title) {
     <div class="dashboard-stack">
       <section class="insight-banner">
         <div>
-          <p class="insight-banner__eyebrow">Loading</p>
+          <p class="insight-banner__eyebrow">Preparing</p>
           <h2>${escapeHtml(title)}</h2>
-          <p>Reading accepted papers and building interactive analytics from the CSV.</p>
+          <p>Building this dashboard from the paper dataset.</p>
         </div>
       </section>
     </div>
@@ -1365,9 +1653,9 @@ function renderDimensionDashboard(dimension) {
     <div class="dashboard-stack">
       <section class="insight-banner">
         <div>
-          <p class="insight-banner__eyebrow">Interactive Explorer</p>
+          <p class="insight-banner__eyebrow">Dashboard</p>
           <h2>${escapeHtml(config.title)}</h2>
-          <p>Click a cloud term to filter, search directly, and sort the adjacent tables by clicking their headers.</p>
+          <p>Search, pivot, and sort the live view to scan the signal quickly.</p>
         </div>
         <div class="insight-banner__stats">
           <span>${escapeHtml(`${analytics.overall.length} unique ${config.plural}`)}</span>
@@ -1387,14 +1675,14 @@ function renderDimensionDashboard(dimension) {
               data-dashboard-control="search"
             />
           </label>
-          <p class="control-strip__hint">Overall view shows the whole corpus. The per-conference view helps compare series quickly.</p>
+          <p class="control-strip__hint">Scan the full conference set, then narrow in.</p>
         </div>
 
         <div class="viz-grid viz-grid--split">
           <section class="viz-card">
             <div class="viz-card__header">
               <h3>${escapeHtml(config.overallHeading)}</h3>
-              <p>Top ${escapeHtml(config.plural)} across all conferences.</p>
+              <p>Top ${escapeHtml(config.plural)} across every tracked venue.</p>
             </div>
             ${renderTermCloud(dimension, overallRows, config.cloudEmpty)}
           </section>
@@ -1426,14 +1714,14 @@ function renderDimensionDashboard(dimension) {
                 .join("")}
             </select>
           </label>
-          <p class="control-strip__hint">The cloud and table below are scoped to a single conference series.</p>
+          <p class="control-strip__hint">Switch venues to compare how each one skews.</p>
         </div>
 
         <div class="viz-grid viz-grid--split">
           <section class="viz-card">
             <div class="viz-card__header">
               <h3>${escapeHtml(`${view.conference} · ${config.conferenceHeading}`)}</h3>
-              <p>${escapeHtml(`${state.analytics.conferencePaperCounts[view.conference] || 0} papers in this conference slice`)}</p>
+              <p>${escapeHtml(`${state.analytics.conferencePaperCounts[view.conference] || 0} papers in this venue`)}</p>
             </div>
             ${renderTermCloud(dimension, conferenceRows, config.cloudEmpty)}
           </section>
@@ -1519,7 +1807,7 @@ function renderTagFitExplorer() {
                         type="button"
                         data-heatmap-term="${escapeHtml(tagRow.key)}"
                         data-heatmap-conference="${escapeHtml(conference)}"
-                        style="background-color: rgba(178, 85, 45, ${alpha.toFixed(3)});"
+                        style="background-color: rgba(15, 139, 114, ${alpha.toFixed(3)});"
                         title="${escapeHtml(`${conference} · ${tagRow.label}: ${count} papers (${formatPercent(share)})`)}"
                       >
                         <span>${escapeHtml(String(count))}</span>
@@ -1580,15 +1868,15 @@ function renderTagFitExplorer() {
     <section class="explorer-panel explorer-panel--accent">
       <div class="control-strip">
         <div>
-          <h3 class="control-strip__title">Conference ↔ Tag Fit Map</h3>
-          <p class="control-strip__hint">This heatmap is a cleaner alternative to a many-set Venn diagram. Click a tag header or a cell to pivot the table on the right.</p>
+          <h3 class="control-strip__title">Conference x Tag Map</h3>
+          <p class="control-strip__hint">Pick a tag or cell to compare where a topic concentrates.</p>
         </div>
       </div>
       <div class="viz-grid viz-grid--heatmap">
         <section class="viz-card">
           <div class="viz-card__header">
             <h3>Conference-Tag Heatmap</h3>
-            <p>Focused on the most informative tags rather than the most generic ones.</p>
+            <p>Highlights the tags that separate venues most clearly.</p>
           </div>
           ${heatmapMarkup}
         </section>
@@ -1659,7 +1947,7 @@ function buildConferenceRecord(conferenceInfo, candidates) {
     submission_cycles: editionCandidates.map((candidate) => ({
       deadline_iso: candidate.deadlineIso,
       deadline_label: candidate.label,
-      source_kind: "official",
+      source_kind: candidate.sourceKind || "official",
       source_url: candidate.sourceUrl,
       edition_year: candidate.editionYear || targetEditionYear,
     })),
@@ -1679,20 +1967,32 @@ function readEmbeddedDataset() {
   }
 }
 
-function loadStoredDataset() {
+function loadStoredDatasets() {
+  const datasets = [];
+
   try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
+    for (const key of STORAGE_KEYS) {
+      const raw = window.localStorage.getItem(key);
+      if (!raw) {
+        continue;
+      }
+      datasets.push({
+        key,
+        payload: JSON.parse(raw),
+      });
+    }
   } catch (error) {
-    return null;
+    return [];
   }
+
+  return datasets;
 }
 
 function persistDataset(payload) {
   try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+    window.localStorage.setItem(PRIMARY_STORAGE_KEY, JSON.stringify(payload));
   } catch (error) {
-    setRefreshMessage("Refresh succeeded, but saving to browser cache was blocked.", "error");
+    setRefreshMessage("Sync succeeded, but this browser blocked local saving.", "error");
   }
 }
 
@@ -1876,6 +2176,42 @@ function buildYearsToTry(yearsInCsv) {
     .sort((left, right) => right - left);
 }
 
+function inferTargetEditionYear(conferenceInfo) {
+  const currentYear = new Date().getFullYear();
+  const latestCsvYear =
+    Array.isArray(conferenceInfo.years_in_csv) && conferenceInfo.years_in_csv.length
+      ? Math.max(...conferenceInfo.years_in_csv)
+      : currentYear;
+  return Math.max(currentYear, latestCsvYear);
+}
+
+function buildUbiCompRecurringCandidates(conferenceInfo, editionYear = inferTargetEditionYear(conferenceInfo)) {
+  const sourceUrl = `https://www.ubicomp.org/ubicomp-iswc-${editionYear}/`;
+  return [
+    {
+      conference: conferenceInfo.conference,
+      deadlineIso: `${editionYear - 1}-11-01`,
+      label: "IMWUT November Cycle - Paper Submission",
+      sourceUrl,
+      editionYear,
+    },
+    {
+      conference: conferenceInfo.conference,
+      deadlineIso: `${editionYear}-02-01`,
+      label: "IMWUT February Cycle - Paper Submission",
+      sourceUrl,
+      editionYear,
+    },
+    {
+      conference: conferenceInfo.conference,
+      deadlineIso: `${editionYear}-05-01`,
+      label: "IMWUT May Cycle - Paper Submission",
+      sourceUrl,
+      editionYear,
+    },
+  ];
+}
+
 function applyUrlTemplate(template, year) {
   const twoDigitYear = String(year).slice(-2);
   return template.replaceAll("{year}", String(year)).replaceAll("{yy}", twoDigitYear);
@@ -1889,6 +2225,7 @@ async function refreshConference(conferenceInfo) {
 
   const candidates = [];
   const yearsToTry = buildYearsToTry(conferenceInfo.years_in_csv);
+  const targetEditionYear = inferTargetEditionYear(conferenceInfo);
 
   for (const template of hints.candidateUrls) {
     for (const year of yearsToTry) {
@@ -1900,6 +2237,15 @@ async function refreshConference(conferenceInfo) {
       } catch (error) {
         continue;
       }
+    }
+  }
+
+  if (conferenceInfo.conference === "UbiComp") {
+    const currentEditionCandidates = candidates.filter(
+      (candidate) => (candidate.editionYear || Number(candidate.deadlineIso.slice(0, 4))) === targetEditionYear,
+    );
+    if (currentEditionCandidates.length < 2) {
+      return buildConferenceRecord(conferenceInfo, buildUbiCompRecurringCandidates(conferenceInfo, targetEditionYear));
     }
   }
 
@@ -1918,14 +2264,14 @@ async function refreshConference(conferenceInfo) {
 }
 
 async function loadInitialData() {
-  setRefreshMessage("Loading cached deadlines...");
+  setRefreshMessage("Loading latest deadline snapshot...");
 
   const stored = loadStoredDataset();
   if (stored && stored.conferences && stored.conferences.length) {
     state.dataset = normalizeDataset(stored);
     state.dataMode = "localStorage";
     render();
-    setRefreshMessage("Loaded the latest browser-side cache. Refresh will update it again in this browser.", "success");
+    setRefreshMessage("Latest snapshot loaded.", "success");
     return;
   }
 
@@ -1933,7 +2279,7 @@ async function loadInitialData() {
     state.dataset = normalizeDataset(await fetchJson(STATIC_DB_PATH, { cache: "no-store" }));
     state.dataMode = "file";
     render();
-    setRefreshMessage("Loaded the shipped JSON seed. Refresh will update a browser-side cache.", "success");
+    setRefreshMessage("Built-in snapshot loaded.", "success");
     return;
   } catch (error) {
     const embedded = readEmbeddedDataset();
@@ -1941,17 +2287,17 @@ async function loadInitialData() {
       state.dataset = normalizeDataset(embedded);
       state.dataMode = "embedded";
       render();
-      setRefreshMessage("Loaded the embedded snapshot. Refresh will still try to pull live CFP dates.", "success");
+      setRefreshMessage("Embedded snapshot loaded.", "success");
       return;
     }
-    setRefreshMessage("Could not load any initial conference deadline data.", "error");
+    setRefreshMessage("Deadline data could not be loaded.", "error");
   }
 }
 
 async function refreshDataset() {
   const button = document.getElementById("refreshButton");
   button.disabled = true;
-  setRefreshMessage("Refreshing from official CFP pages in the browser. This can take a little while...");
+  setRefreshMessage("Syncing official CFP pages. This can take a little while...");
 
   try {
     const conferenceInputs = await fetchConferenceInputs();
@@ -1988,34 +2334,15 @@ async function refreshDataset() {
     render();
 
     if (failures.length) {
-      setRefreshMessage(`Refresh finished with ${failures.length} conference lookup issues. The successful results were still cached in your browser.`, "error");
+      setRefreshMessage(`Sync finished with ${failures.length} source issues. Available deadlines were still updated.`, "error");
     } else {
-      setRefreshMessage("Refresh complete. The updated cache is now stored in this browser.", "success");
+      setRefreshMessage("Sync complete. Latest deadlines are ready.", "success");
     }
   } catch (error) {
-    setRefreshMessage(error.message || "Refresh failed.", "error");
+    setRefreshMessage(error.message || "Sync failed.", "error");
   } finally {
     button.disabled = false;
   }
-}
-
-function downloadDataset() {
-  if (!state.dataset) {
-    setRefreshMessage("There is no dataset loaded yet to download.", "error");
-    return;
-  }
-
-  const blob = new Blob([JSON.stringify(state.dataset, null, 2)], {
-    type: "application/json;charset=utf-8",
-  });
-  const url = URL.createObjectURL(blob);
-  const anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = "conference_deadlines.json";
-  document.body.appendChild(anchor);
-  anchor.click();
-  anchor.remove();
-  URL.revokeObjectURL(url);
 }
 
 function filteredConferences() {
@@ -2055,6 +2382,17 @@ function filteredConferences() {
   });
 }
 
+function formatPaperHistory(years) {
+  const cleanYears = [...new Set((years || []).filter(Number.isFinite))].sort((left, right) => left - right);
+  if (!cleanYears.length) {
+    return "Paper history pending";
+  }
+  if (cleanYears.length === 1) {
+    return `Paper history ${cleanYears[0]}`;
+  }
+  return `Paper history ${cleanYears[0]}-${cleanYears[cleanYears.length - 1]}`;
+}
+
 function renderSummary() {
   const totalEl = document.querySelector("[data-summary='total']");
   const openEl = document.querySelector("[data-summary='open']");
@@ -2065,7 +2403,7 @@ function renderSummary() {
     totalEl.textContent = "0";
     openEl.textContent = "0";
     urgentEl.textContent = "No data";
-    refreshedEl.textContent = "Waiting for cache";
+    refreshedEl.textContent = "Waiting";
     return;
   }
 
@@ -2097,7 +2435,7 @@ function renderTracker() {
     list.innerHTML = `
       <div class="empty-state">
         <h3>No conferences match this filter.</h3>
-        <p>Try a shorter search term or refresh the cache to pull the latest results.</p>
+        <p>Try a broader search or run another sync.</p>
       </div>
     `;
     return;
@@ -2108,7 +2446,7 @@ function renderTracker() {
       const cycles = getRecordCycles(record);
       const displayCycle = getNextUpcomingCycle(record) || getLatestCycle(record);
       const latestCycle = getLatestCycle(record);
-      const status = displayCycle ? deadlineStatus(displayCycle.deadline_iso) : { tone: "closed", badge: "No Date", detail: "No submission cycle found" };
+      const status = displayCycle ? deadlineStatus(displayCycle.deadline_iso) : { tone: "closed", badge: "No Date", detail: "No current submission window found" };
       const cycleMarkup = cycles
         .map((cycle) => {
           const cycleStatus = deadlineStatus(cycle.deadline_iso);
@@ -2125,31 +2463,31 @@ function renderTracker() {
         .join("");
       const sourceUrl = (displayCycle && displayCycle.source_url) || record.source_url;
       const sourceMarkup = sourceUrl
-        ? `<a href="${sourceUrl}" target="_blank" rel="noreferrer">Source</a>`
-        : `<span>No source yet</span>`;
+        ? `<a href="${sourceUrl}" target="_blank" rel="noreferrer">CFP</a>`
+        : `<span>Awaiting CFP</span>`;
       const latestLine =
         latestCycle && displayCycle && latestCycle.deadline_iso !== displayCycle.deadline_iso
-          ? `<p class="conference-card__latest">Latest cycle tracked: ${latestCycle.deadline_label} · ${latestCycle.deadline_display}</p>`
+          ? `<p class="conference-card__latest">Latest window tracked: ${latestCycle.deadline_label} · ${latestCycle.deadline_display}</p>`
           : "";
-      const yearText = record.years_in_csv.length ? record.years_in_csv.join(", ") : "No paper years in CSV yet";
+      const yearText = formatPaperHistory(record.years_in_csv);
       return `
         <article class="conference-card conference-card--${status.tone}">
           <div class="conference-card__header">
             <div>
               <p class="conference-card__name">${record.conference}</p>
-              <p class="conference-card__meta">Tracked from CSV years: ${yearText} · ${cycles.length} cycle${cycles.length === 1 ? "" : "s"} found</p>
+              <p class="conference-card__meta">${yearText} · ${cycles.length} submission window${cycles.length === 1 ? "" : "s"}</p>
             </div>
             <span class="status-pill status-pill--${status.tone}">${status.badge}</span>
           </div>
           <div class="conference-card__date">${displayCycle ? displayCycle.deadline_display : "No tracked cycle"}</div>
-          <p class="conference-card__label">${displayCycle ? displayCycle.deadline_label : "No submission deadline found"}</p>
+          <p class="conference-card__label">${displayCycle ? displayCycle.deadline_label : "No submission deadline found yet"}</p>
           <p class="conference-card__countdown">${status.detail}</p>
           ${latestLine}
           <div class="conference-card__cycles">
             ${cycleMarkup}
           </div>
           <div class="conference-card__footer">
-            <span>${record.latest_tracked_edition ? `Edition ${record.latest_tracked_edition}` : "Not refreshed yet"}</span>
+            <span>${record.latest_tracked_edition ? `${record.latest_tracked_edition} edition` : "Awaiting sync"}</span>
             ${sourceMarkup}
           </div>
         </article>
@@ -2161,24 +2499,30 @@ function renderTracker() {
 function renderCoverage() {
   const coverageList = document.getElementById("coverageList");
   const paperCoverageList = document.getElementById("paperCoverageList");
-  const failureList = document.getElementById("failureList");
+
+  if (!coverageList || !paperCoverageList) {
+    return;
+  }
 
   if (!state.dataset) {
     coverageList.innerHTML = "";
     paperCoverageList.innerHTML = "";
-    failureList.innerHTML = "";
     return;
   }
 
   coverageList.innerHTML = state.dataset.conferences
     .map((record) => {
       const cycleCount = getRecordCycles(record).length;
+      const deadline = getNextUpcomingCycle(record) || getLatestCycle(record);
+      const deadlineLabel = deadline
+        ? `${daysUntil(deadline.deadline_iso) >= 0 ? "Next deadline" : "Latest deadline"}: ${deadline.deadline_display}`
+        : "Next deadline pending";
       return `
         <li>
           <strong>${record.conference}</strong>
-          <span>CSV years ${record.years_in_csv.length ? record.years_in_csv.join(", ") : "none yet"}</span>
-          <span>${cycleCount} cycle${cycleCount === 1 ? "" : "s"} tracked</span>
-          <span>Latest tracked deadline ${record.deadline_display || "Not refreshed yet"}</span>
+          <span>${formatPaperHistory(record.years_in_csv)}</span>
+          <span>${cycleCount} submission window${cycleCount === 1 ? "" : "s"} tracked</span>
+          <span>${deadlineLabel}</span>
         </li>
       `;
     })
@@ -2200,56 +2544,26 @@ function renderCoverage() {
     paperCoverageList.innerHTML = `
       <li>
         <strong>Analytics unavailable</strong>
-        <span>${escapeHtml(state.analyticsError || "Could not load accepted-paper coverage.")}</span>
+        <span>${escapeHtml(state.analyticsError || "Could not load paper footprint data.")}</span>
       </li>
     `;
   } else {
-    paperCoverageList.innerHTML = "<li>Loading accepted paper coverage…</li>";
+    paperCoverageList.innerHTML = "<li>Loading paper footprint...</li>";
   }
-
-  if (!state.dataset.failures.length) {
-    failureList.innerHTML = "<li>No refresh failures in the current cache.</li>";
-    return;
-  }
-
-  failureList.innerHTML = state.dataset.failures
-    .map(
-      (failure) => `
-        <li>
-          <strong>${failure.conference}</strong>
-          <span>${failure.error}</span>
-        </li>
-      `,
-    )
-    .join("");
-}
-
-function renderDataSource() {
-  const sourceEl = document.getElementById("dataSource");
-  if (!state.dataset) {
-    sourceEl.textContent = "Source CSV: waiting for data";
-    return;
-  }
-
-  const modeLabels = {
-    localStorage: "browser cache",
-    file: "website/db seed file",
-    embedded: "embedded snapshot",
-  };
-  const modeLabel = modeLabels[state.dataMode] || "unknown source";
-  sourceEl.textContent = `Source CSV: ${state.dataset.source_csv} · Loaded from ${modeLabel}`;
 }
 
 function render() {
   renderSummary();
   renderTracker();
   renderCoverage();
-  renderDataSource();
   renderAnalyticsDashboards();
 }
 
 function setRefreshMessage(message, tone = "neutral") {
   const status = document.getElementById("refreshStatus");
+  if (!status) {
+    return;
+  }
   status.dataset.tone = tone;
   status.textContent = message;
 }
@@ -2353,7 +2667,6 @@ function handleDashboardClick(event) {
 
 function setupEvents() {
   document.getElementById("refreshButton").addEventListener("click", refreshDataset);
-  document.getElementById("downloadButton").addEventListener("click", downloadDataset);
   setupTabs();
   setupSearch();
   document.addEventListener("input", handleDashboardInput);

@@ -17,24 +17,50 @@
     {
       "conference": "INFOCOM",
       "years_in_csv": [2023, 2024, 2025, 2026],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-07-31",
+      "deadline_display": "July 31, 2025",
+      "deadline_label": "Full Paper Due",
+      "source_kind": "official",
+      "source_url": "https://infocom2026.ieee-infocom.org/call-papers",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-07-31",
+          "deadline_display": "July 31, 2025",
+          "deadline_label": "Full Paper Due",
+          "source_kind": "official",
+          "source_url": "https://infocom2026.ieee-infocom.org/call-papers",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "MMSys",
       "years_in_csv": [2023, 2024, 2025, 2026],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-11-21",
+      "deadline_display": "November 21, 2025",
+      "deadline_label": "Second Round Submissions - Submission",
+      "source_kind": "official",
+      "source_url": "https://2026.acmmmsys.org/call-for-papers",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-09-26",
+          "deadline_display": "September 26, 2025",
+          "deadline_label": "First Round Submissions - Submission",
+          "source_kind": "official",
+          "source_url": "https://2026.acmmmsys.org/call-for-papers",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-11-21",
+          "deadline_display": "November 21, 2025",
+          "deadline_label": "Second Round Submissions - Submission",
+          "source_kind": "official",
+          "source_url": "https://2026.acmmmsys.org/call-for-papers",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "MobiCom",
@@ -42,20 +68,47 @@
       "latest_tracked_edition": 2026,
       "deadline_iso": "2026-03-13",
       "deadline_display": "March 13, 2026",
-      "deadline_label": "Paper Submission",
+      "deadline_label": "Winter - Paper Submission",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html"
+      "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-09-03",
+          "deadline_display": "September 03, 2025",
+          "deadline_label": "Summer - Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-03-13",
+          "deadline_display": "March 13, 2026",
+          "deadline_label": "Winter - Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "MobiHoc",
       "years_in_csv": [2023, 2024, 2025],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2026-04-06",
+      "deadline_display": "April 06, 2026",
+      "deadline_label": "Paper Submission Deadline",
+      "source_kind": "official",
+      "source_url": "https://www.sigmobile.org/mobihoc/2026/",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2026-04-06",
+          "deadline_display": "April 06, 2026",
+          "deadline_label": "Paper Submission Deadline",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobihoc/2026/",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "MobiSys",
@@ -65,29 +118,65 @@
       "deadline_display": "December 05, 2025",
       "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/"
+      "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-12-05",
+          "deadline_display": "December 05, 2025",
+          "deadline_label": "Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "NSDI",
       "years_in_csv": [2023, 2024, 2025, 2026],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-09-18",
+      "deadline_display": "September 18, 2025",
+      "deadline_label": "Fall Deadline - Full Paper Submissions",
+      "source_kind": "official",
+      "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-04-25",
+          "deadline_display": "April 25, 2025",
+          "deadline_label": "Spring Deadline - Full Paper Submissions",
+          "source_kind": "official",
+          "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-09-18",
+          "deadline_display": "September 18, 2025",
+          "deadline_label": "Fall Deadline - Full Paper Submissions",
+          "source_kind": "official",
+          "source_url": "https://www.usenix.org/conference/nsdi26/call-for-papers",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "PerCom",
       "years_in_csv": [2023, 2024, 2025, 2026],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-10-03",
+      "deadline_display": "October 03, 2025",
+      "deadline_label": "Submission via EDAS",
+      "source_kind": "official",
+      "source_url": "https://percom.org/call-for-papers/",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-10-03",
+          "deadline_display": "October 03, 2025",
+          "deadline_label": "Submission via EDAS",
+          "source_kind": "official",
+          "source_url": "https://percom.org/call-for-papers/",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "SenSys",
@@ -95,9 +184,27 @@
       "latest_tracked_edition": 2026,
       "deadline_iso": "2025-11-13",
       "deadline_display": "November 13, 2025",
-      "deadline_label": "Full Paper Submission",
+      "deadline_label": "2nd Deadline Call For Papers - Full Paper Submission",
       "source_kind": "official",
-      "source_url": "https://sensys.acm.org/2026/cfp.html"
+      "source_url": "https://sensys.acm.org/2026/cfp.html",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-07-01",
+          "deadline_display": "July 01, 2025",
+          "deadline_label": "1st Deadline Call For Papers - Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/index.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-11-13",
+          "deadline_display": "November 13, 2025",
+          "deadline_label": "2nd Deadline Call For Papers - Full Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/cfp.html",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "SIGCOMM",
@@ -107,18 +214,37 @@
       "deadline_display": "February 06, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
-      "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/"
+      "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2026-02-06",
+          "deadline_display": "February 06, 2026",
+          "deadline_label": "Paper Submission Deadline",
+          "source_kind": "official",
+          "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "SIGSPATIAL",
       "years_in_csv": [2023, 2024, 2025],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2026-05-29",
+      "deadline_display": "May 29, 2026",
+      "deadline_label": "Paper Submission",
+      "source_kind": "official",
+      "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2026-05-29",
+          "deadline_display": "May 29, 2026",
+          "deadline_label": "Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
+          "edition_year": 2026
+        }
+      ]
     },
     {
       "conference": "SSRR",
@@ -128,18 +254,53 @@
       "deadline_display": "October 15, 2025",
       "deadline_label": "Full Papers",
       "source_kind": "official",
-      "source_url": "https://www.ssrr2025.org/contribute"
+      "source_url": "https://www.ssrr2025.org/contribute",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-10-15",
+          "deadline_display": "October 15, 2025",
+          "deadline_label": "Full Papers",
+          "source_kind": "official",
+          "source_url": "https://www.ssrr2025.org/contribute",
+          "edition_year": 2025
+        }
+      ]
     },
     {
       "conference": "UbiComp",
       "years_in_csv": [2023, 2024, 2025],
-      "latest_tracked_edition": null,
-      "deadline_iso": "",
-      "deadline_display": "",
-      "deadline_label": "",
-      "source_kind": "",
-      "source_url": "",
-      "submission_cycles": []
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2026-05-01",
+      "deadline_display": "May 01, 2026",
+      "deadline_label": "IMWUT May Cycle - Paper Submission",
+      "source_kind": "official-pattern",
+      "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-11-01",
+          "deadline_display": "November 01, 2025",
+          "deadline_label": "IMWUT November Cycle - Paper Submission",
+          "source_kind": "official-pattern",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-02-01",
+          "deadline_display": "February 01, 2026",
+          "deadline_label": "IMWUT February Cycle - Paper Submission",
+          "source_kind": "official-pattern",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-05-01",
+          "deadline_display": "May 01, 2026",
+          "deadline_label": "IMWUT May Cycle - Paper Submission",
+          "source_kind": "official-pattern",
+          "source_url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "edition_year": 2026
+        }
+      ]
     }
   ],
   "failures": []
