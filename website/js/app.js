@@ -3,8 +3,6 @@ const STORAGE_KEYS = ["sensetrack.deadlines.v2", "sensetrack.deadlines.v1", "con
 const PRIMARY_STORAGE_KEY = STORAGE_KEYS[0];
 const CSV_PATH = "cleaned/accepted_papers.csv";
 const STATIC_DB_PATH = "website/db/conference_deadlines.json";
-const API_DEADLINES_PATH = "/api/deadlines";
-const API_REFRESH_PATH = "/api/refresh";
 
 const state = {
   dataset: null,
@@ -2179,7 +2177,7 @@ function persistDataset(payload) {
   try {
     window.localStorage.setItem(PRIMARY_STORAGE_KEY, JSON.stringify(payload));
   } catch (error) {
-    setRefreshMessage("Sync succeeded, but this browser blocked local saving.", "error");
+    setRefreshMessage("Snapshot loaded, but this browser blocked local saving.", "error");
   }
 }
 
@@ -2231,12 +2229,13 @@ async function postJson(url, payload = {}) {
   return parsed;
 }
 
-async function fetchServerDataset() {
-  return fetchJson(API_DEADLINES_PATH, { cache: "no-store" });
+async function fetchPublishedDataset(options = {}) {
+  const suffix = options.cacheBust ? `?t=${Date.now()}` : "";
+  return fetchJson(`${STATIC_DB_PATH}${suffix}`, { cache: "no-store" });
 }
 
-async function refreshConferenceViaApi(conference) {
-  return postJson(API_REFRESH_PATH, conference ? { conference } : {});
+async function fetchRemotePage() {
+  throw new Error("Browser scraping is disabled on GitHub Pages. Run the JS snapshot job instead.");
 }
 
 function parseCsv(text) {
@@ -2556,159 +2555,54 @@ function updateBatchRefreshMessage() {
 
 async function refreshSingleConference(conferenceInfo, options = {}) {
   const conference = conferenceInfo.conference;
-  if (state.pendingRefreshes[conference]) {
-    return state.pendingRefreshes[conference];
-  }
-
-  state.refreshingConferences[conference] = true;
+  const errorMessage = `${conference} refresh now happens in the published JS snapshot job, not in the browser.`;
   state.conferenceRefreshState[conference] = {
-    tone: "neutral",
-    message: options.batch ? "Queued for sync..." : "Syncing official CFP...",
+    tone: "error",
+    message: errorMessage,
   };
+  if (!options.batch) {
+    setRefreshMessage(errorMessage, "error");
+  }
   render();
-
-  const request = (async () => {
-    let errorMessage = "";
-
-    try {
-      state.conferenceRefreshState[conference] = {
-        tone: "neutral",
-        message: "Syncing via local server...",
-      };
-      render();
-
-      const result = await refreshConferenceViaApi(conference);
-      if (!result || (!result.record && !result.failure)) {
-        throw new Error("Local refresh API returned no conference record.");
-      }
-
-      if (result.failure) {
-        errorMessage = result.failure.error || "Refresh failed.";
-        updateDatasetForConference(conferenceInfo, null, errorMessage);
-        state.conferenceRefreshState[conference] = {
-          tone: "error",
-          message: errorMessage,
-        };
-        if (!options.batch) {
-          setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
-        }
-        throw new Error(errorMessage);
-      }
-
-      const record = result.record;
-      updateDatasetForConference(conferenceInfo, record, "");
-      if (result.generated_at && state.dataset) {
-        state.dataset.generated_at = result.generated_at;
-        persistDataset(state.dataset);
-      }
-      const cycleCount = getRecordCycles(record).length;
-      state.conferenceRefreshState[conference] = {
-        tone: "success",
-        message: `Updated ${cycleCount} submission window${cycleCount === 1 ? "" : "s"}.`,
-      };
-
-      if (!options.batch) {
-        setRefreshMessage(`${conference} synced successfully.`, "success");
-      }
-      return record;
-    } catch (error) {
-      if (!errorMessage) {
-        errorMessage = error instanceof Error ? error.message : String(error);
-        updateDatasetForConference(conferenceInfo, null, errorMessage);
-        state.conferenceRefreshState[conference] = {
-          tone: "error",
-          message: errorMessage,
-        };
-
-        if (!options.batch) {
-          setRefreshMessage(`${conference} sync failed: ${errorMessage}`, "error");
-        }
-      }
-      throw error;
-    } finally {
-      delete state.pendingRefreshes[conference];
-      delete state.refreshingConferences[conference];
-
-      if (state.batchRefresh) {
-        state.batchRefresh.completed += 1;
-        if (errorMessage) {
-          state.batchRefresh.failed += 1;
-        }
-
-        if (state.batchRefresh.completed >= state.batchRefresh.total) {
-          const failed = state.batchRefresh.failed;
-          state.batchRefresh = null;
-          setRefreshMessage(
-            failed
-              ? `Sync complete with ${failed} conference issue${failed === 1 ? "" : "s"}.`
-              : "Sync complete. Latest deadlines are ready.",
-            failed ? "error" : "success",
-          );
-        } else {
-          updateBatchRefreshMessage();
-        }
-      }
-
-      render();
-    }
-  })();
-
-  state.pendingRefreshes[conference] = request;
-  return request;
+  throw new Error(errorMessage);
 }
 
 async function refreshConferenceByName(conference) {
-  const conferenceInputs = await fetchConferenceInputs();
-  const conferenceInfo = conferenceInputs.find((item) => item.conference === conference);
-  if (!conferenceInfo) {
-    setRefreshMessage(`No refresh rules found for ${conference}.`, "error");
-    return;
-  }
-
-  return refreshSingleConference(conferenceInfo, { batch: false });
+  const errorMessage = `${conference} refresh now happens in the published JS snapshot job, not in the browser.`;
+  setRefreshMessage(errorMessage, "error");
+  throw new Error(errorMessage);
 }
 
 async function loadInitialData() {
-  setRefreshMessage("Loading latest deadline snapshot...");
+  setRefreshMessage("Loading published deadline snapshot...");
 
   const candidates = [];
   try {
     candidates.push({
-      payload: await fetchServerDataset(),
-      mode: "api",
+      payload: await fetchPublishedDataset(),
+      mode: "file",
       priority: 5,
-      message: "Local server snapshot loaded.",
+      message: "Published snapshot loaded.",
     });
   } catch (error) {
-    // API is optional for read-only loads.
+    // Fall through to embedded or local snapshots.
   }
 
   loadStoredDatasets().forEach(({ key, payload }) => {
     candidates.push({
       payload,
       mode: "localStorage",
-      priority: key === PRIMARY_STORAGE_KEY ? 4 : 1,
-      message: key === PRIMARY_STORAGE_KEY ? "Latest local snapshot loaded." : "Older local snapshot loaded.",
+      priority: key === PRIMARY_STORAGE_KEY ? 2 : 1,
+      message: key === PRIMARY_STORAGE_KEY ? "Saved browser snapshot loaded." : "Older browser snapshot loaded.",
     });
   });
-
-  try {
-    candidates.push({
-      payload: await fetchJson(STATIC_DB_PATH, { cache: "no-store" }),
-      mode: "file",
-      priority: 3,
-      message: "Built-in snapshot loaded.",
-    });
-  } catch (error) {
-    // Fall through to embedded or local snapshots.
-  }
 
   const embedded = readEmbeddedDataset();
   if (embedded && embedded.conferences && embedded.conferences.length) {
     candidates.push({
       payload: embedded,
       mode: "embedded",
-      priority: 2,
+      priority: 4,
       message: "Embedded snapshot loaded.",
     });
   }
@@ -2726,39 +2620,15 @@ async function loadInitialData() {
 }
 
 async function refreshDataset() {
-  if (state.batchRefresh) {
-    return;
-  }
-
+  setRefreshMessage("Reloading published snapshot...");
   try {
-    await fetchServerDataset();
-    const conferenceInputs = await fetchConferenceInputs();
-    state.batchRefresh = {
-      total: conferenceInputs.length,
-      completed: 0,
-      failed: 0,
-    };
-
-    conferenceInputs.forEach((conferenceInfo) => {
-      if (!state.refreshingConferences[conferenceInfo.conference]) {
-        state.conferenceRefreshState[conferenceInfo.conference] = {
-          tone: "neutral",
-          message: "Queued for sync...",
-        };
-      }
-    });
-
+    state.dataset = normalizeDataset(await fetchPublishedDataset({ cacheBust: true }));
+    state.dataMode = "file";
+    persistDataset(state.dataset);
     render();
-    updateBatchRefreshMessage();
-
-    await Promise.allSettled(
-      conferenceInputs.map((conferenceInfo) => refreshSingleConference(conferenceInfo, { batch: true })),
-    );
+    setRefreshMessage("Published snapshot reloaded.", "success");
   } catch (error) {
-    setRefreshMessage(
-      (error && error.message) || "Sync failed. Start the local server with python3 website/server.py.",
-      "error",
-    );
+    setRefreshMessage((error && error.message) || "Could not reload the published snapshot.", "error");
   }
 }
 
@@ -2852,7 +2722,7 @@ function renderTracker() {
     list.innerHTML = `
       <div class="empty-state">
         <h3>No conferences match this filter.</h3>
-        <p>Try a broader search or run another sync.</p>
+        <p>Try a broader search or reload the published snapshot.</p>
       </div>
     `;
     return;
@@ -2863,9 +2733,7 @@ function renderTracker() {
       const cycles = getRecordCycles(record);
       const displayCycle = getNextUpcomingCycle(record) || getLatestCycle(record);
       const latestCycle = getLatestCycle(record);
-      const refreshState = state.conferenceRefreshState[record.conference];
       const failure = failureForConference(record.conference);
-      const isRefreshing = Boolean(state.refreshingConferences[record.conference]);
       const status = displayCycle ? deadlineStatus(displayCycle.deadline_iso) : { tone: "closed", badge: "No Date", detail: "No current submission window found" };
       const cycleMarkup = cycles
         .map((cycle) => {
@@ -2890,12 +2758,11 @@ function renderTracker() {
           ? `<p class="conference-card__latest">Latest window tracked: ${latestCycle.deadline_label} · ${latestCycle.deadline_display}</p>`
           : "";
       const yearText = formatPaperHistory(record.years_in_csv);
-      const note = refreshState || failure;
-      const noteMarkup = note
-        ? `<p class="conference-card__note conference-card__note--${escapeHtml(note.tone || "error")}">${escapeHtml(note.message || note.error)}</p>`
+      const noteMarkup = failure
+        ? `<p class="conference-card__note conference-card__note--error">${escapeHtml(failure.error)}</p>`
         : "";
       return `
-        <article class="conference-card conference-card--${status.tone} ${isRefreshing ? "conference-card--refreshing" : ""}">
+        <article class="conference-card conference-card--${status.tone}">
           <div class="conference-card__header">
             <div>
               <p class="conference-card__name">${record.conference}</p>
@@ -2911,18 +2778,8 @@ function renderTracker() {
             ${cycleMarkup}
           </div>
           <div class="conference-card__footer">
-            <span>${record.latest_tracked_edition ? `${record.latest_tracked_edition} edition` : "Awaiting sync"}</span>
-            <div class="conference-card__actions">
-              ${sourceMarkup}
-              <button
-                class="secondary-button conference-card__refresh"
-                type="button"
-                data-refresh-conference="${escapeHtml(record.conference)}"
-                ${isRefreshing ? "disabled" : ""}
-              >
-                ${isRefreshing ? "Syncing..." : "Refresh"}
-              </button>
-            </div>
+            <span>${record.latest_tracked_edition ? `${record.latest_tracked_edition} edition` : "Awaiting snapshot"}</span>
+            <div class="conference-card__actions">${sourceMarkup}</div>
           </div>
           ${noteMarkup}
         </article>
@@ -3001,14 +2858,8 @@ function renderRefreshControls() {
     return;
   }
 
-  if (state.batchRefresh) {
-    button.disabled = true;
-    button.textContent = `Syncing ${state.batchRefresh.completed}/${state.batchRefresh.total}`;
-    return;
-  }
-
   button.disabled = false;
-  button.textContent = "Sync All";
+  button.textContent = "Reload Snapshot";
 }
 
 function setRefreshMessage(message, tone = "neutral") {
@@ -3085,12 +2936,6 @@ function handleDashboardClick(event) {
   if (clearSelection) {
     clearDashboardSelection(clearSelection.dataset.clearSelection);
     renderAnalyticsDashboards();
-    return;
-  }
-
-  const refreshTrigger = event.target.closest("[data-refresh-conference]");
-  if (refreshTrigger) {
-    refreshConferenceByName(refreshTrigger.dataset.refreshConference);
     return;
   }
 

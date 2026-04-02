@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T23:40:37+00:00",
+  "generated_at": "2026-04-02T00:00:01+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -27,18 +27,26 @@
         2026
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-07-31",
-      "deadline_display": "July 31, 2025",
-      "deadline_label": "Full Paper Due",
+      "deadline_iso": "2025-12-08",
+      "deadline_display": "December 08, 2025",
+      "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://infocom2026.ieee-infocom.org/call-papers",
+      "source_url": "https://infocom2026.ieee-infocom.org/",
       "submission_cycles": [
         {
           "deadline_iso": "2025-07-31",
           "deadline_display": "July 31, 2025",
-          "deadline_label": "Full Paper Due",
+          "deadline_label": "Submission Deadline",
           "source_kind": "official",
-          "source_url": "https://infocom2026.ieee-infocom.org/call-papers",
+          "source_url": "https://infocom2026.ieee-infocom.org/",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-12-08",
+          "deadline_display": "December 08, 2025",
+          "deadline_label": "Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://infocom2026.ieee-infocom.org/",
           "edition_year": 2026
         }
       ]
@@ -93,7 +101,7 @@
         {
           "deadline_iso": "2025-09-03",
           "deadline_display": "September 03, 2025",
-          "deadline_label": "Summer - Paper Submission",
+          "deadline_label": "Winter - Paper Submission",
           "source_kind": "official",
           "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
           "edition_year": 2026
@@ -197,19 +205,59 @@
         2025,
         2026
       ],
-      "latest_tracked_edition": 2026,
+      "latest_tracked_edition": 2025,
       "deadline_iso": "2025-10-03",
       "deadline_display": "October 03, 2025",
-      "deadline_label": "Submission via EDAS",
+      "deadline_label": "Submission Via Edas",
       "source_kind": "official",
-      "source_url": "https://percom.org/call-for-papers/",
+      "source_url": "https://www.percom.org/call-for-papers/",
       "submission_cycles": [
+        {
+          "deadline_iso": "2025-09-19",
+          "deadline_display": "September 19, 2025",
+          "deadline_label": "Submission Via Edas",
+          "source_kind": "official",
+          "source_url": "https://www.percom.org/call-for-papers/",
+          "edition_year": 2025
+        },
         {
           "deadline_iso": "2025-10-03",
           "deadline_display": "October 03, 2025",
-          "deadline_label": "Submission via EDAS",
+          "deadline_label": "Submission Via Edas",
           "source_kind": "official",
-          "source_url": "https://percom.org/call-for-papers/",
+          "source_url": "https://www.percom.org/call-for-papers/",
+          "edition_year": 2025
+        }
+      ]
+    },
+    {
+      "conference": "SenSys",
+      "years_in_csv": [
+        2023,
+        2024,
+        2025
+      ],
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-11-13",
+      "deadline_display": "November 13, 2025",
+      "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
+      "source_kind": "official",
+      "source_url": "https://sensys.acm.org/2026/index.html",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-07-01",
+          "deadline_display": "July 01, 2025",
+          "deadline_label": "1st deadline Call for Papers - Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/index.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-11-13",
+          "deadline_display": "November 13, 2025",
+          "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/index.html",
           "edition_year": 2026
         }
       ]
@@ -301,44 +349,44 @@
       "source_url": "https://www.ssrr2025.org/contribute",
       "submission_cycles": [
         {
+          "deadline_iso": "2025-07-16",
+          "deadline_display": "July 16, 2025",
+          "deadline_label": "Extended Abstracts",
+          "source_kind": "official",
+          "source_url": "https://www.ssrr2025.org/contribute",
+          "edition_year": 2025
+        },
+        {
+          "deadline_iso": "2025-07-30",
+          "deadline_display": "July 30, 2025",
+          "deadline_label": "Extended Abstracts",
+          "source_kind": "official",
+          "source_url": "https://www.ssrr2025.org/contribute",
+          "edition_year": 2025
+        },
+        {
+          "deadline_iso": "2025-09-05",
+          "deadline_display": "September 05, 2025",
+          "deadline_label": "Extended Abstracts",
+          "source_kind": "official",
+          "source_url": "https://www.ssrr2025.org/contribute",
+          "edition_year": 2025
+        },
+        {
+          "deadline_iso": "2025-09-30",
+          "deadline_display": "September 30, 2025",
+          "deadline_label": "Full Papers",
+          "source_kind": "official",
+          "source_url": "https://www.ssrr2025.org/contribute",
+          "edition_year": 2025
+        },
+        {
           "deadline_iso": "2025-10-15",
           "deadline_display": "October 15, 2025",
           "deadline_label": "Full Papers",
           "source_kind": "official",
           "source_url": "https://www.ssrr2025.org/contribute",
           "edition_year": 2025
-        }
-      ]
-    },
-    {
-      "conference": "SenSys",
-      "years_in_csv": [
-        2023,
-        2024,
-        2025
-      ],
-      "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-11-13",
-      "deadline_display": "November 13, 2025",
-      "deadline_label": "2nd Deadline Call For Papers - Full Paper Submission",
-      "source_kind": "official",
-      "source_url": "https://sensys.acm.org/2026/cfp.html",
-      "submission_cycles": [
-        {
-          "deadline_iso": "2025-07-01",
-          "deadline_display": "July 01, 2025",
-          "deadline_label": "1st Deadline Call For Papers - Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/index.html",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2025-11-13",
-          "deadline_display": "November 13, 2025",
-          "deadline_label": "2nd Deadline Call For Papers - Full Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/cfp.html",
-          "edition_year": 2026
         }
       ]
     },
@@ -389,28 +437,8 @@
       "error": "No deadline candidate found from official CFP pages for CoNEXT."
     },
     {
-      "conference": "INFOCOM",
-      "error": "No deadline candidate found from official CFP pages for INFOCOM."
-    },
-    {
       "conference": "MMSys",
       "error": "No deadline candidate found from official CFP pages for MMSys."
-    },
-    {
-      "conference": "MobiCom",
-      "error": "No deadline candidate found from official CFP pages for MobiCom."
-    },
-    {
-      "conference": "MobiSys",
-      "error": "No deadline candidate found from official CFP pages for MobiSys."
-    },
-    {
-      "conference": "SSRR",
-      "error": "No deadline candidate found from official CFP pages for SSRR."
-    },
-    {
-      "conference": "SenSys",
-      "error": "No deadline candidate found from official CFP pages for SenSys."
     }
   ]
 }
