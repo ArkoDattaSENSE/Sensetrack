@@ -293,14 +293,14 @@ const CONFERENCE_HINTS = {
       "https://infocom{year}.ieee-infocom.org/authors/call-papers-main-conference",
       "https://infocom{year}.ieee-infocom.org/",
     ],
-    labelPatterns: ["paper submission", "submission deadline", "main conference paper submission"],
+    labelPatterns: ["paper submission", "submission deadline", "main conference paper submission", "full paper due"],
   },
   MMSys: {
     candidateUrls: [
       "https://{year}.acmmmsys.org/call-for-papers/",
       "https://www.acmmmsys.org/{year}/call-for-papers/",
     ],
-    labelPatterns: ["paper submission", "submission deadline", "abstract registration"],
+    labelPatterns: ["paper submission", "submission deadline", "abstract registration", "submission"],
   },
   MobiCom: {
     candidateUrls: ["https://www.sigmobile.org/mobicom/{year}/cfp.html"],
@@ -312,7 +312,7 @@ const CONFERENCE_HINTS = {
       "https://www.sigmobile.org/mobihoc/{year}/cfp/",
       "https://www.sigmobile.org/mobihoc/{year}/",
     ],
-    labelPatterns: ["paper submission", "submission deadline", "abstract registration"],
+    labelPatterns: ["paper submission deadline", "paper submission", "submission deadline", "abstract registration", "paper registration"],
   },
   MobiSys: {
     candidateUrls: ["https://www.sigmobile.org/mobisys/{year}/call_for_papers/"],
@@ -320,7 +320,7 @@ const CONFERENCE_HINTS = {
   },
   NSDI: {
     candidateUrls: ["https://www.usenix.org/conference/nsdi{yy}/call-for-papers"],
-    labelPatterns: ["paper submissions", "paper submission", "abstract registrations"],
+    labelPatterns: ["paper submissions", "paper submission", "abstract registrations", "full paper submissions"],
   },
   PerCom: {
     candidateUrls: [
@@ -328,7 +328,7 @@ const CONFERENCE_HINTS = {
       "https://percom.org/call-for-papers/",
       "https://percom{year}.org/call-for-papers/",
     ],
-    labelPatterns: ["paper submission", "submission deadline", "abstract registration"],
+    labelPatterns: ["paper submission", "submission deadline", "abstract registration", "submission via edas"],
   },
   SIGCHI: {
     candidateUrls: [
@@ -350,7 +350,7 @@ const CONFERENCE_HINTS = {
     labelPatterns: ["paper submission", "submission deadline", "abstract registration"],
   },
   SenSys: {
-    candidateUrls: ["https://sensys.acm.org/{year}/cfp.html"],
+    candidateUrls: ["https://sensys.acm.org/{year}/cfp.html", "https://sensys.acm.org/{year}/index.html"],
     labelPatterns: ["full paper submission", "paper submission", "abstract registration"],
   },
   SSRR: {
@@ -449,6 +449,8 @@ function parseDatesFromText(text, fallbackYear = null) {
 
 function stripHtml(rawHtml) {
   let text = rawHtml
+    .replace(/<(?:s|strike|del)\b[^>]*>[\s\S]*?<\/(?:s|strike|del)>/gi, " ")
+    .replace(/~~[\s\S]*?~~/g, " ")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<br\s*\/?>/gi, "\n")
@@ -457,7 +459,7 @@ function stripHtml(rawHtml) {
 
   const textarea = document.createElement("textarea");
   textarea.innerHTML = text;
-  text = textarea.value;
+  text = textarea.value.replace(/~~[\s\S]*?~~/g, " ");
 
   return text
     .split("\n")
@@ -473,7 +475,9 @@ function labelPriority(label) {
     ["full paper submission", 5],
     ["full papers", 4],
     ["submission deadline", 4],
+    ["submission via edas", 4],
     ["extended abstracts", 3],
+    ["paper registration", 2],
     ["abstract registration", 1],
   ];
 
@@ -506,13 +510,17 @@ function hasCycleContext(value) {
   );
 }
 
+function cleanContextLine(value) {
+  return normalizeWhitespace(
+    String(value || "")
+      .replace(/[:|\-]\s*$/, "")
+      .replace(/\s*\((?:expired|open|closed)\)\s*$/i, ""),
+  );
+}
+
 function findCycleContext(lines, index) {
   for (let pointer = index; pointer >= Math.max(0, index - 8); pointer -= 1) {
-    const line = normalizeWhitespace(
-      lines[pointer]
-        .replace(/[:|\-]\s*$/, "")
-        .replace(/\s*\((?:expired|open|closed)\)\s*$/i, ""),
-    );
+    const line = cleanContextLine(lines[pointer]);
     if (!line) {
       continue;
     }
@@ -522,6 +530,86 @@ function findCycleContext(lines, index) {
     }
   }
   return "";
+}
+
+function trimToStopToken(value) {
+  const source = String(value || "");
+  const lowered = source.toLowerCase();
+  const cutoffs = STOP_LINE_TOKENS
+    .map((token) => lowered.indexOf(token))
+    .filter((index) => index > 0);
+  return cutoffs.length ? source.slice(0, Math.min(...cutoffs)) : source;
+}
+
+function dedupeDates(dates) {
+  return [...new Set(Array.isArray(dates) ? dates : [])];
+}
+
+function collapseInlineDates(dates, contextValue = "") {
+  const unique = dedupeDates(dates);
+  if (unique.length <= 1 || hasCycleContext(contextValue)) {
+    return unique;
+  }
+  return unique.slice(-1);
+}
+
+function extractInlineDates(line, matchedLabel, fallbackYear) {
+  const source = String(line || "");
+  const startIndex = source.toLowerCase().indexOf(String(matchedLabel || "").toLowerCase());
+
+  if (startIndex < 0) {
+    return collapseInlineDates(parseDatesFromText(trimToStopToken(source), fallbackYear), source);
+  }
+
+  const suffixDates = parseDatesFromText(trimToStopToken(source.slice(startIndex)), fallbackYear);
+  if (suffixDates.length) {
+    return collapseInlineDates(suffixDates, source);
+  }
+
+  const prefixDates = parseDatesFromText(source.slice(0, startIndex), fallbackYear);
+  return prefixDates.slice(-1);
+}
+
+function collectRecentCycleHeaders(lines, index, compiledPatterns, fallbackYear) {
+  const headers = [];
+  for (let pointer = Math.max(0, index - 12); pointer < index; pointer += 1) {
+    const line = cleanContextLine(lines[pointer]);
+    if (!line) {
+      continue;
+    }
+    const lowered = line.toLowerCase();
+    if (compiledPatterns.some((pattern) => pattern.test(line))) {
+      continue;
+    }
+    if (STOP_LINE_TOKENS.some((token) => lowered.includes(token))) {
+      continue;
+    }
+    if (parseDatesFromText(line, fallbackYear).length) {
+      continue;
+    }
+    if (hasCycleContext(line) && !headers.includes(line)) {
+      headers.push(line);
+    }
+  }
+  return headers.slice(-4);
+}
+
+function collectLookaheadDateGroups(lines, index, compiledPatterns, fallbackYear) {
+  const groups = [];
+  for (const lookahead of lines.slice(index + 1, index + 6)) {
+    const lowered = lookahead.toLowerCase();
+    if (compiledPatterns.some((pattern) => pattern.test(lookahead))) {
+      break;
+    }
+    if (STOP_LINE_TOKENS.some((token) => lowered.includes(token))) {
+      break;
+    }
+    const dates = collapseInlineDates(parseDatesFromText(trimToStopToken(lookahead), fallbackYear), lookahead);
+    if (dates.length) {
+      groups.push([lookahead, dates]);
+    }
+  }
+  return groups;
 }
 
 function extractFromOfficialPage(conference, sourceUrl, pageText, labelPatterns) {
@@ -545,35 +633,51 @@ function extractFromOfficialPage(conference, sourceUrl, pageText, labelPatterns)
       const cycleContext = findCycleContext(lines, index);
       const baseLabel = titleCaseWords(match[0]);
       const label = cycleContext ? `${cycleContext} · ${baseLabel}` : baseLabel;
-      const startIndex = line.toLowerCase().indexOf(match[0].toLowerCase());
-      const trailingSlice = startIndex >= 0 ? line.slice(startIndex) : line;
-      const collectedDates = [...parseDatesFromText(trailingSlice, fallbackYear)];
-
-      for (const lookahead of lines.slice(index + 1, index + 5)) {
-        const lowered = lookahead.toLowerCase();
-        if (compiledPatterns.some((pattern) => pattern.test(lookahead))) {
-          break;
+      const labeledDates = [];
+      const inlineDates = extractInlineDates(line, match[0], fallbackYear);
+      if (inlineDates.length) {
+        labeledDates.push([label, inlineDates]);
+      } else {
+        const dateGroups = collectLookaheadDateGroups(lines, index, compiledPatterns, fallbackYear);
+        const cycleHeaders = collectRecentCycleHeaders(lines, index, compiledPatterns, fallbackYear);
+        if (dateGroups.length && cycleHeaders.length >= dateGroups.length) {
+          const activeHeaders = cycleHeaders.slice(-dateGroups.length);
+          activeHeaders.forEach((header, headerIndex) => {
+            labeledDates.push([`${header} · ${baseLabel}`, dateGroups[headerIndex][1]]);
+          });
         }
-        if (collectedDates.length && STOP_LINE_TOKENS.some((token) => lowered.includes(token))) {
-          break;
-        }
-        const extractedDates = parseDatesFromText(lookahead, fallbackYear);
-        if (extractedDates.length) {
-          collectedDates.push(...extractedDates);
+        if (!labeledDates.length) {
+          const collectedDates = [];
+          dateGroups.forEach((group) => {
+            collectedDates.push(...group[1]);
+          });
+          if (collectedDates.length) {
+            labeledDates.push([label, collapseInlineDates(collectedDates, line)]);
+          }
         }
       }
 
-      for (const deadlineIso of collectedDates) {
-        const key = `${deadlineIso}::${label}`;
-        candidates.set(key, {
-          conference,
-          deadlineIso,
-          label,
-          sourceUrl,
-          editionYear: fallbackYear || Number(deadlineIso.slice(0, 4)),
-        });
+      for (const [candidateLabel, deadlineDates] of labeledDates) {
+        for (const deadlineIso of deadlineDates) {
+          const key = `${deadlineIso}::${candidateLabel}`;
+          candidates.set(key, {
+            conference,
+            deadlineIso,
+            label: candidateLabel,
+            sourceUrl,
+            editionYear: fallbackYear || Number(deadlineIso.slice(0, 4)),
+          });
+        }
       }
     }
+  }
+
+  if (conference === "MobiHoc") {
+    [...candidates.entries()].forEach(([key, candidate]) => {
+      if (candidate.label.toLowerCase().includes("registration")) {
+        candidates.delete(key);
+      }
+    });
   }
 
   if (candidates.size) {
@@ -589,7 +693,7 @@ function extractFromOfficialPage(conference, sourceUrl, pageText, labelPatterns)
     if (STOP_LINE_TOKENS.some((token) => lowered.includes(token))) {
       continue;
     }
-    for (const deadlineIso of parseDatesFromText(line, fallbackYear)) {
+    for (const deadlineIso of collapseInlineDates(parseDatesFromText(trimToStopToken(line), fallbackYear), line)) {
       const cycleContext = findCycleContext(lines, lines.indexOf(line));
       const label = cycleContext ? `${cycleContext} · Submission Deadline` : "Submission Deadline";
       genericMatches.set(deadlineIso, {

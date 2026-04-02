@@ -392,6 +392,8 @@ function fetchText(url, redirectCount) {
 
 function stripHtml(rawHtml) {
   const withLineBreaks = String(rawHtml || "")
+    .replace(/<(?:s|strike|del)\b[^>]*>[\s\S]*?<\/(?:s|strike|del)>/gi, " ")
+    .replace(/~~[\s\S]*?~~/g, " ")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<br\s*\/?>/gi, "\n")
@@ -404,7 +406,8 @@ function stripHtml(rawHtml) {
     .replace(/&lt;/gi, "<")
     .replace(/&gt;/gi, ">")
     .replace(/&quot;/gi, "\"")
-    .replace(/&#39;/gi, "'");
+    .replace(/&#39;/gi, "'")
+    .replace(/~~[\s\S]*?~~/g, " ");
 
   return decoded
     .split("\n")
@@ -489,18 +492,102 @@ function hasCycleContext(value) {
   );
 }
 
+function cleanContextLine(value) {
+  return normalizeWhitespace(
+    String(value || "")
+      .replace(/[:|\-]\s*$/, "")
+      .replace(/\s*\((?:expired|open|closed)\)\s*$/i, ""),
+  );
+}
+
 function findCycleContext(lines, index) {
   for (let pointer = index; pointer >= Math.max(0, index - 8); pointer -= 1) {
-    const line = normalizeWhitespace(
-      String(lines[pointer] || "")
-        .replace(/[:|\-]\s*$/, "")
-        .replace(/\s*\((?:expired|open|closed)\)\s*$/i, ""),
-    );
+    const line = cleanContextLine(lines[pointer]);
     if (line && hasCycleContext(line)) {
       return line;
     }
   }
   return "";
+}
+
+function trimToStopToken(value) {
+  const source = String(value || "");
+  const lowered = source.toLowerCase();
+  const cutoffs = STOP_LINE_TOKENS
+    .map(function findToken(token) { return lowered.indexOf(token); })
+    .filter(function isValid(index) { return index > 0; });
+  return cutoffs.length ? source.slice(0, Math.min.apply(Math, cutoffs)) : source;
+}
+
+function dedupeDates(dates) {
+  return Array.from(new Set(Array.isArray(dates) ? dates : []));
+}
+
+function collapseInlineDates(dates, contextValue) {
+  const unique = dedupeDates(dates);
+  if (unique.length <= 1 || hasCycleContext(contextValue || "")) {
+    return unique;
+  }
+  return unique.slice(-1);
+}
+
+function extractInlineDates(line, matchedLabel, fallbackYear) {
+  const source = String(line || "");
+  const startIndex = source.toLowerCase().indexOf(String(matchedLabel || "").toLowerCase());
+
+  if (startIndex < 0) {
+    return collapseInlineDates(parseDatesFromText(trimToStopToken(source), fallbackYear), source);
+  }
+
+  const suffixDates = parseDatesFromText(trimToStopToken(source.slice(startIndex)), fallbackYear);
+  if (suffixDates.length) {
+    return collapseInlineDates(suffixDates, source);
+  }
+
+  const prefixDates = parseDatesFromText(source.slice(0, startIndex), fallbackYear);
+  return prefixDates.slice(-1);
+}
+
+function collectRecentCycleHeaders(lines, index, compiledPatterns, fallbackYear) {
+  const headers = [];
+  for (let pointer = Math.max(0, index - 12); pointer < index; pointer += 1) {
+    const line = cleanContextLine(lines[pointer]);
+    if (!line) {
+      continue;
+    }
+    const lowered = line.toLowerCase();
+    if (compiledPatterns.some(function anyPattern(compiled) { return compiled.test(line); })) {
+      continue;
+    }
+    if (STOP_LINE_TOKENS.some(function hasStopToken(token) { return lowered.includes(token); })) {
+      continue;
+    }
+    if (parseDatesFromText(line, fallbackYear).length) {
+      continue;
+    }
+    if (hasCycleContext(line) && !headers.includes(line)) {
+      headers.push(line);
+    }
+  }
+  return headers.slice(-4);
+}
+
+function collectLookaheadDateGroups(lines, index, compiledPatterns, fallbackYear) {
+  const groups = [];
+  for (const lookahead of lines.slice(index + 1, index + 6)) {
+    const lowered = lookahead.toLowerCase();
+    if (compiledPatterns.some(function anyPattern(compiled) { return compiled.test(lookahead); })) {
+      break;
+    }
+    if (STOP_LINE_TOKENS.some(function hasStopToken(token) { return lowered.includes(token); })) {
+      break;
+    }
+    const dates = collapseInlineDates(parseDatesFromText(trimToStopToken(lookahead), fallbackYear), lookahead);
+    if (dates.length) {
+      groups.push([lookahead, dates]);
+    }
+  }
+  return groups;
 }
 
 function chooseBetterCycle(existingCycle, nextCycle) {
@@ -602,31 +689,43 @@ function extractFromOfficialPage(conference, sourceUrl, pageText, labelPatterns)
       const cycleContext = findCycleContext(lines, index);
       const baseLabel = titleCaseWords(match[0]);
       const label = cycleContext ? cycleContext + " - " + baseLabel : baseLabel;
-      const startIndex = line.toLowerCase().indexOf(match[0].toLowerCase());
-      const trailingSlice = startIndex >= 0 ? line.slice(startIndex) : line;
-      const collectedDates = parseDatesFromText(trailingSlice, fallbackYear);
-
-      for (const lookahead of lines.slice(index + 1, index + 5)) {
-        const lowered = lookahead.toLowerCase();
-        if (compiledPatterns.some(function anyPattern(compiled) { return compiled.test(lookahead); })) {
-          break;
+      const labeledDates = [];
+      const inlineDates = extractInlineDates(line, match[0], fallbackYear);
+      if (inlineDates.length) {
+        labeledDates.push([label, inlineDates]);
+      } else {
+        const dateGroups = collectLookaheadDateGroups(lines, index, compiledPatterns, fallbackYear);
+        const cycleHeaders = collectRecentCycleHeaders(lines, index, compiledPatterns, fallbackYear);
+        if (dateGroups.length && cycleHeaders.length >= dateGroups.length) {
+          const activeHeaders = cycleHeaders.slice(-dateGroups.length);
+          activeHeaders.forEach(function pairHeader(header, headerIndex) {
+            labeledDates.push([header + " - " + baseLabel, dateGroups[headerIndex][1]]);
+          });
         }
-        if (collectedDates.length && STOP_LINE_TOKENS.some(function hasStopToken(token) { return lowered.includes(token); })) {
-          break;
+        if (!labeledDates.length) {
+          const collectedDates = [];
+          dateGroups.forEach(function appendDates(group) {
+            collectedDates.push.apply(collectedDates, group[1]);
+          });
+          if (collectedDates.length) {
+            labeledDates.push([label, collapseInlineDates(collectedDates, line)]);
+          }
         }
-        collectedDates.push.apply(collectedDates, parseDatesFromText(lookahead, fallbackYear));
       }
 
-      for (const deadlineIso of collectedDates) {
-        const key = deadlineIso + "::" + label;
-        candidates.set(key, {
-          conference: conference,
-          deadline_iso: deadlineIso,
-          label: label,
-          source_url: sourceUrl,
-          edition_year: fallbackYear || Number(deadlineIso.slice(0, 4)),
-          source_kind: "official",
-        });
+      for (const labeledDate of labeledDates) {
+        const candidateLabel = labeledDate[0];
+        for (const deadlineIso of labeledDate[1]) {
+          const key = deadlineIso + "::" + candidateLabel;
+          candidates.set(key, {
+            conference: conference,
+            deadline_iso: deadlineIso,
+            label: candidateLabel,
+            source_url: sourceUrl,
+            edition_year: fallbackYear || Number(deadlineIso.slice(0, 4)),
+            source_kind: "official",
+          });
+        }
       }
     }
   }

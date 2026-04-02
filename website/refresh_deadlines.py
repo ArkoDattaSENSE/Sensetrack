@@ -231,12 +231,15 @@ def fetch_text(url: str) -> str:
 
 
 def strip_html(raw_html: str) -> str:
-    text = re.sub(r"<script[\s\S]*?</script>", " ", raw_html, flags=re.IGNORECASE)
+    text = re.sub(r"<(?:s|strike|del)\b[^>]*>[\s\S]*?</(?:s|strike|del)>", " ", raw_html, flags=re.IGNORECASE)
+    text = re.sub(r"~~[\s\S]*?~~", " ", text)
+    text = re.sub(r"<script[\s\S]*?</script>", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"<style[\s\S]*?</style>", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"<br\s*/?>", "\n", text, flags=re.IGNORECASE)
     text = re.sub(r"</(p|div|section|article|tr|td|th|li|ul|ol|table|h1|h2|h3|h4|h5|h6)>", "\n", text, flags=re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
+    text = re.sub(r"~~[\s\S]*?~~", " ", text)
     return "\n".join(
         line for line in (normalize_whitespace(part) for part in text.splitlines()) if line
     )
@@ -305,12 +308,94 @@ def has_cycle_context(value: str) -> bool:
     )
 
 
+def clean_context_line(value: str) -> str:
+    trimmed = re.sub(r"[:|\-]\s*$", "", value)
+    trimmed = re.sub(r"\s*\((?:expired|open|closed)\)\s*$", "", trimmed, flags=re.IGNORECASE)
+    return normalize_whitespace(trimmed)
+
+
 def find_cycle_context(lines: list[str], index: int) -> str:
     for pointer in range(index, max(-1, index - 9), -1):
-        line = normalize_whitespace(re.sub(r"\s*\((?:expired|open|closed)\)\s*$", "", re.sub(r"[:|\-]\s*$", "", lines[pointer])))
+        line = clean_context_line(lines[pointer])
         if line and has_cycle_context(line):
             return line
     return ""
+
+
+def trim_to_stop_token(value: str) -> str:
+    lowered = value.lower()
+    cutoffs = [lowered.find(token) for token in STOP_LINE_TOKENS if lowered.find(token) > 0]
+    return value[: min(cutoffs)] if cutoffs else value
+
+
+def dedupe_dates(dates: Iterable[str]) -> list[str]:
+    unique: list[str] = []
+    for deadline_iso in dates:
+        if deadline_iso not in unique:
+            unique.append(deadline_iso)
+    return unique
+
+
+def collapse_inline_dates(dates: Iterable[str], context_value: str = "") -> list[str]:
+    unique = dedupe_dates(dates)
+    if len(unique) <= 1 or has_cycle_context(context_value):
+        return unique
+    return unique[-1:]
+
+
+def extract_inline_dates(line: str, matched_label: str, fallback_year: int | None) -> list[str]:
+    start_index = line.lower().find(matched_label.lower())
+    if start_index < 0:
+        return collapse_inline_dates(parse_dates_from_text(trim_to_stop_token(line), fallback_year), line)
+
+    suffix_dates = parse_dates_from_text(trim_to_stop_token(line[start_index:]), fallback_year)
+    if suffix_dates:
+        return collapse_inline_dates(suffix_dates, line)
+
+    prefix_dates = parse_dates_from_text(line[:start_index], fallback_year)
+    return prefix_dates[-1:]
+
+
+def collect_recent_cycle_headers(
+    lines: list[str],
+    index: int,
+    compiled_patterns: list[re.Pattern],
+    fallback_year: int | None,
+) -> list[str]:
+    headers: list[str] = []
+    for pointer in range(max(0, index - 12), index):
+        line = clean_context_line(lines[pointer])
+        if not line:
+            continue
+        lowered = line.lower()
+        if any(compiled.search(line) for compiled in compiled_patterns):
+            continue
+        if any(token in lowered for token in STOP_LINE_TOKENS):
+            continue
+        if parse_dates_from_text(line, fallback_year):
+            continue
+        if has_cycle_context(line) and line not in headers:
+            headers.append(line)
+    return headers[-4:]
+
+
+def collect_lookahead_date_groups(
+    lines: list[str],
+    index: int,
+    compiled_patterns: list[re.Pattern],
+    fallback_year: int | None,
+) -> list[tuple[str, list[str]]]:
+    groups: list[tuple[str, list[str]]] = []
+    for lookahead in lines[index + 1 : index + 6]:
+        lowered = lookahead.lower()
+        if any(compiled.search(lookahead) for compiled in compiled_patterns):
+            break
+        if any(token in lowered for token in STOP_LINE_TOKENS):
+            break
+        dates = collapse_inline_dates(parse_dates_from_text(trim_to_stop_token(lookahead), fallback_year), lookahead)
+        if dates:
+            groups.append((lookahead, dates))
+    return groups
 
 
 def choose_better_cycle(existing: dict | None, nxt: dict) -> dict:
@@ -384,27 +469,33 @@ def extract_from_official_page(conference: str, source_url: str, page_text: str,
             cycle_context = find_cycle_context(lines, index)
             base_label = title_case_words(match.group(0))
             label = f"{cycle_context} - {base_label}" if cycle_context else base_label
-            start_index = line.lower().find(match.group(0).lower())
-            trailing_slice = line[start_index:] if start_index >= 0 else line
-            collected_dates = parse_dates_from_text(trailing_slice, fallback_year)
+            labeled_dates: list[tuple[str, list[str]]] = []
+            inline_dates = extract_inline_dates(line, match.group(0), fallback_year)
+            if inline_dates:
+                labeled_dates.append((label, inline_dates))
+            else:
+                date_groups = collect_lookahead_date_groups(lines, index, compiled_patterns, fallback_year)
+                cycle_headers = collect_recent_cycle_headers(lines, index, compiled_patterns, fallback_year)
+                if date_groups and cycle_headers and len(cycle_headers) >= len(date_groups):
+                    active_headers = cycle_headers[-len(date_groups) :]
+                    labeled_dates.extend(
+                        (f"{header} - {base_label}", dates) for header, (_, dates) in zip(active_headers, date_groups)
+                    )
+                if not labeled_dates:
+                    collected_dates = [deadline_iso for _, dates in date_groups for deadline_iso in dates]
+                    if collected_dates:
+                        labeled_dates.append((label, collapse_inline_dates(collected_dates, line)))
 
-            for lookahead in lines[index + 1 : index + 5]:
-                lowered = lookahead.lower()
-                if any(compiled.search(lookahead) for compiled in compiled_patterns):
-                    break
-                if collected_dates and any(token in lowered for token in STOP_LINE_TOKENS):
-                    break
-                collected_dates.extend(parse_dates_from_text(lookahead, fallback_year))
-
-            for deadline_iso in collected_dates:
-                candidate = DeadlineCandidate(
-                    conference=conference,
-                    deadline_iso=deadline_iso,
-                    label=label,
-                    source_url=source_url,
-                    edition_year=fallback_year or int(deadline_iso[:4]),
-                )
-                candidates[(deadline_iso, label)] = candidate
+            for candidate_label, deadline_dates in labeled_dates:
+                for deadline_iso in deadline_dates:
+                    candidate = DeadlineCandidate(
+                        conference=conference,
+                        deadline_iso=deadline_iso,
+                        label=candidate_label,
+                        source_url=source_url,
+                        edition_year=fallback_year or int(deadline_iso[:4]),
+                    )
+                    candidates[(deadline_iso, candidate_label)] = candidate
 
     if conference == "MobiHoc":
         candidates = {
