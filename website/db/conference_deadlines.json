@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T00:00:01+00:00",
+  "generated_at": "2026-04-02T05:14:24+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -124,15 +124,15 @@
         2025
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-04-20",
-      "deadline_display": "April 20, 2026",
+      "deadline_iso": "2026-07-20",
+      "deadline_display": "July 20, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
       "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
       "submission_cycles": [
         {
-          "deadline_iso": "2026-04-20",
-          "deadline_display": "April 20, 2026",
+          "deadline_iso": "2026-07-20",
+          "deadline_display": "July 20, 2026",
           "deadline_label": "Paper Submission Deadline",
           "source_kind": "official",
           "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
@@ -439,6 +439,14 @@
     {
       "conference": "MMSys",
       "error": "No deadline candidate found from official CFP pages for MMSys."
+    },
+    {
+      "conference": "NSDI",
+      "error": "No deadline candidate found from official CFP pages for NSDI."
+    },
+    {
+      "conference": "PerCom",
+      "error": "No deadline candidate found from official CFP pages for PerCom."
     }
   ]
 }
