@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T05:14:24+00:00",
+  "generated_at": "2026-04-03T05:16:13+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -223,6 +223,38 @@
       ]
     },
     {
+      "conference": "SenSys",
+      "years_in_csv": [
+        2023,
+        2024,
+        2025
+      ],
+      "latest_tracked_edition": 2026,
+      "deadline_iso": "2025-11-13",
+      "deadline_display": "November 13, 2025",
+      "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
+      "source_kind": "official",
+      "source_url": "https://sensys.acm.org/2026/index.html",
+      "submission_cycles": [
+        {
+          "deadline_iso": "2025-07-01",
+          "deadline_display": "July 01, 2025",
+          "deadline_label": "1st deadline Call for Papers - Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/index.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2025-11-13",
+          "deadline_display": "November 13, 2025",
+          "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
+          "source_kind": "official",
+          "source_url": "https://sensys.acm.org/2026/index.html",
+          "edition_year": 2026
+        }
+      ]
+    },
+    {
       "conference": "SIGCOMM",
       "years_in_csv": [
         2023,
@@ -323,38 +355,6 @@
           "source_kind": "official",
           "source_url": "https://www.ssrr2025.org/contribute",
           "edition_year": 2025
-        }
-      ]
-    },
-    {
-      "conference": "SenSys",
-      "years_in_csv": [
-        2023,
-        2024,
-        2025
-      ],
-      "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-11-13",
-      "deadline_display": "November 13, 2025",
-      "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
-      "source_kind": "official",
-      "source_url": "https://sensys.acm.org/2026/index.html",
-      "submission_cycles": [
-        {
-          "deadline_iso": "2025-07-01",
-          "deadline_display": "July 01, 2025",
-          "deadline_label": "1st deadline Call for Papers - Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/index.html",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2025-11-13",
-          "deadline_display": "November 13, 2025",
-          "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/index.html",
-          "edition_year": 2026
         }
       ]
     },
