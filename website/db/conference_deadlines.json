@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T05:16:13+00:00",
+  "generated_at": "2026-04-04T05:01:32+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -229,28 +229,20 @@
         2024,
         2025
       ],
-      "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-11-13",
-      "deadline_display": "November 13, 2025",
-      "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
+      "latest_tracked_edition": 2027,
+      "deadline_iso": "2026-06-05",
+      "deadline_display": "June 05, 2026",
+      "deadline_label": "1st Deadline Call for Papers - Paper Submission",
       "source_kind": "official",
-      "source_url": "https://sensys.acm.org/2026/index.html",
+      "source_url": "https://sensys.acm.org/2027/index.html",
       "submission_cycles": [
         {
-          "deadline_iso": "2025-07-01",
-          "deadline_display": "July 01, 2025",
-          "deadline_label": "1st deadline Call for Papers - Paper Submission",
+          "deadline_iso": "2026-06-05",
+          "deadline_display": "June 05, 2026",
+          "deadline_label": "1st Deadline Call for Papers - Paper Submission",
           "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/index.html",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2025-11-13",
-          "deadline_display": "November 13, 2025",
-          "deadline_label": "2nd deadline Call for Papers - Full Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sensys.acm.org/2026/index.html",
-          "edition_year": 2026
+          "source_url": "https://sensys.acm.org/2027/index.html",
+          "edition_year": 2027
         }
       ]
     },
