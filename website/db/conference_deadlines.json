@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T05:21:41+00:00",
+  "generated_at": "2026-04-09T05:22:23+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -401,12 +401,36 @@
       "error": "No deadline candidate found from official CFP pages for MMSys."
     },
     {
+      "conference": "MobiCom",
+      "error": "No deadline candidate found from official CFP pages for MobiCom."
+    },
+    {
+      "conference": "MobiHoc",
+      "error": "No deadline candidate found from official CFP pages for MobiHoc."
+    },
+    {
+      "conference": "MobiSys",
+      "error": "No deadline candidate found from official CFP pages for MobiSys."
+    },
+    {
       "conference": "NSDI",
       "error": "No deadline candidate found from official CFP pages for NSDI."
     },
     {
       "conference": "PerCom",
       "error": "No deadline candidate found from official CFP pages for PerCom."
+    },
+    {
+      "conference": "SIGCOMM",
+      "error": "No deadline candidate found from official CFP pages for SIGCOMM."
+    },
+    {
+      "conference": "SIGSPATIAL",
+      "error": "No deadline candidate found from official CFP pages for SIGSPATIAL."
+    },
+    {
+      "conference": "SenSys",
+      "error": "No deadline candidate found from official CFP pages for SenSys."
     }
   ]
 }
