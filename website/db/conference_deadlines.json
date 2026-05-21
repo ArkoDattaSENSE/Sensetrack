@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T06:56:12+00:00",
+  "generated_at": "2026-05-21T07:00:25+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -285,8 +285,8 @@
       "source_url": "https://sigspatial2026.sigspatial.org/",
       "submission_cycles": [
         {
-          "deadline_iso": "2026-05-29",
-          "deadline_display": "May 29, 2026",
+          "deadline_iso": "2026-06-05",
+          "deadline_display": "June 05, 2026",
           "deadline_label": "Paper Submission",
           "source_kind": "official",
           "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
