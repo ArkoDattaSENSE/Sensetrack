@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T06:46:41+00:00",
+  "generated_at": "2026-05-25T07:57:09+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -124,11 +124,11 @@
         2025
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-07-20",
-      "deadline_display": "July 20, 2026",
+      "deadline_iso": "2026-09-21",
+      "deadline_display": "September 21, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
+      "source_url": "https://www.sigmobile.org/mobihoc/2026/",
       "submission_cycles": [
         {
           "deadline_iso": "2026-07-20",
@@ -136,6 +136,14 @@
           "deadline_label": "Paper Submission Deadline",
           "source_kind": "official",
           "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
+          "edition_year": 2026
+        },
+        {
+          "deadline_iso": "2026-09-21",
+          "deadline_display": "September 21, 2026",
+          "deadline_label": "Paper Submission Deadline",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobihoc/2026/",
           "edition_year": 2026
         }
       ]
