@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T07:01:35+00:00",
+  "generated_at": "2026-05-29T07:02:07+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -447,6 +447,10 @@
     {
       "conference": "PerCom",
       "error": "No deadline candidate found from official CFP pages for PerCom."
+    },
+    {
+      "conference": "SSRR",
+      "error": "No deadline candidate found from official CFP pages for SSRR."
     }
   ]
 }
