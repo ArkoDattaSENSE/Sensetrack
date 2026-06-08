@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T07:12:54+00:00",
+  "generated_at": "2026-06-08T08:21:41+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -443,6 +443,10 @@
     {
       "conference": "CoNEXT",
       "error": "No deadline candidate found from official CFP pages for CoNEXT."
+    },
+    {
+      "conference": "INFOCOM",
+      "error": "No deadline candidate found from official CFP pages for INFOCOM."
     },
     {
       "conference": "MMSys",
