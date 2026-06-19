@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T08:18:26+00:00",
+  "generated_at": "2026-06-19T08:39:36+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -26,28 +26,28 @@
         2025,
         2026
       ],
-      "latest_tracked_edition": 2026,
-      "deadline_iso": "2025-12-08",
-      "deadline_display": "December 08, 2025",
+      "latest_tracked_edition": 2027,
+      "deadline_iso": "2026-10-09",
+      "deadline_display": "October 09, 2026",
       "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://infocom2026.ieee-infocom.org/",
+      "source_url": "https://infocom2027.ieee-infocom.org/",
       "submission_cycles": [
         {
-          "deadline_iso": "2025-07-31",
-          "deadline_display": "July 31, 2025",
+          "deadline_iso": "2026-07-31",
+          "deadline_display": "July 31, 2026",
           "deadline_label": "Submission Deadline",
           "source_kind": "official",
-          "source_url": "https://infocom2026.ieee-infocom.org/",
-          "edition_year": 2026
+          "source_url": "https://infocom2027.ieee-infocom.org/",
+          "edition_year": 2027
         },
         {
-          "deadline_iso": "2025-12-08",
-          "deadline_display": "December 08, 2025",
+          "deadline_iso": "2026-10-09",
+          "deadline_display": "October 09, 2026",
           "deadline_label": "Paper Submission",
           "source_kind": "official",
-          "source_url": "https://infocom2026.ieee-infocom.org/",
-          "edition_year": 2026
+          "source_url": "https://infocom2027.ieee-infocom.org/",
+          "edition_year": 2027
         }
       ]
     },
