@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T06:06:09+00:00",
+  "generated_at": "2026-07-09T07:03:29+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -261,20 +261,20 @@
         2024,
         2025
       ],
-      "latest_tracked_edition": 2026,
+      "latest_tracked_edition": 2027,
       "deadline_iso": "2026-02-06",
       "deadline_display": "February 06, 2026",
       "deadline_label": "Paper Submission Deadline",
       "source_kind": "official",
-      "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "source_url": "https://conferences.sigcomm.org/sigcomm/2027/cfp/",
       "submission_cycles": [
         {
           "deadline_iso": "2026-02-06",
           "deadline_display": "February 06, 2026",
           "deadline_label": "Paper Submission Deadline",
           "source_kind": "official",
-          "source_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
-          "edition_year": 2026
+          "source_url": "https://conferences.sigcomm.org/sigcomm/2027/cfp/",
+          "edition_year": 2027
         }
       ]
     },
