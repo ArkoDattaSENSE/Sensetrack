@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:03:44+00:00",
+  "generated_at": "2026-07-23T06:09:15+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -91,28 +91,20 @@
         2024,
         2025
       ],
-      "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-03-13",
-      "deadline_display": "March 13, 2026",
+      "latest_tracked_edition": 2027,
+      "deadline_iso": "2026-09-02",
+      "deadline_display": "September 02, 2026",
       "deadline_label": "Winter - Paper Submission",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
+      "source_url": "https://www.sigmobile.org/mobicom/2027/cfp.html",
       "submission_cycles": [
         {
-          "deadline_iso": "2025-09-03",
-          "deadline_display": "September 03, 2025",
-          "deadline_label": "Summer - Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-03-13",
-          "deadline_display": "March 13, 2026",
+          "deadline_iso": "2026-09-02",
+          "deadline_display": "September 02, 2026",
           "deadline_label": "Winter - Paper Submission",
           "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobicom/2026/cfp.html",
-          "edition_year": 2026
+          "source_url": "https://www.sigmobile.org/mobicom/2027/cfp.html",
+          "edition_year": 2027
         }
       ]
     },
