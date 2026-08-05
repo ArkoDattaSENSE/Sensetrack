@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:03:20+00:00",
+  "generated_at": "2026-08-05T06:00:20+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -122,14 +122,6 @@
       "source_kind": "official",
       "source_url": "https://www.sigmobile.org/mobihoc/2026/",
       "submission_cycles": [
-        {
-          "deadline_iso": "2026-07-20",
-          "deadline_display": "July 20, 2026",
-          "deadline_label": "Paper Submission Deadline",
-          "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobihoc/2026/cfp.html",
-          "edition_year": 2026
-        },
         {
           "deadline_iso": "2026-09-21",
           "deadline_display": "September 21, 2026",
@@ -441,18 +433,6 @@
       "error": "No deadline candidate found from official CFP pages for MMSys."
     },
     {
-      "conference": "MobiCom",
-      "error": "No deadline candidate found from official CFP pages for MobiCom."
-    },
-    {
-      "conference": "MobiHoc",
-      "error": "No deadline candidate found from official CFP pages for MobiHoc."
-    },
-    {
-      "conference": "MobiSys",
-      "error": "No deadline candidate found from official CFP pages for MobiSys."
-    },
-    {
       "conference": "NSDI",
       "error": "No deadline candidate found from official CFP pages for NSDI."
     },
@@ -461,20 +441,8 @@
       "error": "No deadline candidate found from official CFP pages for PerCom."
     },
     {
-      "conference": "SIGCOMM",
-      "error": "No deadline candidate found from official CFP pages for SIGCOMM."
-    },
-    {
-      "conference": "SIGSPATIAL",
-      "error": "No deadline candidate found from official CFP pages for SIGSPATIAL."
-    },
-    {
       "conference": "SSRR",
       "error": "No deadline candidate found from official CFP pages for SSRR."
-    },
-    {
-      "conference": "SenSys",
-      "error": "No deadline candidate found from official CFP pages for SenSys."
     }
   ]
 }
