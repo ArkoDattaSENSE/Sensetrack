@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:01:22+00:00",
+  "generated_at": "2026-08-08T04:20:12+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -301,25 +301,9 @@
           "edition_year": 2026
         },
         {
-          "deadline_iso": "2026-06-19",
-          "deadline_display": "June 19, 2026",
-          "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
           "deadline_iso": "2026-07-06",
           "deadline_display": "July 06, 2026",
           "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-08-01",
-          "deadline_display": "August 01, 2026",
-          "deadline_label": "Submission Deadline",
           "source_kind": "official",
           "source_url": "https://sigspatial2026.sigspatial.org/",
           "edition_year": 2026
