@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:04:03+00:00",
+  "generated_at": "2026-08-25T03:58:39+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -139,20 +139,20 @@
         2024,
         2025
       ],
-      "latest_tracked_edition": 2026,
+      "latest_tracked_edition": 2027,
       "deadline_iso": "2025-12-05",
       "deadline_display": "December 05, 2025",
       "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
+      "source_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
       "submission_cycles": [
         {
           "deadline_iso": "2025-12-05",
           "deadline_display": "December 05, 2025",
           "deadline_label": "Paper Submission",
           "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
-          "edition_year": 2026
+          "source_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+          "edition_year": 2027
         }
       ]
     },
@@ -304,14 +304,6 @@
           "deadline_iso": "2026-07-06",
           "deadline_display": "July 06, 2026",
           "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-08-16",
-          "deadline_display": "August 16, 2026",
-          "deadline_label": "Submission Deadline",
           "source_kind": "official",
           "source_url": "https://sigspatial2026.sigspatial.org/",
           "edition_year": 2026
