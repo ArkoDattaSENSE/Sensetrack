@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T04:01:58+00:00",
+  "generated_at": "2026-08-27T14:10:46+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -139,20 +139,20 @@
         2024,
         2025
       ],
-      "latest_tracked_edition": 2027,
+      "latest_tracked_edition": 2026,
       "deadline_iso": "2025-12-05",
       "deadline_display": "December 05, 2025",
       "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+      "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
       "submission_cycles": [
         {
           "deadline_iso": "2025-12-05",
           "deadline_display": "December 05, 2025",
           "deadline_label": "Paper Submission",
           "source_kind": "official",
-          "source_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
-          "edition_year": 2027
+          "source_url": "https://www.sigmobile.org/mobisys/2026/call_for_papers/",
+          "edition_year": 2026
         }
       ]
     },
