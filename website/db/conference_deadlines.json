@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T09:42:55+00:00",
+  "generated_at": "2026-09-01T08:37:43+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -122,6 +122,14 @@
       "source_kind": "official",
       "source_url": "https://www.sigmobile.org/mobihoc/2026/",
       "submission_cycles": [
+        {
+          "deadline_iso": "2026-09-07",
+          "deadline_display": "September 07, 2026",
+          "deadline_label": "Submission Deadline",
+          "source_kind": "official",
+          "source_url": "https://www.sigmobile.org/mobihoc/2026/",
+          "edition_year": 2026
+        },
         {
           "deadline_iso": "2026-09-21",
           "deadline_display": "September 21, 2026",
