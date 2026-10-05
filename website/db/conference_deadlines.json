@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:45:42+00:00",
+  "generated_at": "2026-10-05T10:23:51+00:00",
   "source_csv": "cleaned/accepted_papers.csv",
   "conference_count": 13,
   "conferences": [
@@ -278,11 +278,11 @@
         2025
       ],
       "latest_tracked_edition": 2026,
-      "deadline_iso": "2026-09-30",
-      "deadline_display": "September 30, 2026",
-      "deadline_label": "Submission Deadline",
+      "deadline_iso": "2026-06-05",
+      "deadline_display": "June 05, 2026",
+      "deadline_label": "Paper Submission",
       "source_kind": "official",
-      "source_url": "https://sigspatial2026.sigspatial.org/",
+      "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
       "submission_cycles": [
         {
           "deadline_iso": "2026-06-05",
@@ -290,46 +290,6 @@
           "deadline_label": "Paper Submission",
           "source_kind": "official",
           "source_url": "https://sigspatial2026.sigspatial.org/research-submission.html",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-06-12",
-          "deadline_display": "June 12, 2026",
-          "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-06-16",
-          "deadline_display": "June 16, 2026",
-          "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-07-06",
-          "deadline_display": "July 06, 2026",
-          "deadline_label": "Paper Submission",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-08-19",
-          "deadline_display": "August 19, 2026",
-          "deadline_label": "Submission Deadline",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
-          "edition_year": 2026
-        },
-        {
-          "deadline_iso": "2026-09-30",
-          "deadline_display": "September 30, 2026",
-          "deadline_label": "Submission Deadline",
-          "source_kind": "official",
-          "source_url": "https://sigspatial2026.sigspatial.org/",
           "edition_year": 2026
         }
       ]
